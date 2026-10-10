@@ -1,0 +1,21 @@
+[project]
+name = "persian-humanizer"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "python-dotenv>=1.0.0",
+    "chromadb>=1.5.9",
+    "fastapi>=0.136.1",
+    "langchain>=1.2.17",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.6",
+    "langchain-community>=0.4.1",
+    "langchain-huggingface>=1.2.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-text-splitters>=1.1.2",
+    "pandas>=3.0.2",
+    "pandas-stubs~=3.0.2",
+    "sentence-transformers>=5.4.1",
+    "uvicorn>=0.46.0",
+]
