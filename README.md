@@ -6,12 +6,14 @@ The project explores Persian and Dari rewriting through a combination of example
 
 The default model is **Llama 3.1 8B through Ollama**. The backend also supports **GPT-4.1 mini** through the OpenAI API.
 
+![Right-to-left rewriting interface](docs/interface.png)
+
 ## What you can do
 
 - Rewrite passages of up to 2,000 characters.
 - Choose casual, friendly, or formal wording in the browser.
 - Follow retrieval and generation progress while the response streams.
-- Copy the rewritten text.
+- Select a configured local or OpenAI model, stop a request, copy or download a completed rewrite.
 - Call the backend directly for a complete JSON response or a streamed response.
 
 The browser interface is built with HTML, CSS, and JavaScript. It uses a right-to-left layout and includes responsive styles; there is no React app or frontend build step.
@@ -88,17 +90,11 @@ uv run --locked python backend/api.py
 
 The API runs at [http://localhost:8000](http://localhost:8000). Interactive API documentation is available at [http://localhost:8000/docs](http://localhost:8000/docs).
 
-### 4. Start the frontend
+### 4. Open the interface
 
-Open another terminal in the project root:
+Visit **http://127.0.0.1:8000/ui/**. FastAPI serves the frontend alongside the API, so a second server is unnecessary. The API root and `/docs` remain available. A separate static preview on port 5500 also works; `frontrend/app.js` sends those requests to `127.0.0.1:8000`.
 
-```bash
-uv run --locked python -m http.server 5500 --directory frontrend
-```
-
-Open [http://localhost:5500](http://localhost:5500).
-
-The folder is named `frontrend` in this repository. The page currently sends requests to `http://localhost:8000`; change the `API` constant in [frontrend/index.html](frontrend/index.html) if the backend uses another address.
+The historical folder name `frontrend` is retained so existing local scripts keep working. Models load lazily on the first rewrite rather than when opening the interface. A running API is not proof that Ollama, model downloads or hosted inference are ready.
 
 ## API
 
@@ -107,7 +103,7 @@ The folder is named `frontrend` in this repository. The page currently sends req
 | GET | `/health` | Report service metadata, configured model options, and index-folder status |
 | POST | `/humanize` | Return the rewrite and evaluation as JSON |
 | POST | `/humanize/stream` | Stream progress, text, and evaluation using server-sent events |
-| POST | `/rebuild-index` | Replace the active Chroma index using the configured dataset |
+| POST | `/rebuild-index` | Local maintenance only; disabled unless `HUMANIZER_ENABLE_REBUILD=1` |
 
 Try this request in the interactive API docs:
 
@@ -128,12 +124,12 @@ The streaming endpoint emits named payloads such as `__RETRIEVING__`, `__GENERAT
 Create a `.env` file in the project root:
 
 ```dotenv
-OPENAI_API_KEY=your_api_key_here
+OPENAI_API_KEY=
 ```
 
 Restart the backend, then send a request with `"model": "gpt-4.1-mini"`. The key stays on the backend; `.env` is excluded by the repository's `.gitignore`. This option makes requests to OpenAI and incurs API usage charges. The request includes the input text and the examples placed in the prompt.
 
-The current browser page does not include a model selector and does not send a `model` field. It therefore uses the default Ollama model. To use GPT with the existing code, call the API directly or use `/docs`.
+The browser model selector enables GPT when the backend reports a configured key. This checks configuration only, not billing, model access or provider connectivity. The browser never receives the key.
 
 ## Dataset and evaluation
 
@@ -176,9 +172,9 @@ Meaning preservation is a goal of the prompt, not a guarantee. Read the result b
 
 The automatic scores use word overlap, formal or colloquial markers, and length comparisons. They are useful for inspecting behavior, but a high score does not prove that a rewrite is accurate or natural.
 
-There is also an evaluation-display mismatch in the current code. The streaming endpoint returns fields such as `meaning_keep` and `overall`, while the frontend expects `meaning_preserved` and `overall_score` on a different scale. The browser can therefore show zero scores even when evaluation data was returned. The non-streaming endpoint uses a separate evaluator.
+The browser deliberately omits quality-rating bars: streaming and non-streaming paths use different lexical evaluators, neither calibrated as a reliable quality score. Raw evaluation remains available to API clients. Token and final-text payloads are decoded as JSON so Persian text, spaces and line breaks survive streaming. Partial or interrupted output is labelled incomplete and cannot be exported as a completed rewrite.
 
-This is a local development app. The API has permissive CORS, no authentication, and an unprotected index-rebuild endpoint. The non-streaming path also logs excerpts of generated text. Those parts need attention before a public deployment.
+This remains a local development app without authentication or production rate limiting. CORS defaults to the local port-5500 origins; the interface normally uses the same origin. Index rebuilding requires an explicit maintenance flag. HTTP errors omit raw provider details and generation excerpts are not printed. Do not expose it publicly without deployment hardening.
 
 A successful `/health` response is not an inference test. Its index status checks whether files exist, and the local model is listed as configured without checking Ollama availability.
 
@@ -193,7 +189,10 @@ backend/
   Evaluator.py            Lexical evaluation used by streaming
   requirements.txt        Alternative dependency list
 frontrend/
-  index.html              Browser interface
+  index.html              Accessible RTL interface
+  styles.css              Responsive layout
+  app.js                  Model selection and request state
+  stream.mjs              Incremental SSE decoding
 data/
   persian_humanizer_dataset.csv
   train_set.csv
@@ -213,3 +212,17 @@ uv.lock
 
 Maintained by [Rizwanullah Muahed](https://github.com/rizwanullahmuahed2-ui).
 
+
+## Checks and research
+
+Run the lightweight checks without neural downloads or paid model calls:
+
+```sh
+python -m pip install -r requirements-test.txt
+python -m pytest -q
+node --test tests/stream.test.mjs
+```
+
+These tests replace generation with controlled functions. They verify request validation, model selection, safe failures, disabled maintenance and fragmented UTF-8 streaming; they do not establish rewrite quality or a successful live provider call. Full generation additionally needs the application dependencies and either a working Ollama model or a valid funded OpenAI configuration.
+
+[Research manuscript status](research/README.md): university-approved and unpublished, as reported by the owner. The actual manuscript is pending; no PDF or publication details have been invented.

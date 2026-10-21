@@ -1,0 +1,5 @@
+# HTTP boundary tests use fake generation functions, without neural downloads.
+fastapi==0.136.1
+httpx==0.28.1
+python-dotenv==1.2.1
+pytest==8.4.2

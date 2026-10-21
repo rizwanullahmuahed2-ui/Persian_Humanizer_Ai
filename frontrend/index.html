@@ -1,1119 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>انسانی‌ساز فارسی | Persian Humanizer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg:       #0b0d0f;
-      --surface:  #111316;
-      --card:     #161a1f;
-      --border:   #222830;
-      --border2:  #2a3340;
-      --accent:   #e8a04a;
-      --accent2:  #5bc8af;
-      --accent3:  #c05fd3;
-      --text:     #e8e4dc;
-      --muted:    #6b7280;
-      --danger:   #e05c5c;
-      --success:  #5bc8af;
-      --glow:     rgba(232, 160, 74, 0.18);
-      --font:     'Vazirmatn', sans-serif;
-      --mono:     'JetBrains Mono', monospace;
-      --radius:   14px;
-      --radius-sm: 8px;
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: var(--font);
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      direction: rtl;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-
-    /* Background grid */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(232,160,74,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(232,160,74,0.03) 1px, transparent 1px);
-      background-size: 48px 48px;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* ── Header ── */
-    header {
-      position: relative;
-      z-index: 10;
-      padding: 2rem 2.5rem 1.5rem;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: linear-gradient(180deg, rgba(17,19,22,0.95) 0%, transparent 100%);
-      backdrop-filter: blur(12px);
-    }
-
-    .logo-group {
-      display: flex;
-      align-items: center;
-      gap: 0.9rem;
-    }
-
-    .logo-icon {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, var(--accent), #c07830);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.3rem;
-      box-shadow: 0 0 20px var(--glow);
-    }
-
-    .logo-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .logo-text h1 {
-      font-size: 1.15rem;
-      font-weight: 700;
-      color: var(--text);
-      letter-spacing: -0.01em;
-    }
-
-    .logo-text span {
-      font-size: 0.7rem;
-      color: var(--muted);
-      font-family: var(--mono);
-      letter-spacing: 0.05em;
-    }
-
-    .header-badges {
-      display: flex;
-      gap: 0.6rem;
-    }
-
-    .badge {
-      padding: 0.25rem 0.7rem;
-      border-radius: 20px;
-      font-size: 0.65rem;
-      font-family: var(--mono);
-      letter-spacing: 0.04em;
-      font-weight: 600;
-      border: 1px solid;
-    }
-
-    .badge-llama { color: var(--accent); border-color: rgba(232,160,74,0.3); background: rgba(232,160,74,0.07); }
-    .badge-qwen  { color: var(--accent2); border-color: rgba(91,200,175,0.3); background: rgba(91,200,175,0.07); }
-    .badge-rag   { color: var(--accent3); border-color: rgba(192,95,211,0.3); background: rgba(192,95,211,0.07); }
-
-    /* ── Status bar ── */
-    #status-bar {
-      background: rgba(22,26,31,0.9);
-      border-bottom: 1px solid var(--border);
-      padding: 0.55rem 2.5rem;
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-      font-size: 0.72rem;
-      font-family: var(--mono);
-      color: var(--muted);
-      z-index: 9;
-      position: relative;
-    }
-
-    .status-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: var(--muted);
-      display: inline-block;
-      transition: background 0.4s, box-shadow 0.4s;
-    }
-
-    .status-dot.online { background: var(--success); box-shadow: 0 0 8px var(--success); }
-    .status-dot.offline { background: var(--danger); }
-    .status-dot.loading { background: var(--accent); animation: pulse-dot 1s infinite; }
-
-    @keyframes pulse-dot {
-      0%,100% { opacity:1; } 50% { opacity:0.3; }
-    }
-
-    /* ── Main layout ── */
-    main {
-      position: relative;
-      z-index: 5;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2.5rem 2rem;
-      display: grid;
-      gap: 1.5rem;
-    }
-
-    /* ── Hero ── */
-    .hero {
-      text-align: center;
-      padding: 2rem 0 0.5rem;
-      animation: fade-up 0.6s ease both;
-    }
-
-    .hero h2 {
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      font-weight: 900;
-      line-height: 1.2;
-      margin-bottom: 0.8rem;
-    }
-
-    .hero h2 em {
-      font-style: normal;
-      background: linear-gradient(90deg, var(--accent), #f0c070, var(--accent2));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .hero p {
-      color: var(--muted);
-      font-size: 0.95rem;
-      max-width: 540px;
-      margin: 0 auto;
-    }
-
-    /* ── Style selector ── */
-    .style-selector {
-      display: flex;
-      gap: 0.75rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      animation: fade-up 0.6s 0.1s ease both;
-    }
-
-    .style-btn {
-      padding: 0.5rem 1.4rem;
-      border-radius: 50px;
-      border: 1px solid var(--border2);
-      background: var(--card);
-      color: var(--muted);
-      font-family: var(--font);
-      font-size: 0.85rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .style-btn:hover { border-color: var(--accent); color: var(--accent); }
-
-    .style-btn.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #0b0d0f;
-      font-weight: 700;
-      box-shadow: 0 0 16px var(--glow);
-    }
-
-    /* ── Editor grid ── */
-    .editor-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
-      animation: fade-up 0.6s 0.2s ease both;
-    }
-
-    @media (max-width: 768px) {
-      .editor-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ── Panel ── */
-    .panel {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      transition: border-color 0.2s;
-    }
-
-    .panel:focus-within { border-color: var(--border2); }
-
-    .panel-header {
-      padding: 0.9rem 1.25rem;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: rgba(255,255,255,0.018);
-    }
-
-    .panel-label {
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .panel-label .dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-    }
-
-    .dot-ai     { background: var(--accent3); }
-    .dot-human  { background: var(--accent2); }
-
-    .char-count {
-      font-family: var(--mono);
-      font-size: 0.65rem;
-      color: var(--muted);
-    }
-
-    textarea {
-      width: 100%;
-      min-height: 220px;
-      padding: 1.25rem;
-      background: transparent;
-      border: none;
-      color: var(--text);
-      font-family: var(--font);
-      font-size: 0.95rem;
-      line-height: 1.8;
-      resize: vertical;
-      outline: none;
-      direction: rtl;
-    }
-
-    textarea::placeholder { color: var(--muted); opacity: 0.5; }
-
-    .output-area {
-      min-height: 220px;
-      padding: 1.25rem;
-      font-size: 0.95rem;
-      line-height: 1.8;
-      color: var(--text);
-      direction: rtl;
-    }
-
-    .output-placeholder {
-      color: var(--muted);
-      opacity: 0.4;
-      font-style: italic;
-    }
-
-    .output-text {
-      animation: reveal 0.5s ease both;
-    }
-
-    @keyframes reveal {
-      from { opacity: 0; transform: translateY(6px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    /* ── Action bar ── */
-    .action-bar {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-      animation: fade-up 0.6s 0.3s ease both;
-    }
-
-    .btn-primary {
-      padding: 0.85rem 2.5rem;
-      border-radius: var(--radius);
-      border: none;
-      background: linear-gradient(135deg, var(--accent), #c07830);
-      color: #0b0d0f;
-      font-family: var(--font);
-      font-size: 1rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      box-shadow: 0 4px 20px rgba(232,160,74,0.25);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .btn-primary::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(255,255,255,0.15), transparent);
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-
-    .btn-primary:hover:not(:disabled)::after { opacity: 1; }
-    .btn-primary:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 8px 28px rgba(232,160,74,0.35); }
-    .btn-primary:active:not(:disabled) { transform: translateY(0); }
-    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
-
-    .btn-secondary {
-      padding: 0.85rem 1.6rem;
-      border-radius: var(--radius);
-      border: 1px solid var(--border2);
-      background: var(--card);
-      color: var(--text);
-      font-family: var(--font);
-      font-size: 0.9rem;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
-
-    /* ── Loading shimmer ── */
-    .shimmer {
-      background: linear-gradient(90deg, var(--card) 25%, rgba(255,255,255,0.05) 50%, var(--card) 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.4s infinite;
-      border-radius: 6px;
-    }
-
-    @keyframes shimmer {
-      0%   { background-position: 200% 0; }
-      100% { background-position: -200% 0; }
-    }
-
-    .shimmer-line {
-      height: 18px;
-      margin-bottom: 10px;
-      border-radius: 4px;
-    }
-
-    /* ── Evaluation card ── */
-    .eval-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.5rem;
-      animation: fade-up 0.5s ease both;
-    }
-
-    .eval-header {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      margin-bottom: 1.25rem;
-    }
-
-    .eval-header h3 {
-      font-size: 0.85rem;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .eval-icon {
-      width: 28px; height: 28px;
-      border-radius: 7px;
-      background: rgba(91,200,175,0.12);
-      border: 1px solid rgba(91,200,175,0.25);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-    }
-
-    .metrics-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-      margin-bottom: 1.25rem;
-    }
-
-    @media (min-width: 640px) {
-      .metrics-grid { grid-template-columns: repeat(4, 1fr); }
-    }
-
-    .metric-item { display: flex; flex-direction: column; gap: 0.4rem; }
-
-    .metric-label {
-      font-size: 0.65rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      font-weight: 600;
-    }
-
-    .metric-bar-wrap {
-      height: 5px;
-      background: var(--border);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-
-    .metric-bar {
-      height: 100%;
-      border-radius: 10px;
-      background: linear-gradient(90deg, var(--accent2), var(--accent));
-      transition: width 0.8s cubic-bezier(0.16,1,0.3,1);
-    }
-
-    .metric-score {
-      font-family: var(--mono);
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    .overall-score {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding: 1rem 1.25rem;
-      background: rgba(91,200,175,0.06);
-      border: 1px solid rgba(91,200,175,0.15);
-      border-radius: var(--radius-sm);
-      margin-top: 0.5rem;
-    }
-
-    .overall-number {
-      font-family: var(--mono);
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--accent2);
-      line-height: 1;
-    }
-
-    .overall-number span { font-size: 0.8rem; color: var(--muted); }
-
-    .feedback-text {
-      font-size: 0.85rem;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    /* ── Examples strip ── */
-    .examples-strip {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      animation: fade-up 0.6s 0.1s ease both;
-    }
-
-    .examples-header {
-      padding: 0.8rem 1.25rem;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .examples-header h3 {
-      font-size: 0.72rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      color: var(--muted);
-    }
-
-    .examples-count {
-      font-family: var(--mono);
-      font-size: 0.65rem;
-      color: var(--accent3);
-      background: rgba(192,95,211,0.08);
-      border: 1px solid rgba(192,95,211,0.2);
-      padding: 0.15rem 0.5rem;
-      border-radius: 10px;
-    }
-
-    .examples-list {
-      padding: 0.75rem;
-      display: grid;
-      gap: 0.5rem;
-      max-height: 200px;
-      overflow-y: auto;
-    }
-
-    .example-item {
-      padding: 0.7rem 1rem;
-      background: rgba(255,255,255,0.02);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-sm);
-      display: grid;
-      grid-template-columns: 1fr auto 1fr;
-      gap: 0.75rem;
-      align-items: start;
-      font-size: 0.8rem;
-      animation: fade-up 0.3s ease both;
-    }
-
-    .ex-col { line-height: 1.6; }
-    .ex-label {
-      font-size: 0.6rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.2rem;
-      color: var(--muted);
-    }
-
-    .ex-ai-label { color: var(--accent3); }
-    .ex-human-label { color: var(--accent2); }
-
-    .ex-arrow {
-      color: var(--muted);
-      font-size: 0.9rem;
-      padding-top: 1.2rem;
-    }
-
-    /* ── Error toast ── */
-    #error-toast {
-      position: fixed;
-      bottom: 1.5rem;
-      left: 50%;
-      transform: translateX(-50%) translateY(100px);
-      background: var(--danger);
-      color: white;
-      padding: 0.7rem 1.5rem;
-      border-radius: 50px;
-      font-size: 0.85rem;
-      z-index: 999;
-      transition: transform 0.3s cubic-bezier(0.16,1,0.3,1);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      box-shadow: 0 8px 24px rgba(224,92,92,0.4);
-    }
-
-    #error-toast.show { transform: translateX(-50%) translateY(0); }
-
-    /* ── Copy button ── */
-    .copy-btn {
-      padding: 0.3rem 0.75rem;
-      border-radius: 6px;
-      border: 1px solid var(--border2);
-      background: transparent;
-      color: var(--muted);
-      font-family: var(--mono);
-      font-size: 0.65rem;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .copy-btn:hover { border-color: var(--accent2); color: var(--accent2); }
-    .copy-btn.copied { border-color: var(--success); color: var(--success); }
-
-    /* ── Animations ── */
-    @keyframes fade-up {
-      from { opacity: 0; transform: translateY(16px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-
-    /* ── Streaming cursor ── */
-    .cursor {
-      display: inline-block;
-      animation: blink 0.7s infinite;
-      color: var(--accent);
-      font-weight: bold;
-      margin-right: 2px;
-    }
-    @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
-
-    /* ── Scrollbar ── */
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: var(--bg); }
-    ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
-
-    /* ── Pipeline indicator ── */
-    .pipeline {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0;
-      font-size: 0.72rem;
-      font-family: var(--mono);
-    }
-
-    .pipe-step {
-      display: flex;
-      align-items: center;
-      gap: 0.35rem;
-      padding: 0.3rem 0.8rem;
-      border-radius: 4px;
-      color: var(--muted);
-      transition: all 0.3s;
-    }
-
-    .pipe-step.active {
-      color: var(--accent);
-      background: rgba(232,160,74,0.08);
-    }
-
-    .pipe-step.done {
-      color: var(--success);
-    }
-
-    .pipe-arrow {
-      color: var(--border2);
-      padding: 0 0.1rem;
-    }
-
-    .pipe-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: currentColor;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Header -->
-  <header>
-    <div class="logo-group">
-      <div class="logo-icon">✦</div>
-      <div class="logo-text">
-        <h1>انسانی‌ساز فارسی</h1>
-
-      </div>
-    </div>
-    <div class="header-badges">
-
-    </div>
-  </header>
-
-  <!-- Status bar -->
-  <div id="status-bar">
-    <span><span class="status-dot" id="status-dot"></span> &nbsp;<span id="status-text">در حال اتصال...</span></span>
-
-    <span>Embedding: multilingual-MiniLM-L12</span>
-    <span id="vs-status" style="margin-right:auto;">⏳ در حال بارگذاری ایندکس...</span>
-  </div>
-
-  <main>
-    <!-- Hero -->
-    <div class="hero">
-      <h2>متن ربات را<br/><em>انسانی کنید</em></h2>
-      <p>با استفاده از  نمونه‌های واقعی فارسی، متن هوش مصنوعی رو به متن طبیعی و انسانی تبدیل کنید</p>
-    </div>
-
-    <!-- Style selector -->
-    <div class="style-selector">
-      <button class="style-btn active" data-style="casual" onclick="setStyle('casual', this)">
-        💬 محاوره‌ای
-      </button>
-      <button class="style-btn" data-style="friendly" onclick="setStyle('friendly', this)">
-        😊 دوستانه
-      </button>
-      <button class="style-btn" data-style="formal" onclick="setStyle('formal', this)">
-        🎩 رسمی‌تر
-      </button>
-    </div>
-
-    <!-- Pipeline indicator -->
-    <div class="pipeline" id="pipeline" style="opacity:0; transition: opacity 0.3s;">
-      <div class="pipe-step" id="pipe-retrieve">
-        <span class="pipe-dot"></span> ...Searching
-      </div>
-      <span class="pipe-arrow">→</span>
-      <div class="pipe-step" id="pipe-humanize">
-        <span class="pipe-dot"></span> Humanizing
-      </div>
-      <span class="pipe-arrow">→</span>
-      <div class="pipe-step" id="pipe-evaluate">
-        <span class="pipe-dot"></span> Evaluation
-      </div>
-    </div>
-
-    <!-- Editor grid -->
-    <div class="editor-grid">
-      <!-- Input panel -->
-      <div class="panel">
-        <div class="panel-header">
-          <div class="panel-label">
-            <span class="dot dot-ai"></span>
-            متن ربات / رسمی
-          </div>
-          <span class="char-count" id="char-count">0 / 2000</span>
-        </div>
-        <textarea
-          id="input-text"
-          placeholder="متن هوش مصنوعی یا متن رسمی رو اینجا بنویس..."
-          maxlength="2000"
-          oninput="updateCharCount()"
-        ></textarea>
-      </div>
-
-      <!-- Output panel -->
-      <div class="panel">
-        <div class="panel-header">
-          <div class="panel-label">
-            <span class="dot dot-human"></span>
-            متن انسانی‌شده
-          </div>
-          <button class="copy-btn" id="copy-btn" onclick="copyOutput()" style="display:none;">
-            📋کاپی
-          </button>
-        </div>
-        <div class="output-area" id="output-area">
-          <span class="output-placeholder">خروجی اینجا نشون داده میشه...</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Action bar -->
-    <div class="action-bar">
-      <button class="btn-primary" id="humanize-btn" onclick="runHumanizer()">
-        <span id="btn-icon">✦</span>
-        <span id="btn-text">انسانی‌سازی کن</span>
-      </button>
-      <button class="btn-secondary" onclick="clearAll()">پاک کردن</button>
-    </div>
-
-    <!-- Examples strip (shown after result) -->
-    <div class="examples-strip" id="examples-strip" style="display:none;">
-      <div class="examples-header">
-        <h3>📚 نمونه‌های استفاده‌شده</h3>
-        <span class="examples-count" id="examples-count">0 نمونه</span>
-      </div>
-      <div class="examples-list" id="examples-list"></div>
-    </div>
-
-    <!-- Evaluation card (shown after result) -->
-    <div class="eval-card" id="eval-card" style="display:none;">
-      <div class="eval-header">
-        <div class="eval-icon">⚡</div>
-        <h3>ارزیابی </h3>
-      </div>
-      <div class="metrics-grid" id="metrics-grid"></div>
-      <div class="overall-score" id="overall-score"></div>
-    </div>
-  </main>
-
-  <!-- Error toast -->
-  <div id="error-toast">
-    <span>⚠️</span>
-    <span id="error-msg"></span>
-  </div>
-
-  <script>
-    const API = 'http://localhost:8000';
-    let currentStyle = 'casual';
-
-    // ── Init ──────────────────────────────────────────────────────────────
-    async function checkHealth() {
-      const dot = document.getElementById('status-dot');
-      const txt = document.getElementById('status-text');
-      const vs  = document.getElementById('vs-status');
-
-      dot.className = 'status-dot loading';
-      txt.textContent = 'در حال اتصال...';
-
-      try {
-        const r = await fetch(`${API}/health`, { signal: AbortSignal.timeout(5000) });
-        if (!r.ok) throw new Error('not ok');
-        const data = await r.json();
-
-        dot.className = 'status-dot online';
-        txt.textContent = 'وصل';
-        vs.textContent = data.vectorstore_ready
-          ? '✅ ایندکس آماده است'
-          : '⚠️ ایندکس هنوز آماده نیست';
-      } catch {
-        dot.className = 'status-dot offline';
-        txt.textContent = 'قطع اتصال – سرور در دسترس نیست';
-        vs.textContent = '❌ بررسی کنید سرور روشن است: python api.py';
-      }
-    }
-
-    checkHealth();
-
-    // ── Style ─────────────────────────────────────────────────────────────
-    function setStyle(s, el) {
-      currentStyle = s;
-      document.querySelectorAll('.style-btn').forEach(b => b.classList.remove('active'));
-      el.classList.add('active');
-    }
-
-    // ── Char count ────────────────────────────────────────────────────────
-    function updateCharCount() {
-      const v = document.getElementById('input-text').value.length;
-      document.getElementById('char-count').textContent = `${v} / 2000`;
-    }
-
-    // ── Pipeline UI ───────────────────────────────────────────────────────
-    function setPipelineStep(step) {
-      const pipe = document.getElementById('pipeline');
-      pipe.style.opacity = '1';
-
-      ['retrieve','humanize','evaluate'].forEach(s => {
-        document.getElementById(`pipe-${s}`).className = 'pipe-step';
-      });
-
-      if (step === 'retrieve')  document.getElementById('pipe-retrieve').classList.add('active');
-      if (step === 'humanize') {
-        document.getElementById('pipe-retrieve').classList.add('done');
-        document.getElementById('pipe-humanize').classList.add('active');
-      }
-      if (step === 'evaluate') {
-        document.getElementById('pipe-retrieve').classList.add('done');
-        document.getElementById('pipe-humanize').classList.add('done');
-        document.getElementById('pipe-evaluate').classList.add('active');
-      }
-      if (step === 'done') {
-        ['retrieve','humanize','evaluate'].forEach(s => {
-          document.getElementById(`pipe-${s}`).classList.add('done');
-        });
-      }
-    }
-
-    // ── Loading shimmer in output ─────────────────────────────────────────
-    function showShimmer() {
-      const out = document.getElementById('output-area');
-      out.innerHTML = `
-        <div>
-          <div class="shimmer shimmer-line" style="width:90%"></div>
-          <div class="shimmer shimmer-line" style="width:70%"></div>
-          <div class="shimmer shimmer-line" style="width:85%"></div>
-          <div class="shimmer shimmer-line" style="width:55%"></div>
-        </div>`;
-    }
-
-    // ── Streaming humanizer ──────────────────────────────────────────────
-    let timerInterval = null;
-    function startTimer() {
-      const start = Date.now();
-      timerInterval = setInterval(() => {
-        const sec = ((Date.now()-start)/1000).toFixed(0);
-        document.getElementById('btn-text').textContent = `در حال پردازش... ${sec}s`;
-      }, 1000);
-    }
-    function stopTimer() {
-      if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
-    }
-
-    async function runHumanizer() {
-      const text = document.getElementById('input-text').value.trim();
-      if (!text) { showError('لطفاً متن را وارد کنید'); return; }
-
-      const btn = document.getElementById('humanize-btn');
-      const btnIcon = document.getElementById('btn-icon');
-      btn.disabled = true;
-      btnIcon.textContent = '⏳';
-
-      document.getElementById('eval-card').style.display = 'none';
-      document.getElementById('examples-strip').style.display = 'none';
-      document.getElementById('copy-btn').style.display = 'none';
-
-      const out = document.getElementById('output-area');
-      out.innerHTML = '<span style="color:var(--muted);font-size:0.85rem;">⏳ در حال جستجو نمونه‌ها...</span>';
-      setPipelineStep('retrieve');
-      startTimer();
-
-      let fullText = '';
-      let evalData = null;
-
-      try {
-        const resp = await fetch(`${API}/humanize/stream`, {
-          method: 'POST',
-          headers: {'Content-Type':'application/json'},
-          body: JSON.stringify({text, style: currentStyle}),
-          signal: AbortSignal.timeout(180000),
-        });
-
-        if (!resp.ok) throw new Error(`خطای سرور (${resp.status})`);
-
-        const reader = resp.body.getReader();
-        const decoder = new TextDecoder();
-        let buffer = '';
-
-        while (true) {
-          const {done, value} = await reader.read();
-          if (done) break;
-
-          buffer += decoder.decode(value, {stream: true});
-          const lines = buffer.split('\n');
-          buffer = lines.pop(); // keep incomplete line
-
-          for (const line of lines) {
-            if (!line.startsWith('data: ')) continue;
-            const payload = line.slice(6);
-
-            if (payload === '__RETRIEVING__') {
-              out.innerHTML = '<span style="color:var(--muted);font-size:0.85rem;">🔍 در حال جستجو نمونه‌ها از ...</span>';
-              setPipelineStep('retrieve');
-
-            } else if (payload === '__GENERATING__') {
-              out.innerHTML = '';
-              fullText = '';
-              setPipelineStep('humanize');
-
-            } else if (payload.startsWith('__EVAL__')) {
-              try { evalData = JSON.parse(payload.slice(8)); } catch {}
-              setPipelineStep('evaluate');
-
-            } else if (payload === '__DONE__') {
-              break;
-
-            } else if (payload.startsWith('__ERROR__')) {
-              throw new Error(payload.slice(9));
-
-            } else {
-              // Live token — append to output
-              fullText += payload;
-              out.innerHTML = `<div class="output-text" dir="rtl">${escapeHtml(fullText)}<span class="cursor">▋</span></div>`;
-              out.scrollTop = out.scrollHeight;
-            }
-          }
-        }
-
-        // Finalise
-        stopTimer();
-        setPipelineStep('done');
-
-        if (!fullText.trim()) throw new Error('خروجی خالی — terminal سرور رو چک کنید');
-
-        const cleaned = fullText.trim();
-        out.innerHTML = `<div class="output-text" dir="rtl">${escapeHtml(cleaned)}</div>`;
-        document.getElementById('copy-btn').style.display = 'inline-block';
-
-        if (evalData) renderEval(evalData);
-
-      } catch(e) {
-        stopTimer();
-        const msg = e.name === 'TimeoutError' ? 'زمان انتظار تمام شد' : e.message;
-        showError(msg);
-        out.innerHTML = `<div style="color:var(--danger);font-size:0.85rem;direction:rtl;">❌ ${escapeHtml(msg)}</div>`;
-        document.getElementById('pipeline').style.opacity = '0';
-      } finally {
-        stopTimer();
-        btn.disabled = false;
-        btnIcon.textContent = '✦';
-        document.getElementById('btn-text').textContent = 'انسانی‌سازی کنید';
-      }
-    }
-
-    // ── Render result ─────────────────────────────────────────────────────
-    function renderOutput(data) {
-      const out = document.getElementById('output-area');
-      const humanized = (data.humanized || '').trim();
-      if (!humanized) {
-        out.innerHTML = '<span style="color:var(--danger)">⚠️ خروجی خالی بود — terminal را چک کن</span>';
-        return;
-      }
-      out.innerHTML = `<div class="output-text" dir="rtl">${escapeHtml(humanized)}</div>`;
-      document.getElementById('copy-btn').style.display = 'inline-block';
-      renderEval(data.evaluation);
-      if (data.examples_used > 0) {
-        document.getElementById('examples-count').textContent = `${data.examples_used} نمونه`;
-        document.getElementById('examples-list').innerHTML =
-          `<div style="padding:0.5rem 0.25rem; color:var(--muted); font-size:0.8rem; direction:rtl;">
-            ${data.examples_used} نمونه مشابه از دیتاست برای راهنمایی مدل استفاده شد.
-          </div>`;
-        document.getElementById('examples-strip').style.display = 'block';
-      }
-    }
-
-    function renderEval(ev) {
-      if (!ev || !Object.keys(ev).length) return;
-
-      const metrics = [
-        { key: 'naturalness',       label: 'طبیعی بودن' },
-        { key: 'meaning_preserved', label: 'حفظ معنا' },
-        { key: 'formality_reduced', label: 'کاهش رسمیت' },
-        { key: 'dari_dialect',      label: 'لهجه دری' },
-      ];
-
-      const grid = document.getElementById('metrics-grid');
-      grid.innerHTML = metrics.map(m => {
-        const val = ev[m.key] || 0;
-        const pct = (val / 10) * 100;
-        return `
-          <div class="metric-item">
-            <div class="metric-label">${m.label}</div>
-            <div class="metric-score">${val.toFixed(1)}</div>
-            <div class="metric-bar-wrap">
-              <div class="metric-bar" style="width:0%" data-pct="${pct}"></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Humanizer · بازنویسی فارسی و دری</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#editor">رفتن به ویرایشگر</a>
+    <header>
+      <a class="brand" href="./"
+        ><span class="mark" aria-hidden="true">ه</span
+        ><span>Humanizer<small>بازنویسی فارسی و دری</small></span></a
+      ><a
+        class="source"
+        href="https://github.com/rizwanullahmuahed2-ui/Persian_Humanizer_Ai"
+        target="_blank"
+        rel="noreferrer"
+        >کد و روش کار ↗</a
+      >
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">برای وقتی که متن، روان‌تر می‌تواند باشد</p>
+        <h1>همان حرف،<br /><span>با بیان ساده‌تر.</span></h1>
+        <p>
+          متن را وارد کن، لحن را انتخاب کن و نتیجه را کنار اصل متن بخوان. پیش از
+          استفاده، معنا و جزئیات را خودت بررسی کن.
+        </p>
+      </section>
+      <section class="workspace" id="editor" aria-label="ویرایشگر بازنویسی">
+        <form id="rewrite-form">
+          <div class="toolbar">
+            <fieldset>
+              <legend>لحن بازنویسی</legend>
+              <div class="tones">
+                <label
+                  ><input
+                    type="radio"
+                    name="style"
+                    value="casual"
+                    checked
+                  /><span>روزمره</span></label
+                ><label
+                  ><input type="radio" name="style" value="friendly" /><span
+                    >دوستانه</span
+                  ></label
+                ><label
+                  ><input type="radio" name="style" value="formal" /><span
+                    >رسمی</span
+                  ></label
+                >
+              </div>
+            </fieldset>
+            <div class="model">
+              <label for="model">مدل</label
+              ><select id="model">
+                <option value="llama3.1:8b">Llama 3.1 · محلی</option>
+                <option value="gpt-4.1-mini" disabled>
+                  GPT-4.1 mini · تنظیم نشده
+                </option>
+              </select>
             </div>
-          </div>`;
-      }).join('');
-
-      // Animate bars
-      requestAnimationFrame(() => {
-        document.querySelectorAll('.metric-bar').forEach(b => {
-          b.style.width = b.dataset.pct + '%';
-        });
-      });
-
-      const overall = ev.overall_score || 0;
-      document.getElementById('overall-score').innerHTML = `
-        <div class="overall-number">${overall.toFixed(1)}<span>/10</span></div>
-        <div class="feedback-text">${escapeHtml(ev.feedback || '')}</div>`;
-
-      document.getElementById('eval-card').style.display = 'block';
-    }
-
-    // ── Utilities ─────────────────────────────────────────────────────────
-    function clearAll() {
-      document.getElementById('input-text').value = '';
-      document.getElementById('output-area').innerHTML =
-        '<span class="output-placeholder">خروجی اینجا نشان داده میشه...</span>';
-      document.getElementById('eval-card').style.display = 'none';
-      document.getElementById('examples-strip').style.display = 'none';
-      document.getElementById('copy-btn').style.display = 'none';
-      document.getElementById('pipeline').style.opacity = '0';
-      updateCharCount();
-    }
-
-    async function copyOutput() {
-      const text = document.getElementById('output-area').innerText;
-      await navigator.clipboard.writeText(text);
-      const btn = document.getElementById('copy-btn');
-      btn.textContent = '✅ کاپی شد';
-      btn.classList.add('copied');
-      setTimeout(() => {
-        btn.textContent = '📋 کاپی';
-        btn.classList.remove('copied');
-      }, 2000);
-    }
-
-    function showError(msg) {
-      const toast = document.getElementById('error-toast');
-      document.getElementById('error-msg').textContent = msg;
-      toast.classList.add('show');
-      setTimeout(() => toast.classList.remove('show'), 3500);
-    }
-
-    function escapeHtml(s) {
-      return String(s)
-        .replace(/&/g,'&amp;')
-        .replace(/</g,'&lt;')
-        .replace(/>/g,'&gt;')
-        .replace(/\n/g,'<br/>');
-    }
-
-    function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-
-    // Enter key shortcut (Ctrl/Cmd + Enter)
-    document.getElementById('input-text').addEventListener('keydown', e => {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') runHumanizer();
-    });
-  </script>
-</body>
+          </div>
+          <p id="model-note" class="note">
+            مدل محلی به Ollama نیاز دارد. در اولین اجرا، دریافت مدل‌های بازیابی
+            ممکن است زمان ببرد.
+          </p>
+          <div class="editors">
+            <div class="panel">
+              <div class="panel-heading">
+                <label for="input">متن اصلی</label
+                ><button id="sample" type="button" class="quiet">
+                  یک نمونه بگذار
+                </button>
+              </div>
+              <textarea
+                id="input"
+                maxlength="2000"
+                placeholder="متن فارسی یا دری را اینجا بنویس…"
+                aria-describedby="count privacy"
+              ></textarea>
+              <div class="panel-footer">
+                <span id="count">۰ / ۲۰۰۰</span
+                ><button id="clear" type="button" class="quiet">
+                  پاک کردن
+                </button>
+              </div>
+            </div>
+            <section class="panel result" aria-labelledby="output-title">
+              <div class="panel-heading">
+                <h2 id="output-title">نسخهٔ بازنویسی‌شده</h2>
+                <button id="copy" type="button" class="quiet" disabled>
+                  کپی متن
+                </button>
+              </div>
+              <div id="output" class="output" dir="auto">
+                <span class="placeholder"
+                  >نتیجه اینجا نمایش داده می‌شود؛ متن اصلی در سمت دیگر
+                  می‌ماند.</span
+                >
+              </div>
+              <div class="panel-footer">
+                <span id="result-note">آماده برای شروع</span
+                ><button id="download" type="button" class="quiet" disabled>
+                  دریافت متن ↓
+                </button>
+              </div>
+            </section>
+          </div>
+          <div class="actions">
+            <button id="submit" class="primary" type="submit">
+              بازنویسی متن <span aria-hidden="true">←</span></button
+            ><button id="cancel" type="button" hidden>توقف</button>
+            <p id="progress" role="status" aria-live="polite"></p>
+          </div>
+          <p id="error" class="error" role="alert" hidden></p>
+        </form>
+        <p id="privacy" class="privacy">
+          با انتخاب OpenAI، متن و نمونه‌های بازیابی‌شده به آن سرویس فرستاده
+          می‌شوند. رمز، اطلاعات شخصی و متن محرمانه وارد نکن.
+        </p>
+      </section>
+      <section class="footnotes">
+        <article>
+          <span>۰۱ / روش</span>
+          <h2>نمونه‌ها، سپس بازنویسی</h2>
+          <p>
+            سیستم نمونه‌های نزدیک را بازیابی می‌کند و برای راهنمایی مدل به کار
+            می‌برد. مدل در این پروژه فاین‌تیون نشده است.
+          </p>
+        </article>
+        <article>
+          <span>۰۲ / بررسی نتیجه</span>
+          <h2>قضاوت نهایی با خواننده است</h2>
+          <p>
+            خروجی می‌تواند معنا یا جزئیات را تغییر دهد. این ابزار تضمین حفظ معنا
+            یا عبور از تشخیص‌دهنده‌های AI نمی‌دهد.
+          </p>
+        </article>
+        <article>
+          <span>۰۳ / اتصال</span>
+          <h2 id="connection">در حال بررسی سرور…</h2>
+          <p id="connection-note">
+            آماده‌بودن API، روشن بودن Ollama یا در دسترس بودن مدل را تضمین
+            نمی‌کند.
+          </p>
+          <button id="retry" type="button" class="quiet">بررسی دوباره</button>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <span dir="ltr">Persian Humanizer / Rizwanullah Muahed</span
+      ><span>متن را بخوان، مقایسه کن، بعد استفاده کن.</span>
+    </footer>
+  </body>
 </html>

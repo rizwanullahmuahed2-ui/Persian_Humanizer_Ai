@@ -283,7 +283,7 @@ def node_retrieve(state: HumanizerState) -> HumanizerState:
         print(f"[GRAPH] retrieve → {len(examples)} examples")
         return {**state, "retrieved_examples": examples, "error": None}
     except Exception as e:
-        print(f"[GRAPH] retrieve error: {e}")
+        print(f"[GRAPH] retrieve error: {type(e).__name__}")
         return {**state, "retrieved_examples": [], "error": None}
 
 
@@ -303,17 +303,15 @@ def node_humanize(state: HumanizerState) -> HumanizerState:
         t0  = time.time()
         raw = llm.invoke(prompt)
         print(f"[GRAPH] humanize ← {len(raw)} chars in {time.time()-t0:.1f}s")
-        print(f"[GRAPH] raw: {raw[:250]!r}")
 
         humanized = clean(raw, state["input_text"])
         if not humanized or len(humanized) < 3:
             humanized = raw.strip()
 
-        print(f"[GRAPH] cleaned: {humanized[:200]!r}")
         return {**state, "humanized_text": humanized, "error": None}
 
     except Exception as e:
-        print(f"[GRAPH] humanize error: {e}")
+        print(f"[GRAPH] humanize error: {type(e).__name__}")
         return {**state, "humanized_text": "", "error": str(e)}
 
 
