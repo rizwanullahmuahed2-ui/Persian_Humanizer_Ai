@@ -26,48 +26,34 @@
         <p class="eyebrow">برای وقتی که متن، روان‌تر می‌تواند باشد</p>
         <h1>همان حرف،<br /><span>با بیان ساده‌تر.</span></h1>
         <p>
-          متن را وارد کن، لحن را انتخاب کن و نتیجه را کنار اصل متن بخوان. پیش از
-          استفاده، معنا و جزئیات را خودت بررسی کن.
+          متن را وارد کن و «انسانی‌سازی متن» را بزن. نتیجه را کنار اصل متن بخوان
+          و پیش از استفاده، معنا و جزئیات را بررسی کن.
         </p>
       </section>
       <section class="workspace" id="editor" aria-label="ویرایشگر بازنویسی">
         <form id="rewrite-form">
           <div class="toolbar">
-            <fieldset>
-              <legend>لحن بازنویسی</legend>
-              <div class="tones">
-                <label
-                  ><input
-                    type="radio"
-                    name="style"
-                    value="casual"
-                    checked
-                  /><span>روزمره</span></label
-                ><label
-                  ><input type="radio" name="style" value="friendly" /><span
-                    >دوستانه</span
-                  ></label
-                ><label
-                  ><input type="radio" name="style" value="formal" /><span
-                    >رسمی</span
-                  ></label
-                >
-              </div>
-            </fieldset>
-            <div class="model">
-              <label for="model">مدل</label
-              ><select id="model">
-                <option value="llama3.1:8b">Llama 3.1 · محلی</option>
-                <option value="gpt-4.1-mini" disabled>
-                  GPT-4.1 mini · تنظیم نشده
-                </option>
-              </select>
+            <div class="editor-purpose">
+              <span class="mode-label">انسانی‌ساز فارسی و دری</span>
+              <p>یک بازنویسی روان و طبیعی، با حفظ معنا و جزئیات متن.</p>
             </div>
+            <details class="connection-settings">
+              <summary>تنظیمات اتصال</summary>
+              <div class="model">
+                <label for="model">مدل پردازش</label>
+                <select id="model">
+                  <option value="llama3.1:8b">Llama 3.1 · محلی</option>
+                  <option value="gpt-4.1-mini" disabled>
+                    GPT-4.1 mini · تنظیم نشده
+                  </option>
+                </select>
+              </div>
+              <p id="model-note" class="note">
+                مدل محلی به Ollama نیاز دارد. در اولین اجرا، دریافت مدل‌های
+                بازیابی ممکن است زمان ببرد.
+              </p>
+            </details>
           </div>
-          <p id="model-note" class="note">
-            مدل محلی به Ollama نیاز دارد. در اولین اجرا، دریافت مدل‌های بازیابی
-            ممکن است زمان ببرد.
-          </p>
           <div class="editors">
             <div class="panel">
               <div class="panel-heading">
@@ -91,7 +77,7 @@
             </div>
             <section class="panel result" aria-labelledby="output-title">
               <div class="panel-heading">
-                <h2 id="output-title">نسخهٔ بازنویسی‌شده</h2>
+                <h2 id="output-title">متن انسانی‌شده</h2>
                 <button id="copy" type="button" class="quiet" disabled>
                   کپی متن
                 </button>
@@ -112,7 +98,7 @@
           </div>
           <div class="actions">
             <button id="submit" class="primary" type="submit">
-              بازنویسی متن <span aria-hidden="true">←</span></button
+              انسانی‌سازی متن <span aria-hidden="true">←</span></button
             ><button id="cancel" type="button" hidden>توقف</button>
             <p id="progress" role="status" aria-live="polite"></p>
           </div>
@@ -126,18 +112,18 @@
       <section class="footnotes">
         <article>
           <span>۰۱ / روش</span>
-          <h2>نمونه‌ها، سپس بازنویسی</h2>
+          <h2>روان و یکدست</h2>
           <p>
-            سیستم نمونه‌های نزدیک را بازیابی می‌کند و برای راهنمایی مدل به کار
-            می‌برد. مدل در این پروژه فاین‌تیون نشده است.
+            عبارت‌های خشک و تکراری روان‌تر می‌شوند. متن به‌اجبار رسمی یا
+            محاوره‌ای نمی‌شود و گویش اصلی آن حفظ می‌شود.
           </p>
         </article>
         <article>
           <span>۰۲ / بررسی نتیجه</span>
           <h2>قضاوت نهایی با خواننده است</h2>
           <p>
-            خروجی می‌تواند معنا یا جزئیات را تغییر دهد. این ابزار تضمین حفظ معنا
-            یا عبور از تشخیص‌دهنده‌های AI نمی‌دهد.
+            نام‌ها، عددها، ارجاع‌ها و جمله‌های مهم را با متن اصلی مقایسه کن؛
+            به‌خصوص اگر متن علمی یا کاری است.
           </p>
         </article>
         <article>

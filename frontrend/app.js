@@ -18,9 +18,6 @@ function count() {
 function busy(value) {
   for (const id of ["submit", "sample", "clear", "input", "model"])
     $(id).disabled = value;
-  document.querySelectorAll('[name="style"]').forEach((input) => {
-    input.disabled = value;
-  });
   $("cancel").hidden = !value;
   $("output").setAttribute("aria-busy", String(value));
   $("copy").disabled = $("download").disabled = value || !completed;
@@ -103,7 +100,6 @@ $("rewrite-form").addEventListener("submit", async (event) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         text,
-        style: document.querySelector('[name="style"]:checked').value,
         model: $("model").value,
       }),
       signal: controller.signal,

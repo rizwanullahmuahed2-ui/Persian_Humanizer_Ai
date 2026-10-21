@@ -1,6 +1,6 @@
 # Persian Humanizer
 
-A web app for rewriting formal Persian text into something easier to read. You paste a short passage, choose a tone, and watch the rewrite appear as it is generated.
+A web app for making Persian and Dari text read more naturally. Paste a short passage, press **Humanize**, and compare the result beside the original. There is one rewriting workflow, with no tone or style selector.
 
 The project explores Persian and Dari rewriting through a combination of example retrieval and language-model generation. It keeps the original text beside the output so you can compare them and decide whether the wording still says what you meant.
 
@@ -11,9 +11,9 @@ The default model is **Llama 3.1 8B through Ollama**. The backend also supports 
 ## What you can do
 
 - Rewrite passages of up to 2,000 characters.
-- Choose casual, friendly, or formal wording in the browser.
+- Use one natural-rewriting policy that aims to keep the original meaning, register and dialect.
 - Follow retrieval and generation progress while the response streams.
-- Select a configured local or OpenAI model, stop a request, copy or download a completed rewrite.
+- Stop a request, copy or download a completed rewrite. Optional model selection is under connection settings.
 - Call the backend directly for a complete JSON response or a streamed response.
 
 The browser interface is built with HTML, CSS, and JavaScript. It uses a right-to-left layout and includes responsive styles; there is no React app or frontend build step.
@@ -22,23 +22,23 @@ The browser interface is built with HTML, CSS, and JavaScript. It uses a right-t
 
 The backend first searches a dataset of paired texts. Each row has an input passage and a reference rewrite. Chroma stores embeddings of the input passages, while the reference rewrites stay in document metadata.
 
-Retrieval looks for up to 20 candidates, preferring examples with the requested style. A cross-encoder then selects up to four examples. If the reranker cannot load, the system uses the initial retrieval order.
+Retrieval looks for up to 20 candidates by content similarity, without a style filter or style-ranking bonus. A cross-encoder then selects up to four examples. If the reranker cannot load, the system uses the initial retrieval order.
 
-The prompt uses at most two of those pairs, and only when both sides are 80 characters or shorter. If none qualify, it uses a built-in fallback example. The selected model receives those examples, the requested style, and the user's text. After generation, the backend removes common labels, extra explanations, and some repeated alternatives.
+The prompt uses at most two of those pairs, and only when both sides are 80 characters or shorter. If none qualify, it uses a built-in fallback example. Both JSON and streaming generation use the same fixed prompt, examples and fallback behavior. The prompt asks for one natural rewrite, retaining names, numbers, references, negation and technical terms without forcing a formal or conversational tone. Cleanup removes response wrappers while preserving paragraphs, citations and English terms.
 
 This is retrieval-guided prompting. The code does not fine-tune a model on the dataset.
 
-### A pair from the dataset
+### Built-in fallback example
 
 **Input**
 
-> متأسفانه امکان شرکت در جلسه مذکور برای اینجانب میسر نخواهد بود.
+> خواهشمند است اسناد مربوطه را تا روز دوشنبه ارسال نمایید.
 
 **Reference rewrite**
 
-> ببخشید نمی‌تونم بیام جلسه.
+> لطفاً اسناد مربوط را تا دوشنبه بفرستید.
 
-This is a stored example, not a recorded live response. Generated wording depends on the model, style, and retrieved examples.
+This is the built-in fallback pair, not a recorded live response. Generated wording depends on the model and retrieved examples. The source dataset includes varied registers; a reference pair is not a target style for every request.
 
 ## Main components
 
@@ -110,12 +110,13 @@ Try this request in the interactive API docs:
 ```json
 {
   "text": "لطفاً نسبت به ارسال مستندات مربوطه در اسرع وقت اقدام فرمایید.",
-  "style": "casual",
   "model": "llama3.1:8b"
 }
 ```
 
-The JSON response includes `original`, `humanized`, `style`, `model`, `evaluation`, `examples_used`, and `error`. The example count describes retrieved candidates, not necessarily the number of pairs included in the prompt.
+The JSON response includes `original`, `humanized`, `model`, `evaluation`, `examples_used`, and `error`. The example count describes retrieved candidates, not necessarily the number of pairs included in the prompt.
+
+The public request schema has no `style` field. Older clients can still send it; it is ignored and cannot change the rewriting policy.
 
 The streaming endpoint emits named payloads such as `__RETRIEVING__`, `__GENERATING__`, `__TOKEN__`, `__TEXT__`, `__EVAL__`, `__DONE__`, and `__ERROR__`. The final `__TEXT__` payload contains the cleaned rewrite.
 
@@ -129,7 +130,7 @@ OPENAI_API_KEY=
 
 Restart the backend, then send a request with `"model": "gpt-4.1-mini"`. The key stays on the backend; `.env` is excluded by the repository's `.gitignore`. This option makes requests to OpenAI and incurs API usage charges. The request includes the input text and the examples placed in the prompt.
 
-The browser model selector enables GPT when the backend reports a configured key. This checks configuration only, not billing, model access or provider connectivity. The browser never receives the key.
+Under **connection settings**, the model selector enables GPT when the backend reports a configured key. This checks configuration only, not billing, model access or provider connectivity. The browser never receives the key.
 
 ## Dataset and evaluation
 
@@ -137,11 +138,11 @@ The browser model selector enables GPT when the backend reports a configured key
 
 - `ai`: the original passage used for retrieval.
 - `human`: the reference rewrite.
-- `style`: the requested tone.
+- `style`: the historical dataset annotation, retained for research comparisons.
 - `transformation`: the type of rewrite.
 - `notes`: additional information about the pair.
 
-The browser offers three styles, while the dataset contains more. The column names are dataset labels; they do not establish how each text was authored.
+The application has one rewriting policy. Dataset style annotations remain available to the historical retrieval-comparison scripts; the user-facing API does not select between them. The column names are dataset labels; they do not establish how each text was authored.
 
 To create a separate evaluation split and generate outputs for review, run these commands from the project root:
 
@@ -183,7 +184,8 @@ A successful `/health` response is not an inference test. Its index status check
 ```text
 backend/
   api.py                  FastAPI endpoints
-  humanizer_graph.py      Retrieval, generation, cleanup, and streaming
+  humanizer_graph.py      Retrieval, generation and streaming
+  rewriting.py            Shared natural-rewriting prompt and conservative cleanup
   model_provider.py       Ollama model selection and the OpenAI client
   rag_engine.py           Dataset loading, embeddings, retrieval, and reranking
   Evaluator.py            Lexical evaluation used by streaming
@@ -223,6 +225,6 @@ python -m pytest -q
 node --test tests/stream.test.mjs
 ```
 
-These tests replace generation with controlled functions. They verify request validation, model selection, safe failures, disabled maintenance and fragmented UTF-8 streaming; they do not establish rewrite quality or a successful live provider call. Full generation additionally needs the application dependencies and either a working Ollama model or a valid funded OpenAI configuration.
+These tests replace generation with controlled functions. They verify one-policy API behavior, real LangGraph execution with a fake model, shared streaming/JSON prompts, content-based retrieval, conservative cleanup, safe failures, disabled maintenance and fragmented UTF-8 streaming; they do not establish rewrite quality or a successful live provider call. Full generation additionally needs the application dependencies and either a working Ollama model or a valid funded OpenAI configuration.
 
 [Research manuscript status](research/README.md): university-approved and unpublished, as reported by the owner. The actual manuscript is pending; no PDF or publication details have been invented.

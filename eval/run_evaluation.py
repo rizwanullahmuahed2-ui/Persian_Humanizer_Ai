@@ -63,7 +63,7 @@ def run():
 
         print(f"  [{idx+1}/{len(df)}] {original[:40]}...")
         try:
-            result = run_humanizer(original, style)
+            result = run_humanizer(original)
             system_out = result.get("humanized_text", "").strip()
             rule_eval = result.get("evaluation", {})
         except Exception as e:
@@ -75,7 +75,7 @@ def run():
         # برگه نمره‌دهی انسانی (ستون‌های نمره خالی برای پر کردن دستی)
         human_rows.append({
             "id": idx,
-            "style": style,
+            "dataset_style": style,
             "متن_اصلی": original,
             "خروجی_سیستم": system_out,
             "خروجی_مرجع": reference,
@@ -90,7 +90,7 @@ def run():
         # سنجه‌های خودکار
         auto_rows.append({
             "id": idx,
-            "style": style,
+            "dataset_style": style,
             "rule_overall": rule_eval.get("overall_score", ""),
             "rule_meaning": rule_eval.get("meaning_preserved", ""),
             "rule_naturalness": rule_eval.get("naturalness", ""),
