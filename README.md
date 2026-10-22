@@ -4,6 +4,8 @@ A web app for making Persian and Dari text read more naturally. Paste a short pa
 
 The project explores Persian and Dari rewriting through a combination of example retrieval and language-model generation. It keeps the original text beside the output so you can compare them and decide whether the wording still says what you meant.
 
+[Research paper (unpublished PDF)](research/Persian_Text_Humanization_Paper.pdf) · [Authors and version notes](research/README.md)
+
 The default model is **Llama 3.1 8B through Ollama**. The backend also supports **GPT-4.1 mini** through the OpenAI API.
 
 ![Right-to-left rewriting interface](docs/interface.png)
@@ -227,4 +229,4 @@ node --test tests/stream.test.mjs
 
 These tests replace generation with controlled functions. They verify one-policy API behavior, real LangGraph execution with a fake model, shared streaming/JSON prompts, content-based retrieval, conservative cleanup, safe failures, disabled maintenance and fragmented UTF-8 streaming; they do not establish rewrite quality or a successful live provider call. Full generation additionally needs the application dependencies and either a working Ollama model or a valid funded OpenAI configuration.
 
-[Research manuscript status](research/README.md): university-approved and unpublished, as reported by the owner. The actual manuscript is pending; no PDF or publication details have been invented.
+[Research manuscript](research/README.md): the supplied 21-page unpublished paper, with printed author details, a BibTeX citation, file fingerprint and notes distinguishing the manuscript from the current code.
