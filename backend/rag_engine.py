@@ -3,22 +3,16 @@
 from __future__ import annotations
 
 import os
-import warnings
+from typing import TYPE_CHECKING, Any, Dict, List
 
-warnings.filterwarnings("ignore", category=DeprecationWarning)
 os.environ.setdefault("HF_HUB_DISABLE_IMPLICIT_TOKEN", "1")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
-from typing import List, Dict, Any, TYPE_CHECKING
-from rewriting import format_examples_for_prompt
-
 if TYPE_CHECKING:
-    from langchain_core.documents import Document
     from langchain_community.vectorstores import Chroma
+    from langchain_core.documents import Document
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
-# اگر USE_TRAIN_SET=1 باشد، فقط روی train_set ایندکس ساخته می‌شود (برای ارزیابی بدون leakage).
-# در حالت عادی روی کل دیتاست ایندکس می‌سازد.
+# Evaluation must use an index built from training rows only.
 _USE_TRAIN_SET = os.environ.get("USE_TRAIN_SET", "0") == "1"
 
 if _USE_TRAIN_SET:
@@ -33,19 +27,12 @@ else:
     )
     CHROMA_DIR = os.path.join(os.path.dirname(__file__), "../data/chroma_db_v2")
 
-# ── Models ─────────────────────────────────────────────────────────────────────
-# Embedding: only on AI text (not paired, no chunking)
-# سند (مورد ۴): MiniLM قدیمی است ولی بد نیست. با EMBEDDING_MODEL می‌توان
-# E5 یا BGE را امتحان کرد — ولی اول با ab_test_retrieval.py اندازه بگیر.
 EMBEDDING_MODEL = os.environ.get(
     "EMBEDDING_MODEL",
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
 )
 
-# Reranker: cross-encoder for precision scoring
-# سند (مورد ۳): cross-encoder فعلی روی داده انگلیسی آموزش دیده.
-# با RERANKER_MODEL می‌توان نسخه چندزبانه (مثلاً BAAI/bge-reranker-v2-m3) را امتحان کرد.
-# پیش‌فرض همان نسخه فعلی است تا رفتار عوض نشود مگر اینکه عمداً تغییر دهی.
+# This reranker was trained on English; evaluate alternatives before replacing it.
 RERANKER_MODEL = os.environ.get(
     "RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2"
 )
@@ -86,38 +73,26 @@ def get_reranker():
     return _reranker if _reranker is not False else None
 
 
-# ── Document loading — NO chunking, embed only AI text ─────────────────────────
 def load_documents(csv_path: str) -> List[Document]:
-    import pandas as pd
+    import csv
+
     from langchain_core.documents import Document
 
-    df = pd.read_csv(csv_path)
     docs = []
-    for _, row in df.iterrows():
-        ai = str(row.get("ai", "")).strip()
-        human = str(row.get("human", "")).strip()
-        style = str(row.get("style", "casual")).strip()
-        transformation = str(row.get("transformation", "")).strip()
-        notes = str(row.get("notes", "")).strip()
-
-        if not ai or not human:
-            continue
-
-        # ★ Page content = ONLY the AI text (what we search against)
-        #   No pairing, no chunking — keeps vectors clean
-        docs.append(
-            Document(
-                page_content=ai,
-                metadata={
-                    "ai": ai,
-                    "human": human,
-                    "style": style,
-                    "transformation": transformation,
-                    "notes": notes,
-                },
-            )
-        )
-    print(f"[RAG] Loaded {len(docs)} documents (no chunking)")
+    with open(csv_path, encoding="utf-8-sig", newline="") as source:
+        rows = csv.DictReader(source)
+        if not {"ai", "human"}.issubset(rows.fieldnames or []):
+            raise ValueError("Example CSV must include ai and human columns")
+        for row in rows:
+            metadata = {
+                key: (row.get(key) or "").strip()
+                for key in ("ai", "human", "style", "transformation", "notes")
+            }
+            if not metadata["ai"] or not metadata["human"]:
+                continue
+            # Search the original text; keep its reference rewrite out of the vector.
+            docs.append(Document(page_content=metadata["ai"], metadata=metadata))
+    print(f"[RAG] Loaded {len(docs)} example pairs")
     return docs
 
 
@@ -156,7 +131,6 @@ def get_or_build_vectorstore() -> Chroma:
     return _vectorstore
 
 
-# ── Stage 1: Coarse retrieval with style filter ────────────────────────────────
 def _coarse_retrieve(
     vs: Chroma,
     query: str,
@@ -187,7 +161,6 @@ def _coarse_retrieve(
             continue
         seen.add(ai)
 
-        # Style bonus: boost score if style matches
         style_match = style is not None and doc.metadata.get("style", "") == style
         adjusted_score = float(score) * (0.85 if style_match else 1.0)  # lower = better
 
@@ -204,12 +177,10 @@ def _coarse_retrieve(
             }
         )
 
-    # Sort by adjusted score (lower distance = better)
     candidates.sort(key=lambda x: x["adjusted_score"])
     return candidates
 
 
-# ── Stage 2: Reranker ──────────────────────────────────────────────────────────
 def _rerank(query: str, candidates: List[Dict], top_k: int = 4) -> List[Dict]:
     """Cross-encoder reranking for precision. Falls back to raw order."""
     reranker = get_reranker()
@@ -229,7 +200,6 @@ def _rerank(query: str, candidates: List[Dict], top_k: int = 4) -> List[Dict]:
     return candidates[:top_k]
 
 
-# ── Public API ─────────────────────────────────────────────────────────────────
 def retrieve_examples(
     vectorstore: Chroma,
     query: str,
@@ -243,7 +213,6 @@ def retrieve_examples(
     return final
 
 
-# ── Index rebuild helper ───────────────────────────────────────────────────────
 def rebuild_index() -> Dict[str, int]:
     import shutil
 

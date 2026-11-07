@@ -3,7 +3,7 @@ import { consumeEvents } from "./stream.mjs";
 const $ = (id) => document.getElementById(id);
 const api =
   location.port === "5500" ? "http://127.0.0.1:8000" : location.origin;
-const numerals = new Intl.NumberFormat("fa");
+const numerals = new Intl.NumberFormat("fa-AF");
 let controller = null,
   result = "",
   completed = false;
@@ -61,7 +61,7 @@ $("model").addEventListener("change", modelNote);
 $("retry").addEventListener("click", health);
 $("sample").addEventListener("click", () => {
   $("input").value =
-    "استفاده از خدمات آنلاین می‌تواند باعث صرفه‌جویی در وقت شود، اما بررسی امنیت حساب و حفظ اطلاعات شخصی نیز ضروری است.";
+    "استفاده از خدمات آنلاین می‌تواند باعث صرفه‌جویی در وقت شود، اما بررسی امنیت حساب و حفظ معلومات شخصی نیز ضروری است.";
   count();
   $("input").focus();
 });
@@ -85,7 +85,7 @@ $("rewrite-form").addEventListener("submit", async (event) => {
   const text = $("input").value.trim();
   if (!text) return message("اول متن را وارد کن.");
   if ([...text].length > 2000)
-    return message("متن باید حداکثر ۲۰۰۰ کاراکتر باشد.");
+    return message("متن باید حداکثر ۲۰۰۰ حرف و نشانه باشد.");
   result = "";
   completed = false;
   controller = new AbortController();
@@ -144,7 +144,7 @@ $("rewrite-form").addEventListener("submit", async (event) => {
           : error.message,
     );
     $("result-note").textContent = result
-      ? "خروجی ناتمام؛ برای استفاده آماده نیست."
+      ? "نتیجه ناتمام است؛ برای استفاده آماده نیست."
       : "نتیجه دریافت نشد";
     if (!result) $("output").textContent = "پس از بررسی اتصال، دوباره کوشش کن.";
     $("progress").textContent = "";

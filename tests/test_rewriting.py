@@ -137,3 +137,28 @@ def test_wrapper_only_generation_is_a_failure(monkeypatch):
 def test_original_code_fences_are_not_treated_as_model_wrappers():
     text = "```sql\nSELECT 1;\n```"
     assert clean_output(text, text) == text
+
+
+def test_example_loader_skips_incomplete_pairs_and_keeps_literal_text(tmp_path):
+    path = tmp_path / "examples.csv"
+    path.write_text(
+        "\ufeffai,human,notes\n"
+        "متن اصلی,بازنویسی,\n"
+        ",بدون اصل,\n"
+        "بدون مرجع,,\n"
+        "   ,فاصله,\n"
+        'NA,null,"یادداشت، با کامه"\n',
+        encoding="utf-8",
+    )
+    docs = rag_engine.load_documents(str(path))
+    assert [doc.page_content for doc in docs] == ["متن اصلی", "NA"]
+    assert docs[0].metadata["notes"] == ""
+    assert docs[1].metadata["human"] == "null"
+    assert docs[1].metadata["notes"] == "یادداشت، با کامه"
+
+
+def test_example_loader_rejects_missing_pair_columns(tmp_path):
+    path = tmp_path / "examples.csv"
+    path.write_text("text,notes\nسلام,نمونه\n", encoding="utf-8")
+    with pytest.raises(ValueError, match="ai and human"):
+        rag_engine.load_documents(str(path))

@@ -30,8 +30,9 @@
 
 import os
 import sys
+from typing import Dict, List
+
 import pandas as pd
-from typing import List, Dict
 
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(HERE, "../backend"))
@@ -41,8 +42,8 @@ RESULTS_OUT = os.path.join(HERE, "retrieval_ab_results.csv")
 
 EMBEDDING_CANDIDATES = {
     "minilm": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-    "e5":     "intfloat/multilingual-e5-base",
-    "bge":    "BAAI/bge-m3",
+    "e5": "intfloat/multilingual-e5-base",
+    "bge": "BAAI/bge-m3",
 }
 
 LIMIT = int(os.environ.get("AB_LIMIT", "50"))
@@ -51,9 +52,10 @@ TOP_K = 4
 
 def build_temp_index(embedding_model: str, docs: List, persist_dir: str):
     """ساخت ایندکس موقت با یک embedding مشخص."""
-    from langchain_huggingface import HuggingFaceEmbeddings
-    from langchain_community.vectorstores import Chroma
     import shutil
+
+    from langchain_community.vectorstores import Chroma
+    from langchain_huggingface import HuggingFaceEmbeddings
 
     if os.path.exists(persist_dir):
         shutil.rmtree(persist_dir)
@@ -63,19 +65,28 @@ def build_temp_index(embedding_model: str, docs: List, persist_dir: str):
         model_kwargs={"device": "cpu"},
         encode_kwargs={"normalize_embeddings": True},
     )
-    vs = Chroma.from_documents(documents=docs, embedding=emb, persist_directory=persist_dir)
+    vs = Chroma.from_documents(
+        documents=docs, embedding=emb, persist_directory=persist_dir
+    )
     return vs, emb
 
 
-def evaluate_embedding(name: str, model: str, train_df: pd.DataFrame, test_df: pd.DataFrame) -> Dict:
+def evaluate_embedding(
+    name: str, model: str, train_df: pd.DataFrame, test_df: pd.DataFrame
+) -> Dict:
     """یک embedding را روی test می‌سنجد."""
     from langchain_core.documents import Document
 
     print(f"\n=== آزمایش embedding: {name} ({model}) ===")
     try:
         docs = [
-            Document(page_content=str(r["ai"]).strip(),
-                     metadata={"style": str(r.get("style", "")), "transformation": str(r.get("transformation", ""))})
+            Document(
+                page_content=str(r["ai"]).strip(),
+                metadata={
+                    "style": str(r.get("style", "")),
+                    "transformation": str(r.get("transformation", "")),
+                },
+            )
             for _, r in train_df.iterrows()
             if str(r.get("ai", "")).strip()
         ]
@@ -107,6 +118,7 @@ def evaluate_embedding(name: str, model: str, train_df: pd.DataFrame, test_df: p
                 transform_hits += 1
 
     import shutil
+
     shutil.rmtree(persist, ignore_errors=True)
 
     res = {

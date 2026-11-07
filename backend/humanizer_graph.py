@@ -1,14 +1,14 @@
 """Retrieve examples and apply one natural-rewriting policy through LangGraph or SSE."""
 
-from typing import TypedDict, Optional, List, Dict, Any, Iterator
-from model_provider import DEFAULT_MODEL, GPT_MODEL, GPTClient, validate_model
-from rewriting import build_prompt, clean_output
+import difflib
 import re
 import time
-import difflib
+from typing import Any, Dict, Iterator, List, Optional, TypedDict
+
+from model_provider import DEFAULT_MODEL, GPT_MODEL, GPTClient, validate_model
+from rewriting import build_prompt, clean_output
 
 
-# ── State ──────────────────────────────────────────────────────────────────────
 class HumanizerState(TypedDict):
     input_text: str
     model: str
@@ -18,7 +18,6 @@ class HumanizerState(TypedDict):
     error: Optional[str]
 
 
-# ── LLM ────────────────────────────────────────────────────────────────────────
 def get_llm(model: str = DEFAULT_MODEL):
     validate_model(model)
     if model == GPT_MODEL:
@@ -43,27 +42,16 @@ def retrieve_examples(*args, **kwargs):
 
 
 def rule_based_eval(original: str, humanized: str) -> Dict[str, Any]:
-    """
-    Real metrics — no LLM judging.
-    1. meaning_preserved  → character n-gram overlap (simhash-like)
-    2. naturalness        → avg sentence length + punctuation ratio
-    3. formality_reduced  → drop in formal markers
-    4. length_ratio       → not too long, not too short
-    5. dari_markers       → count Dari-specific words
-    """
+    """Legacy lexical diagnostics on a 0–10 scale, not semantic quality scores."""
 
-    # ── 1. Meaning preservation (sequence similarity on words) ──
     orig_words = original.split()
     hum_words = humanized.split()
     sm = difflib.SequenceMatcher(None, orig_words, hum_words)
     meaning_score = round(min(sm.ratio() * 1.4, 1.0) * 10, 1)  # scale to 0-10
-    # We want some similarity (meaning kept) but not 1.0 (means no change)
     meaning_score = max(3.0, min(meaning_score, 10.0))
 
-    # ── 2. Naturalness (shorter sentences = more natural) ──
     sentences = [s.strip() for s in re.split(r"[.،؟!]", humanized) if s.strip()]
     avg_len = sum(len(s.split()) for s in sentences) / max(len(sentences), 1)
-    # Sweet spot: 5-12 words per sentence
     if avg_len <= 12:
         naturalness = 9.0
     elif avg_len <= 18:
@@ -71,7 +59,6 @@ def rule_based_eval(original: str, humanized: str) -> Dict[str, Any]:
     else:
         naturalness = 5.5
 
-    # ── 3. Formality reduction ──
     formal_markers = [
         "می‌گردد",
         "می‌شود",
@@ -101,7 +88,6 @@ def rule_based_eval(original: str, humanized: str) -> Dict[str, Any]:
         formality_score = round(min(reduction * 10 + 4, 10), 1)
         formality_score = max(3.0, formality_score)
 
-    # ── 4. Length ratio ──
     ratio = len(humanized) / max(len(original), 1)
     if 0.3 <= ratio <= 0.95:
         length_score = 9.0
@@ -110,7 +96,6 @@ def rule_based_eval(original: str, humanized: str) -> Dict[str, Any]:
     else:
         length_score = 6.0  # too long (repetition?)
 
-    # ── 5. Dari dialect markers ──
     dari_words = [
         "میتم",
         "میتی",
@@ -144,7 +129,6 @@ def rule_based_eval(original: str, humanized: str) -> Dict[str, Any]:
         1,
     )
 
-    # Feedback
     issues = []
     if meaning_score < 5:
         issues.append("معنا کمی تغییر کرده")
@@ -169,7 +153,6 @@ def rule_based_eval(original: str, humanized: str) -> Dict[str, Any]:
     }
 
 
-# ── Nodes ──────────────────────────────────────────────────────────────────────
 _vs = None
 
 
@@ -241,9 +224,8 @@ def _should_evaluate(state: HumanizerState) -> str:
     return "evaluate" if state.get("humanized_text") else "end"
 
 
-# ── Graph ──────────────────────────────────────────────────────────────────────
 def build_graph():
-    from langgraph.graph import StateGraph, END
+    from langgraph.graph import END, StateGraph
 
     g = StateGraph(HumanizerState)
     g.add_node("retrieve", node_retrieve)
@@ -283,7 +265,6 @@ def run_humanizer(input_text: str, model: str = DEFAULT_MODEL) -> Dict[str, Any]
     return result
 
 
-# ── Streaming ──────────────────────────────────────────────────────────────────
 def stream_humanizer(input_text: str, model: str = DEFAULT_MODEL) -> Iterator[str]:
     """
     Yields tokens one-by-one for SSE streaming.
@@ -292,12 +273,10 @@ def stream_humanizer(input_text: str, model: str = DEFAULT_MODEL) -> Iterator[st
     validate_model(model)
     import json
 
-    # Step 1: retrieve (fast)
     yield "data: __RETRIEVING__\n\n"
     examples = find_examples(input_text)
     prompt = build_prompt(input_text, examples)
 
-    # Step 2: stream inference
     yield "data: __GENERATING__\n\n"
 
     llm = get_llm(model)
@@ -307,7 +286,6 @@ def stream_humanizer(input_text: str, model: str = DEFAULT_MODEL) -> Iterator[st
         full_text += chunk
         yield f"data: __TOKEN__{json.dumps(chunk, ensure_ascii=False)}\n\n"
 
-    # Step 3: evaluation — از ارزیاب واحد سیستم استفاده می‌کنیم
     humanized = clean(full_text, input_text)
     if not humanized:
         raise RuntimeError(

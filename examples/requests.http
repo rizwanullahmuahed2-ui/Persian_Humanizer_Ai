@@ -1,0 +1,11 @@
+### Check the API without loading a model
+GET http://127.0.0.1:8000/health
+
+### Rewrite with local Ollama (requires the model and retrieval dependencies)
+POST http://127.0.0.1:8000/humanize
+Content-Type: application/json
+
+{
+  "text": "لطفاً اسناد مربوط را تا روز دوشنبه ارسال نمایید.",
+  "model": "llama3.1:8b"
+}

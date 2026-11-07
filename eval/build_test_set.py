@@ -8,12 +8,13 @@
 """
 
 import os
+
 import pandas as pd
 
 HERE = os.path.dirname(__file__)
 FULL_DATASET = os.path.join(HERE, "../data/persian_humanizer_dataset.csv")
-TEST_OUT     = os.path.join(HERE, "test_set.csv")
-TRAIN_OUT    = os.path.join(HERE, "../data/train_set.csv")
+TEST_OUT = os.path.join(HERE, "test_set.csv")
+TRAIN_OUT = os.path.join(HERE, "../data/train_set.csv")
 
 N_TEST = 200
 SEED = 42

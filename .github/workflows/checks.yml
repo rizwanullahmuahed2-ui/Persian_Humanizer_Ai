@@ -15,5 +15,7 @@ jobs:
         with:
           node-version: '24'
       - run: python -m pip install -r requirements-test.txt
+      - run: ruff check backend eval tests
+      - run: ruff format --check backend eval tests
       - run: python -m pytest -q
       - run: node --test tests/stream.test.mjs

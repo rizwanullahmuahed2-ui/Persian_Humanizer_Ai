@@ -16,7 +16,7 @@ ChatGPT/Claude را نمی‌توان از اینجا صدا زد (نیاز به
 
 import os
 import sys
-import csv
+
 import pandas as pd
 
 HERE = os.path.dirname(__file__)
@@ -45,7 +45,7 @@ def run():
     # وارد کردن سیستم (با USE_TRAIN_SET=1 تا leakage نباشد)
     os.environ["USE_TRAIN_SET"] = "1"
     try:
-        from backend.humanizer_graph  import run_humanizer
+        from backend.humanizer_graph import run_humanizer
     except Exception as e:
         print(f"❌ بارگذاری سیستم شکست خورد: {e}")
         print("   مطمئن شو Ollama و مدل llama3.1:8b در دسترس‌اند.")
@@ -61,7 +61,7 @@ def run():
         reference = str(row.get("human", "")).strip()  # خروجی مرجع دیتاست
         style = str(row.get("style", "casual")).strip()
 
-        print(f"  [{idx+1}/{len(df)}] {original[:40]}...")
+        print(f"  [{idx + 1}/{len(df)}] {original[:40]}...")
         try:
             result = run_humanizer(original)
             system_out = result.get("humanized_text", "").strip()
@@ -73,32 +73,36 @@ def run():
         d = dari_score(system_out)
 
         # برگه نمره‌دهی انسانی (ستون‌های نمره خالی برای پر کردن دستی)
-        human_rows.append({
-            "id": idx,
-            "dataset_style": style,
-            "متن_اصلی": original,
-            "خروجی_سیستم": system_out,
-            "خروجی_مرجع": reference,
-            "gpt_output": "",      # دستی پر کن اگر خواستی
-            "claude_output": "",   # دستی پر کن اگر خواستی
-            "نمره_حفظ_معنا_1تا5": "",
-            "نمره_طبیعی_بودن_1تا5": "",
-            "نمره_دری_بودن_1تا5": "",
-            "توضیح_ارزیاب": "",
-        })
+        human_rows.append(
+            {
+                "id": idx,
+                "dataset_style": style,
+                "متن_اصلی": original,
+                "خروجی_سیستم": system_out,
+                "خروجی_مرجع": reference,
+                "gpt_output": "",  # دستی پر کن اگر خواستی
+                "claude_output": "",  # دستی پر کن اگر خواستی
+                "نمره_حفظ_معنا_1تا5": "",
+                "نمره_طبیعی_بودن_1تا5": "",
+                "نمره_دری_بودن_1تا5": "",
+                "توضیح_ارزیاب": "",
+            }
+        )
 
         # سنجه‌های خودکار
-        auto_rows.append({
-            "id": idx,
-            "dataset_style": style,
-            "rule_overall": rule_eval.get("overall_score", ""),
-            "rule_meaning": rule_eval.get("meaning_preserved", ""),
-            "rule_naturalness": rule_eval.get("naturalness", ""),
-            "rule_formality": rule_eval.get("formality_reduced", ""),
-            "dari_ratio": d["dari_ratio"],
-            "dari_count": d["dari_count"],
-            "iranian_count": d["iranian_count"],
-        })
+        auto_rows.append(
+            {
+                "id": idx,
+                "dataset_style": style,
+                "rule_overall": rule_eval.get("overall_score", ""),
+                "rule_meaning": rule_eval.get("meaning_preserved", ""),
+                "rule_naturalness": rule_eval.get("naturalness", ""),
+                "rule_formality": rule_eval.get("formality_reduced", ""),
+                "dari_ratio": d["dari_ratio"],
+                "dari_count": d["dari_count"],
+                "iranian_count": d["iranian_count"],
+            }
+        )
 
     # ذخیره
     pd.DataFrame(human_rows).to_csv(HUMAN_SHEET, index=False, encoding="utf-8-sig")

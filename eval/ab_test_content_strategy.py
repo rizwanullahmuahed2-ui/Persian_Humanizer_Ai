@@ -19,10 +19,11 @@
 """
 
 import os
-import sys
 import shutil
+import sys
+from typing import Dict, List
+
 import pandas as pd
-from typing import List, Dict
 
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(HERE, "../backend"))
@@ -38,6 +39,7 @@ TOP_K = 4
 
 def make_docs(train_df: pd.DataFrame, strategy: str) -> List:
     from langchain_core.documents import Document
+
     docs = []
     for _, r in train_df.iterrows():
         ai = str(r.get("ai", "")).strip()
@@ -52,17 +54,25 @@ def make_docs(train_df: pd.DataFrame, strategy: str) -> List:
             content = ai + " " + human
         else:
             raise ValueError(strategy)
-        docs.append(Document(
-            page_content=content,
-            metadata={"style": str(r.get("style", "")),
-                      "transformation": str(r.get("transformation", "")),
-                      "ai": ai, "human": human},
-        ))
+        docs.append(
+            Document(
+                page_content=content,
+                metadata={
+                    "style": str(r.get("style", "")),
+                    "transformation": str(r.get("transformation", "")),
+                    "ai": ai,
+                    "human": human,
+                },
+            )
+        )
     return docs
 
 
-def eval_strategy(strategy: str, train_df: pd.DataFrame, test_df: pd.DataFrame, emb) -> Dict:
+def eval_strategy(
+    strategy: str, train_df: pd.DataFrame, test_df: pd.DataFrame, emb
+) -> Dict:
     from langchain_community.vectorstores import Chroma
+
     print(f"\n=== استراتژی: page_content = {strategy} ===")
 
     persist = os.path.join(HERE, f"_tmp_content_{strategy}")
@@ -74,7 +84,7 @@ def eval_strategy(strategy: str, train_df: pd.DataFrame, test_df: pd.DataFrame, 
 
     style_hits = transform_hits = total = 0
     for _, row in test_df.iterrows():
-        query = str(row["ai"]).strip()   # کوئری همیشه متن AI/رسمی است
+        query = str(row["ai"]).strip()  # کوئری همیشه متن AI/رسمی است
         if not query:
             continue
         q_style = str(row.get("style", ""))
@@ -107,6 +117,7 @@ def main():
         return
 
     from langchain_huggingface import HuggingFaceEmbeddings
+
     emb = HuggingFaceEmbeddings(
         model_name=EMBEDDING,
         model_kwargs={"device": "cpu"},
@@ -118,7 +129,9 @@ def main():
     if LIMIT:
         test_df = test_df.iloc[:LIMIT]
 
-    results = [eval_strategy(s, train_df, test_df, emb) for s in ["ai", "human", "combined"]]
+    results = [
+        eval_strategy(s, train_df, test_df, emb) for s in ["ai", "human", "combined"]
+    ]
     rdf = pd.DataFrame(results)
     rdf.to_csv(RESULTS_OUT, index=False, encoding="utf-8-sig")
 
