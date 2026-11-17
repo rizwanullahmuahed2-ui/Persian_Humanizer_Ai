@@ -1,0 +1,36 @@
+{
+  "job_id": "e91da3f682315dfe75c8d4930cf6039208c598d6b951c94c3c58df6ebe622cb0",
+  "query_id": "PH-72d0d0239b1f549e141c",
+  "group_id": "d88bbc0bd1d592723b15808d145db6df3b406d94cf4758fdf6d56f404cf0d615",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "1467228780a6bf031f19c7c4a440f90a461bbc6528515d1baf7d96dbe5d1fc75",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_2c6a7ca306db4f1b98e7169fd5896997",
+  "wall_seconds": 0.6578692669991142,
+  "raw_sha256": "d8fe19b716c1cc7eed61fcf8fde99e810f073707bbfdf2f5ff2452bfe334f2cf",
+  "output": "منابع آب شیرین در کره زمین به شدت محدود هستند.",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 14,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ISdjoUpowu3n7c3pISWAxuOYjF",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000327"
+}

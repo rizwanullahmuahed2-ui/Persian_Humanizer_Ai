@@ -1,0 +1,41 @@
+{
+  "job_id": "bb0ede70235617fc95818151ff2a0017e254971bcb358e4a18ecde9bd603827a",
+  "query_id": "PH-c50f86cbb162df53f5b9",
+  "group_id": "e3f7a6acd45538d05f0dc6e5020ab9d420f93112c914ab570a0e375ad6f0c094",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "15b450e411d8dfe2bb1748f2b5801dbb9f19e3b782aedbe16afcd04dd7fa61e8",
+  "retrieved_ids": [
+    "PH-5b8a75e2a3ac338fdf9f",
+    "PH-f5e747f3e952503822f3",
+    "PH-32fad01c50b896629931",
+    "PH-73018e2f9dda49080a20"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_738a696e56b444c6a2bad302984f2058",
+  "wall_seconds": 0.8575056039999254,
+  "raw_sha256": "78192500375b95c42f229321259dbb466364c2e749ea3958f967eb728aca5c5a",
+  "output": "این سیستم از یادگیری تقویتی با استفاده از بازخورد انسانی بهره می‌برد.",
+  "usage": {
+    "prompt_tokens": 329,
+    "completion_tokens": 20,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Ilb2td5LbD7vcfNmEYKiE0zCYu",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006135"
+}

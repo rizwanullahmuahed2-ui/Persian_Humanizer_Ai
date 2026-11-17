@@ -1,0 +1,38 @@
+{
+  "job_id": "65a2e7dcac2a46cb9c980ce3c18399408500a21556084309b2a3933d763f1227",
+  "query_id": "PH-ca83087a8d9a1f2f0eb2",
+  "group_id": "55a5295f74079b6766ef468b6c7b8176df383620b1fc31164fef42e1c587b3dc",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "7ba1a39b193154f5508ab738d57244b0e7fd3c6c237ab8da75709be2a4a68f48",
+  "retrieved_ids": [
+    "PH-9c61b6eb5250cab165af"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_3904422d3036454fa015c76f450e2734",
+  "wall_seconds": 0.45982183199976134,
+  "raw_sha256": "4cbfdbc548a17e56cd4802fb3ec5b488aae94924075bfb43068856c962391da5",
+  "output": "این بلاک‌چین از الگوریتم اجماع proof-of-stake بهره می‌برد.",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 21,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GRT5BqNSMSsrnTikmHljo7YhkS",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001124"
+}

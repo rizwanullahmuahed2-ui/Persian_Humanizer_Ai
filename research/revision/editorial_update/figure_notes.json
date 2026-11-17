@@ -1,0 +1,317 @@
+{
+  "scope": "Additional presentation figures generated from completed, frozen artifacts; no new inference or human ratings",
+  "plot_script_sha256": "b6b3ee233744a06229723ea37c209a2f0bc6928242862b6cc0e60ed7bc5b3970",
+  "source_sha256": {
+    "experiments/combined_analysis/analysis.json": "2de822caedb74dd9a06d259a2814482d41ef4e36d2df0c20341f44e9224f8c5f",
+    "experiments/numeric_analysis/analysis.json": "0cee85b69e4aafaa96418d92ef2aaa1825cbd478f6fe60059810e50463b91d82",
+    "experiments/combined_analysis/response_diagnostics.csv": "5b7437507fa4e9067538abe9d5586cc2a0947b305c80394b003d72b275827901",
+    "corpus_analysis/split_manifest.json": "8da2814f1af04f50afee7e9b9736cbcc1566ddbe0d1e2935e4a86375a74bbd5d",
+    "experiments/api_study_v1/plan.json": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+    "experiments/api_study_secondary/plan.json": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+    "experiments/api_numeric_diagnostic_run/plan.json": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152"
+  },
+  "figures": [
+    {
+      "png": "manuscript/figures/new_runtime_architecture.png",
+      "pdf": "manuscript/figures/new_runtime_architecture.pdf",
+      "png_sha256": "0fcd6486ddebf019419bb7d95864849ceaadeab68f6681e8537c7343b07ca4fb",
+      "pdf_sha256": "353b9771b4d387498195170c3d194e2b440a76df6ab2f3707e20fc68e2796fe9",
+      "purpose": "Clarifies the actual controlled API experiment architecture, with source-only train embedding and a zero-example path without the production fallback.",
+      "caption": "Architecture of the controlled API experiment. Only training source fields are indexed; associated rewrites are joined by stable pair identifiers after example selection. The original held-out input reaches the shared preservation prompt in every condition. This research harness is distinct from the earlier local application.",
+      "suggested_insertion": "Section 5.1, after explaining source-only training vectors and prompt construction.",
+      "evidence": [
+        "experiments/api_study_v1/plan.json",
+        "experiments/api_study_secondary/plan.json",
+        "experiments/api_numeric_diagnostic_run/plan.json"
+      ],
+      "note": "Diagram of executed method; it does not add ChromaDB, reranking or a local Llama run to the API study."
+    },
+    {
+      "png": "manuscript/figures/new_generation_outcomes.png",
+      "pdf": "manuscript/figures/new_generation_outcomes.pdf",
+      "png_sha256": "af3c79ac2e7b83c06cb409ee7af2a7eb9b438a16dfca5805887c14bcc16162a7",
+      "pdf_sha256": "32dbddda3ab0f0cb03dabdf9bfd51f7f33e320367a75e0f3873bab744dc37f95",
+      "purpose": "Makes the eight actual mean outcome cells comparable across source retention and reference agreement.",
+      "caption": "Mean output–input and output–associated-rewrite ROUGE-L F1 for the same 100 query groups under each condition and model. The full zero-to-one scale is shown. Associated rewrites are unvalidated references; these overlap scores are not naturalness or factual-accuracy measures.",
+      "suggested_insertion": "Section 6.1, after Table 6.",
+      "data": [
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "LLM0",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6250972500057438,
+            "median": 0.6339712918660287,
+            "min": 0.23529411764705882,
+            "max": 1.0
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.36210713374061065,
+            "median": 0.3693181818181818,
+            "min": 0.0,
+            "max": 0.75
+          }
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "random4",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6573768364866763,
+            "median": 0.6666666666666666,
+            "min": 0.0,
+            "max": 1.0
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.4463826146134667,
+            "median": 0.47058823529411764,
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "semantic1",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6128036720624817,
+            "median": 0.6666666666666666,
+            "min": 0.18181818181818182,
+            "max": 0.9411764705882353
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.40884408009678247,
+            "median": 0.4444444444444444,
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "semantic4",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6436869747689979,
+            "median": 0.6666666666666666,
+            "min": 0.16,
+            "max": 1.0
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.4512829134476597,
+            "median": 0.47058823529411764,
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "LLM0",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6085973233523778,
+            "median": 0.625,
+            "min": 0.17391304347826086,
+            "max": 1.0
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.36472726079586576,
+            "median": 0.38278388278388276,
+            "min": 0.0,
+            "max": 0.8
+          }
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "random4",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6973884355649734,
+            "median": 0.7100840336134454,
+            "min": 0.26666666666666666,
+            "max": 1.0
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.447038391174392,
+            "median": 0.43167701863354035,
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "semantic1",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6319422141184433,
+            "median": 0.6559139784946236,
+            "min": 0.17391304347826086,
+            "max": 0.9411764705882353
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.3813216523209736,
+            "median": 0.38278388278388276,
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "semantic4",
+          "n_responses": 100,
+          "source_rougeL_f1": {
+            "n": 100,
+            "mean": 0.6571250362872048,
+            "median": 0.6666666666666666,
+            "min": 0.17391304347826086,
+            "max": 1.0
+          },
+          "reference_rougeL_f1": {
+            "n": 100,
+            "mean": 0.45620821784767135,
+            "median": 0.46256684491978606,
+            "min": 0.0,
+            "max": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "png": "manuscript/figures/new_length_distributions.png",
+      "pdf": "manuscript/figures/new_length_distributions.pdf",
+      "png_sha256": "020616258caca7c06162686cdc5902c2808c5019e2a7a8fe5cf6f371c1fa5df8",
+      "pdf_sha256": "156fa63c5a86d052eb01a55b37fecc79cc3a62969352c5b7fabdc167c76b313d",
+      "purpose": "Shows per-query shortening/expansion that mean length ratios alone conceal.",
+      "caption": "Output/input Unicode-token ratios for 100 matched query groups per condition. Boxes show the median and interquartile range; whiskers extend to observations within 1.5 interquartile ranges, with remaining observations plotted individually. The dashed line denotes equal token counts, not preserved meaning.",
+      "suggested_insertion": "Section 6.1, after the paragraph comparing mean length ratios.",
+      "boxplot_statistics": [
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "LLM0",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.125,
+          "q3": 1.2556818181818181,
+          "min": 0.7777777777777778,
+          "max": 2.0
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "semantic1",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.125,
+          "q3": 1.2892857142857144,
+          "min": 0.6923076923076923,
+          "max": 2.0
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "semantic4",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.0416666666666665,
+          "q3": 1.25,
+          "min": 0.6923076923076923,
+          "max": 1.8571428571428572
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "condition": "random4",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.0,
+          "q3": 1.1666666666666667,
+          "min": 0.5,
+          "max": 1.7142857142857142
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "LLM0",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.125,
+          "q3": 1.275974025974026,
+          "min": 0.7777777777777778,
+          "max": 2.142857142857143
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "semantic1",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.125,
+          "q3": 1.3083333333333333,
+          "min": 0.6,
+          "max": 2.0
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "semantic4",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.0,
+          "q3": 1.2222222222222223,
+          "min": 0.6,
+          "max": 2.0
+        },
+        {
+          "model": "gpt-4o-mini-2024-07-18",
+          "condition": "random4",
+          "n": 100,
+          "q1": 1.0,
+          "median": 1.0,
+          "q3": 1.1428571428571428,
+          "min": 0.7692307692307693,
+          "max": 1.7142857142857142
+        }
+      ]
+    },
+    {
+      "png": "manuscript/figures/new_numerical_diagnostics.png",
+      "pdf": "manuscript/figures/new_numerical_diagnostics.pdf",
+      "png_sha256": "4bfaa7f82ebccae1554476ca8a221c87bca59bbbc42dd36448b5a163f713bd39",
+      "pdf_sha256": "d8b8cce24af949b11bed7432357888cc3123c39f08a4ffe3912abaef153c20ab",
+      "purpose": "Separates missing numeral coverage in the primary sample from the deliberately targeted supplement, and prevents interpreting token flags as factual errors.",
+      "caption": "Source-digit coverage and the separate posthoc numeral diagnostic. The main sample contains no digit-bearing source; all ten eligible test sources are therefore examined separately. Heatmap cells give digit-expression mismatch flags out of ten sources per condition. All five flags concern one working-hours input rewritten from 8–17 to 8–5 with an afternoon marker; they are not five factual errors or a population error estimate.",
+      "suggested_insertion": "Section 6.3, after Table 8 and its time-conversion interpretation.",
+      "flag_count_matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "row_models": [
+        "gpt-4.1-mini-2025-04-14",
+        "gpt-4o-mini-2024-07-18"
+      ],
+      "column_conditions": [
+        "LLM0",
+        "semantic1",
+        "semantic4",
+        "random4"
+      ]
+    }
+  ]
+}

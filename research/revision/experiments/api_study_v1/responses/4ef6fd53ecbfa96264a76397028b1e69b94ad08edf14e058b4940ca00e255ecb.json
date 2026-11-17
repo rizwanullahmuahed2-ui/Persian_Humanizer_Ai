@@ -1,0 +1,38 @@
+{
+  "job_id": "4ef6fd53ecbfa96264a76397028b1e69b94ad08edf14e058b4940ca00e255ecb",
+  "query_id": "PH-bc149a64aa20a16c29c6",
+  "group_id": "6002692f5480d6e3c5af1cc533b8c692d3cc63be44ea708cfa6e3f282f4b299c",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "f549f78d5b2ffdf915b75b2cc4077cad06512a0e5759c4898eb58948e530ab9b",
+  "retrieved_ids": [
+    "PH-43981ef8c597bcb62dbc"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_7087ab71af53401b8517d5a68337b647",
+  "wall_seconds": 0.7964061060001768,
+  "raw_sha256": "3ed89835561cc76d400a183d07dd664a971824bc7dbdd1d2f84adf2e45f498d5",
+  "output": "این نرم‌افزار با بیشتر مرورگرهای جدید به‌خوبی کار می‌کند.",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 20,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GAmp4OIJxItglNqZUkZoLr1frK",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000116"
+}

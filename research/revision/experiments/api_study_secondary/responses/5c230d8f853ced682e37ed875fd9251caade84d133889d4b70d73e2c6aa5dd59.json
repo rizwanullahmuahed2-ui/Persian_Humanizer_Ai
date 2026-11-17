@@ -1,0 +1,36 @@
+{
+  "job_id": "5c230d8f853ced682e37ed875fd9251caade84d133889d4b70d73e2c6aa5dd59",
+  "query_id": "PH-f3288a8e8a3a13b9d550",
+  "group_id": "7bd03e8150fb1f435905a4114521dc3ec286fdb1d6a565a2ce65d2194e0a772f",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "08c7f7a13a2d273761380d7cdab65fcef2cb65d6aeb17a023be1905cf093751f",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_4b521041431447348f21a83d11d1d4ce",
+  "wall_seconds": 0.7121220389999507,
+  "raw_sha256": "10be16d8a75cef60a4b23dbd1660e6b031df86625d5c3585ba6bd3aa04fe2b49",
+  "output": "درصد خطای این سیستم کمتر از یک درصد می‌باشد.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 14,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IOG7uZy9CRCj8PfwLRBhLXdiaw",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000324"
+}

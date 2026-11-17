@@ -1,0 +1,41 @@
+{
+  "job_id": "a0f266d2296f2ac333a159d6142574b445747a6ceff0fcf16578ccb5bc05710e",
+  "query_id": "PH-c02cf2a17703fb3d28e9",
+  "group_id": "80fab7837bee4b5892f81572c81f45ad460e9ce92a6783c54ad84299baa27c59",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "275972c3f7b88d6a93af51c5b013014f3d24bdc1d78d77eb124d86f6f8c3bc43",
+  "retrieved_ids": [
+    "PH-4db92ac905146775147c",
+    "PH-721c9f4ee372eabb0ec0",
+    "PH-a1381a15cebde9dc0c8a",
+    "PH-a52cc5ae2a319239cb15"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c98b784af81c453c9e57eb11091333f6",
+  "wall_seconds": 0.6525953219997973,
+  "raw_sha256": "51c241104cf73954de6aa42cd3b8e70a0e3c1cb5dbfa58469c161f993341c33f",
+  "output": "در مقایسه با پارسال، فروش این محصول خیلی رشد کرده.",
+  "usage": {
+    "prompt_tokens": 321,
+    "completion_tokens": 15,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Ien9ZMCu6XsLCfK8EMkG03ebIg",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005715"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "7f3a0b35500dcfefb8a5b9feb5cae749d00a7c85df2d2ef7e4a605cbb0aaa096",
+  "query_id": "PH-6eaab4b63f33e9750158",
+  "group_id": "3967ef87906e61b47411fe8cf9931cb23b43c224ecb44f2a000914e4c4823c22",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "e0a2a8fd268df3a58d75dc2109e8b455d95a46de8e2bbb290c50a70bc2a5caf3",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d08009756baa42b8994c10c01c81d597",
+  "wall_seconds": 0.8831957910006167,
+  "raw_sha256": "755cc2a0137d09a63a7dac3523e53e3ae9fb590376785a839ae2d9722523d5fd",
+  "output": "ارزیابی مداوم برای بهبود ضروری است.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 12,
+    "total_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I3TVB0MlglE6GSWQIc8zjeDIL7",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000312"
+}

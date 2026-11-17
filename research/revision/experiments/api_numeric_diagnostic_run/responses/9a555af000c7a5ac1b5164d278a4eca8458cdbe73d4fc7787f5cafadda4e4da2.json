@@ -1,0 +1,41 @@
+{
+  "job_id": "9a555af000c7a5ac1b5164d278a4eca8458cdbe73d4fc7787f5cafadda4e4da2",
+  "query_id": "PH-064ac47c7104b622b230",
+  "group_id": "efc538971a436ca4be6de40d913548e75c9b5821333ffe95aead5b5daa381e7a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "3904f45f22ea7f8854cb2c04466bc62901a732afcf23ab43c6b19125c7094636",
+  "retrieved_ids": [
+    "PH-0fda24c0c87f31ba9a38",
+    "PH-47df7a8c2fb24a69b5d1",
+    "PH-966ea5173dd2e890fb28",
+    "PH-b5da95bd9443ab41382d"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e1b3b96a11894f48a0bfc6c402f942ac",
+  "wall_seconds": 0.9785947589998614,
+  "raw_sha256": "4330be58a6d59e44e623deb74a491cdd299a8b06c000b6627877eb7fdf2226dc",
+  "output": "پشتیبانی ۲۴ ساعته ما همیشه آماده پاسخگویی‌ست.",
+  "usage": {
+    "prompt_tokens": 340,
+    "completion_tokens": 18,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8KwuQnV5A7s56VUG3xAqeR8YmLD",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000618"
+}

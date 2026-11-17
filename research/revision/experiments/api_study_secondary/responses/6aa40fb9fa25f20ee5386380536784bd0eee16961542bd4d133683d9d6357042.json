@@ -1,0 +1,36 @@
+{
+  "job_id": "6aa40fb9fa25f20ee5386380536784bd0eee16961542bd4d133683d9d6357042",
+  "query_id": "PH-c2a420ded770379f84c9",
+  "group_id": "c14bb6461ef5d37751b6c1c4a72a27aeebd1838b150874ccf5a518cbac42abdd",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "9188f135f5f9aa598063c244b8a9cc1ae593ed71dc93c8125d60d61b0b6bec01",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f08217900e75454ca265ae1a4135635f",
+  "wall_seconds": 0.7046599400000559,
+  "raw_sha256": "7ef928ae5d12d9244402597f24fa12309f01fca6bf87d64eaec648e68bd2c9ec",
+  "output": "دولت طرح جامعی برای کاهش فقر ارائه کرد.",
+  "usage": {
+    "prompt_tokens": 161,
+    "completion_tokens": 12,
+    "total_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ImCGTBgvzpa3hLKrwBrF0YVW4Y",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003135"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "module": "Posthoc source-numeral coverage diagnostic, separate from the 100-query paired sample",
+  "parent_spec_sha256": "de031c05915effdade61309b25172428455ea2d0d1f2966ea4021404227481cc",
+  "availability_amendment_sha256": "d782eb4ef117d96ac883c92f409e31cf46759d38cfc613ffea07125a3950e09d",
+  "registration": "Written after the original 100-query automatic analysis revealed no eligible numeral cases, but before this analyst examined any responses from this new diagnostic module.",
+  "selection": "All frozen test records whose original source contains a Python Unicode decimal digit (regex \\d); apply the existing seed-2026 hash order and one-record-per-connected-group rule. The available test file contains exactly 10 such records in 10 groups.",
+  "expected_queries": 10,
+  "expected_jobs": 80,
+  "models": ["gpt-4.1-mini-2025-04-14", "gpt-4o-mini-2024-07-18"],
+  "conditions": ["LLM0", "semantic1", "semantic4", "random4"],
+  "invariants": ["No change to original 100-query plan or its outputs", "No pooling with representative-sample results", "Identical generation settings, prompt policy, embedding artifacts and training pool as the main study", "Freeze a separate runner and plan before module generation"],
+  "analysis": "Reuse independently verified source/reference lexical and length diagnostics, but report numeral flags as primary module description. For each model and condition, denominator is 10 digit-containing source records; report matching and differing digit-expression multisets, changed/added/deleted expressions, source/output text, query and group IDs, and raw-response identity. No bootstrap or population estimate is claimed for this exhaustively selected small diagnostic set.",
+  "digit_definition": "After the original registered normalization, count digit expressions matching \\d+(?:[٫.,:/]\\d+)*. Number words are not converted; representation changes can be benign and matching tokens can still have wrong units or relations.",
+  "interpretation": "Numeral-token mismatch is a review flag, not a factual-error judgment. Exact token matching is not proof of preserved meaning. These ten targeted cases do not estimate broad numerical correctness or human naturalness.",
+  "human_ratings_created": 0
+}

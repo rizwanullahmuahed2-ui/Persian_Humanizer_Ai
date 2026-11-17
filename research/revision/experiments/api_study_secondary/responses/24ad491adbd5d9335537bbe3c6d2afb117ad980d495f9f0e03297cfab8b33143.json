@@ -1,0 +1,38 @@
+{
+  "job_id": "24ad491adbd5d9335537bbe3c6d2afb117ad980d495f9f0e03297cfab8b33143",
+  "query_id": "PH-4d79a74fc873081f68df",
+  "group_id": "3c7d73b819ab9ac454f7a70a553c7f5089ed6eb1f971a4331e06f23d6a533099",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "66b1997d73cbc63522b601dc14881a84b0a45362942ce454017011a43b5d1045",
+  "retrieved_ids": [
+    "PH-f355f132ed62ced948ea"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_4509a090bd1f44d88f8290246a45f0a9",
+  "wall_seconds": 0.8318266879996372,
+  "raw_sha256": "912686e2a3de4a5c140aae57b3feb5c3eeb3f8a523a43b2c6d7b4fd580d0a33f",
+  "output": "تحویل سفارش شما ممکن است با تأخیر جزئی مواجه شود.",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 15,
+    "total_tokens": 225,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IuURrhl6C9PD1kWwfxIMzxoskK",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000405"
+}

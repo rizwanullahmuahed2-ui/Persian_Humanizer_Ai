@@ -1,0 +1,224 @@
+{
+  "status": "verified_primary_sources",
+  "existing_reference_count": 14,
+  "added_reference_count": 11,
+  "target_reference_count": 25,
+  "scope": "Bibliographic verification and proposed integration; no new experimental claims",
+  "references": [
+    {
+      "proposed_id": 15,
+      "authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "venue": "Proceedings of EMNLP-IJCNLP",
+      "year": 2019,
+      "pages": "3982–3992",
+      "doi": "10.18653/v1/D19-1410",
+      "url": "https://aclanthology.org/D19-1410/",
+      "bibliography": "N. Reimers and I. Gurevych, “Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks,” EMNLP-IJCNLP, pp. 3982–3992, 2019. https://aclanthology.org/D19-1410/",
+      "integration_section": "Related work / semantic retrieval method",
+      "relevance": "Sentence-level embeddings make cosine comparison practical without jointly encoding every candidate pair. This supports the representation choice, not a claim that the present encoder has been validated for Dari naturalness.",
+      "suggested_sentence": "Our retriever uses the sentence-embedding formulation introduced by Sentence-BERT [15], where an input and candidate source texts are encoded separately and compared by cosine similarity."
+    },
+    {
+      "proposed_id": 16,
+      "authors": [
+        "Nils Reimers",
+        "Iryna Gurevych"
+      ],
+      "title": "Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation",
+      "venue": "Proceedings of EMNLP",
+      "year": 2020,
+      "pages": "4512–4525",
+      "doi": "10.18653/v1/2020.emnlp-main.365",
+      "url": "https://aclanthology.org/2020.emnlp-main.365/",
+      "bibliography": "N. Reimers and I. Gurevych, “Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation,” EMNLP, pp. 4512–4525, 2020. https://aclanthology.org/2020.emnlp-main.365/",
+      "integration_section": "Related work / semantic retrieval method",
+      "relevance": "The paper extends sentence embeddings across languages through aligned representations. It explains a multilingual retrieval design but does not verify dialect quality of the current corpus.",
+      "suggested_sentence": "Multilingual sentence-embedding work extends this shared-space approach through knowledge distillation [16]; the present study uses a fixed pretrained multilingual encoder rather than training a task-specific retriever."
+    },
+    {
+      "proposed_id": 17,
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "title": "Attention Is All You Need",
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": "30",
+      "year": 2017,
+      "pages": null,
+      "doi": null,
+      "url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+      "bibliography": "A. Vaswani et al., “Attention Is All You Need,” Advances in Neural Information Processing Systems, vol. 30, 2017. https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+      "integration_section": "Related work, concise generation background",
+      "relevance": "Introduces the Transformer attention architecture underlying contemporary generation and encoding systems. Keep the role limited to architectural background; it supplies no Persian humanization result.",
+      "suggested_sentence": "Transformer architectures provide the basis for the generation and encoding components [17], while few-shot prompting allows task examples to be supplied at inference time [18]."
+    },
+    {
+      "proposed_id": 18,
+      "authors": [
+        "Tom B. Brown",
+        "et al."
+      ],
+      "title": "Language Models are Few-Shot Learners",
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": "33",
+      "year": 2020,
+      "pages": "1877–1901",
+      "doi": null,
+      "url": "https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+      "bibliography": "T. B. Brown et al., “Language Models are Few-Shot Learners,” Advances in Neural Information Processing Systems, vol. 33, pp. 1877–1901, 2020. https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+      "integration_section": "Related work, in-context learning",
+      "relevance": "Demonstrates few-shot application without gradient updates during task interaction. It supports prompting as a distinct adaptation mechanism, not equivalence to fine-tuning or guaranteed naturalness.",
+      "suggested_sentence": "Brown et al. showed that language models can perform tasks using instructions and demonstrations without task-time gradient updates [18]."
+    },
+    {
+      "proposed_id": 19,
+      "authors": [
+        "Jiachang Liu",
+        "Dinghan Shen",
+        "Yizhe Zhang",
+        "Bill Dolan",
+        "Lawrence Carin",
+        "Weizhu Chen"
+      ],
+      "title": "What Makes Good In-Context Examples for GPT-3?",
+      "venue": "Proceedings of Deep Learning Inside Out (DeeLIO 2022): The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+      "year": 2022,
+      "pages": "100–114",
+      "doi": "10.18653/v1/2022.deelio-1.10",
+      "url": "https://aclanthology.org/2022.deelio-1.10/",
+      "bibliography": "J. Liu, D. Shen, Y. Zhang, B. Dolan, L. Carin, and W. Chen, “What Makes Good In-Context Examples for GPT-3?” DeeLIO, pp. 100–114, 2022. https://aclanthology.org/2022.deelio-1.10/",
+      "integration_section": "Related work / random-example control rationale",
+      "relevance": "Tests semantic-neighbor demonstration selection against random sampling on other NLP tasks. It makes the same control relevant here without implying the earlier advantage transfers to Persian rewriting.",
+      "suggested_sentence": "Liu et al. found that semantic example selection can improve GPT-3 performance over random selection on several tasks [19], motivating a direct comparison rather than assuming the same benefit for Persian rewriting."
+    },
+    {
+      "proposed_id": 20,
+      "authors": [
+        "Ohad Rubin",
+        "Jonathan Herzig",
+        "Jonathan Berant"
+      ],
+      "title": "Learning To Retrieve Prompts for In-Context Learning",
+      "venue": "Proceedings of NAACL-HLT",
+      "year": 2022,
+      "pages": "2655–2671",
+      "doi": "10.18653/v1/2022.naacl-main.191",
+      "url": "https://aclanthology.org/2022.naacl-main.191/",
+      "bibliography": "O. Rubin, J. Herzig, and J. Berant, “Learning To Retrieve Prompts for In-Context Learning,” NAACL-HLT, pp. 2655–2671, 2022. https://aclanthology.org/2022.naacl-main.191/",
+      "integration_section": "Related work, learned vs fixed retrieval",
+      "relevance": "Learns prompt retrieval from an LM-based supervision signal for semantic parsing. The present work uses fixed embeddings and no retrieval training, so distinguish the two designs.",
+      "suggested_sentence": "Rubin et al. instead train a prompt retriever using language-model preferences [20]; our fixed cosine selector is a simpler mechanism whose utility must be measured separately."
+    },
+    {
+      "proposed_id": 21,
+      "authors": [
+        "Sewon Min",
+        "Xinxi Lyu",
+        "Ari Holtzman",
+        "Mikel Artetxe",
+        "Mike Lewis",
+        "Hannaneh Hajishirzi",
+        "Luke Zettlemoyer"
+      ],
+      "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+      "venue": "Proceedings of EMNLP",
+      "year": 2022,
+      "pages": "11048–11064",
+      "doi": "10.18653/v1/2022.emnlp-main.759",
+      "url": "https://aclanthology.org/2022.emnlp-main.759/",
+      "bibliography": "S. Min, X. Lyu, A. Holtzman, M. Artetxe, M. Lewis, H. Hajishirzi, and L. Zettlemoyer, “Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?” EMNLP, pp. 11048–11064, 2022. https://aclanthology.org/2022.emnlp-main.759/",
+      "integration_section": "Related work / Discussion of demonstration effect",
+      "relevance": "Identifies label-space, input-distribution and formatting effects in classification/multiple-choice in-context learning. These findings motivate controls but do not show that false rewrite targets are harmless.",
+      "suggested_sentence": "Min et al. show that demonstration format and input distribution can explain important in-context effects in classification and multiple-choice tasks [21]. Their result supports examining what examples contribute, but does not establish that inaccurate rewrite demonstrations are safe."
+    },
+    {
+      "proposed_id": 22,
+      "authors": [
+        "Philipp Koehn"
+      ],
+      "title": "Statistical Significance Tests for Machine Translation Evaluation",
+      "venue": "Proceedings of EMNLP",
+      "year": 2004,
+      "pages": "388–395",
+      "doi": null,
+      "url": "https://aclanthology.org/W04-3250/",
+      "bibliography": "P. Koehn, “Statistical Significance Tests for Machine Translation Evaluation,” EMNLP, pp. 388–395, 2004. https://aclanthology.org/W04-3250/",
+      "integration_section": "Section 5.3, paired resampling",
+      "relevance": "Provides an NLP precedent for paired resampling when comparing systems on shared inputs. The current descriptive percentile intervals are not presented as a replication of its exact MT test or multiplicity-adjusted confirmatory inference.",
+      "suggested_sentence": "Following the paired-comparison principle used in machine-translation evaluation [22], we resample query groups while retaining the matched condition values for each input."
+    },
+    {
+      "proposed_id": 23,
+      "authors": [
+        "Matt Post"
+      ],
+      "title": "A Call for Clarity in Reporting BLEU Scores",
+      "venue": "Proceedings of the Third Conference on Machine Translation: Research Papers",
+      "year": 2018,
+      "pages": "186–191",
+      "doi": "10.18653/v1/W18-6319",
+      "url": "https://aclanthology.org/W18-6319/",
+      "bibliography": "M. Post, “A Call for Clarity in Reporting BLEU Scores,” WMT, pp. 186–191, 2018. https://aclanthology.org/W18-6319/",
+      "integration_section": "Text processing/measurement transparency",
+      "relevance": "Documents score variation caused by metric configuration and reference tokenization. It supports transparent preprocessing reports; this study does not claim to have calculated BLEU.",
+      "suggested_sentence": "The need to record preprocessing and metric configuration is well established in machine-translation evaluation [23]; here it is especially important because script filtering can erase Persian tokens."
+    },
+    {
+      "proposed_id": 24,
+      "authors": [
+        "Vladimir Karpukhin",
+        "Barlas Oğuz",
+        "Sewon Min",
+        "Patrick Lewis",
+        "Ledell Wu",
+        "Sergey Edunov",
+        "Danqi Chen",
+        "Wen-tau Yih"
+      ],
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "venue": "Proceedings of EMNLP",
+      "year": 2020,
+      "pages": "6769–6781",
+      "doi": "10.18653/v1/2020.emnlp-main.550",
+      "url": "https://aclanthology.org/2020.emnlp-main.550/",
+      "bibliography": "V. Karpukhin, B. Oğuz, S. Min, P. Lewis, L. Wu, S. Edunov, D. Chen, and W.-t. Yih, “Dense Passage Retrieval for Open-Domain Question Answering,” EMNLP, pp. 6769–6781, 2020. https://aclanthology.org/2020.emnlp-main.550/",
+      "integration_section": "Related work, knowledge retrieval versus example retrieval",
+      "relevance": "Establishes a learned dual-encoder passage-retrieval formulation for question answering. The present example retrieval is task-different and does not train or deploy the DPR model.",
+      "suggested_sentence": "Dense passage retrieval learns query–passage representations for question answering [24], whereas our retrieval pool supplies example transformations rather than new factual evidence."
+    },
+    {
+      "proposed_id": 25,
+      "authors": [
+        "Timnit Gebru",
+        "Jamie Morgenstern",
+        "Briana Vecchione",
+        "Jennifer Wortman Vaughan",
+        "Hanna Wallach",
+        "Hal Daumé III",
+        "Kate Crawford"
+      ],
+      "title": "Datasheets for Datasets",
+      "venue": "Communications of the ACM",
+      "year": 2021,
+      "pages": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/1803.09010",
+      "bibliography": "T. Gebru, J. Morgenstern, B. Vecchione, J. W. Vaughan, H. Wallach, H. Daumé III, and K. Crawford, “Datasheets for Datasets,” Communications of the ACM, 2021. Author version: https://arxiv.org/abs/1803.09010",
+      "integration_section": "Corpus provenance / data availability",
+      "relevance": "Proposes documenting dataset motivation, composition, collection and intended uses. It supports identifying missing provenance rather than treating a column label as proof of human authorship.",
+      "suggested_sentence": "A dataset description should document how examples were collected, who produced them, and what uses they support, following the datasheet approach [25]. Those details are not recoverable from the column names alone.",
+      "verification_note": "Author-posted arXiv v8 explicitly reports publication in CACM December2021. Publisherpage returned403; journalvolume/pages and publisherDOI intentionally omitted rather than claimed verified."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "e9d3969e8bbf5f3486695ed79a7a7a9f8ba64331d34012a9d1f009aed547db2c",
+  "query_id": "PH-b480d3712028934b343a",
+  "group_id": "0de50c194c9e03d82fb99cf0f1bdaa118a604320565f94320d3524de7b39f686",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "c840ca8eeacddf73c92ecc27861571d9068563811238ba56d17bd60c0642e0d3",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_40358e6f7a014d0e85446ca4b68eab3e",
+  "wall_seconds": 1.1600613079999675,
+  "raw_sha256": "f5684ecf649b9d693852d2040dd740841eaa86f62bfe9ad1a5524d5337aee517",
+  "output": "به طور صادقانه بگویم، این بهترین نتیجه‌ای بود که می‌توانستیم به دست آوریم.",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 24,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hx32KTODKBvBmhLGF2nsd37QIQ",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000387"
+}

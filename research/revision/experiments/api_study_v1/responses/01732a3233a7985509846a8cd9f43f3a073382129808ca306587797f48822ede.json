@@ -1,0 +1,36 @@
+{
+  "job_id": "01732a3233a7985509846a8cd9f43f3a073382129808ca306587797f48822ede",
+  "query_id": "PH-58736fb3ce62f742bb6b",
+  "group_id": "97dbe158953c3011b9399702d2e063c1ce15fea17ee624afc2441ece896dc783",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "1576bae3734c3330577a420a485689e86d0536aff6575ced93cee89f89ee56ca",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d538172354cd48cb968dae8106d08039",
+  "wall_seconds": 0.5068054160001338,
+  "raw_sha256": "dbf694690c5c8bbe7b4ecdde4fe2f5d00fd37878194845c78c273dfe0c5a7324",
+  "output": "وقتی دشوارترین روزها را پشت سر می‌گذاری، قوی‌ترین می‌شوی.",
+  "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 21,
+    "total_tokens": 190,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GJ0j1F3eFd8rJwMRPDq6WsasiY",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001012"
+}

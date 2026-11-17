@@ -1,0 +1,38 @@
+{
+  "job_id": "e0c266131937f0d665127b8d8bb3619f2d4d2bfcf15433137c873a3114d20aa2",
+  "query_id": "PH-86d22d22f40f04f2391f",
+  "group_id": "9a44c73baef7819299791b3a2b0afc33de67a041bc6e40083d0ed1ec6b31601e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "8d2f26a18616624ea603e8ebe2f79e7b21e1ac6dd94516f8d4a6f509e58e35ee",
+  "retrieved_ids": [
+    "PH-018d47133ed41c0a11f4"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a1bc995f806548798c4ca7c6a505dc32",
+  "wall_seconds": 0.6344495260000258,
+  "raw_sha256": "9b093b58f064ff51495b0d2be6d8eaf8b590360846a43098f27d821fd311ea2e",
+  "output": "این چکمه برای روزهای بارانی مناسب است.",
+  "usage": {
+    "prompt_tokens": 192,
+    "completion_tokens": 12,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IivhlqFYzuSzKtrOnJsrhqBPcx",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000036"
+}

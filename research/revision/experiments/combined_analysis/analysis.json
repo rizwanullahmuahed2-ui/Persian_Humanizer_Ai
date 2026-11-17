@@ -1,0 +1,3311 @@
+{
+  "status": "complete",
+  "validated_responses": 800,
+  "planned_jobs_all_archives": 1200,
+  "scientific_http_attempts": 1200,
+  "recorded_error_count": 400,
+  "unexpected_error_count": 0,
+  "all_recorded_errors_or_missing": [
+    {
+      "job_id": "632cd7826371189d6018be513b2ceb41b5e98e0e6d478a968f8bcd7372cafb73",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ba03525491d5042bbae449a71a71fbb91334ce32a8557c36691f5678c15e8237",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fffaae97b96cca156d71f738ac9efbcbdda5bc5313d9ab30cf0939422eb37179",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c03bdac2c762650bbe1b12533642f0b5d5d1c15f23742116179ebf55471b7ec9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d1b07f49f01d62f5987c3fbdf903294f59c0f7084aab7b464b37c9e115448a8c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5e6ec14913211a122f0b3dcd2ed9aa3609a4d8ade74dd51fe408bc9b46622547",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "95bb4ed68faef27e1c6e75fc0d839d3640e52f919c54c3e32d71cc02d016412c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3b01cee92879f49333f67bb0d7f98b4484e4b03754393d98607cd62fce4d0ba3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "db59d949b3d7ed813c59b076c0f00eb95dcb12dd99291f15869aaa54639665da",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fa2efd7235cefa6d0163c7ff4b4fde534348be316fb0b106fe905cff597c3abf",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a0d89764e946de8c6d45a6e892f6f756baa36b0e560cad9bfd676161330c4ec7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "bcb06ee34edefb86bd57dc672514ce899316dce93bcb1866582ea37400116187",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "777e9e68d6f065483d91aaf8c38673b3cec5d0083aa8edfade8e17ffa1169827",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6e177e73c016389314b659899205036b18702a021876ebb24d25c40bb1516926",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2ff8947e1c0b79ff492dc52b2214e2f490af4df3ad04ace3dcd9818ef68563a8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f84cfb609046bd89cce7f50f4a340063956bd0aab7040e337c270b4b58c88563",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "81c919554bb40b836215012d34295928c96a80383cc314665e361b03a74f301c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "87f181fa6c7a825f6ba6879e6120214d8e5de524460e1399a5e2cf3d1449e18e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8c155d29ba9ab9d7bc6f0a787bd39f5ab790ee70d72a83db3fc1b43db12d28e9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "397bb40d3978ccd2648d109c659dc3a32d4f07627f3c795cac3a01d8b8380aec",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b573bbd91cc33801a18280bd26d790c1544dc5ac107f0b7b296857ae7447628e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c728175c1d08e4aa6d0d9b638f0cc3e2df48b3e1d3dc43c3dfc2ad61b0ad0e4a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7aa219325c59f05fa557f0e8f877f53149ab5d62eaa9cea290d7416564725c4c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0aa7fa83aaa9c0fd193c8b81da80ba9bddb1239fbbe5fa38178b21ea0a43ad9f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e897cc495c3f5bea7d1b51992d5913406787794b8751db67bed26f446237cd2d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "84046a28b3a389e873944b78adcf807cf99635ec45091e1125967e1c42d08f20",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8254312985c0a51535b9fa0f2401bdcf1d20c855d2f3a99744a1d40400730f8b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2b29ef276135393edaac5ca41ece58d4895c6ae8f279e3a6ac807876cfdf9f6d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2641de01169906d90708918d21a3d99a1b43025f65dae3f4d016b1b2f86cb976",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8bd6372ee1424834207fa700624cd64bb385110f3b7a58d4ddfb07c7ea8b941a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b688447305e80ab2946eeca399ac79118f0e3f5d14070df21c3aa0221fde4ed9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c34691e0a7c6321c19bcedb70b41effab92e72efa82b1052cdb6d6264a3a8cac",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6cd17938736971743a40391aaca42b985d12a3d2a1f1ec418762827317dcdc08",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "819ef938f5fa80b7ff95ac7093996c084ea9805f957cfe259367e265b88287b5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "05bf23a0f57c110edd5a941fcadd2a0c2b4068c886cd53808299f8909b5eed65",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ef1acec5fc62ab6a5ae8b9eabf2f75187b1d97a7de1091db135588e0ab6dac31",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "914087808ed5c7e440b82849fc43149d36d37159e873034b15f8c233297f235e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dc18e48c06ac2625b2414e7a509beeef56a7955a3d8481754798042261f4513a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1974992bba34a3eb6c66ba4389185c9ebe2a441c66782ee04cc2453f36e03024",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f1dfce8d9caf9c0f2f3319ace5dc6429cfdf3b68d656bdfc6372676db74b9403",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6968077326a83c8d958d8a26e9c2bb50369f90b8ed50e03a7ea79ea93e42a981",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1ba699ea51718e866396164e0d6bbbfaf5101cc36d36294b6391167c14f3f405",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b577951d3fadea88f2ec3340a3eb0822f66377574a7dc71282c2eb619695a138",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a3489d00604305d7d7b36d288daa00ccddf5929e7aee819bfde26123ea60508d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2f87d1f429cbf2070ee79a62a77e5f52578ef13a9383b693cd162e2e0276b377",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "109d8cd3148ce35d67afa18d75c628fd78b023526de378dca9c932f0f00834eb",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6807682b80f5958bdf765e459e432012e46ce6bca3adc7210e7f5a705000193b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "badc7115983deb544951768c1e76b235fbc1760ad887dc642c5362e22a61eab9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "66e85317c1a0665862cb43445da381e8b126f0468cd61caf5db4ce1470f4017d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5ec8585d7b6386f1b649c2d5b0cbbc0308334450a2841fb3dacdf3e454228e4f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c3062bad23ca8ce4b943536ea1f92bc48f27cab4724ddcdf90665715d0d1853f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d9075dc8b825734f36d826b1b7c8c86e3105e3e2fc841498a6579bb85422ed6a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2280c578c109e5d20e56ecd028f41fc926b5548900648749fd8201bdc88153d3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "15b0c261add9d4761269b40542cd30c8aaca6da46f46bf388177fc7ba924d084",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9bedbe23de8d755b80dbdbee57101c17fd9fffaa81734dda6f4b0f26ce1a8139",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b3a56f949d977719f8c5b169e6211c0b2bd37e1267adda8263caddd232b9962e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e40c7614ed99ce23d101fcae3382cace77d032cdbb1fd9eb1cc5fae09e23fa11",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "10ec19b5480b3c7849c728ba856034478e664bc4eb58035f8fa8a0947bd6a570",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "35b5c9c191ec69bf51e945383f49c4461704a8640b8232f69285a98f7b01a5d3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8c43819169123220ea3f3c3210fc61f5f257fb939c56479e2bf08b1fb92d48a0",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2ae1a57b2746e74615278ae7da307a0be1c6bbeb0b5755e61a87a890c67cafae",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c5f81c4a2017f6a47dc876aa4b93b213d52a3a156249a37691a07853ed85c9c7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5febf764aef46f63e5c51a36eadba7b99fdc7574a18e4b7db063233270916d71",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3ecca015655b5961ea59219c7eeda0307e41c5126a3dc77fa3313022a2ff2f4f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c7356ca9676a933cd4e2a34e5761f81b0f38cf31c5fb07f40ce3fbfc0b08749b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c53775e164b722d21c614c2894babf27f892601677aae30aa135bfde08c7fc95",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "24e2eb07b8c19ef03c80213f6862ab1bf8fd99e4384e5c65f7b2e4a772bb5f80",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5127d4b2d0733ff0dbf03500b1614676f5bff63e99b04a6d1d852838db7a7b02",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6ba0b629a52bff806df46dac62128012e29d7c516ed6897ad2b71690cd453ea1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9e7e5f2b07fae45ba68b88e670b4bbba47ffe092a84185cf8c57e0b7432d0bd8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "876c859036e7a03b30481f01b49c811cc0d67048814e988d3163aad608ab14b6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c3644878e0c83dd742c4c9b52c228e21bd862213f7ef8ffea2550b630589e710",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f031b685c84f70d8c3ea3e89c669ae4a9d1588e31a21b4594b7433cf8fdca994",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3ed77b8ab5a578d9329b0ce10b010759d574059fb1fab477cda1c04b8a9f3100",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "62f27c707b16a1a2485b97642ff5472792c571700d25447950262b0138681af7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7acee1cbcd7986b0ccda34203c20dc87a6367007a8d3ff89af63a4fc40e39a4c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0ae0ce39f0a43fe6090806d8de2042361756490ace253e473051766aab6e22f6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cca8c5a46a21791d8b5e566aba074c4df994fbb5c67dcc059a2e8f216430106e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7c068fdbc47748b021562a223381b67a782125323cf5c2dea4b1a4dd4345c7f7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c2de3f03267f9e3af378542e7b72aaedebe0390ab0873abcae5214be39a6ffc1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "045d047b7459cb1895c95ec245beafdf0334acb4c99013a3e60a6b0dab0061e6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "16645eaaac310434bf7264b1a5f3c7c96a937bbeabbe4394b537ad46c2e00506",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a4bee5b187b23f641584628e6c20da1e9893f6309ab57ab5090101e1de5c858a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e6fef4d56be54a7d2d9fc0b421080cdcb94f885b69a4d07cb2af8d732ed6e586",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8be5fc8f1b966079b2b773c025e4cd7c36e9a2a6b1c5c25638218431e49b7c0b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b7044919a9ae548e2fdc4fc3a39fca85cfa506d695679dbae869426e7ed12379",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "148709449338ce99d7e34af444b1e3c594c8d9d02d8372c60fc1ca2cf4edf9d9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c94f724250ef5bdb3e19a8c61b96d8c87263d9999932b1582b5f9ffb8b7f428b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e710e579524aab634797fe495f59397a61d6fa7b74328a18059151787ff8a6e1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "70fb11d66c7430d66e5bb4976fa210473d97eee3e5c9b69134651d45a8a71bb5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "de999f92bd965a601237e621611abb590c7e37786224148a4405d5422e95190e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "63628f2688d047d5bdd445a93ab946809622552d33c8f876bedd198360cb707d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "494610a5295701a433ccbe0f12b6eccc4f5fd0d5bb94a28b15d81d88434765dd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cd38e7377d32bb6a73ccb2b9eb688d6fe813565d6cc4fbda2074d12337baf6d7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "83da8d68f31ae591a60c3932b7552bf055f89071b5fb76f984812a3089553c9e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6c3958abd89cb2e25af072e4833a76a2361e65c0dd84eeb845fb62310bfea789",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c54612f3db05eb10a8ee595b70b85499df2430ae06cf7deb975a1bdd50eee9ef",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6fd62f3bc8c2e9094ec91872f810ba356a06749213deb6ebda2de8c8d7e99fff",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "30b22460b025f1607a08045af46db8fa7eb61133d725848a4aa62dcc8bedf944",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "806faa6863b465de9ed367d68f1b7a60027cd05d923be53b04a1cbb6664d0c54",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ed92674bcd3e4eb6051791c3898cd7d679cf5a4aef184cd1403cd9fc8e63df5f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b2e510cd6580a6951c099751a460826ae0dd00cfba5869cbdfd0795ea356e7c3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "77403ff7b8cc5de1979b9424f49286ff51dd8cf1b5bc9068a00a3c251d2dd489",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "acf207241638c1f2e2cc3e1715806dc7d2248a27c3d56a40a6220a5dcd1436cf",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6f470d66f4c4c96e3a103f742266ccb69430823f39a060ae558175b2cd969a71",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9062933a2d0dbd00fc81474bd8b95050700a84c678674a06ee480ebe97f4859e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "47d2b3b00c5e54e5d4c81654f42026faefce94a4eed16fc9c7e7bc18534d7599",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "574c66d0c0d51644e2d77460319a35520267aca02b2615fc4fded88d03223d44",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "20c979a954d80e4aaf53046aff765163b8aea8e08f8c1b459102ac830978b98b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "76b58c734fab6c5c29062a9bcff0f3b08402f502e0ef7588229cb00a2c257682",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "df5e624fb97c7c4d511372b82642ee571748fe46d6327248100eee7a286f7715",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7539ca76dc3be43df22eb6b219c43052d6984abea82ff299204c4d31f829f7d9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "510ac8513b8066a942834d08c828a323a5fed4215e2668fa5c9c90ab8975df8f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8c3c239efde021e8177d647b4465c117c9f93a584e072cb4ef5d4d63345b4ffa",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ee3b646efbaa2077b4140efca5c805e1cfab8b0baece64b09d9a1a6d8f395de8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cce24f11996dd973c83fff9b6be74c95c2a130203053344f51fbb91a2b8925d4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "71fce19f4820cd9dbdc4f7ec9dbdd78e66addd5a45c5c97b0fd3d65bb3c2d65a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fd658bd301ea8e0b218b9a1b4d51cff28a3cc4dca0b3ff9e6a37aa46f5a527a6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a04f95113cda63d649991c2ab4a90d5d64ecbfeade6b4334835bc7a73c25a400",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8ebcbfd998f79d0a399c64f7d9ebfc5a88af2a0ddfcb5c7e5708e718f0800fff",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9b6371ca6c600c956a2901d597cc4c92d7a0ffd4e8fd9010cabbe37288c93b5a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8b870f5bc5838328682f711aae17763ae2c89ea4a37655d40bf1dd21c1f94fe6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "328647619031e3df88ec0d0c2de1284a63e0ab81b0806d6d5a921d27825fb63f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "94ac838fc031f25d5aee9c42df2d308a181c58d2dd1e6caeac7f94d3923b399b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7e30c7baef8251ec884905ac1719300141e4de0227724bdcf54104123dc5b4a4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "790477ac41a83a62352f1bc6860a4150b301982bacea9cd23c4e08f5dcb9e1f1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1980785b5cce483b08c6d6b5e3d64b32b525fdc0ed662884e4313844e06bc2ad",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dc4e71fc52c463c470ad891f957238b1bdb32ab038d6fe3b161cfd4d035601f8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "efe7e5ada0b56af1958d9c59f50649c7e40753d84ce3bdcf95478e880d490917",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2d61d3bbd46865b6d2c6cb84083c2f818556350ed26b7a6d5b7303f691334dd4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1805de2e50fd4858d457e6b5a2c41a1b5459a14827df704fd1fa96dc7d7672e9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0f16b38b2df8cbf3667c42bb44749de56fc42b2cefd73e61877532189c4ace1b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d9beb9fef7cee91de999ee74a673537d556c9633ed2cef028106535639d074fd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cd92ca7326228b6fe06094faf215a9b0feace2695d7cece3601092e62a525cd5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a542711927cb9c7cb219f8a0f55c56054c31a74241c19ac3f0ab84c69dfa7193",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "09406d17eec8162b84ec7da5926de8d9b24e26101596fb0d91b28f152638dc36",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5812d84706a7d9d5107e03d24400b8e1ef2a00ed09b9aeb5451f1f400036d414",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c7f36896acacdcf1267960bbca9e2b0590c914d21ce602dffee867561dcd32a1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c1603060b908663b97a4bb1c7e7192fbed1a7a01f2c61349c61bce6d8ea32519",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e1013d141a4d094471ac39944eff98a9077e1308c213617ebd333b679714016e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c8b0d17fbeae5e545c019743761fa35bb183f9f63a0b77b5225c306f33df5319",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1a0b56aa32b433f94c6fb4a19e2617d65dbb71de63695f231e34e4f713896055",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2b813a28b1d6e63d5834586f283b4c39b928b40a20fa120658283ad0b0aa4290",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "317f1491ed9cf7ef52bc5f12788e0610d2af9f7ed1c987a4e3442291c5c50c30",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0c4947d19de2163be0034d13c1792ed2797f2d3c8950ada5b8f392c6ded0ab25",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4f8328f593b6c4cb371bdb404830ba31bcd2670c94493a9df5f15625641e9a94",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4ce3ecbd8b02a34e9a9e8d4b4b08f45f99ab0025f44aa50eddfedc5c3e5d13c4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dac405fdd7da57bc88a6fa779cd02c50513262fec34a95f77c22d7acd320e935",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "335e71bc546f33a2eed2e2a5d3f39dc8dcb30c0940530e1759d9646c9253e285",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4a34627b76f04a47e085e36c9226ba83d2d66a1494d8d0730c929a5b935790e7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d00420bcfe4f3b037df521a3404a5ff77bdd77968ac390fe00ee84027c455002",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "38675058bf75dd618b38d5ef2ac307e351b2c8f6f707e330dde4e38c4a21e1d5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fff283baac22b484351de4a96c2bf172e922694db8595a77524990c9ad3af8df",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "679845d26902b303c97c0d398cfaa23c69a00e1cc5eb5b3462d228e8af9cbeed",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "820493637f740010706d9e69d9ba270d8482e242a029f1a773b305c024df3876",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "bd125431d4b98ea851a2eeb9bc8157b6620023329b058c4534f72ae8162b72fd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2048ed87c5553998434c922aeb79b5a1fe203f72bc1e29e797af40713685142f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e08ba106ebe81e09a05fd0bc25817d1f71ca089d6fa7fcb75abf83e1afb38e88",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b7b0e1a963c99a95f38fae19e41bccad410932283ed689e8b0c30f71b5c3db5b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4f75c8565d3f594f4c79b7e3b5b5361b9318efc972dceeacccb75849f353316c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ef4cbaadf5e3a74416b9e230835eed9d3d49467ef364c6a3c948f642a38f80b2",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3ee66c3ea0a9a9c61690be707bd6a84d22763df9420b5e5d493ecfda9456fb63",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "34ad062165531a4ee840a028e9080a3430a3219b9f1279e3e48ea8aa04b7cef8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c9e9f45b29df06c5bffe0c81c40d11434747a700c6c189191f4d6a3faff7f96b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "25f14238ecdc86e64972bcbd04af6e7ec044b28fb85e7b5b331b484efba48b2b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b59ed68b2ae0f666b670dd8e8907cef9fa5e2fee2ac72d8f52a22e4a4960961c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ef9b18fe624c9bb2b6574ddf326b85e8936d0a75eca90553b92ccae9f66eafbd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1749b96fff079998c4bb987e1ac9fe59c866343d11689cfd1abb983bb3b22464",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "be2a67b67c4ed76b2efb988e1a8359302d923ecd443d9a6eb00c9be926222742",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0eaef84ac639185951e9c7b069cb905ab71aaa017912260b298cc5a8aeb9cf62",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8b9019b83d09d28965111ebbb14f45d08e3ac48056acd8eb0ce3931a7b6e044f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "44d4f8e1f8be8f24efa2a676cb1be5d6a52c96a09967d5d2572ff523e77e9ce5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d6cf8847818f453a7b852a04576f72d7ff0efcac0fe456b1f3828944428db7ee",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b01ca80d2a02cfec2281cf4d42dbeb00ebf50bb5b4d3851dd4c921286858f334",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "71bbbc54a636ee2cf605ae356466b48b100e651523474d5f1ef267ead9a80f24",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6a416d027da56a98c67503a57f99d90f1ce8fdc90e243ad4c351becd674f62c5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c4ff262437a17e61bfda0ff26f59e729750f521c06a8cd458df3fdb508912483",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ce1a393cbd9751237c13292e012c8b4128d9bb9bb3f0252960d6ec684c5750c9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3a18c822c37c613f6402f4a282305686c12323b2101504bcef0f8feea783b1ab",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "94ee5d34b0d5b319114036d1fa447901ca49a22d9bd4d2629e09e785b62efa39",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cb9738a1031646ecd18354224b7d4aaca09afb475fc9aaa6428168b9dfa02129",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c49a1fed92653b121fe4c99c8f62026ad19c0d2705985a1ae7ba7c773261153d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "36181f8f713d843e15c79000146f0b7110981d36302e5ba8f68336d5ffde96cc",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a75aad9e381b76163102d241d2af88035c6f4315364a4c8cd6086caacef6aad5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6bfa88f2400f05c4165080910db3d1cf66b60ce7308f96587278524b6b6e604b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "35b9fc51ef3efce3aa6f99fe499089dac48dc97210082965f6450b282de6a062",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b8b353b4918d742526e2dda69b0cc530a11fc36c914c1df55a5941f5c550e5f4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "536891868e3f827a649c845ecde27696dbc4f02df21c3d6dd300fa073252aa64",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "220d7b69538959cc6f2318374f3b7ce3dfb7f6df50566dd09870cc13ec5360e9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "71fd4cdc376cdbcc4ef44a79af2a13d8f047414c4273c290374bf5497a0639e3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "07485d65dca297d9f62615d1a48780b4833143d04d7b2a2bbe4b2eee25a4aa11",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2e1bd00549b4035624659f0c469a75e1b42a557ea18d407ca0e59d175c84f2c9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "23dbb898477d71fc86de4a214c56d99f33a32bb940754cef7355d6828d6e3318",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2239f352560a948c513e5f080ffe142be1874d35e9c58a9c53b423a14aa99250",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7dc49ce78a741d307b90688e17258f470a2bf38d25185b33e6b86a0a6890a3d2",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "61ace915bd23cab3f423907ecfb82120c500481f62e6b01aaa429e54321f4edd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "56ce6ac837b2046e61c91870d832f2a1828e77e7ee6f0cd6cd6c7c8bed5883ca",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "69d4b283fac84b2a40fc6cc15818f245b2ef49cc1a6524c5b431e21d4cbca643",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c118bd87403e08199ff90b3adfbd847dd178fa318a12ab0553976002cbbd0106",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "71add0b5aa60cc3ef39845f833e4c52c7c11cf4fba890286b44d49322b773186",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "85ed88b8f54055337b5a977dc7e861cbce415769c3c60f675a3562c74deb7ca6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "46939c8ce304cbb77e9530b39eb317cfed58563969e4e91bddf95928a71a7ded",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f99107080bc8053c619a49247cd4af9e2486463a2a3a6c3b9e616d7c76322268",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "926aa29f2a84eb123f5547ff2b9380ce1d8c858c143f93773ba2cc794900f66d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "68e5237ad1c194f829cb949d6a383bef416ed3340962d49c9af937a8aa69ec8a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "eeb4f3282aebf458d2163f83652bea3843751a8b326cd38f57d7134ae05dcf68",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b8f84ec1e07af86dcb95f99e61a2e5e50c85977c749c9dcab4a4323a10a60c07",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6296b4a0e7bb07c33b012d92c44ca6a0c9f83bf97b1179f7c0016a184aa7a19f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f680ea159960cb11d4f5e69e0f397ac6d08484eea2eb5a9f386a09b5dbe7d075",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6e9c968a8825b70a74f5a59c1fb3bc7be097637d25b7c8ff7f1b680b557fc5a3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ebe0074252d67343bc82a18553aeb7ae2270a28e2a165d07cf4fac7a511c9be2",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c2fc330f470585abf7ef5cc013f5ddd54b81328425dc3caa17a0c1f2324cd2a8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cfa987327a04408e8e6922cdbd828c8f853331643e97c9f7a97c20d448d243f0",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7339b53f142fe21957ffde31a278e7c48173fe23cbb91d01b5220afeb749afb7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a45b8d4a7027d9591a5733e56821d00111fcd53845daaf737a5bb87bf29801e2",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "67436ed9bb3c3b6f52000eb8013a15772c34343fd6d76e64e94fcec22b3fed11",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "aea1b4ec2a2a6ea7bc96cba9c52adb33efa5d848a0db84ab560ce0bbf0efb0c9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8e0be8a02b913705a22d5860f46ea381c095dfc50a54d3c72bf7a284bc575eac",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3d4cca3ee956354735bddae5a4bd0483a7e562a3815c52c212b38a92018cfa05",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "66d5d17d089f07041437aaab6ecd5458e6f63e06874bf78636d2567df2324520",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1e30901f55a31c740370ef4887e185086afa604ec84176be0f51a0e95a4038b1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "96230a45ca2ccdd37a45cd5ac1fbc85320ee5c1365385e5f5d959e1fcb0bde10",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "28d8c87d8550b8866e521770347f64cce53b1c30b05c2f0424099dd84f7413c7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ae9371e3338c2cd92543c1fed192edb563abbd911b4915c5fb468810816dea24",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7ef0d86eabd7df3a801c889fa9428e7bd0305921724d1be6da0ae03018bf5334",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9ccfa5679106f815b217f1be54aad999ad2158bebd68edef9c30c860bbba9520",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d1dd4867011618495806e787b169fa074a90d2c234637606107512f366b0dd7d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "99fba23108bc088007fe08bc36c665da97fd4b233ea9061541ad15a08daa3bd3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "90470c456195955dc0d375a2de22ad53343814cae6e13487ff41a195ce8af5a1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fbdf5a7137a653c226a15f277ceb7d3217b65686e048f0f40e56d097ebea3e34",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "87daa8e65be135e6ba8babbaf4fa27f4bba4a27bbaeda7d29db8e945ca493fea",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0bcea22f35e256967088fefe0edfa902d9ae8753ff1d3224516f3864685492d9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6dc5834a76520d7a0af406392532012b6480629a826ef59f16b07e26cc503792",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d186478f9e4bc8a41bd7a749fa5e14aa1646f883359aeb532587089d942636ee",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "583a7068007d454afb72930099008337c3b48dcb136a61f1f1173784fe399f2b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "47b88b95d8bd83b4d28e068b2d623b1c7dc7fc520250eec2fdd1d8702883650a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "deb36c0cd68ab02468b856921a7a2d670e9e5d9b80bb87f212cb1229a40c11a9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "28b240edad5b78c2be1ca5db484b20cb9100ccab92af0e721dfc79f4ae97d4bc",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1eababf04a221e6c978be562c99e45445b53d570cb046ad3e1fdadca71b3ca76",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a4970d7edf6bb2350b5d3b2b00ea19f8172b32d588f226d2a3d8602b958b5b4b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9827e7291c36b104c98a57a2ac8ae6c009b7e0f5b2ab5ed305cf343fb27d822d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "985c3ad8bedb02558654df5781a61c82fdacbdfc2b39c27bbb473c0e19bc99c1",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "51d146f35a171e33cf9cfb034aced44d0328cdb7253bf24ede79e30a287fbd55",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e57b3144db085fad908bbd1c93bb6a49fd537e9367fe5847939a1a66c8fa4575",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8879ff57710811c7311cc279e1a6bc0624710d0f14b40c0db7f0c983f6cda326",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fd8ce7746874765e2ec0d166ed3a8c89fc6bc3fbd8b5b9b3d95bffaba8c6772d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "440771585ab3149313c4fe0b21f6fc5208b152eaa304ac47fb2ab1e9bfd779af",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "02df9b68436f0e77867bc686bd0d58042258dcac82bf536ff611e9ff0c97e3f8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "047c42f54ee17f94ab6f7775d2432372672ed4416a04ab634ec5590310246da5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8c1ee5fd009d33cd0289e8e446513c28619d167cf46152f5f15a95c212ec5456",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "bc2e78e8232f7c6fe3f7edfc59a7637ec34732a8c7a37cc123966bbe668a3a84",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7f8706f80f7620363d3d3c029f4e0d36a755a4ef8582808483370a32c8ff3dab",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "87082c36895904da32411921392cdc5d685dbd0361a172a89198566203fefbdd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b3679119f5c5e1da371491239e17c6ac203de3fba422d5f06ab328ebdc5b2394",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "739046c0285f8172a714d83c01fb05e9eb2580cfbe5bdf35b047ffe22adc6e31",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "402c86d01eca9db187e0b711bf6a75ad4b5bb944d27763d514798c92a4de3a94",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "43230c8074465e798d43bcacdeeab5f0b1b8bbb8ad516fea9ec7a55ced232d61",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "474f0b5deb6bcf7159347d55febf84978d79097d23d5d3e58d6a980b774686fd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "db171bf741d94f6c76b3bc9d01e9afea6da05649f77a84183b93288503eff4c6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "46d5642c440f344ed89ef0a03be71a61a586650a5f32b8bff6cf06a68b34a92c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ff0e1b9c285f9aee28abe46bebb4abc91cdf656c599c0bf971dd82b7dc60aca9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d8da0f5c88d0098ee2aac3f75fd0e24b76b0a1a9eb3d9399835cdf5f65fc9a55",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e82f1236ed11c4a8ef729a94968533189069fdbe44dee44c9146eb3cf4e6a05e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0cb91dfeab3c31f2b98572f62582da73f9b9dcdfcdff5eeab5bb07fc125cff20",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0aa5d022582400ac9c5f5f74e9b925e3912447d355c92662481d7384f8fd6a8a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9d96e09b885eb15f27726d718b626e7550461ceccfbf28121c5acdb646e61da8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b2be1ad6128f0c653fe3d808cd079ad116adc85f415d8f6a074445453fa0500f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "360e809488eeca574c8c4ed48378311a48c6d39c479ed16540b6ce22be49aa13",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7c849c651b859474dd844c76c7ef10806aef969785d6874d6414672e9a3bfd0f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "54f2a731d66c8c7be2b208b194ea5441e025a4930c93e2486a0c10814018b247",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0cac7bb21c0d2505ef0ed2e2d39ee772383d3bf9ef3cbdea37af3765b3c7e7c9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "417068ab9a1c8ce6e1ed7d61112ae180218a4165a562c8967d30826cd2b3ad9b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dbeeda1df09de9d7d7b5664c405d9f8fbc019ce32ff3bd541d5c2c36b03a25d0",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3c98c1e2ae04a2291e2e0b40c8755f141c6228ab4fdf076ea793ee143f172173",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "19510a1d6d334a0719a6c2f6b6b31e3e0db3fc4cb33d66d3ea542324596c1289",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "014cd199de36f32a80ee73609c6d5b9b1791327e15a8606814702d9a5c6b1c6c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cc4282c2644dd5942fa61d90e5b84fb2c39351ea6898cb3afa0127efbbfbee76",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "bc93364a9d547862d7e848fc86c3d16d80938e9f816c0fe859076a16632cb40c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "463039ffed13a465aeeea4718ccd1fd211f9109a2b1e0a4a0bb131067258ae25",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3dbf72870b9d679c6108aa478ee62a774dbff563181bb1c92b4244ee4707e271",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ac8f44bd1a4c065b6b5fada35990694a982ca47435e0505343a5e64a79185c14",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "03e46ea7b87a6077aa9864662d62fdbafd34cf459c0c5be9059575c43efba12e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e79fb1d434a2a96f51dd5046117e2558ffbc3f1985474c9d76747ff25a61d60d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dbef4734f0821cd3c45f5e43e3e46f937d6a90bc9e41c46b7c630bd30c376250",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "82dcf49b014b5032fc29ea2ccc4b6697d77433327c93fa4592835c458ed9c3ea",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "169b6adb5ee416337cd885b503d724be0938fdf2f59fa801fb769046b5d5e094",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f043b21e9cc2a338ce6d0faf7e4daf1458cc7ece8041c8fa6760cfb00419d0c6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9e06a4a8604e6f5ea2102abecc492fa513f6fd41477f0c884c34a63aefb2f1c8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "50410ac4b479bf700b6c77780a3e93194446671a315def9a94b4aaf88e2218f9",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3ba07731e7e34787acaa17ed0909ad46cbd4464f0a05aa08a96f67798523be8c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dfce466962114ea2ef0f94ccb241509b8aa3c47621a2a2890d809058216782e6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9f14712b92720eac275c4c488d9a3c37c6ebbfadbfa0e6cc2e360fdf438eceb5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fae12cf43a937c95390c08e184768666483242110f6747e0d6a6fb5e3c45e099",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "548c98b439e70c6e2bec893325f768ec214e25454fcdf8493670b2c38cd65bd4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3467cdabedbe1135e1b4687e314a978314820e45f17f921b5346e21bc061d632",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "186d7f8c3336cdd9177dfddd232673d3e184c14a9e09059ebc0c18c831ac43dd",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "100ef06b2959b2925ba25042302a0e3f5c99eb80a9c03b5f0eec7dbbd6cd30a7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "eac0645532b579cbfb3e1d26fb9bd01865dfd62ec7e36e8bfcba16e5393db2cc",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2dedff4b4ecf4f3aed1960bd0467bbff8fee34d38e6ded2953ad58f1efdcdcf4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "773b18e4f9ca21434ec2aafe4d7c12963cf15f70d4798ef4ae8ac638c6aa4bb7",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1cd735a4a2b1c5a4d4e8175cf653c5bbb5a2e588a69bcb5d3e03cbc4de57bd34",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ac3eca5896e2861f819f5c667f1d8a587c5ca57b32308895ffcb755d9c6e1dec",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "975cbb7d7fe52aa3bdad0b7911d7ef205aac863e194227fcd51311fa7c813de4",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e8a7a23d94c69402ead8e5c1dfd9321cd58197c8221318124f789f727d4c00ac",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d55637ee995605b1890baebfef87eae7a52daeef9ec0994e617ee88b373c4336",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "917b8a98f5e0acb165dedc5338b0efa0913d08619cf5904c5a6ebbebe851c86c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5d9717c9bf5dda0c055df52dd173d842a0f2f27bc1c22cb47d8207fe4cd6a0fb",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "583db892f92b90238848ee1ddcaa09e6aeba88922817e0e75fd3e8f7335fd428",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4ac40e86f05a6442d591cdbfe915e2a49934caabd0072b445c4263f3cdd12486",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9f69e9627e5b17ebb5f4d714bf324d9b235b1c448f1bcb2be2c47f560f5f4c66",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9192d9cf7bd9de1a330172bf20c20e162b2314f00c05db318b2ffa631886b347",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c58954738289c3137fdd3fff6d85c8aec1c36af431253e0cbc0ee745d93c5a4a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2591d2cb302ea75f028ab5e49d5ddd4dc86141cef4f011c4c5ad4101a5e0e986",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d414e70f87cda8c814f387eb5abbebfa6385f5f97c64db66a90f14f9897a5245",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6d6af70277bd535884b199afa7bddc398d7db302e8aca73d44c2fcc4ef7b1e1e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "273ea0568cd40722acba3e22fdeda00c6122b4cda1270a660a990a3792f55112",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "42b43b30122b00857acfa30e9fa790c4f94d6268e0918a0f86e95caa60ca2c11",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6122c4222538cbe0f3ec237c28e3cfafe0397f2b12e19c2db7842627a67d9f95",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "067a2c4e9e6144cac852cc07fdfd3a081964b472407549582ff14401697e0830",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "e386fa5494293764c305bc1f9b7029057dc7ec5bf8f879de5d7f44892be2e98f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f7601d6b3251c1a4500901bda68dcdbf40c9b638a2bb7a26c45727ff9bbf4d6d",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "812239d578f08471094b0e1cca01484ff5ea446e36ef21b64caf53c44b49651b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9ab61b96f7996bcaafe1842a5250b26dd2314d0cef7b120b723378e26178a5c6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "66c757c13908cc6c490b569abce41089298447d716317db7a1b8ffb03177f357",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6d90a133af400eeb94c231a9839a13793ca9509ed46a48bf08ec053605a99ad5",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "37ea0323a0cd782d9575112d1b15c9c179a30b4c33c6cd05c452e897b830f26e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "82548aae2e8ee46bb1babbc0a98b73c8d100c136ad84da187c518610b07e01a3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "41e46721e2c07d65ac42beda40b30cca09dd30d6a4389ac01d256ef9864e23fa",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "210ed44f5bd193045837fb4dda954b86ac6de70daf222e2190962b653d31c389",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c176aec20d6f7d6124f13bda793f20f8a07abfc034b8891eccff5b60beec3c35",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0e82ec11d0480207720029561d877cd8aec2913ce74dc970f83da594b0774574",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c600e7f42175ed8a4f25b80786bdc5dc859b0100cea31668e40eb90bee7833e3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "52f21d1b1e99c807547659bd3ffd729f66e908fc88a6a04502728758af4b1539",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fffee1a027f910523008a1971e505bc46a8fafdb28cd78f56a263489c889d647",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0cc3a74549f371a22901dc992206df773a23cfcdfda384e1331faf5f9a00083a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6aa4afa85393ea482a8d5a838785ba2053b8e8e20560ac8a406b596a4ea891cc",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "09318d185516d97010a0a219de64de4a24cc1013f0ff9f02df1f92eddbea5f9e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d1e1a7251689899795b99bf5d14c4e24ccd003162818004464fd756cad8ed680",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "7f4856f78fe6cca2566c123a5ce89cef131f6cd2cdff7c84b2c5cf37c272d259",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1d170a792ddde1c324f0f990272ea680e3be0a645fcfa33e13a75528eab61934",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3de1920cf220cf8a9c213275c683a64e3bc32e74e1af97a87bc4fe48e0fc8617",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "94653a77ee16ce62229a3042980ae50b5449bf9c1b0667382cb56a7702ebfbea",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dd586c590a202abc54e884c9cb290a29d455e819357a0fa61fe5abe27da8ebbf",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "bd637ad3898897b7e4c771b0a62c7873d4ac8152b786d97d1dac6b9bee8963e8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "dde11d478185191309640af9b448e5c5fbd760db6134898ee61746efd82b0baf",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1d02dd8c3a2f9e951a3f163e213ca12a90cc621020a54367ef6b8995bb000482",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fbeb0b18adc3e18c5bee3fe7b43b329bde30274fdc204aad5299dba12696d921",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "aed8dfceead440e89854786f3f2b46564585ef81d64f7fdc6f325e2376d8c006",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "50c9cc0baebee6c7add2693471601509ec729c1b1f6666390908046e32c600f8",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "bdb95aa1b096a125ce858ce07b6139ebedf59390342ae969c4d439997dc271b6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fdc4c9d7829fbbd37cb5b838b7f38769674c164a56cb2db6c88b18d370f94124",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9c5ddeb73a0ee2b3c0d13e803db6530f1d9d01b5cb2f059c637378ef49359443",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "abab933997efa219bf6bea40cbe1a5deda2a77896d9cc0d0b0b671a118f167f6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d9d76d26194e811e4180ec6ffb9e03034c5d249536a0dc16622e43f7e6918d5e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "943736c8bece3be89d92509bc2b985d790cd9ec4398ce75b634125d0fcddba0e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "03b19d02597684f8cd2fbe94f31b4bca3edd2a930df7da5a56dba8d2401944d0",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2610f8bf313596738101a2c1230dee9d017925d50b31b476475f5994db36aa4f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "fe628b6dda957ab53d06da3b01def9cd4fa92df1e99d7235f7bcb1bd861b8e98",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "5af5d7cb4e09fcd13fd20179e11016556800b90c40c5763455ae6b6de84cee95",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9439ce7d93139d1925dee1c11a9a210fb67fde11251d8fcefd328971e04bc0ff",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b0de6064ea661b8f147ca6c05bd1dd03d695c111df55c5901d99f3e4bd25382f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "097a4e9b0f82059a918e1f4e6edd2448ee491fa2a19e21e4745f7e7540488e9a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "924d3ca365a09fb12c30712db4bf0459674be89a48cca6fd6d33720b6e8c433c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "79cdac864feb1093a21833d28efa60c2fff728eabbb82e2bc44ae65f0dcbae37",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "cf29f6f26720f89fdb169970889280dda4cf3c73e90ab264459163bf7fc35d84",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3d7e22b020a4595841d9ac5e370fe68434d25475a80b8c3a02ccd28789fd7f94",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "008c0be568b940280a5bfd1825052095e8b8063589868cf136b416f1fbb1d250",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "62a4a2893dbd770c5e499324b28fb72686015d1a8a67edcf68e1169c78917d15",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "db349c156cf206773a9863cca0ae3463145544925d91bf548f8cb187d0b3be25",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8796ebc898e9fb901d407b17e5ae17d38feca314c66a83088e733cccbb6f31f0",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "2a7d064eb272ea9c4976f6db2359199cfbfb0d1d5296b0b1c6afe13088649648",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "c6d0200d1eb6e30e375dc5c7656f586787334b89db10735e8e5488a5f077c852",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6f24e8de005c5e76a79637a11129e41ce9f9662b0e0019e1fdc90110db9c56c3",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "87a18d24163dc37cb68db495bb71980b50cc59f16d780bc98123f71c1d1f98da",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "10389f4f324526c9770143bd17d18ece34291b90d05dfe504677a4f8ada941bf",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "0f86da34f8c30343e3e1fe246c1cc64ec88ef9ba8690ff12e67fb96f36f74e7e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "6c84c806365c61c74479f4758ba09b71a19f3745bea82d18d5da200516e9c289",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8590e310b1baf023bc4bcdef08e1b3faefecd6ed42831e9605041201068a150a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "d6294373164a56b77a360b5123b7256dcd04162d52625440666509c88e374d87",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "eff5eea0e2347c41031a71d755db5eb7814c3b39d1f8b655b9848fbf64b1abe6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "9ae1c15b2d2c121d88aa1b652d5811e543cda83c741fc7f0c929425669129251",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "a123f6a99f0dd03bbf4ef55b19d88031f54158ecd4302c706b7f1fa66d0c5d5f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "97c1f83fc588603aa360b83ab8c721a8651eee7281e9fc1dbec1ce44f7258968",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "11149bc39e9c4c09a02b9f8e2b55c9b4c2d3f7501963f2678b9d2614e4a29490",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "3bde21590143f63f66a8301e60210246eaf91a5fd89c5a2583f744873ffff4ba",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4480042e1014697fb3c3b1c01816097d799db9741d3b459a6636527e0c999b05",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "f2e4c64f15c7d8a3e9b2dd2df7a781cc4cfdc57b3b3657607b8677401386be3a",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b75047bc736e55d09e68ce0c4105d7c3590ad754c355c4ed2e58b17ebf89fa8e",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1484e2a8bafaf6675eee7f68108b7c77ccba07e88e4944ef9dd2a788f8e33c47",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "4823e2d08a3a51ccde2d63be5ae2a6628f5bc934a5735aebf09b4a0a23981c1c",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8b8616279a1d4d4e2733c08909928bdc4d7ad3adf168e84a632809eb2d87c861",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "8c0b81f9ea1e1c740aa51c4fcb30cdd110b7dd286218612c2d8f2d51396282c0",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "b60d2286f4051907bffed3a8fc5fb22512a69137e9bedfaa446bc10bdba11fa6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "1bb8b24b121bb382ac07d36fc60bdce588758b0052824cd7f905f95ee4397a2b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ba8e0f0a3029e3ee4ef97fc170aea21823d1fc5d4779a66f0264ccde76a2a84b",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "32aeb5dad2a46d0a0f6c47f4387909cb531fde3b56a3280f8dfaba8dd56d36b6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "ad94eefad41cd0900cd02cbb8fece5bd3e0a251c22be78735d7899e460b97c02",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "742251c9d9dbbcae5da5435dc9879e0f994a09107529fcc423a8bc6cc9458e2f",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "63468d7ac3a9cd68c061303010225d5c5b1c99b0552def2e139a366e231563b6",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    },
+    {
+      "job_id": "45af35fa6a5bcd8de3a5697b97e7cd55cede34afdcdb1ca628ebe1a734430149",
+      "problem": "recorded_error",
+      "http_status": 404,
+      "error_type": "provider_http_error"
+    }
+  ],
+  "unexpected_errors": [],
+  "analysis_spec_sha256": "de031c05915effdade61309b25172428455ea2d0d1f2966ea4021404227481cc",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "analyzer_sha256": "7501ef319cd0b812bca52528193b512aeb7e8163099b903f0b828cfd325113f3",
+  "human_ratings_created": 0,
+  "secondary_plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "secondary_directory": "/workspace/persian_humanization_revision/experiments/api_study_secondary",
+  "availability_amendment_sha256": "d782eb4ef117d96ac883c92f409e31cf46759d38cfc613ffea07125a3950e09d",
+  "expected_unavailable_model_http404": 400,
+  "interpretation": "Descriptive automatic diagnostics for a separate OpenAI controlled experiment; not a replication of historical Llama results or a human naturalness assessment.",
+  "query_groups": 100,
+  "fresh_provider_response_ids": 800,
+  "distinct_output_strings": 574,
+  "normal_stop_responses": 800,
+  "prompt_tokens": 201252,
+  "completion_tokens": 11556,
+  "total_tokens": 212808,
+  "cached_prompt_tokens": 0,
+  "uncached_cost_usd_not_invoice": "0.06805390",
+  "summaries": [
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 1,
+      "exact_copy_fraction": 0.01,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 16209,
+      "completion_tokens_total": 1504,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0088900",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6419599770022034,
+        "median": 0.6666666666666666,
+        "min": 0.2857142857142857,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.39668766162794294,
+        "median": 0.4166666666666667,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6250972500057438,
+        "median": 0.6339712918660287,
+        "min": 0.23529411764705882,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.3729428717072949,
+        "median": 0.4,
+        "min": 0.0,
+        "max": 0.75
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.17427127849939802,
+        "median": 0.13333333333333333,
+        "min": 0.0,
+        "max": 0.6666666666666666
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.36210713374061065,
+        "median": 0.3693181818181818,
+        "min": 0.0,
+        "max": 0.75
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.1875635198135197,
+        "median": 1.125,
+        "min": 0.7777777777777778,
+        "max": 2.0
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 162.09,
+        "median": 162.0,
+        "min": 153,
+        "max": 169
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 15.04,
+        "median": 14.5,
+        "min": 4,
+        "max": 29
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.6295667561100072,
+        "median": 0.5903212764997079,
+        "min": 0.41593786100020225,
+        "max": 1.607560370000101
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 1,
+      "exact_copy_fraction": 0.01,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 32444,
+      "completion_tokens_total": 1390,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0152016",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6742472514219452,
+        "median": 0.6666666666666666,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.440870405289809,
+        "median": 0.43167701863354035,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6573768364866763,
+        "median": 0.6666666666666666,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.45825258726655954,
+        "median": 0.47619047619047616,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.2575439607706871,
+        "median": 0.2361111111111111,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.4463826146134667,
+        "median": 0.47058823529411764,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.068652514152514,
+        "median": 1.0,
+        "min": 0.5,
+        "max": 1.7142857142857142
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 324.44,
+        "median": 325.0,
+        "min": 286,
+        "max": 362
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 13.9,
+        "median": 13.0,
+        "min": 3,
+        "max": 21
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.6341114422600822,
+        "median": 0.5910841445002006,
+        "min": 0.42905267600053776,
+        "max": 1.8215929349998987
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 19813,
+      "completion_tokens_total": 1464,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0102676",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6322324061512642,
+        "median": 0.6666666666666666,
+        "min": 0.18181818181818182,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.3969231837149255,
+        "median": 0.4,
+        "min": 0.0,
+        "max": 0.9230769230769231
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6128036720624817,
+        "median": 0.6666666666666666,
+        "min": 0.18181818181818182,
+        "max": 0.9411764705882353
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.42122965743695706,
+        "median": 0.4444444444444444,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.22851206786742292,
+        "median": 0.2,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.40884408009678247,
+        "median": 0.4444444444444444,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.1753361915861915,
+        "median": 1.125,
+        "min": 0.6923076923076923,
+        "max": 2.0
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 198.13,
+        "median": 197.5,
+        "min": 182,
+        "max": 225
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 14.64,
+        "median": 14.5,
+        "min": 6,
+        "max": 25
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.6244780724599605,
+        "median": 0.5908512699998028,
+        "min": 0.40862617299990234,
+        "max": 1.5413880389996848
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 1,
+      "exact_copy_fraction": 0.01,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 32160,
+      "completion_tokens_total": 1418,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0151328",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6681358819214318,
+        "median": 0.6956521739130435,
+        "min": 0.16,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.4368556689119349,
+        "median": 0.4105263157894737,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6436869747689979,
+        "median": 0.6666666666666666,
+        "min": 0.16,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.4617557551659988,
+        "median": 0.4733893557422969,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.27471385915052626,
+        "median": 0.22875816993464052,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.4512829134476597,
+        "median": 0.47058823529411764,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.1347209457209457,
+        "median": 1.0416666666666665,
+        "min": 0.6923076923076923,
+        "max": 1.8571428571428572
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 321.6,
+        "median": 319.0,
+        "min": 280,
+        "max": 368
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 14.18,
+        "median": 14.0,
+        "min": 5,
+        "max": 25
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.6185709154900269,
+        "median": 0.5830002785000943,
+        "min": 0.4281099550007639,
+        "max": 1.771898637999584
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 1,
+      "exact_copy_fraction": 0.01,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 16209,
+      "completion_tokens_total": 1500,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00333135",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6250955835462902,
+        "median": 0.6666666666666666,
+        "min": 0.17391304347826086,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.4008544271981141,
+        "median": 0.42857142857142855,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6085973233523778,
+        "median": 0.625,
+        "min": 0.17391304347826086,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.37556474959294533,
+        "median": 0.4,
+        "min": 0.0,
+        "max": 0.8
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.18248317946818116,
+        "median": 0.14039408866995073,
+        "min": 0.0,
+        "max": 0.6666666666666666
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.36472726079586576,
+        "median": 0.38278388278388276,
+        "min": 0.0,
+        "max": 0.8
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.184445165945166,
+        "median": 1.125,
+        "min": 0.7777777777777778,
+        "max": 2.142857142857143
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 162.09,
+        "median": 162.0,
+        "min": 153,
+        "max": 169
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 15,
+        "median": 14.0,
+        "min": 4,
+        "max": 28
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.7834106677500949,
+        "median": 0.7662996839999323,
+        "min": 0.5643894269996963,
+        "max": 1.7954576129995985
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 4,
+      "exact_copy_fraction": 0.04,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 32444,
+      "completion_tokens_total": 1418,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00571740",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.7139745698730757,
+        "median": 0.7142857142857143,
+        "min": 0.2857142857142857,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.505553533702504,
+        "median": 0.5,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6973884355649734,
+        "median": 0.7100840336134454,
+        "min": 0.26666666666666666,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.4589106011109982,
+        "median": 0.4660633484162896,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.2639396408642135,
+        "median": 0.2376470588235294,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.447038391174392,
+        "median": 0.43167701863354035,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.0758713786213787,
+        "median": 1.0,
+        "min": 0.7692307692307693,
+        "max": 1.7142857142857142
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 324.44,
+        "median": 325.0,
+        "min": 286,
+        "max": 362
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 14.18,
+        "median": 14.0,
+        "min": 4,
+        "max": 22
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.7457646444299644,
+        "median": 0.7309167714997784,
+        "min": 0.5045320529998207,
+        "max": 1.2893811359999745
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 19813,
+      "completion_tokens_total": 1465,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00385095",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6458327028567581,
+        "median": 0.6666666666666666,
+        "min": 0.17391304347826086,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.4263655959307792,
+        "median": 0.42857142857142855,
+        "min": 0.0,
+        "max": 0.9230769230769231
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6319422141184433,
+        "median": 0.6559139784946236,
+        "min": 0.17391304347826086,
+        "max": 0.9411764705882353
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.39467053234120913,
+        "median": 0.4,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.19626985839151004,
+        "median": 0.14074074074074072,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.3813216523209736,
+        "median": 0.38278388278388276,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.1930715118215118,
+        "median": 1.125,
+        "min": 0.6,
+        "max": 2.0
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 198.13,
+        "median": 197.5,
+        "min": 182,
+        "max": 225
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 14.65,
+        "median": 14.0,
+        "min": 5,
+        "max": 29
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.7735789902299621,
+        "median": 0.7551299904998814,
+        "min": 0.5617561979997845,
+        "max": 1.2439530000001469
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "n_responses": 100,
+      "n_query_groups": 100,
+      "exact_copies": 1,
+      "exact_copy_fraction": 0.01,
+      "any_side_digit_eligible": 0,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": null,
+      "source_digit_eligible": 0,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 32160,
+      "completion_tokens_total": 1397,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00566220",
+      "source_rouge1_f1": {
+        "n": 100,
+        "mean": 0.6737249690902268,
+        "median": 0.7,
+        "min": 0.17391304347826086,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 100,
+        "mean": 0.4534798333761182,
+        "median": 0.46153846153846156,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 100,
+        "mean": 0.6571250362872048,
+        "median": 0.6666666666666666,
+        "min": 0.17391304347826086,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 100,
+        "mean": 0.46982005541259814,
+        "median": 0.5,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rouge2_f1": {
+        "n": 100,
+        "mean": 0.27951169530503894,
+        "median": 0.23529411764705882,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "reference_rougeL_f1": {
+        "n": 100,
+        "mean": 0.45620821784767135,
+        "median": 0.46256684491978606,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "output_source_token_ratio": {
+        "n": 100,
+        "mean": 1.1033025863025863,
+        "median": 1.0,
+        "min": 0.6,
+        "max": 2.0
+      },
+      "prompt_tokens": {
+        "n": 100,
+        "mean": 321.6,
+        "median": 319.0,
+        "min": 280,
+        "max": 368
+      },
+      "completion_tokens": {
+        "n": 100,
+        "mean": 13.97,
+        "median": 14.0,
+        "min": 4,
+        "max": 21
+      },
+      "wall_seconds": {
+        "n": 100,
+        "mean": 0.7789547111499815,
+        "median": 0.74846452949987,
+        "min": 0.5148549750001621,
+        "max": 2.04023932400014
+      }
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "source_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.018589724763254177,
+      "percentile_95_ci_low": -0.019202444260432883,
+      "percentile_95_ci_high": 0.05412944964273424,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "reference_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.08917577970704904,
+      "percentile_95_ci_low": 0.06107387478482243,
+      "percentile_95_ci_high": 0.11906993414648347,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "output_source_token_ratio",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": -0.052842574092574084,
+      "percentile_95_ci_low": -0.0975820256132756,
+      "percentile_95_ci_high": -0.008195424020424027,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "normalized_exact_copy",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.0,
+      "percentile_95_ci_low": -0.03,
+      "percentile_95_ci_high": 0.03,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus random4",
+      "metric": "source_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": -0.013689861717678381,
+      "percentile_95_ci_low": -0.04731918538450676,
+      "percentile_95_ci_high": 0.01917584373072225,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus random4",
+      "metric": "reference_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.004900298834193035,
+      "percentile_95_ci_low": -0.02208825888393848,
+      "percentile_95_ci_high": 0.03166226358473616,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus random4",
+      "metric": "output_source_token_ratio",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.06606843156843158,
+      "percentile_95_ci_low": 0.02569567446442447,
+      "percentile_95_ci_high": 0.10878104881229879,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "contrast": "semantic4 minus random4",
+      "metric": "normalized_exact_copy",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.0,
+      "percentile_95_ci_low": -0.03,
+      "percentile_95_ci_high": 0.03,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "source_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.04852771293482694,
+      "percentile_95_ci_low": 0.011651754962275721,
+      "percentile_95_ci_high": 0.08514029891568625,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "reference_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.09148095705180563,
+      "percentile_95_ci_low": 0.059066392649993915,
+      "percentile_95_ci_high": 0.12632257154100537,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "output_source_token_ratio",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": -0.08114257964257962,
+      "percentile_95_ci_low": -0.12677677877677876,
+      "percentile_95_ci_high": -0.03724049630924633,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus LLM0",
+      "metric": "normalized_exact_copy",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.0,
+      "percentile_95_ci_low": -0.03,
+      "percentile_95_ci_high": 0.03,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus random4",
+      "metric": "source_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": -0.040263399277768654,
+      "percentile_95_ci_low": -0.07916276272806627,
+      "percentile_95_ci_high": -0.002247215116530488,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus random4",
+      "metric": "reference_rougeL_f1",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.009169826673279355,
+      "percentile_95_ci_low": -0.02321992581761527,
+      "percentile_95_ci_high": 0.04266953822551817,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus random4",
+      "metric": "output_source_token_ratio",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": 0.02743120768120769,
+      "percentile_95_ci_low": -0.01738024891774891,
+      "percentile_95_ci_high": 0.07283732864357866,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "contrast": "semantic4 minus random4",
+      "metric": "normalized_exact_copy",
+      "n_distinct_query_groups": 100,
+      "mean_paired_difference": -0.03,
+      "percentile_95_ci_low": -0.08,
+      "percentile_95_ci_high": 0.01,
+      "bootstrap_replicates": 10000,
+      "interpretation": "Automatic diagnostic difference; not human quality or semantic accuracy."
+    }
+  ],
+  "warnings": [
+    "Associated references are not validated gold for within-register naturalization.",
+    "Number-token flags are not an error rate; number words and equivalent representations require inspection.",
+    "Two small models from one provider do not establish broad cross-model or cross-provider generalization.",
+    "No human naturalness ratings or factual-preservation accuracy are computed."
+  ]
+}

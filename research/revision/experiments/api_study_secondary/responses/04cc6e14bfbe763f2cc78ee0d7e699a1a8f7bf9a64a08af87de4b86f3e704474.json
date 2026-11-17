@@ -1,0 +1,41 @@
+{
+  "job_id": "04cc6e14bfbe763f2cc78ee0d7e699a1a8f7bf9a64a08af87de4b86f3e704474",
+  "query_id": "PH-6eaab4b63f33e9750158",
+  "group_id": "3967ef87906e61b47411fe8cf9931cb23b43c224ecb44f2a000914e4c4823c22",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "54abc8c040b6ce73b0a39f2499ddb7e6c12e8cbaf0b34530b855e58f91ed976c",
+  "retrieved_ids": [
+    "PH-b1f4f21fe353191acb94",
+    "PH-29f1bbe898dd9942bf2b",
+    "PH-d2e296401c679bddf82a",
+    "PH-8b599d4d485468df7fe0"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c0ea9137525343eab832ceaf679a1634",
+  "wall_seconds": 0.8816335470000922,
+  "raw_sha256": "0dfb4baa01f5a4146e41846c3be5283bd6444de6961b679664dbcdc37aa05b3a",
+  "output": "ارزیابی مداوم برای پیشرفت خیلی مهمه.",
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 13,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ItMQ1yUtJPZ5QF6iFqGPGjfAV9",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005685"
+}

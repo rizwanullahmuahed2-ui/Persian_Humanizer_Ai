@@ -1,0 +1,6 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "records_sha256": "ebd5faf2f0ef299528f4b6336981bf2be24250627a7bd7b9a504435b5b3feb04",
+  "policy": "source column only; no generation or reference encoding"
+}

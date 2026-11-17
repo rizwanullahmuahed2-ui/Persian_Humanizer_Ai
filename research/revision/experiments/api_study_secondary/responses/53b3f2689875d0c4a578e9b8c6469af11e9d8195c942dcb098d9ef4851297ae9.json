@@ -1,0 +1,41 @@
+{
+  "job_id": "53b3f2689875d0c4a578e9b8c6469af11e9d8195c942dcb098d9ef4851297ae9",
+  "query_id": "PH-0cdea4eaa789b47bc0e0",
+  "group_id": "7641386702937062843a40cc4e6064906139c2ad94802bf0126fb469241d8d4c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "6b7a092c20e898e1c2281418b283fdbf2118453b2bac85d2363450c16941932e",
+  "retrieved_ids": [
+    "PH-92938c7ecc69916c070e",
+    "PH-15f2b29667df0e83aff6",
+    "PH-293f62bbfe4923bdbf24",
+    "PH-8fc8b4e09bca700212a6"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9ab077d430f3461e9109d6b3fb7c9788",
+  "wall_seconds": 0.7126841829995101,
+  "raw_sha256": "f229455dd1623d595e66b7c90575c8020fd5ca02a519696d0104d9e45e74aac6",
+  "output": "چرا همیشه باید من از دیگران عذرخواهی کنم؟!",
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 15,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I2PH9vMyj6ToyINoJpXNgZln4g",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000612"
+}

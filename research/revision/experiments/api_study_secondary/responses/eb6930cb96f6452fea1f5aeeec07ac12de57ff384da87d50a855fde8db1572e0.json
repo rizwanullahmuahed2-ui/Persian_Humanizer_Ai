@@ -1,0 +1,41 @@
+{
+  "job_id": "eb6930cb96f6452fea1f5aeeec07ac12de57ff384da87d50a855fde8db1572e0",
+  "query_id": "PH-46b1a651f00af22c9f79",
+  "group_id": "6208f1fe5614618270cfef65c7d28629b7d6671193bff8e7b6bb18100356a879",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "ee6c62d7996c5b4002950433c8397339da20a0f3c9d41f57a7c45d191210d120",
+  "retrieved_ids": [
+    "PH-23d48b2b92214a584344",
+    "PH-db5a4c3edd4739afc350",
+    "PH-808a4d0190bc5032a227",
+    "PH-b2675e2ea8a38815ec2e"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a5618acef7fe44338e61ff47f06dc8c8",
+  "wall_seconds": 0.8094435600005454,
+  "raw_sha256": "a5628aa532c3611dd45fdd8f51bc7e1af82d48d9e86e7a0015c6223244e7d971",
+  "output": "چرا هیچ‌کس هرگز مسئولیت را نمی‌پذیرد؟!",
+  "usage": {
+    "prompt_tokens": 347,
+    "completion_tokens": 18,
+    "total_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IGXWnqUgV7Z6flDB1b6hQlGufZ",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006285"
+}

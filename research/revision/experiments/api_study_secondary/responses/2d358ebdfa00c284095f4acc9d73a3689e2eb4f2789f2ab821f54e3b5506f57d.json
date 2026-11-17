@@ -1,0 +1,36 @@
+{
+  "job_id": "2d358ebdfa00c284095f4acc9d73a3689e2eb4f2789f2ab821f54e3b5506f57d",
+  "query_id": "PH-ce6fc54871c3d5967c72",
+  "group_id": "2483ac00a4cad671619c504fc504dd45adb344eb5b09f0975049e28b26cb3e0c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "af5891b46aec6ac8a82bd543345d8bff5b3294878513ea1afd32c00a15174b8f",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_575a5c7aef2d44478da98ed38cc41137",
+  "wall_seconds": 0.8052470920001724,
+  "raw_sha256": "6a666e2fccd273f5778c4bc50f1db1c21f93e76bcaae7eca6382b62317737069",
+  "output": "این دوره دشوار به من صبر یاد داد.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 11,
+    "total_tokens": 171,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I3yJkIzNDlMaquTuqxPi7mcpnD",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000306"
+}

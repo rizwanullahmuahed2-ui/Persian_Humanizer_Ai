@@ -1,0 +1,41 @@
+{
+  "job_id": "5486daecede63e90a017a95b7ff5c3446a1344594a41324390dcb311b215df68",
+  "query_id": "PH-6c48beeef24e1ce90ef5",
+  "group_id": "bc285ceb7e915217a1212d8d194e38a4c9b70cd1e9c88e469d9c122d92ae6cfb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "753780a97392b4e182fe9bfb88f980ca416aa77aeeb59a29455d797b21a2f32b",
+  "retrieved_ids": [
+    "PH-6c3ad7b34b8fef07518f",
+    "PH-266b73ded112e25733d0",
+    "PH-ea74b152f265e158d5c9",
+    "PH-45180f9de3353a1e3b22"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_562daecbc7d74e7983b96487d45495a7",
+  "wall_seconds": 0.5935183999999936,
+  "raw_sha256": "ab5ac98ea264548e4c7abaa23aec061ab75c49bd3a4e530890875763266f5458",
+  "output": "پرداخت انجام شد.",
+  "usage": {
+    "prompt_tokens": 320,
+    "completion_tokens": 5,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IElMWL9eHWUftzKbNUYHhcbgzA",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000051"
+}

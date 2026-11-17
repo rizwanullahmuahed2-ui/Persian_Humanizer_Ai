@@ -1,0 +1,41 @@
+{
+  "job_id": "a2a3e51180f20c40d0f16b31ae69bb0e3bea7b15387bf8889bba2028f2ae9aad",
+  "query_id": "PH-e75dc370aeb05b0a4f3c",
+  "group_id": "2c2ce5307a2ca0f3a2c446a13b25dbc09dae7a99903364186ec3a4777dc847e0",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "d1edb60da26f208dea818e139db6190f9ffd7112eff7c695fbb47d54de27a129",
+  "retrieved_ids": [
+    "PH-6672db88bf3ed1db5adf",
+    "PH-3f8a429d9d136f0ebd09",
+    "PH-907dbefa4552e932a495",
+    "PH-4bf4df82b7e3a15802c6"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fae98134b2c7484586d27ab3894526d7",
+  "wall_seconds": 0.6837069610000981,
+  "raw_sha256": "4b31e9bed67a561944935f78c8795df76c8f9c618cfaa7cd74c94f4ed095a65a",
+  "output": "وزیر بهداشت از کاهش تعداد موارد ابتلا خبر داد.",
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 13,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Iw1VtvxKCx0326KCJYLaepWJss",
+  "system_fingerprint": "fp_b4300b0f11",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005445"
+}

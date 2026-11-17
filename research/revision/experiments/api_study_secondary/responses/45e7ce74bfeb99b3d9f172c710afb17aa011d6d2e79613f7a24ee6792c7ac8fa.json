@@ -1,0 +1,38 @@
+{
+  "job_id": "45e7ce74bfeb99b3d9f172c710afb17aa011d6d2e79613f7a24ee6792c7ac8fa",
+  "query_id": "PH-1684c05b6347a653321f",
+  "group_id": "d087af2f15d3d0eaab803d6f2c56d215b8ec99210fd9dabdae588939b27284cb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "8435a3e523ee55da0bb0e6de9a16ef0528b41dd1c0aebcc9fe89d919ed6e22e4",
+  "retrieved_ids": [
+    "PH-8fe90da9e318317da339"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a4fe1202a4f2408e9a6a9e16fcae06ab",
+  "wall_seconds": 0.6637351460003629,
+  "raw_sha256": "e47857be9afa69808763654fcfc8e0107a78b229924aefc7c6431a63193ca4a9",
+  "output": "اعلام عمومی این موضوع بستگی به تایید نهایی دارد.",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 14,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hp92B9WmX42YDM1B6letlpX0rI",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000387"
+}

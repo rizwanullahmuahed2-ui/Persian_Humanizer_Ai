@@ -1,0 +1,41 @@
+{
+  "job_id": "1845ca85f968b1ea4ead19d52ca3ed520a0ea0a4f3325bc0f370fa9f9d8f7b5b",
+  "query_id": "PH-efd500b7d700c4edb2a1",
+  "group_id": "c95e5b60a7201ded883c20ef33cffe79588c4827ca4e9566f45e894d39fc1d5c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "61165d518cf386db994310d4772663fd0180160d6a28d063386d9b584b13139b",
+  "retrieved_ids": [
+    "PH-1ad3b1a7d0ca950b4bf3",
+    "PH-a7cb1b338638f5ff8203",
+    "PH-1b3ab4d0cb6eb9cd8d89",
+    "PH-2550fa878924ea84c760"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c8604d7189ec47e28b96d9f5d2f31ba5",
+  "wall_seconds": 0.8020195489998514,
+  "raw_sha256": "e5016e0c7c2f2847e6749459309cb582006b9f319906428bde1347466aa51340",
+  "output": "این ابزار تحلیل log به صورت آنی هشدارهای امنیتی صادر می‌کند.",
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 17,
+    "total_tokens": 342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hwyjl5dZqhs78z93C1PlrGqidn",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005895"
+}

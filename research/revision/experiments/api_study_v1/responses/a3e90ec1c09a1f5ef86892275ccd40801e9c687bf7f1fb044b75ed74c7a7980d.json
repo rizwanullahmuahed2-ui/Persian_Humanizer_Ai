@@ -1,0 +1,41 @@
+{
+  "job_id": "a3e90ec1c09a1f5ef86892275ccd40801e9c687bf7f1fb044b75ed74c7a7980d",
+  "query_id": "PH-0cdea4eaa789b47bc0e0",
+  "group_id": "7641386702937062843a40cc4e6064906139c2ad94802bf0126fb469241d8d4c",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "1ddbc15d4c7d9f69f90e3b3f2b80ac3258b87c2a67fcf1a2a74791674af5ce1d",
+  "retrieved_ids": [
+    "PH-92938c7ecc69916c070e",
+    "PH-15f2b29667df0e83aff6",
+    "PH-293f62bbfe4923bdbf24",
+    "PH-8fc8b4e09bca700212a6"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_097e0b5c0676467da7c8a15bb58ddd1b",
+  "wall_seconds": 0.6359240609999688,
+  "raw_sha256": "40dd7c86aadd7f7cf840c4579f8fe79272b49184153a0a053fce6069ae836aaf",
+  "output": "چرا همیشه من باید اول عذرخواهی کنم؟!",
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 13,
+    "total_tokens": 361,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GKFDo6HMlwfuqVlYnxyEF7crIV",
+  "system_fingerprint": "fp_2e6da7a440",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.00016"
+}

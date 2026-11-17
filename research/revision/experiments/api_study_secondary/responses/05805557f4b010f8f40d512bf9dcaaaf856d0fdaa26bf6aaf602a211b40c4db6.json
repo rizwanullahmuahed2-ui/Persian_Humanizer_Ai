@@ -1,0 +1,36 @@
+{
+  "job_id": "05805557f4b010f8f40d512bf9dcaaaf856d0fdaa26bf6aaf602a211b40c4db6",
+  "query_id": "PH-40bdae8e718bc5468db2",
+  "group_id": "d4e4903bc1816e60c4047785ac281f7e4259226cf0d6e2468a012afe219bff3c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "f59d326cb634fa2df7531e2bcfe0b2a077bd39723dc29a709a441581979f696d",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f6e41815d3ab4ce39a6c4d1220a399a6",
+  "wall_seconds": 0.8026338179997765,
+  "raw_sha256": "97e4457b018ecb06dda3630a425f45a26af436a31da727524a11e9c90421715d",
+  "output": "تحلیل محتوای کمی نشان داد که نمایندگی زنان در رسانه‌ها ضعیف است.",
+  "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 20,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HlXf30T2HqGNWfCW8hWX5Qbqg6",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003735"
+}

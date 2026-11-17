@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "case_records": 64,
+  "independent_query_groups": 8,
+  "quote_pairs_checked": 71,
+  "all_quotes_exact": true,
+  "human_ratings_created": 0,
+  "notes_sha256": "28889552469840806533a45159f05e806efb05d4687356dc2f0b5003e08d0d99"
+}

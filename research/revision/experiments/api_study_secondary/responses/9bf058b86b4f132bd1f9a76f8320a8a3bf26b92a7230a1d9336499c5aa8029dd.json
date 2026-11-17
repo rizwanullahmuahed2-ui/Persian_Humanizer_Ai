@@ -1,0 +1,41 @@
+{
+  "job_id": "9bf058b86b4f132bd1f9a76f8320a8a3bf26b92a7230a1d9336499c5aa8029dd",
+  "query_id": "PH-9ce52ff9e26fe1eb1c01",
+  "group_id": "8e4ed87e857babd955c27a22a526fe9d4c862f9a449d3da58b14bcb8042d9a96",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "1e45555f3560781a4b91cce1986ecec33af14ed82edfe9b64d044e85fefce058",
+  "retrieved_ids": [
+    "PH-38e202f97b215b3e3e8d",
+    "PH-9cf7b1e49fd0e4b0088e",
+    "PH-f4c89c15faa3708d4c80",
+    "PH-d9cbe70bad6b07fccd5b"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_0a03641a639b45b5bf6be9ead996c596",
+  "wall_seconds": 0.8077132219996201,
+  "raw_sha256": "e699d5229b6c1562f5e21edbba8bc858acbc7f5ab3de33f21fc0d1d25b656ccb",
+  "output": "این پردازشگر گرافیکی برای آموزش مدل‌های هوش مصنوعی بهینه شده.",
+  "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 20,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ImK2YkCWZ9IseJsOJvOrY8OtzR",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000588"
+}

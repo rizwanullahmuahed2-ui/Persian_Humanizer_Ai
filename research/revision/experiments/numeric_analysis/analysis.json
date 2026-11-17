@@ -1,0 +1,794 @@
+{
+  "status": "complete",
+  "scope": "Posthoc source-numeral coverage diagnostic, separate from the 100-query paired sample",
+  "selection": "All frozen test records whose original source contains a Python Unicode decimal digit (regex \\d); apply the existing seed-2026 hash order and one-record-per-connected-group rule. The available test file contains exactly 10 such records in 10 groups.",
+  "analysis_spec_sha256": "2115fa6ede4d3a767e95cc5b607b282ecd95aee59048999f40fa05f025ff2d0e",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "analyzer_sha256": "48d09fbbed76cc3f7d548f7631ea4353015d6edcaac39d7aea5d31a76796a146",
+  "shared_independent_verifier_sha256": "7501ef319cd0b812bca52528193b512aeb7e8163099b903f0b828cfd325113f3",
+  "queries": 10,
+  "independent_source_groups": 10,
+  "validated_responses": 80,
+  "normal_stop_responses": 80,
+  "fresh_provider_response_ids": 80,
+  "http_attempts_total": 80,
+  "recorded_errors": 0,
+  "prompt_tokens": 20552,
+  "completion_tokens": 1607,
+  "uncached_cost_usd_not_invoice": "0.00741800",
+  "summaries": [
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 1675,
+      "completion_tokens_total": 203,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0009948",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7227900917995131,
+        "median": 0.7233115468409586,
+        "min": 0.6,
+        "max": 0.8421052631578947
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.45930372350960585,
+        "median": 0.49,
+        "min": 0.13333333333333333,
+        "max": 0.7058823529411765
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.6785182634100377,
+        "median": 0.6436781609195402,
+        "min": 0.5,
+        "max": 0.8421052631578947
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.47880244703400465,
+        "median": 0.49002849002849,
+        "min": 0.25,
+        "max": 0.7368421052631579
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.2615440681323034,
+        "median": 0.23148148148148145,
+        "min": 0.0,
+        "max": 0.5882352941176471
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.4618712301027877,
+        "median": 0.49002849002849,
+        "min": 0.25,
+        "max": 0.7368421052631579
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.1728571428571428,
+        "median": 1.15,
+        "min": 1.0,
+        "max": 1.4285714285714286
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 167.5,
+        "median": 168.0,
+        "min": 164,
+        "max": 174
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 20.3,
+        "median": 19.5,
+        "min": 14,
+        "max": 27
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.6611796308999146,
+        "median": 0.6602652760002456,
+        "min": 0.5532861109995793,
+        "max": 0.8295223289997011
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 3224,
+      "completion_tokens_total": 198,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0016064",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7150101323796976,
+        "median": 0.696969696969697,
+        "min": 0.5217391304347826,
+        "max": 0.96
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.433886910191258,
+        "median": 0.4065934065934066,
+        "min": 0.2,
+        "max": 0.782608695652174
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.640831921701487,
+        "median": 0.6666666666666666,
+        "min": 0.45454545454545453,
+        "max": 0.8
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.5098160184042537,
+        "median": 0.5608974358974359,
+        "min": 0.25,
+        "max": 0.7407407407407407
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.24674166413296847,
+        "median": 0.22424242424242424,
+        "min": 0.0,
+        "max": 0.5
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.48235900482959304,
+        "median": 0.4660633484162896,
+        "min": 0.25,
+        "max": 0.7407407407407407
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.0971611721611723,
+        "median": 1.0416666666666665,
+        "min": 0.7692307692307693,
+        "max": 1.4444444444444444
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 322.4,
+        "median": 320.0,
+        "min": 298,
+        "max": 350
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 19.8,
+        "median": 18.5,
+        "min": 13,
+        "max": 28
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.7054961338001704,
+        "median": 0.684234425500108,
+        "min": 0.4964972380003019,
+        "max": 0.877038124000137
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 0,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 0,
+      "prompt_tokens_total": 2062,
+      "completion_tokens_total": 205,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0011528",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7449798711755233,
+        "median": 0.7638888888888888,
+        "min": 0.5217391304347826,
+        "max": 0.875
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.5012821067821068,
+        "median": 0.5393939393939393,
+        "min": 0.2857142857142857,
+        "max": 0.6666666666666666
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.6919243156199678,
+        "median": 0.7181964573268921,
+        "min": 0.5217391304347826,
+        "max": 0.7777777777777778
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.5225214494311416,
+        "median": 0.5857843137254902,
+        "min": 0.3076923076923077,
+        "max": 0.6666666666666666
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.27641307484785743,
+        "median": 0.26679841897233203,
+        "min": 0.0,
+        "max": 0.5333333333333333
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.4987807086904009,
+        "median": 0.5558620689655173,
+        "min": 0.3076923076923077,
+        "max": 0.6086956521739131
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.1466056166056167,
+        "median": 1.1777777777777778,
+        "min": 0.7692307692307693,
+        "max": 1.5555555555555556
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 206.2,
+        "median": 206.5,
+        "min": 194,
+        "max": 216
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 20.5,
+        "median": 19.5,
+        "min": 14,
+        "max": 26
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.7441685464999864,
+        "median": 0.682744823500343,
+        "min": 0.5387197999998534,
+        "max": 1.1450084830003107
+      }
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 1,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0.1,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 1,
+      "prompt_tokens_total": 3315,
+      "completion_tokens_total": 196,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.0016396",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7807539876853378,
+        "median": 0.7638888888888888,
+        "min": 0.56,
+        "max": 0.96
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.5841886353203489,
+        "median": 0.6066176470588236,
+        "min": 0.3333333333333333,
+        "max": 0.782608695652174
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.709482732624609,
+        "median": 0.7228260869565217,
+        "min": 0.5263157894736842,
+        "max": 0.9333333333333333
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.5562617529847445,
+        "median": 0.5258620689655172,
+        "min": 0.43478260869565216,
+        "max": 0.782608695652174
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.3216528640441684,
+        "median": 0.2761904761904762,
+        "min": 0.16666666666666666,
+        "max": 0.5333333333333333
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.5308704486369183,
+        "median": 0.5258620689655172,
+        "min": 0.43478260869565216,
+        "max": 0.64
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.1051831501831502,
+        "median": 1.0972222222222223,
+        "min": 0.6923076923076923,
+        "max": 1.5555555555555556
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 331.5,
+        "median": 330.0,
+        "min": 304,
+        "max": 349
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 19.6,
+        "median": 19.0,
+        "min": 13,
+        "max": 27
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.6543573230998845,
+        "median": 0.6552087635000134,
+        "min": 0.5706797179991554,
+        "max": 0.7464994000001752
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 1,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0.1,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 1,
+      "prompt_tokens_total": 1675,
+      "completion_tokens_total": 210,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00037725",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7046304066304067,
+        "median": 0.7453703703703703,
+        "min": 0.4166666666666667,
+        "max": 0.88
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.501308758796136,
+        "median": 0.49,
+        "min": 0.2727272727272727,
+        "max": 0.75
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.6567386687386687,
+        "median": 0.6599326599326599,
+        "min": 0.4166666666666667,
+        "max": 0.88
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.4987777954186623,
+        "median": 0.5166666666666666,
+        "min": 0.3076923076923077,
+        "max": 0.6666666666666666
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.22299991511756218,
+        "median": 0.20202020202020202,
+        "min": 0.0,
+        "max": 0.5333333333333333
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.44803705467792154,
+        "median": 0.44129554655870445,
+        "min": 0.3076923076923077,
+        "max": 0.5882352941176471
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.2047680097680098,
+        "median": 1.1833333333333333,
+        "min": 0.9230769230769231,
+        "max": 1.6666666666666667
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 167.5,
+        "median": 168.0,
+        "min": 164,
+        "max": 174
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 21,
+        "median": 21.0,
+        "min": 14,
+        "max": 27
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.8437835566999639,
+        "median": 0.8383434695001597,
+        "min": 0.6008878829998139,
+        "max": 1.1612131149995548
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 1,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0.1,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 1,
+      "prompt_tokens_total": 3224,
+      "completion_tokens_total": 190,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00059760",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7352071061243572,
+        "median": 0.791304347826087,
+        "min": 0.5161290322580645,
+        "max": 0.96
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.5419149399659144,
+        "median": 0.5652173913043479,
+        "min": 0.3448275862068966,
+        "max": 0.782608695652174
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.6752071061243572,
+        "median": 0.6888888888888889,
+        "min": 0.5161290322580645,
+        "max": 0.8
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.6139567247188731,
+        "median": 0.6376811594202898,
+        "min": 0.4,
+        "max": 0.7777777777777778
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.3401410425323469,
+        "median": 0.3246753246753247,
+        "min": 0.125,
+        "max": 0.625
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.5615364348638006,
+        "median": 0.5857843137254902,
+        "min": 0.3,
+        "max": 0.7777777777777778
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.0521489621489621,
+        "median": 1.075,
+        "min": 0.9166666666666666,
+        "max": 1.2222222222222223
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 322.4,
+        "median": 320.0,
+        "min": 298,
+        "max": 350
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 19,
+        "median": 18.5,
+        "min": 13,
+        "max": 25
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.7730915563999587,
+        "median": 0.7510428614996272,
+        "min": 0.6208229499998197,
+        "max": 0.9868287170002077
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 1,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0.1,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 1,
+      "prompt_tokens_total": 2062,
+      "completion_tokens_total": 207,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00043350",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7140878464276633,
+        "median": 0.6907894736842105,
+        "min": 0.43478260869565216,
+        "max": 1.0
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.5596510501433775,
+        "median": 0.4733893557422969,
+        "min": 0.19047619047619047,
+        "max": 1.0
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.6727255275870837,
+        "median": 0.6282894736842105,
+        "min": 0.34782608695652173,
+        "max": 1.0
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.5153327899330192,
+        "median": 0.5258620689655172,
+        "min": 0.25,
+        "max": 0.72
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.24560019449149884,
+        "median": 0.2222222222222222,
+        "min": 0.0,
+        "max": 0.5333333333333333
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.46433615693638625,
+        "median": 0.4494949494949495,
+        "min": 0.25,
+        "max": 0.64
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.204847374847375,
+        "median": 1.0833333333333333,
+        "min": 0.9230769230769231,
+        "max": 1.7142857142857142
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 206.2,
+        "median": 206.5,
+        "min": 194,
+        "max": 216
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 20.7,
+        "median": 20.0,
+        "min": 13,
+        "max": 29
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.8064912851000372,
+        "median": 0.7702581270000337,
+        "min": 0.6285690700005944,
+        "max": 1.1497486970001773
+      }
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "n_responses": 10,
+      "n_query_groups": 10,
+      "exact_copies": 0,
+      "exact_copy_fraction": 0,
+      "any_side_digit_eligible": 10,
+      "digit_multiset_flags": 1,
+      "digit_multiset_flag_rate_among_any_side_eligible": 0.1,
+      "source_digit_eligible": 10,
+      "digit_multiset_flags_among_source_digit_eligible": 1,
+      "prompt_tokens_total": 3315,
+      "completion_tokens_total": 198,
+      "cached_prompt_tokens_total": 0,
+      "uncached_cost_usd": "0.00061605",
+      "source_rouge1_f1": {
+        "n": 10,
+        "mean": 0.7212692307692308,
+        "median": 0.7735042735042735,
+        "min": 0.5384615384615384,
+        "max": 0.88
+      },
+      "source_rouge2_f1": {
+        "n": 10,
+        "mean": 0.5391339819600689,
+        "median": 0.5993589743589745,
+        "min": 0.3333333333333333,
+        "max": 0.7272727272727273
+      },
+      "source_rougeL_f1": {
+        "n": 10,
+        "mean": 0.7112692307692308,
+        "median": 0.7735042735042735,
+        "min": 0.5,
+        "max": 0.88
+      },
+      "reference_rouge1_f1": {
+        "n": 10,
+        "mean": 0.6123103566895602,
+        "median": 0.5833333333333334,
+        "min": 0.42105263157894735,
+        "max": 0.8333333333333334
+      },
+      "reference_rouge2_f1": {
+        "n": 10,
+        "mean": 0.3582377698554169,
+        "median": 0.2845117845117845,
+        "min": 0.11764705882352941,
+        "max": 0.6666666666666666
+      },
+      "reference_rougeL_f1": {
+        "n": 10,
+        "mean": 0.5856436900228936,
+        "median": 0.5675287356321839,
+        "min": 0.4,
+        "max": 0.7777777777777778
+      },
+      "output_source_token_ratio": {
+        "n": 10,
+        "mean": 1.0754822954822956,
+        "median": 1.0666666666666667,
+        "min": 0.9230769230769231,
+        "max": 1.2222222222222223
+      },
+      "prompt_tokens": {
+        "n": 10,
+        "mean": 331.5,
+        "median": 330.0,
+        "min": 304,
+        "max": 349
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 19.8,
+        "median": 18.5,
+        "min": 14,
+        "max": 27
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 0.8285102406999613,
+        "median": 0.8134382745001858,
+        "min": 0.6674680279993481,
+        "max": 1.0019733969993467
+      }
+    }
+  ],
+  "flagged_cases": [
+    {
+      "job_id": "b438ec3e0f0a0076fc159e894dcd84db50bb3cd3f93651b03b6dace33d9f2ffc",
+      "query_id": "PH-c77b21b3af14e7f13b04",
+      "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "ساعات کاری مرکز تغییر یافته و از ۸ الی ۱۷ می‌باشد.",
+      "output": "ساعات کاری مرکز تغییر کرده و از ۸ صبح تا ۵ بعدازظهر است.",
+      "source_digit_expressions": "{\"17\": 1, \"8\": 1}",
+      "output_digit_expressions": "{\"5\": 1, \"8\": 1}",
+      "digit_expressions_added": "{\"5\": 1}",
+      "digit_expressions_deleted": "{\"17\": 1}",
+      "interpretation": "Token mismatch requires inspection; not an adjudicated factual error."
+    },
+    {
+      "job_id": "db4454084d7895b012c4d1958748c566a98e1a6e8c3ed6cc950a853127fdb090",
+      "query_id": "PH-c77b21b3af14e7f13b04",
+      "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "ساعات کاری مرکز تغییر یافته و از ۸ الی ۱۷ می‌باشد.",
+      "output": "ساعات کاری مرکز تغییر کرده و از ۸ صبح تا ۵ بعدازظهر است.",
+      "source_digit_expressions": "{\"17\": 1, \"8\": 1}",
+      "output_digit_expressions": "{\"5\": 1, \"8\": 1}",
+      "digit_expressions_added": "{\"5\": 1}",
+      "digit_expressions_deleted": "{\"17\": 1}",
+      "interpretation": "Token mismatch requires inspection; not an adjudicated factual error."
+    },
+    {
+      "job_id": "92bd931f05b37890d55a197fc2a669f0e7677cc68a9e7388d98ea954e06fd993",
+      "query_id": "PH-c77b21b3af14e7f13b04",
+      "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "ساعات کاری مرکز تغییر یافته و از ۸ الی ۱۷ می‌باشد.",
+      "output": "ساعات کاری مرکز تغییر کرده و اکنون از ۸ صبح تا ۵ بعدازظهر است.",
+      "source_digit_expressions": "{\"17\": 1, \"8\": 1}",
+      "output_digit_expressions": "{\"5\": 1, \"8\": 1}",
+      "digit_expressions_added": "{\"5\": 1}",
+      "digit_expressions_deleted": "{\"17\": 1}",
+      "interpretation": "Token mismatch requires inspection; not an adjudicated factual error."
+    },
+    {
+      "job_id": "cc1e20d09b832acb4a519da728c1444542f53519357b11d9f390ee4b085100ab",
+      "query_id": "PH-c77b21b3af14e7f13b04",
+      "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "ساعات کاری مرکز تغییر یافته و از ۸ الی ۱۷ می‌باشد.",
+      "output": "ساعات کاری مرکز تغییر کرده و حالا از ۸ صبح تا ۵ عصر است.",
+      "source_digit_expressions": "{\"17\": 1, \"8\": 1}",
+      "output_digit_expressions": "{\"5\": 1, \"8\": 1}",
+      "digit_expressions_added": "{\"5\": 1}",
+      "digit_expressions_deleted": "{\"17\": 1}",
+      "interpretation": "Token mismatch requires inspection; not an adjudicated factual error."
+    },
+    {
+      "job_id": "f366895043714b6e111f778b18ae01efb4de4b1d349814553fce15addc7892d2",
+      "query_id": "PH-c77b21b3af14e7f13b04",
+      "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "ساعات کاری مرکز تغییر یافته و از ۸ الی ۱۷ می‌باشد.",
+      "output": "ساعات کاری مرکز تغییر کرده و حالا از ۸ تا ۵ عصر است.",
+      "source_digit_expressions": "{\"17\": 1, \"8\": 1}",
+      "output_digit_expressions": "{\"5\": 1, \"8\": 1}",
+      "digit_expressions_added": "{\"5\": 1}",
+      "digit_expressions_deleted": "{\"17\": 1}",
+      "interpretation": "Token mismatch requires inspection; not an adjudicated factual error."
+    }
+  ],
+  "flagged_response_count": 5,
+  "flagged_distinct_queries": 1,
+  "human_ratings_created": 0,
+  "pooled_with_main_sample": false,
+  "interpretation": "Numeral-token mismatch is a review flag, not a factual-error judgment. Exact token matching is not proof of preserved meaning. These ten targeted cases do not estimate broad numerical correctness or human naturalness."
+}

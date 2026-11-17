@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "planned_jobs": 400,
+  "complete_responses": 400,
+  "errors": 0,
+  "new_http_attempts_this_invocation": 400,
+  "http_attempts_total": 400,
+  "conservative_reserved_usd": "0.15624090",
+  "actual_success_cost_uncached_usd": "0.01856190",
+  "budget_ceiling_usd": "1.47",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "human_ratings_created": 0
+}

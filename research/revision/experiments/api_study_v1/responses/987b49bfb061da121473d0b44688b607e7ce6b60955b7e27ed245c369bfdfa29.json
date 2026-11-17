@@ -1,0 +1,41 @@
+{
+  "job_id": "987b49bfb061da121473d0b44688b607e7ce6b60955b7e27ed245c369bfdfa29",
+  "query_id": "PH-72d0d0239b1f549e141c",
+  "group_id": "d88bbc0bd1d592723b15808d145db6df3b406d94cf4758fdf6d56f404cf0d615",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "0d4d1be41c28f38d9322c6d5a09770c3565cd942068ad5c9fc8477cd19c2d687",
+  "retrieved_ids": [
+    "PH-616208960cf83af0190e",
+    "PH-53e1946e4dd95fe65d1e",
+    "PH-62498ffb023d6ade6ede",
+    "PH-ba56db0fc93a9d650a3f"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_69076eede85d4eb3bd7368e5c3f76452",
+  "wall_seconds": 0.6311269580000953,
+  "raw_sha256": "ea9b8646b9b04c08d0c84cbc069d42b2928dd700899ca9ca78698bfc746896b1",
+  "output": "منابع آب شیرین روی کره زمین خیلی کم هستند.",
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 13,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Gc8wrDjNtRpKOCfWsMH5rYpxZr",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000154"
+}

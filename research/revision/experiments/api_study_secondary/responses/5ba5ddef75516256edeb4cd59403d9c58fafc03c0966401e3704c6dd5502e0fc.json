@@ -1,0 +1,41 @@
+{
+  "job_id": "5ba5ddef75516256edeb4cd59403d9c58fafc03c0966401e3704c6dd5502e0fc",
+  "query_id": "PH-2818a162e40eb9aeda78",
+  "group_id": "116ec525cccfa4fc65fadd138900495ea72c41d4ad5fb5c2705053df817b6cd2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "5093c48a4a0ce57ce818e90223b92f89979272d49cc2672ac42b4fbc7b697980",
+  "retrieved_ids": [
+    "PH-fa874bb9ba2310282ee6",
+    "PH-11aabc4b1178cd4d4416",
+    "PH-478540f6eeb160a2d089",
+    "PH-9d079e1799cbe24b5e03"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c74fca6bfe6e48709e3eff95436b4d7e",
+  "wall_seconds": 0.6754127859994696,
+  "raw_sha256": "8f0ee1f7c872743a76bcec36b73a9fb3aeb556f5e4c2d342da01babe9d99f753",
+  "output": "این محتوا به سرعت در فضای مجازی دست به دست شد.",
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 14,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IH1BgwSq52QhT6sXNb5DZP5oFS",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000582"
+}

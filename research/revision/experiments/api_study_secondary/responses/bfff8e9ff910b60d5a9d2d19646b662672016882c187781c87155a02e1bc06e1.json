@@ -1,0 +1,41 @@
+{
+  "job_id": "bfff8e9ff910b60d5a9d2d19646b662672016882c187781c87155a02e1bc06e1",
+  "query_id": "PH-c9cd25b576a3e793fd64",
+  "group_id": "a5c1d00a8fe5cbe1fa3889e9131137db9d101096c5db40e342f3f3a3fafe0b35",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "8ad71a58a0c20adce08d460258a4f2fbcfdd629e8ae92437e5b0df20c2af11a6",
+  "retrieved_ids": [
+    "PH-f6809f0bedb964138f0a",
+    "PH-28a6cab8defdd040e0eb",
+    "PH-9c0455e0466e62bf9286",
+    "PH-4430470a9f01e39394d2"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b486b24bc52f49319791b51adf7231b8",
+  "wall_seconds": 0.7761753260001569,
+  "raw_sha256": "1543998734ef4e8517be56c8088c5f849d6269de69abe403e2154613dd2d2141",
+  "output": "این درب هوشمند با استفاده از اثر انگشت باز می‌شود.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 16,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Iu2fzC96NAlSu2f5cpj406x4ut",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000057"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "3074b1aaed1e664d4485ef93a9602e6752208646537811ae077707a9a02362ad",
+  "query_id": "PH-785f31594f118a6dde14",
+  "group_id": "6d69bdb0899e1f12d89d07b37fae43b8ee0d7014dbc3712de3dc77e0110a4291",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "30705a75bb4789987543f220bcd99829b54ed8fd9d40a26c7b15028d6afcec56",
+  "retrieved_ids": [
+    "PH-d846a4b4a56b4f34452e",
+    "PH-63a4c6df7d348c4af303",
+    "PH-dfe46c2776090faa3165",
+    "PH-9b1965db77a424b6678a"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ca944a51e1f24de9b998050f8a872068",
+  "wall_seconds": 0.5761833400001706,
+  "raw_sha256": "171db43f80fec3857aacc6b5d176462ee58c831b3eb21e2bc82e9c8b8faf7b90",
+  "output": "حرف‌هات رو درک کردم.",
+  "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 9,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hw4EAlFAaDEN7z54hjr9OOIKsg",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000519"
+}

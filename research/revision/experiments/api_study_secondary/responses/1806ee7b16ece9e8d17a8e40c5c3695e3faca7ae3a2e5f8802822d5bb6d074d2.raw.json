@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-El8IHotWlbUP9KWm0V0IZJrKo8Vmk",
+  "object": "chat.completion",
+  "created": 1794902005,
+  "model": "gpt-4o-mini-2024-07-18",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "دیگران می‌گن نمیشه چون خودشون امتحان نکردن.",
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 16,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": "fp_dbcd9f3637"
+}

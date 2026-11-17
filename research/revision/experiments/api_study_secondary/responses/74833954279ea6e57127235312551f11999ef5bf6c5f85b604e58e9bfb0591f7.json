@@ -1,0 +1,38 @@
+{
+  "job_id": "74833954279ea6e57127235312551f11999ef5bf6c5f85b604e58e9bfb0591f7",
+  "query_id": "PH-d41900155ad2594fd502",
+  "group_id": "e12536daa9ae9438ae29f60798444595046960d4c54f73dea4cd0216697c0a3e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "3bc4af84416f74305d3114ad1a834638e1673846ea61b1f784d31fd574b72eba",
+  "retrieved_ids": [
+    "PH-1e3886a2a6da2fe3eab4"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_229281a8de6b49ea9c48e5f8bcfd126f",
+  "wall_seconds": 0.7175151659994299,
+  "raw_sha256": "0ef0a560cdef1397ca353b80c2e4b7bb55b40b03cc6c958481044744183b0acd",
+  "output": "اینجا جاییه که کسی موفقیت رو جدی می‌گیره.",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 18,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IByBctXAPPgqP3Ugxp6EJau7UR",
+  "system_fingerprint": "fp_b4300b0f11",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000426"
+}

@@ -1,0 +1,17 @@
+﻿model,contrast,metric,n_distinct_query_groups,mean_paired_difference,percentile_95_ci_low,percentile_95_ci_high,bootstrap_replicates,interpretation
+gpt-4.1-mini-2025-04-14,semantic4 minus LLM0,source_rougeL_f1,100,0.018589724763254177,-0.019202444260432883,0.05412944964273424,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus LLM0,reference_rougeL_f1,100,0.08917577970704904,0.06107387478482243,0.11906993414648347,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus LLM0,output_source_token_ratio,100,-0.052842574092574084,-0.0975820256132756,-0.008195424020424027,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus LLM0,normalized_exact_copy,100,0.0,-0.03,0.03,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus random4,source_rougeL_f1,100,-0.013689861717678381,-0.04731918538450676,0.01917584373072225,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus random4,reference_rougeL_f1,100,0.004900298834193035,-0.02208825888393848,0.03166226358473616,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus random4,output_source_token_ratio,100,0.06606843156843158,0.02569567446442447,0.10878104881229879,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4.1-mini-2025-04-14,semantic4 minus random4,normalized_exact_copy,100,0.0,-0.03,0.03,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus LLM0,source_rougeL_f1,100,0.04852771293482694,0.011651754962275721,0.08514029891568625,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus LLM0,reference_rougeL_f1,100,0.09148095705180563,0.059066392649993915,0.12632257154100537,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus LLM0,output_source_token_ratio,100,-0.08114257964257962,-0.12677677877677876,-0.03724049630924633,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus LLM0,normalized_exact_copy,100,0.0,-0.03,0.03,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus random4,source_rougeL_f1,100,-0.040263399277768654,-0.07916276272806627,-0.002247215116530488,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus random4,reference_rougeL_f1,100,0.009169826673279355,-0.02321992581761527,0.04266953822551817,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus random4,output_source_token_ratio,100,0.02743120768120769,-0.01738024891774891,0.07283732864357866,10000,Automatic diagnostic difference; not human quality or semantic accuracy.
+gpt-4o-mini-2024-07-18,semantic4 minus random4,normalized_exact_copy,100,-0.03,-0.08,0.01,10000,Automatic diagnostic difference; not human quality or semantic accuracy.

@@ -1,0 +1,41 @@
+{
+  "job_id": "5f855a8006eceb61f72b0c1daa788ce4814c6c1fd3d108f8a42217a943fc96ff",
+  "query_id": "PH-58736fb3ce62f742bb6b",
+  "group_id": "97dbe158953c3011b9399702d2e063c1ce15fea17ee624afc2441ece896dc783",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "6ac63f62b709dd38e0a23fc82d1530340dcb062c6a736f048504632cef2af335",
+  "retrieved_ids": [
+    "PH-9179d375656c40bbb430",
+    "PH-5353093b90c5e80f6168",
+    "PH-1483486d22d163deb27e",
+    "PH-3ca274ecd2b7004918f0"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ce778ff63f2f4aca964d37e9fd8cc35b",
+  "wall_seconds": 0.8497098650004773,
+  "raw_sha256": "aa0f7a2bbb15a64a84fa5ee8c1b3d78cebac27cbe8c1cb8b775c090dbd85940d",
+  "output": "وقتی سخت‌ترین لحظه‌ها رو رد می‌کنی، قوی‌ترین می‌شی.",
+  "usage": {
+    "prompt_tokens": 368,
+    "completion_tokens": 21,
+    "total_tokens": 389,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Ishnc5nNpXEmv1wByEhDK4INaE",
+  "system_fingerprint": "fp_48eea167bf",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000678"
+}

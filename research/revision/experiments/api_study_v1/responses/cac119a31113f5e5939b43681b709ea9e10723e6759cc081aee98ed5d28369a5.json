@@ -1,0 +1,38 @@
+{
+  "job_id": "cac119a31113f5e5939b43681b709ea9e10723e6759cc081aee98ed5d28369a5",
+  "query_id": "PH-c02cf2a17703fb3d28e9",
+  "group_id": "80fab7837bee4b5892f81572c81f45ad460e9ce92a6783c54ad84299baa27c59",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "7c1041174f918876640085b547d370955d41d9a412a9a3e014d6d04c376712d5",
+  "retrieved_ids": [
+    "PH-4db92ac905146775147c"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f13daa448b104d1d9584a6509a206421",
+  "wall_seconds": 0.5789997159999984,
+  "raw_sha256": "b1126daefee3f8a45c8842e33bd6770bfcf5df25812109ca1a0249ff39fe900d",
+  "output": "فروش این محصول نسبت به سال گذشته رشد قابل توجهی داشته است.",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 15,
+    "total_tokens": 209,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GAzJNTzNF9eWDWf6Qc6qHztj8P",
+  "system_fingerprint": "fp_39a22f52c8",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001016"
+}

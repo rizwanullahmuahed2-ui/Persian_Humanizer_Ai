@@ -1,0 +1,25 @@
+name: Verify published research evidence
+on:
+  push:
+    paths:
+      - 'research/**'
+      - '.github/workflows/research-evidence.yml'
+  pull_request:
+    paths:
+      - 'research/**'
+      - '.github/workflows/research-evidence.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  saved-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.3.5
+      - name: Verify hashes, saved outputs, metrics and authorship without API calls
+        run: python research/verify_research.py

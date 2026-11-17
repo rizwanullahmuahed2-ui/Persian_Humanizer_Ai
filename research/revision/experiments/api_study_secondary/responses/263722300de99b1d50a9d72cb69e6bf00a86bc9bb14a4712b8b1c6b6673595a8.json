@@ -1,0 +1,38 @@
+{
+  "job_id": "263722300de99b1d50a9d72cb69e6bf00a86bc9bb14a4712b8b1c6b6673595a8",
+  "query_id": "PH-9688126202555222dc8f",
+  "group_id": "7582565f3e2cca99a804f93267589fb14a4b8cce09ddeec88a95dea69c928604",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "dc3155d3a266d1b910a61ce61358e98d7192597bd5724211edbc21ddaf82206b",
+  "retrieved_ids": [
+    "PH-eb52d994d4486cb155c1"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_0eb77a17c9124e878f527c7139f24bf0",
+  "wall_seconds": 0.7379923380003675,
+  "raw_sha256": "c648c64318592fbdf604ba04c42c7611904fddff361f4694e47f0f32b602476e",
+  "output": "این جنگل هر سال کوچکتر می‌شود.",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 10,
+    "total_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hopxne1LWuY3Gq1ylMcrcp4i6j",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000036"
+}

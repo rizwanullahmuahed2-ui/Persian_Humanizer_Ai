@@ -1,0 +1,36 @@
+{
+  "job_id": "4356f4b2a8a14851179d56e0a7f3ff4314035f6d4d83047f3c04a1f1df1e170b",
+  "query_id": "PH-efd500b7d700c4edb2a1",
+  "group_id": "c95e5b60a7201ded883c20ef33cffe79588c4827ca4e9566f45e894d39fc1d5c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "a7bdd4a4291a03c1ea54acab56eece3bce5c8d8bd7f189fa94e1b60231500d7f",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_67b8c52158ba4a52bb6604e04a797076",
+  "wall_seconds": 0.7700392860006104,
+  "raw_sha256": "1f40a7335feb1a8cc2d63aa5771929e137e398c3f8e99842197b73a2b9f228cb",
+  "output": "این ابزار تحلیل لاگ به صورت آنی هشدارهای امنیتی را صادر می‌کند.",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 19,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IAwtL34o9JSJMUhYMbYmBXSdZm",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003615"
+}

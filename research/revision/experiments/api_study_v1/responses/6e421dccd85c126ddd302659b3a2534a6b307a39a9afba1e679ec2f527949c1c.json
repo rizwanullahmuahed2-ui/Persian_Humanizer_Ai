@@ -1,0 +1,38 @@
+{
+  "job_id": "6e421dccd85c126ddd302659b3a2534a6b307a39a9afba1e679ec2f527949c1c",
+  "query_id": "PH-5926ff114832f0acd792",
+  "group_id": "751331153bf6fa55e932eee12eeb429337323c9c9ca5d2cb2f6b7efa1a15ffd1",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "2eace169f336f333e3d74798d560b1024c619cae21250c14a70753a270c9e08f",
+  "retrieved_ids": [
+    "PH-73cad21417bfafa4c2fa"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_160a4b44c68242239d9ed4dbcce183f9",
+  "wall_seconds": 0.5348720940000931,
+  "raw_sha256": "27ef79fa67e8cfdd1694c100e59130ff9911428f198e7043e3a4ebfa9df27d03",
+  "output": "این کار ساده است، جای نگرانی نیست.",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 10,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GGODIRZFnt7WXGftHkuACdKOJJ",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000952"
+}

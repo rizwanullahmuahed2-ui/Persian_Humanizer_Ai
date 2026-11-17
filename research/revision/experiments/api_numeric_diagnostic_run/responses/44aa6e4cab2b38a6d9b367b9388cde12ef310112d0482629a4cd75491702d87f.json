@@ -1,0 +1,41 @@
+{
+  "job_id": "44aa6e4cab2b38a6d9b367b9388cde12ef310112d0482629a4cd75491702d87f",
+  "query_id": "PH-95f7ec2557167299a3e1",
+  "group_id": "d4d071f34c79b1ced8394e60fb9a20393696f5ab760d1889837d84c091e7c46f",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "525c4a64674e2ea676c63b2e19789a3601a8e2a01e03579ba45444f91cd9b8c6",
+  "retrieved_ids": [
+    "PH-3e577b094c04607ddc6d",
+    "PH-4eb814aa256bf5aa5676",
+    "PH-7872e1dd1321f05d7734",
+    "PH-c45f4234c493ea9035e7"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_7ff461903bd243a4bb92c21c4f017096",
+  "wall_seconds": 0.6433296250006606,
+  "raw_sha256": "f2af2f254e2c27fb8ff5b25fd8a13424b2a025aa459bec98f331b2a5434f84c3",
+  "output": "شما می‌توانید این سفارش آنلاین را تا ۲۴ ساعت بعد پیگیری کنید.",
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 18,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L5u7mxI56lOI32F7iOBfaxIDrO",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000555"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "7122e1b149005167fedfb6bbe099688214c3c50b13add0294f7ed0dde5bf299d",
+  "query_id": "PH-bb50cf4494ea830497e2",
+  "group_id": "d77ceeb0e43ffb074ff9e2b66753b1d19f1752c8d41da397a96f01008727532f",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "1ba1824f612f1b7d10ea10168154ceb26391f833a4b14acab0b471e96d267df1",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c69eaf66786f4a77be1bd6e4e15ed091",
+  "wall_seconds": 0.9034096639998097,
+  "raw_sha256": "120173df100797e790e9a96b26d8ba3b1c739224ba2edfa7a0986294ae62729e",
+  "output": "این آبشار از ارتفاع ۲۰۰ متر پایین می‌ریزد و در منطقه‌ای بی‌نظیر واقع شده است.",
+  "usage": {
+    "prompt_tokens": 174,
+    "completion_tokens": 27,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8KwJHN2lNs8Y16JLgglKIjNID7l",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000423"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "f72e06423e7fd2171025ee26d4cea9b866520a7af2a06de7bbdf205037adc389",
+  "query_id": "PH-a3c46472eaa27b57ddd5",
+  "group_id": "e7ed93d488e831a5d58fd672369d6bb8111ed99b6fb62ed5fddd76810efd8247",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "34825f6053d6f757c78630a31480a61060682e7791237fc51392521b46c5f2e3",
+  "retrieved_ids": [
+    "PH-6cfd2482a157f8b67428"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5227587d21684f8e8b139095f979f803",
+  "wall_seconds": 1.0106258900004832,
+  "raw_sha256": "12006bd223c975fc7103e5a858199954c5f8dbcfb5a792bd0e75feb0cb797483",
+  "output": "می‌توانیم با هم عملکرد بهتری داشته باشیم.",
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 12,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IcQ20JsaXOqK0Dsy3RB1bOhj9x",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000354"
+}

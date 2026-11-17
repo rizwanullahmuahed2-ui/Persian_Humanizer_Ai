@@ -1,0 +1,41 @@
+{
+  "job_id": "09d80820d6ecba9c025a433a75c29a18e5469806ee38069d35d5aa105b89168d",
+  "query_id": "PH-ebdbc37344ed26bf861c",
+  "group_id": "49f6acba8378243e51765fd26325aaebe51058f068eeb3910e3340e86c33e999",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "3caf7e95e5a4940aa7266139cfcb3491bdcc206bbc476462e3f710c1cdf85063",
+  "retrieved_ids": [
+    "PH-d7ded38010053910eb7b",
+    "PH-a888acbe7060a82240d0",
+    "PH-40c5ca8af3a3bc037bda",
+    "PH-fa2e3e6a02a78531c576"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_50d4b0343deb4923bdd77f7626958e51",
+  "wall_seconds": 0.7489394939993872,
+  "raw_sha256": "aaaacc9af42d7f901953407ea88489a080eab60df765b996bf85f1f10ae6c4df",
+  "output": "این گزارش شامل اطلاعات محرمانه است و پخش آن ممنوع می‌باشد.",
+  "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 18,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IKm5uTt7n5MWP8AMtqgrURncIS",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000057"
+}

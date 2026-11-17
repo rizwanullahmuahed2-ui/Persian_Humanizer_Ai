@@ -1,0 +1,41 @@
+{
+  "job_id": "185cd99b6e393a7ccf9af0730026ebd57f85dc645dccb8ee0ff17028646a2080",
+  "query_id": "PH-6b3afdae576f83bc3b66",
+  "group_id": "f3435160e8364b9d669b83f1d8bd4624c02d6fe5b9872bb09a334bc65560f1c8",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "ce1129f638dcbbd10ffef9d2526c38719b7b79d78e579f0a910e54ec254bc0ff",
+  "retrieved_ids": [
+    "PH-7484c459dffe8ea4c40f",
+    "PH-13b6957b3cb3786db0a2",
+    "PH-71e28b5f9bdffc358ca0",
+    "PH-c08cb1c9ccf76b3aeff7"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b1e7b59e649a4d5697167fa3f687cdcd",
+  "wall_seconds": 0.9012905670006148,
+  "raw_sha256": "7e5fed1961819478a1cea6875577a62bca5e7452759216fff796af3ce37b49d6",
+  "output": "امروز از دیروز بهتر باش.",
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 8,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IwFIzYWAykAXOdLwl4RGnuPiIC",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005145"
+}

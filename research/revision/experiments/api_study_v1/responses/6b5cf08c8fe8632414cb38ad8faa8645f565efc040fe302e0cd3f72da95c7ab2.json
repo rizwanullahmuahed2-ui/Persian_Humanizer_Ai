@@ -1,0 +1,41 @@
+{
+  "job_id": "6b5cf08c8fe8632414cb38ad8faa8645f565efc040fe302e0cd3f72da95c7ab2",
+  "query_id": "PH-1ba0ba9056897a38c3a8",
+  "group_id": "8536d0407555463bf38f019d02ccf3e7c3706c52701d987409bdf9b76586dbfb",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "f692739ee405e3ed883c4f0fea453eeeca75f319267e493f068c23d1c74da52f",
+  "retrieved_ids": [
+    "PH-d8924e3d3f686d05f99d",
+    "PH-aa2427fb41c2bcbf92d6",
+    "PH-781d5b3ee0e92825f52c",
+    "PH-3eda7e86e1c7fd0d1d89"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_de5786ae69ae4a0984d61905f5cd46bd",
+  "wall_seconds": 0.48988046500016935,
+  "raw_sha256": "6bb3c4addde836f09ece450f7afa76a912abd06c68926c523547b5b6d0808bc9",
+  "output": "این پادکست درباره موضوعات علمی صحبت می‌کند.",
+  "usage": {
+    "prompt_tokens": 346,
+    "completion_tokens": 13,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GM1aUepQuCJoqGHaaYNqXF5L5a",
+  "system_fingerprint": "fp_39a22f52c8",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001592"
+}

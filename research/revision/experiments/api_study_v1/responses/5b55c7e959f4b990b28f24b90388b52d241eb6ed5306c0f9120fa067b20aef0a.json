@@ -1,0 +1,36 @@
+{
+  "job_id": "5b55c7e959f4b990b28f24b90388b52d241eb6ed5306c0f9120fa067b20aef0a",
+  "query_id": "PH-61f360b0d147fd71ba91",
+  "group_id": "5ed0d0b25328d62c3e7fb12b21b926aa6f3fac0c725058dfd40628d7afddab17",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "4cecbe3524418aa28d38927dc6e669ce640ea43d08751b5a16082545903f4adf",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_10f40edadb1e4f70b5ee32d6f24858a1",
+  "wall_seconds": 0.602807827000106,
+  "raw_sha256": "f7fb806f29534270a8645ad0e449d43e8bd982c57fb6dee964ad0b091010504e",
+  "output": "اینترنت خونه‌مون کیفیتش پایینه.",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 11,
+    "total_tokens": 170,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GNeBQ5od4GlE4eeW0UQiL3br0F",
+  "system_fingerprint": "fp_41a21608dc",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000812"
+}

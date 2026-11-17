@@ -1,0 +1,41 @@
+{
+  "job_id": "75dd926ac15e1ad2ec863cde9842a70f1cc23c6817791be5d49e084128636eee",
+  "query_id": "PH-829ebfea1bdd997cae6a",
+  "group_id": "e5de9e04a6ae3ec49d79bcb5463bdda64bc7cc1763c2c8a06f2a36aa26b42298",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "0ae6927720e52db77f974f9043d9731bf6f66e0012057854a631f5ada8c22bb4",
+  "retrieved_ids": [
+    "PH-adba0e989ae1f13c5d10",
+    "PH-c49f2a70a4cb58f8e956",
+    "PH-816150d9d4f20a5cb1bb",
+    "PH-8cbe0dcdbe505715df8b"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a066462767d34c67a88a2234d42ef8d4",
+  "wall_seconds": 0.7793149139997695,
+  "raw_sha256": "3d6f7017da6e56ae1e17071427d89a1d659f138bd8067142461f044a018a95a6",
+  "output": "رمز عبور باید پیچیده‌تر انتخاب بشه.",
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 12,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IRXjOZzvwLl2mdHPN3eaGIh7lY",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005385"
+}

@@ -1,0 +1,3159 @@
+{
+  "scope": "64 model-assisted case notes on8 fixed query groups; not human validation or a population estimate",
+  "selection_sha256": "2762c63d4bb00a4c1612ad2d96ee461bd562c3f61fc62f5d99545902d308d106",
+  "independent_query_groups": 8,
+  "model_condition_cells_per_query": 8,
+  "case_count": 64,
+  "human_ratings_created": 0,
+  "independent_raters": 0,
+  "blinded_human_evaluation": false,
+  "limitations": [
+    "Subjective model-assisted inspection; no agreement statistic",
+    "Register observations are relative to visible source, not a calibrated dialect or naturalness score",
+    "Ambiguous source and technical/legal terminology require domain adjudication",
+    "Selection occurred after experiment initiation but before selected response contents were read"
+  ],
+  "records": [
+    {
+      "run": "api_study_v1",
+      "job_id": "5e8aede6f53adb84bf048efb9ec82caaaaf2f37573b8e64e4583f6dcce01cac3",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند بعد از امضا قابل فسخ نیست.",
+      "retrieved_ids": [
+        "PH-824214785bd7415ab5e2",
+        "PH-adb5e805655049454e7b",
+        "PH-b4b96e55fdc919440105",
+        "PH-8ac8f9fcdc3a58cd0008"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-824214785bd7415ab5e2",
+          "ai": "این واکسن برای گروه‌های سنی خاص اجباری است.",
+          "human": "این واکسن برای بعضی گروه‌های سنی اجباریه.",
+          "cosine": 0.053092019769048225
+        },
+        {
+          "stable_id": "PH-adb5e805655049454e7b",
+          "ai": "این تست واحد پوشش کد بالایی دارد.",
+          "human": "این unit test code coverage بالایی داره.",
+          "cosine": 0.011872987814131352
+        },
+        {
+          "stable_id": "PH-b4b96e55fdc919440105",
+          "ai": "هر سفر طولانی با یه قدم شروع میشه.",
+          "human": "هر سفر بزرگ با یه قدم کوچیک شروع شده. همین امروز قدمتو بردار.",
+          "cosine": -0.11674076967718233
+        },
+        {
+          "stable_id": "PH-8ac8f9fcdc3a58cd0008",
+          "ai": "این فرصت رو از دست نده.",
+          "human": "این فرصت محدود است و شاید دیگر تکرار نشود.",
+          "cosine": 0.2057365304018437
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ ندارد",
+          "output_quote": "فسخ نیست",
+          "interpretation": "ساختار فعلی ساده‌تر شده و اصطلاح فسخ باقی است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "c2b98287a45210e6a7226591ab7fa4ce9269ceee84f25c95ccfa51ad38d1f5ec",
+      "raw_response_sha256": "d61221b34014485edbb95e9649debae8472cbfd6b970d1f4841ae985155f6518"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "c342de32835c5d96ff86b21cbc163c926fe8a25ea32d47d1a9427b5716e7928d",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید هر سال یک بار بازرسی شوند.",
+      "retrieved_ids": [
+        "PH-065d14f59cf16b79581f"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-065d14f59cf16b79581f",
+          "ai": "بازرسی فنی این تجهیزات هر شش ماه یک‌بار انجام می‌شود.",
+          "human": "این تجهیزات هر شش ماه یه بار بازرسی فنی میشن.",
+          "cosine": 0.6618845585915232
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است.",
+        "عبارت یک‌بار در سال، یک تعبیر معمول از سالانه را صریح کرده است؛ برای شمار دقیق دفعات باید زمینه بررسی شود."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "هر سال",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "0bc7b6ac4085ee01042d4a7be44577f17add4b836f0cf63b047687b37aca31b0",
+      "raw_response_sha256": "44e527e735b2d1f9fd54a5819c7ab36fefcedc6557d3e9622178caf6c2d70c5a"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "369c37f8258457b1a5f087c75371b54279fd32b061011c473541fecf4240c35c",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم با راهنمایی کارشناسان گرفته شده است.",
+      "retrieved_ids": [
+        "PH-095151f0399a51233043",
+        "PH-974dcac1aa230a7ac418",
+        "PH-a4aa2adc6a9ab7668b2e",
+        "PH-d3b723b1f044efa6763f"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-095151f0399a51233043",
+          "ai": "این تصمیم پس از مشاوره با متخصصان اتخاذ گردیده است.",
+          "human": "این تصمیم رو با کمک متخصص‌های خوب گرفتیم تا بهترین نتیجه رو داشته باشیم.",
+          "cosine": 0.974090532891497
+        },
+        {
+          "stable_id": "PH-974dcac1aa230a7ac418",
+          "ai": "با مشورت با متخصص تصمیم بهتری می‌گیری.",
+          "human": "قبل از تصمیم با متخصص مشورت کن.",
+          "cosine": 0.8000672329559411
+        },
+        {
+          "stable_id": "PH-a4aa2adc6a9ab7668b2e",
+          "ai": "این تصمیم نیازمند بررسی دقیق‌تری است.",
+          "human": "این تصمیم نیاز داره بیشتر بهش فکر کنیم.",
+          "cosine": 0.7384217622716259
+        },
+        {
+          "stable_id": "PH-d3b723b1f044efa6763f",
+          "ai": "در هر صورت، توصیه می‌شود پیش از تصمیم‌گیری با متخصص مشورت نمایید.",
+          "human": "قبل از تصمیم گرفتن، با یه متخصص مشورت کن.",
+          "cosine": 0.7159146258358644
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است."
+      ],
+      "cautions": [
+        {
+          "type": "expert_role_nuance",
+          "strength": "possible_not_established_error",
+          "note": "راهنمایی و مشاوره نزدیک‌اند، اما نقش هدایت‌کننده می‌تواند از صرف مشورت قوی‌تر باشد."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مشاوره",
+          "output_quote": "راهنمایی",
+          "interpretation": "نقش کارشناسان با واژهٔ متفاوت توصیف شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "9b367f317f93c5ea39ee85552d487b3ae2d3bfd5c8a9b9cf2ef0e0089ea96ba9",
+      "raw_response_sha256": "8dde933065453a714c040dfd275d9d359f3e0a9457fc05237ea90bd30abfbfad"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "4f8f0946586df94a5958a7426649cbbf263451a115da425944139ff9324677e0",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره به صورت فوری در دستور کار است.",
+      "retrieved_ids": [
+        "PH-148293f0a1eb465a5ad6"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-148293f0a1eb465a5ad6",
+          "ai": "این موضوع در دستور کار جلسه بعدی قرار خواهد گرفت.",
+          "human": "این موضوع رو میذاریم برای جلسه بعد.",
+          "cosine": 0.7225418541811109
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "فوری",
+          "interpretation": "فوریت به‌صورت صریح نگه داشته شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "fee41de27af8d11c4ef02176b162ac6f16b2414889a679f1de356d053ca3a2ed",
+      "raw_response_sha256": "92252f659d09bdc4be341cebd85156aaece6aa3e1cbfcf231236b07a61c5903d"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "617493e6c5e05fde913c7304f7fdeeab8dd1304eb51136983738a8189c703727",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را با همدیگر مدیریت خواهیم کرد.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "فعل به صورت صریح آینده درآمده است."
+      ],
+      "cautions": [
+        {
+          "type": "temporal_nuance",
+          "strength": "possible_not_established_error",
+          "note": "می‌کنیم می‌تواند حال یا برنامهٔ آینده باشد؛ خواهیم کرد تعبیر آینده را صریح می‌سازد. بدون زمینه نمی‌توان آن را خطای قطعی نامید."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت می‌کنیم",
+          "output_quote": "مدیریت خواهیم کرد",
+          "interpretation": "صریح‌شدن زمان آینده؛ نه اثبات تغییر واقعیت."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "13d2bcdfc13e933e76bc24f61ff5493410c80681a0b65b348debec4d5262fa0a",
+      "raw_response_sha256": "44e7cf802162fbe94f8066e8eeeee6a686a31e9ba7bbdeb10e71bf2ce0a7cf06"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "8abdd3766312bbf121a59aee7611d426c7c0ee987d7f95b2861a803d66ea44e9",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را با هم پیش می‌بریم.",
+      "retrieved_ids": [
+        "PH-70ae34e79a7b4fdb51c6",
+        "PH-75b79add254f03c6c238",
+        "PH-588d163f424ec9448eeb",
+        "PH-280a8ffa29b9bc14b4a1"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-70ae34e79a7b4fdb51c6",
+          "ai": "تو همینی که هستی کافی هستی.",
+          "human": "همین الان که هستی، کافی هستی. لازم نیست کس دیگه‌ای بشی.",
+          "cosine": 0.26465395184390955
+        },
+        {
+          "stable_id": "PH-75b79add254f03c6c238",
+          "ai": "هر بار که پیش میرم یه چیزی پام رو می‌گیره.",
+          "human": "می‌بینم که هر بار یه مانع جدید میاد. این خسته‌کننده‌ست. ولی هنوزم پیش رفتی.",
+          "cosine": 0.22787873213898402
+        },
+        {
+          "stable_id": "PH-588d163f424ec9448eeb",
+          "ai": "از اینکه بودی ممنونم.",
+          "human": "ممنون که اومدی. حضورت فرق کرد.",
+          "cosine": 0.24451718710207582
+        },
+        {
+          "stable_id": "PH-280a8ffa29b9bc14b4a1",
+          "ai": "این چایخانه فضای سنتی دارد.",
+          "human": "این چایخونه فضای سنتی داره.",
+          "cosine": 0.11897394184055325
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "مدیریت‌کردن با پیش‌بردن جایگزین شده است."
+      ],
+      "cautions": [
+        {
+          "type": "predicate_nuance",
+          "strength": "possible_not_established_error",
+          "note": "پیش‌بردن به پیشرفت یا اجرای تغییر نزدیک‌تر است؛ معادل دقیق مدیریت در همهٔ زمینه‌ها نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت می‌کنیم",
+          "output_quote": "پیش می‌بریم",
+          "interpretation": "فعل مرتبط عوض شده؛ برابری کامل به زمینه وابسته است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "bd6a63b1dcae3ffa0efe49ef4243ac2af72dc4557cdfa847b407156ce2d0f46d",
+      "raw_response_sha256": "de42c20050b4556058ff41a7c17be5fea3b3f97330dd301cfba424c7a2736b17"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "d3b6a87e693ddc653092f2a56359ff7975572cea22d1f28d95315af4e8b2aa19",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره در اولویت فوری قرار گرفته است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [
+        {
+          "type": "agenda_priority_relation",
+          "strength": "possible_not_established_error",
+          "note": "دردستورکاربودن و دراولویت‌بودن دقیقاً یک رابطه نیستند؛ فوریت در این خروجی‌ها همچنان صریح است."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "اولویت فوری",
+          "interpretation": "موضوعِ دستور کار به اولویت تعبیر شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "0e94d680ea9d20af5dff6f5b2194d9c41525a15b2c5824015d8a9ca683aaa086",
+      "raw_response_sha256": "d9b6e6615c3356a75465a57ec4b8b25366d7aabfa8d3c91f8ebf02919b663fb5"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "b551033e7205aee05b80a68f341dcdbf6db54a1996e65762c7acf02a1394eb53",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "این پیام ارسال نشد.",
+      "output": "این پیام ارسال نشده است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "ارسال نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "abba31f18f71fb163d203389b6ae0076904c18ebfca9bf7b49aa19bc4212133b",
+      "raw_response_sha256": "eba006e8e859a5690764d74df90d5280b38e706982a94cff52201c1f7d3e6e81"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "2a82b78efbd913bdb040091ea27405077e515d4111092fdf67131ca7cfd7c83e",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع بستگی به تایید نهایی دارد.",
+      "retrieved_ids": [
+        "PH-8fe90da9e318317da339",
+        "PH-f00e40d8e2f9e593626a",
+        "PH-333b34754579c84f16a4",
+        "PH-ca029f68909f476debd8"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-8fe90da9e318317da339",
+          "ai": "نتایج نهایی پس از تایید کمیته اعلام خواهد شد.",
+          "human": "نتایج نهایی بعد از تایید کمیته اعلام میشه.",
+          "cosine": 0.693418464585641
+        },
+        {
+          "stable_id": "PH-f00e40d8e2f9e593626a",
+          "ai": "این قرارداد پس از بررسی دقیق حقوقی نهایی خواهد شد.",
+          "human": "این قرارداد بعد از بررسی حقوقی دقیق نهایی میشه.",
+          "cosine": 0.6729551306366499
+        },
+        {
+          "stable_id": "PH-333b34754579c84f16a4",
+          "ai": "این اطلاعیه جهت اطلاع عموم منتشر می‌گردد.",
+          "human": "این اطلاعیه رو می‌ذاریم که همه بدونن.",
+          "cosine": 0.6485910111629335
+        },
+        {
+          "stable_id": "PH-ca029f68909f476debd8",
+          "ai": "این پیام برای اطلاع‌رسانی در خصوص آخرین تغییرات ارسال شده است.",
+          "human": "یه اطلاع‌رسانی کوتاه: آخرین تغییرات رو اینجا می‌بینی!",
+          "cosine": 0.5878534208472308
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "1333311c8c7c85131e07c4bfd34f110620f7935d71b6302d3806639815f7def8",
+      "raw_response_sha256": "4b3bb171631fe83adfc8cb5d10a58ece6189677fb5e032fed139011cd979cd26"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "a0479e4de4bbaa2eea4989b630cfed423176e02d648cd90d0eb243ec78c7c03d",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم پس از مشورت با کارشناسان گرفته شده است.",
+      "retrieved_ids": [
+        "PH-095151f0399a51233043"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-095151f0399a51233043",
+          "ai": "این تصمیم پس از مشاوره با متخصصان اتخاذ گردیده است.",
+          "human": "این تصمیم رو با کمک متخصص‌های خوب گرفتیم تا بهترین نتیجه رو داشته باشیم.",
+          "cosine": 0.974090532891497
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است.",
+        "مشاوره با مشورت بیان شده و ترتیب زمانی ضمنی‌تر، صریح شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "با مشاوره کارشناسان",
+          "output_quote": "پس از مشورت با کارشناسان",
+          "interpretation": "جمله همچنان نقش مشورت را ذکر می‌کند؛ پس از ترتیب زمانی را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "81ea883208848889b7b5f174426fce947c94f0058b19a98c79eb2f3f4ac34b69",
+      "raw_response_sha256": "f1c0429fbdd6a43a943ecac91bca614cf97a9b93c90cbc0e155fed25985d42da"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "cae7ce0af97edfbc18d79407d7b50698464df205e811c14d48f6c33381ee4063",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "این پیام ارسال نشد.",
+      "output": "این پیام فرستاده نشد.",
+      "retrieved_ids": [
+        "PH-e086f67f86ba5b2bccf8",
+        "PH-d26d4b46d1cb80f5428d",
+        "PH-4d084929764ad8222727",
+        "PH-dd13a51800347ea11b94"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-e086f67f86ba5b2bccf8",
+          "ai": "به این نکته توجه کنید که زمان محدود است.",
+          "human": "یادتون باشه وقت کمه.",
+          "cosine": 0.10612135703836295
+        },
+        {
+          "stable_id": "PH-d26d4b46d1cb80f5428d",
+          "ai": "حقوق این موقعیت بر اساس تجربه تعیین می‌شود.",
+          "human": "حقوق این موقعیت بر اساس تجربه‌ت تعیین میشه.",
+          "cosine": -0.1054533517337593
+        },
+        {
+          "stable_id": "PH-4d084929764ad8222727",
+          "ai": "این شراکت برای هر دو طرف سودمند است.",
+          "human": "این شراکت مثل دو رود هم‌جهته — وقتی به هم می‌رسن، قوی‌تر از قبل پیش میرن.",
+          "cosine": -0.10535844958869889
+        },
+        {
+          "stable_id": "PH-dd13a51800347ea11b94",
+          "ai": "کافه‌های این محله فضای کار خوبی دارند.",
+          "human": "کافه‌های این محله جای خوبی برای کار کردنن.",
+          "cosine": 0.010046190492317891
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "فرستاده نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "03e2632e2fb943fcd5aacfda72e8d2dd3e45a5a42b681546d9babdd40a8798f5",
+      "raw_response_sha256": "599974bd6919412477b463d455279b4c9b9898405407e4211a2fa15e5203c4e4"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "b1fdf9212c2840e0faddc7d57ab704473c525ef3e5caba54811b33cb8a02d5f4",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم پس از مشورت با کارشناسان گرفته شده است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است.",
+        "مشاوره با مشورت بیان شده و ترتیب زمانی ضمنی‌تر، صریح شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "با مشاوره کارشناسان",
+          "output_quote": "پس از مشورت با کارشناسان",
+          "interpretation": "جمله همچنان نقش مشورت را ذکر می‌کند؛ پس از ترتیب زمانی را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "35069f1389617946820b55f762023bd10ee0b47b97e5baeaad262187c41db8d7",
+      "raw_response_sha256": "8c9b60d6820ece5f6522a7a7c818915e584a6f86e74d1bcd2a6cce1764fb7455"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "0b706b02df3469b81b37083948e89ef0787676dda007f9265054a323788f3b09",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "این پیام ارسال نشد.",
+      "output": "پیام ارسال نشد.",
+      "retrieved_ids": [
+        "PH-e4950a0cbbe8edd1226c"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-e4950a0cbbe8edd1226c",
+          "ai": "لطفاً از ارسال پیام‌های تکراری خودداری فرمایید.",
+          "human": "پیام تکراری نفرست.",
+          "cosine": 0.6153734426977804
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است.",
+        "واژهٔ اشارهٔ «این» حذف شده است؛ اهمیت آن به زمینهٔ ارجاع بستگی دارد."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "ارسال نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "d076ff78df225a4bab1e502312cf15f970f7d8e8be4a0cadaa4c9f276862ea50",
+      "raw_response_sha256": "bf62d5a1525025649f0772ea1059c5b4ef4d3128da46cef838399506e42c98f7"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "cc9585f6bcffc759fb22121e43eb16604efdf1484698968c081a31e9571565ad",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را با هم پیش می‌بریم.",
+      "retrieved_ids": [
+        "PH-81af51e25a6b92d2cdd5",
+        "PH-5d52ca646b979f890981",
+        "PH-2926fa70ea3a29ad149a",
+        "PH-3b25dccd8a064464d93c"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-81af51e25a6b92d2cdd5",
+          "ai": "این تغییر رو ایجاد کن.",
+          "human": "یه تغییر کوچیک امروز، یه تفاوت بزرگ فردا.",
+          "cosine": 0.7739955674027234
+        },
+        {
+          "stable_id": "PH-5d52ca646b979f890981",
+          "ai": "در راستای بهبود کیفیت خدمات، تغییراتی اعمال خواهد شد.",
+          "human": "تغییراتی داریم برای بهتر شدن خدمات.",
+          "cosine": 0.6324310425118408
+        },
+        {
+          "stable_id": "PH-2926fa70ea3a29ad149a",
+          "ai": "باید باهم بررسی کنیم.",
+          "human": "بیا با هم بررسیش کنیم، حتماً راه‌حلی پیدا می‌کنیم!",
+          "cosine": 0.6074144114894263
+        },
+        {
+          "stable_id": "PH-3b25dccd8a064464d93c",
+          "ai": "هر گونه تغییر در اطلاعات باید به ما اطلاع داده شود.",
+          "human": "هر تغییری تو اطلاعاتت رو بهمون بگو.",
+          "cosine": 0.6040192164541334
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "مدیریت‌کردن با پیش‌بردن جایگزین شده است."
+      ],
+      "cautions": [
+        {
+          "type": "predicate_nuance",
+          "strength": "possible_not_established_error",
+          "note": "پیش‌بردن به پیشرفت یا اجرای تغییر نزدیک‌تر است؛ معادل دقیق مدیریت در همهٔ زمینه‌ها نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت می‌کنیم",
+          "output_quote": "پیش می‌بریم",
+          "interpretation": "فعل مرتبط عوض شده؛ برابری کامل به زمینه وابسته است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "af7765bb28109a26f3e82bd9aed9affb37ca6a04dc71f5f34a7a11d7be5ea83b",
+      "raw_response_sha256": "da4b84ac423b0a5e5ad26c8dc1e70b8e6e59dbebd011c2d26f47b48f81480e69"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "bd2079576574fe1008520cd3b39e6c066cf5036ddcb5a13ee7a22478c5dd5767",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع به تایید نهایی بستگی دارد.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "22e702e583f11708017fe7d17939250e25b2ed2ce70bd0f4a3d686bdf8c474c0",
+      "raw_response_sha256": "f6feb1dfefe89ccbd4ade28e26c76eb059795e49d68e05351416334cc88122da"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "dd7544d82ceb4bc6ab33b403c74ea3ae1890b3d49b1167b03e4573723b4dfb13",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را با همدیگر مدیریت خواهیم کرد.",
+      "retrieved_ids": [
+        "PH-81af51e25a6b92d2cdd5"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-81af51e25a6b92d2cdd5",
+          "ai": "این تغییر رو ایجاد کن.",
+          "human": "یه تغییر کوچیک امروز، یه تفاوت بزرگ فردا.",
+          "cosine": 0.7739955674027234
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "فعل به صورت صریح آینده درآمده است."
+      ],
+      "cautions": [
+        {
+          "type": "temporal_nuance",
+          "strength": "possible_not_established_error",
+          "note": "می‌کنیم می‌تواند حال یا برنامهٔ آینده باشد؛ خواهیم کرد تعبیر آینده را صریح می‌سازد. بدون زمینه نمی‌توان آن را خطای قطعی نامید."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت می‌کنیم",
+          "output_quote": "مدیریت خواهیم کرد",
+          "interpretation": "صریح‌شدن زمان آینده؛ نه اثبات تغییر واقعیت."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "662752a839b417bff1a8270e976633e4a569ef36bc098f3aed39d5dd582b383f",
+      "raw_response_sha256": "59a0872c850d9338928fa63de722ade2f2eedba464b99c4d65489cbea823d55c"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "2eae6b98693dc3d75d12853c6341192e4e9f7dca53bebaa64fc4e70fe21545c0",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "این پیام ارسال نشد.",
+      "output": "پیام ارسال نشد.",
+      "retrieved_ids": [
+        "PH-e4950a0cbbe8edd1226c",
+        "PH-ce7ace7365d1adf00e75",
+        "PH-4702f74315c582eabaa8",
+        "PH-a375b5a18d23e55af29d"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-e4950a0cbbe8edd1226c",
+          "ai": "لطفاً از ارسال پیام‌های تکراری خودداری فرمایید.",
+          "human": "پیام تکراری نفرست.",
+          "cosine": 0.6153734426977804
+        },
+        {
+          "stable_id": "PH-ce7ace7365d1adf00e75",
+          "ai": "دولت تاکنون واکنش رسمی نداشته است.",
+          "human": "دولت تا الان چیزی رسمی نگفته.",
+          "cosine": 0.5572572520215997
+        },
+        {
+          "stable_id": "PH-4702f74315c582eabaa8",
+          "ai": "متأسفانه امکان پذیرش درخواست مذکور در این مقطع زمانی وجود ندارد.",
+          "human": "ببخشید، الان نمی‌تونیم این درخواست رو قبول کنیم ولی بعداً حتماً بررسیش می‌کنیم.",
+          "cosine": 0.5295028770536476
+        },
+        {
+          "stable_id": "PH-a375b5a18d23e55af29d",
+          "ai": "این درخواست رد شده است.",
+          "human": "درخواست رد شد.",
+          "cosine": 0.5260141076735808
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است.",
+        "واژهٔ اشارهٔ «این» حذف شده است؛ اهمیت آن به زمینهٔ ارجاع بستگی دارد."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "ارسال نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "8287078477901e88a1369abec5f8b46a968b6e655e13f105503393972e360c62",
+      "raw_response_sha256": "5d09abdc8d7f4370d10f849176e98b00507530d9e2b33c223da85d57ee6f0ba3"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "8094e800435edffe7c8ba1e1459390ff409e85064f66865fa945be714441c074",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره به صورت فوری در دستور کار است.",
+      "retrieved_ids": [
+        "PH-148293f0a1eb465a5ad6",
+        "PH-085551153102ac1b8554",
+        "PH-10c3ef9d2ffa07c7856a",
+        "PH-33b8e88e5199577491ec"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-148293f0a1eb465a5ad6",
+          "ai": "این موضوع در دستور کار جلسه بعدی قرار خواهد گرفت.",
+          "human": "این موضوع رو میذاریم برای جلسه بعد.",
+          "cosine": 0.7225418541811109
+        },
+        {
+          "stable_id": "PH-085551153102ac1b8554",
+          "ai": "برگزاری جلسه‌ی هیئت مدیره به تاریخ بعدی موکول گردید.",
+          "human": "جلسه‌ی هیئت مدیره به دفعه‌ی بعد موکول شد.",
+          "cosine": 0.6958673317334134
+        },
+        {
+          "stable_id": "PH-10c3ef9d2ffa07c7856a",
+          "ai": "این جلسه برای بررسی و تبادل نظر درباره موضوعات جاری برگزار شد.",
+          "human": "تو این جلسه درباره موضوعات جاری حرف زدیم و نظر دادیم.",
+          "cosine": 0.6624885123949067
+        },
+        {
+          "stable_id": "PH-33b8e88e5199577491ec",
+          "ai": "جلسه داریم.",
+          "human": "جلسه داریم. اگه این جلسه هم می‌تونست ایمیل باشه، بگو.",
+          "cosine": 0.6323220978269479
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "فوری",
+          "interpretation": "فوریت به‌صورت صریح نگه داشته شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "7a5de4cd322875e1ef239fa88e60855a3a3c5268db31b1394bc4fa753257225d",
+      "raw_response_sha256": "f89d3d097dc77b95703362ac651a618f39765669510dc3d4d1a2a570f416a8b6"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "e5ef457eb5b7d21732f6c70fb7a0fd6b94c5b60c5241d695700563fde76c1f49",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند پس از امضا قابل فسخ نیست.",
+      "retrieved_ids": [
+        "PH-3f6a6f095d73892cf879"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-3f6a6f095d73892cf879",
+          "ai": "مطابق آیین‌نامه داخلی، غیبت بدون اطلاع قبلی مجاز نمی‌باشد.",
+          "human": "طبق قوانین داخلی، اگه می‌خوای نباشی باید قبلاً خبر بدی.",
+          "cosine": 0.55472054943701
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ ندارد",
+          "output_quote": "فسخ نیست",
+          "interpretation": "ساختار فعلی ساده‌تر شده و اصطلاح فسخ باقی است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "f6173cb0704ca725332dda8504ad00f8b04dd974f4c2b400dee53957c366abe2",
+      "raw_response_sha256": "f8f3683f8907147702bef3c5609d88246565ccfd4a800f1de11db673ce6580ed"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "41e31bf1bfb39540228321a369023403b5ca88f1418f50276aec025f4bbbd331",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید هر سال مورد بازرسی قرار گیرند.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "هر سال",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "f57a02d371b0d3a33ae404c9ab57597a10eb29fe6bd0442d2ce32f72e94ac4b5",
+      "raw_response_sha256": "6ec8f20f6eb70efffd7d708a30aee5562099b14cd2cf672a482b98fbf5522f37"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "a8db31420d0937eff45f205f89bb4c7cc1ae393ce0b94480f8e71111c919ca79",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل کمی محتوا نشان داد که بازنمایی زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "bbb503a4108f4242be23ce72b1465cba847ae9590ccea3e79a0fdaa9f5b83a53",
+      "raw_response_sha256": "eaaa6b9c8f320b9b386d872717c40e8b510432a539db2dac08b6efaba5ccba57"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "e64da7d5901953a396e98795c926b9a9c0865b0c720e4e68f6d293863c031920",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره در اولویت فوری قرار گرفته است.",
+      "retrieved_ids": [
+        "PH-1921e1bc40051159fdd6",
+        "PH-bd17795c2c66a96cd4df",
+        "PH-cd3564a553fa5c3502a1",
+        "PH-78abf441ceac77f27dd9"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-1921e1bc40051159fdd6",
+          "ai": "این برف اولین برف زمستان بود.",
+          "human": "این برف یه چیزی تو دلم بیدار کرد. یاد بچگی افتادم.",
+          "cosine": 0.011735400108255675
+        },
+        {
+          "stable_id": "PH-bd17795c2c66a96cd4df",
+          "ai": "ممنون که وقت گذاشتی.",
+          "human": "خیلی ممنون از وقتی که گذاشتی، برام ارزشمند بود!",
+          "cosine": 0.1899457382579326
+        },
+        {
+          "stable_id": "PH-cd3564a553fa5c3502a1",
+          "ai": "این خانه هوشمند با موبایل کنترل می‌شود.",
+          "human": "این خونه هوشمند با موبایل کنترل میشه.",
+          "cosine": 0.08868407978967449
+        },
+        {
+          "stable_id": "PH-78abf441ceac77f27dd9",
+          "ai": "تمامی حقوق این اثر متعلق به صاحب اثر بوده و هرگونه کپی‌برداری ممنوع است.",
+          "human": "همه حقوق این اثر مال صاحبشه و کپی کردنش ممنوعه.",
+          "cosine": -0.031875713507532065
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [
+        {
+          "type": "agenda_priority_relation",
+          "strength": "possible_not_established_error",
+          "note": "دردستورکاربودن و دراولویت‌بودن دقیقاً یک رابطه نیستند؛ فوریت در این خروجی‌ها همچنان صریح است."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "اولویت فوری",
+          "interpretation": "موضوعِ دستور کار به اولویت تعبیر شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "7075e1adeef59bb1d44376ac2d0c611634ac8813bf14d42731c7ec96edf24f60",
+      "raw_response_sha256": "eaf85f600b499a2816d8f8821408347e3b916cb3c5b5437caa765a0ac9011a97"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "3de0f57d03df0f9e3b66467d0044d4f830a85b97c875986577995527b9cb5422",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل محتوای کمی نشان داد که بازنمایی زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [
+        "PH-550c7edba9b0e628f6f7",
+        "PH-04600ef8d651bbfc0b82",
+        "PH-44a60bbcef775f9fe9d2",
+        "PH-cd3564a553fa5c3502a1"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-550c7edba9b0e628f6f7",
+          "ai": "این مصوبه با آراء اکثریت اعضا به تصویب رسید.",
+          "human": "این مصوبه با رأی اکثریت تصویب شد.",
+          "cosine": -0.012274404763399464
+        },
+        {
+          "stable_id": "PH-04600ef8d651bbfc0b82",
+          "ai": "این کار می‌تواند بهبود قابل توجهی ایجاد کند.",
+          "human": "این می‌تونه خیلی چیزها رو بهتر کنه.",
+          "cosine": -0.07356836286908466
+        },
+        {
+          "stable_id": "PH-44a60bbcef775f9fe9d2",
+          "ai": "حسابرسی مستقل هر سال یک‌بار انجام می‌شود.",
+          "human": "حسابرسی مستقل سالی یه بار انجام میشه.",
+          "cosine": -0.08074461553665488
+        },
+        {
+          "stable_id": "PH-cd3564a553fa5c3502a1",
+          "ai": "این خانه هوشمند با موبایل کنترل می‌شود.",
+          "human": "این خونه هوشمند با موبایل کنترل میشه.",
+          "cosine": -0.03781855458314411
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "85777137488e3ba5db6959be331e42bd07d1f6b3ce7ff4499138096cb1dfb5b2",
+      "raw_response_sha256": "8850d6d6e5a4275e05753c54aa669ac36582195a1d5b9a793de3408dafdf9692"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "5660b242e1bca81dbdc4b8cb027860f2a7e28526a83baed01fbebd2d36eb55f2",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "LLM0",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند پس از امضا قابل فسخ نیست.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ ندارد",
+          "output_quote": "فسخ نیست",
+          "interpretation": "ساختار فعلی ساده‌تر شده و اصطلاح فسخ باقی است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "ee8787149da5034b8f8928c61a2f819ebaf992c546fcef2e1e3bab52d6e4cf04",
+      "raw_response_sha256": "c0c36d4007c6b69f0ce4d419b87a4cdcf5962d05552685e696efc98c2d4c8bb3"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "08f15b7eecec793c3965f55f18d12bed15aafa9cb0108e9ee2716e53c9d04e95",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید هر سال یک بار بازرسی شوند.",
+      "retrieved_ids": [
+        "PH-26fa61658daab0ec46e4",
+        "PH-f0ae946b6c47e7fa023f",
+        "PH-370c08536edcd1fdaa2b",
+        "PH-70d235d704823b4a4e99"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-26fa61658daab0ec46e4",
+          "ai": "رزومه شما برای موقعیت‌های آینده در نظر گرفته خواهد شد.",
+          "human": "رزومه‌ات واقعاً خوبه! حتماً برای فرصت‌های بعدی نگهش می‌داریم.",
+          "cosine": 0.10523690845331721
+        },
+        {
+          "stable_id": "PH-f0ae946b6c47e7fa023f",
+          "ai": "این پدیده از سازوکارهای زیست‌شناختی خاصی پیروی می‌کند.",
+          "human": "این پدیده یه فرآیند بیولوژیک مشخص داره.",
+          "cosine": 0.11922955900665715
+        },
+        {
+          "stable_id": "PH-370c08536edcd1fdaa2b",
+          "ai": "مصرف زیاد نمک خطر بیماری کلیه را افزایش می‌دهد.",
+          "human": "نمک زیاد خوردن احتمال بیماری کلیه رو بالا می‌بره.",
+          "cosine": 0.04373343136770483
+        },
+        {
+          "stable_id": "PH-70d235d704823b4a4e99",
+          "ai": "این حکم قطعی اجرایی و غیرقابل تجدیدنظر است.",
+          "human": "این حکم قطعیه و نمیشه ازش تجدیدنظر خواست.",
+          "cosine": 0.1348318391320637
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است.",
+        "عبارت یک‌بار در سال، یک تعبیر معمول از سالانه را صریح کرده است؛ برای شمار دقیق دفعات باید زمینه بررسی شود."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "هر سال",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "d2cfc719a14415b67781c9d0bd55647dbb92c4e95cf541f3ea2f4fbf302ef16b",
+      "raw_response_sha256": "a0f94f6316d62e1710727db45d1ab5a01f21e3345024047387d99b2e51e55a71"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "3165a13a5c3c6fd7762a0bf4cd2dda6c30a87af02c08284bf9336e9302247ed4",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع به تایید نهایی بستگی دارد.",
+      "retrieved_ids": [
+        "PH-21c147c1db190c76b507",
+        "PH-d5939a90b15ed58db3e2",
+        "PH-3e4a569373ebba94ee3b",
+        "PH-268c26b335a37111233a"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-21c147c1db190c76b507",
+          "ai": "از ما که نه؛ از نتایجش بپرس.",
+          "human": "نتایج خودش حرف می‌زنه. از آدمایی که ازش استفاده کردن بپرس.",
+          "cosine": 0.3193303958243501
+        },
+        {
+          "stable_id": "PH-d5939a90b15ed58db3e2",
+          "ai": "فردا ببینیمش.",
+          "human": "فردا با هم بررسیش می‌کنیم، نظرت برام مهمه!",
+          "cosine": 0.15718916959072451
+        },
+        {
+          "stable_id": "PH-3e4a569373ebba94ee3b",
+          "ai": "چقدر خوشحالم که این قدم رو برداشتی.",
+          "human": "خیلی خوشحالم که این قدم رو برداشتی. افتخار می‌کنم.",
+          "cosine": 0.1810575581235197
+        },
+        {
+          "stable_id": "PH-268c26b335a37111233a",
+          "ai": "این محصول زندگی روزمره شما را متحول خواهد ساخت.",
+          "human": "این محصول زندگی روزمره‌ات رو متحول می‌کنه.",
+          "cosine": -0.0018295964610644706
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "ba7c53b40850acf9a555576acff79ea4eaf52f10fac16cadff35ef074def294f",
+      "raw_response_sha256": "c7abe74aec1e772039cd15aa0aae1365dc61a87baf5d7976552db9528e9ea293"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "b0b9eb8c10d9c295539ff9bbd286cda8979b85b53764453f32e77ad346497f94",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل کمی محتوا نشان داد که بازنمایی زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [
+        "PH-7729eebe8c25dbb75150",
+        "PH-7f1a2c65ed29c0e59287",
+        "PH-1adadb8e7c7131430337",
+        "PH-a3979116b09bd49d9039"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-7729eebe8c25dbb75150",
+          "ai": "محدودیت اصلی این مطالعه حجم نمونه کوچک است.",
+          "human": "مشکل اصلی این تحقیق اینه که نمونه‌هاش کم بوده.",
+          "cosine": 0.4420131606962627
+        },
+        {
+          "stable_id": "PH-7f1a2c65ed29c0e59287",
+          "ai": "بارگزاری تصویر محدودیت حجمی دارد.",
+          "human": "تصویر آپلودی باید کوچیک باشه.",
+          "cosine": 0.4197183781294465
+        },
+        {
+          "stable_id": "PH-1adadb8e7c7131430337",
+          "ai": "کمتر کسی از این پشیمون شده.",
+          "human": "میزان رضایت کاربران از این محصول فوق‌العاده بالاست.",
+          "cosine": 0.41543732521030696
+        },
+        {
+          "stable_id": "PH-a3979116b09bd49d9039",
+          "ai": "این داستان کوتاه در مجله‌های معتبر ادبی چاپ شده است.",
+          "human": "این داستان کوتاه توی مجله‌های ادبی معتبر چاپ شده.",
+          "cosine": 0.41178581866254194
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "2cbf88a470bb9e9f6e286aafe85374e75b6ee862972f7859ccd398a5091a380c",
+      "raw_response_sha256": "78608fa061cf26ed3c72fdbd52af15485f21b865c52a531049e294d9c4075943"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "7c682747ecdcde4f496a176edb05360db786dca7eb5f554e752dcb63d3edb853",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع بستگی به تایید نهایی دارد.",
+      "retrieved_ids": [
+        "PH-8fe90da9e318317da339"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-8fe90da9e318317da339",
+          "ai": "نتایج نهایی پس از تایید کمیته اعلام خواهد شد.",
+          "human": "نتایج نهایی بعد از تایید کمیته اعلام میشه.",
+          "cosine": 0.693418464585641
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "d950a2748cf2d937d2334bf51408ea0284dd8462ce0a811153fd80a2f7b00fc9",
+      "raw_response_sha256": "25db2ff4b0fb2794a3f66507821af9fa7880323359626b99f57a9f33b94ca30c"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "340a3b69356ff41a157f91ea86fe679f6e266e0329af5d9d791d0ddc0336becb",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید سالی یه بار بازرسی بشن.",
+      "retrieved_ids": [
+        "PH-065d14f59cf16b79581f",
+        "PH-ca7763555e3549b030f9",
+        "PH-de718e49e2f648cb2874",
+        "PH-aa9e839f36e3d1e7c832"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-065d14f59cf16b79581f",
+          "ai": "بازرسی فنی این تجهیزات هر شش ماه یک‌بار انجام می‌شود.",
+          "human": "این تجهیزات هر شش ماه یه بار بازرسی فنی میشن.",
+          "cosine": 0.6618845585915232
+        },
+        {
+          "stable_id": "PH-ca7763555e3549b030f9",
+          "ai": "این داده‌های حسگر باید بلادرنگ پردازش شوند.",
+          "human": "داده‌های حسگر باید real-time پردازش بشن.",
+          "cosine": 0.5999761117653983
+        },
+        {
+          "stable_id": "PH-de718e49e2f648cb2874",
+          "ai": "این دستگاه تشخیصی دقت بالایی دارد.",
+          "human": "این دستگاه تشخیصی دقت بالایی داره.",
+          "cosine": 0.5617165003996027
+        },
+        {
+          "stable_id": "PH-aa9e839f36e3d1e7c832",
+          "ai": "بار پردازشی این ماژول باید در بازه‌های منظم بررسی و بهینه‌سازی شود.",
+          "human": "load این ماژول باید منظم monitor و optimize بشه.",
+          "cosine": 0.5613231976390618
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است.",
+        "عبارت یک‌بار در سال، یک تعبیر معمول از سالانه را صریح کرده است؛ برای شمار دقیق دفعات باید زمینه بررسی شود.",
+        "صورت عامیانهٔ «یه» نیز به خروجی اضافه شده است."
+      ],
+      "cautions": [
+        {
+          "type": "register_shift",
+          "strength": "direct_surface_observation",
+          "note": "فعل «بشن» عامیانه است؛ ورودی صورت رسمی/معیار دارد."
+        }
+      ],
+      "register_observation": "فعل «بشن» عامیانه است؛ ورودی صورت رسمی/معیار دارد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "سالی",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        },
+        {
+          "source_quote": "دارند",
+          "output_quote": "بشن",
+          "interpretation": "تغییر سطح رسمی‌بودن در حالی که تناوب سالانه حفظ شده است."
+        },
+        {
+          "source_quote": "سالانه",
+          "output_quote": "سالی یه بار",
+          "interpretation": "صورت عامیانه در بازنویسیِ ورودی معیار."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "30bd7ce32871217b0c0a73f0dda4fee8ad5967c9aa652084bad81357b9d16fdc",
+      "raw_response_sha256": "7c0f34b12e475f2a0393802dd6c44747c825c08ea36458647d80740530c9abe2"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "549ec00e095729f488dc48204bb6cb125559cd2374e7ab7060d736131f4784c8",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic1",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل محتوای کمی نشان داد که بازنمایی زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [
+        "PH-7729eebe8c25dbb75150"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-7729eebe8c25dbb75150",
+          "ai": "محدودیت اصلی این مطالعه حجم نمونه کوچک است.",
+          "human": "مشکل اصلی این تحقیق اینه که نمونه‌هاش کم بوده.",
+          "cosine": 0.4420131606962627
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "58be24d7afd261be1c136349b152ecc1d07044d615402abbc1c88332fe8d2bfc",
+      "raw_response_sha256": "80abb56c72b86d28b3774d0ae77de690c290c1f11b7975579e6859bd31b20844"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "e7a81c59078278d4c9e17dfaa6ea73e26d4b8d1e3a99f988771916be3a65645e",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "semantic4",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "بعد از امضا، این سند قابل فسخ نیست.",
+      "retrieved_ids": [
+        "PH-3f6a6f095d73892cf879",
+        "PH-a2c6ec86dbd78f749001",
+        "PH-4702f74315c582eabaa8",
+        "PH-5c4aba2a49731ced9d48"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-3f6a6f095d73892cf879",
+          "ai": "مطابق آیین‌نامه داخلی، غیبت بدون اطلاع قبلی مجاز نمی‌باشد.",
+          "human": "طبق قوانین داخلی، اگه می‌خوای نباشی باید قبلاً خبر بدی.",
+          "cosine": 0.55472054943701
+        },
+        {
+          "stable_id": "PH-a2c6ec86dbd78f749001",
+          "ai": "ثبت‌نام بدون پرداخت ودیعه امکان‌پذیر نیست.",
+          "human": "بدون پرداخت بیعانه نمیشه ثبت‌نام کرد.",
+          "cosine": 0.5183096337948474
+        },
+        {
+          "stable_id": "PH-4702f74315c582eabaa8",
+          "ai": "متأسفانه امکان پذیرش درخواست مذکور در این مقطع زمانی وجود ندارد.",
+          "human": "ببخشید، الان نمی‌تونیم این درخواست رو قبول کنیم ولی بعداً حتماً بررسیش می‌کنیم.",
+          "cosine": 0.5091735622361676
+        },
+        {
+          "stable_id": "PH-5c4aba2a49731ced9d48",
+          "ai": "این قرارداد شامل شرط فسخ یک‌طرفه نمی‌باشد.",
+          "human": "این قرارداد رو نمیشه یه طرفه فسخ کرد.",
+          "cosine": 0.49852747936472463
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ ندارد",
+          "output_quote": "فسخ نیست",
+          "interpretation": "ساختار فعلی ساده‌تر شده و اصطلاح فسخ باقی است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "b519069a5c7e8559e212747ceb3454523b807f199db577c9c2e5f624afc5dd35",
+      "raw_response_sha256": "2b8828d06d141265fc07488848aa8e822b21b5c328448b0efd6f3d0e91cad318"
+    },
+    {
+      "run": "api_study_v1",
+      "job_id": "d50be8c3ace8a0afe2720c15df30ec66e360109b0a36c80f0eb3d4e0659c704d",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "condition": "random4",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم پس از مشورت با کارشناسان گرفته شده است.",
+      "retrieved_ids": [
+        "PH-04600ef8d651bbfc0b82",
+        "PH-a9df045d402f618d79c9",
+        "PH-02009508475d3799e340",
+        "PH-7b6e80e015d626ffaf44"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-04600ef8d651bbfc0b82",
+          "ai": "این کار می‌تواند بهبود قابل توجهی ایجاد کند.",
+          "human": "این می‌تونه خیلی چیزها رو بهتر کنه.",
+          "cosine": 0.32753820163875097
+        },
+        {
+          "stable_id": "PH-a9df045d402f618d79c9",
+          "ai": "هرگونه بازخوردی را با آغوش باز می‌پذیریم.",
+          "human": "هر بازخوردی داری، خوشحال میشیم بشنویم!",
+          "cosine": 0.18229010770990964
+        },
+        {
+          "stable_id": "PH-02009508475d3799e340",
+          "ai": "شهرهای اسفنجی از طریق جذب آب باران سیل را کاهش می‌دهند.",
+          "human": "شهرهای اسفنجی با جذب آب باران سیل رو کم می‌کنن.",
+          "cosine": 0.05266345411497679
+        },
+        {
+          "stable_id": "PH-7b6e80e015d626ffaf44",
+          "ai": "حس می‌کنی همه ازت توقع دارن.",
+          "human": "حس کردن توقع از همه، خسته‌کننده‌ست. خودت چی می‌خوای؟",
+          "cosine": 0.15646524697948552
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است.",
+        "مشاوره با مشورت بیان شده و ترتیب زمانی ضمنی‌تر، صریح شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "با مشاوره کارشناسان",
+          "output_quote": "پس از مشورت با کارشناسان",
+          "interpretation": "جمله همچنان نقش مشورت را ذکر می‌کند؛ پس از ترتیب زمانی را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "c577210cf776f6cf507e953d6cafebd0d3a8db576c1744d5b052aa5c105187dc",
+      "raw_response_sha256": "f8b8a0a7d58c6f02d885d1c6cbe943d938abac7f0367244fd362e6288a93a3ba"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "9c7ebb0831ca3ed451960671d0fb4a16397a453cd706af0c64a25f482ecb04ca",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع به تایید نهایی بستگی دارد.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "c2ee3bdc3fadfe68c7373c6fdadb4bb3df7e413a1fee6fa4b6ccba161466e3ca",
+      "raw_response_sha256": "469e3f7c58c8d0faed55ba7df8dceb1d5f1479704f8a1904b02c4a0b4d8dd319"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "2288ec749267aabacf07092b9e1ea38eaf68075b9ddce704a15e3ecfd906f545",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره به عنوان یک موضوع فوری در دستور کار قرار گرفته است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "فوری",
+          "interpretation": "فوریت به‌صورت صریح نگه داشته شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "e82bc9962008de6cd0dc6d88389812047e5b4f325f2b14ceab35b4c12eba19af",
+      "raw_response_sha256": "52d72cbf182aa1df69f23ef69f15a0e49ea03b1ba880a766a3b6123d8e09e196"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "05805557f4b010f8f40d512bf9dcaaaf856d0fdaa26bf6aaf602a211b40c4db6",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل محتوای کمی نشان داد که نمایندگی زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        },
+        {
+          "type": "technical_term_shift",
+          "strength": "possible_not_established_error",
+          "note": "نمایندگی در بعضی زمینه‌ها معنای نماینده‌بودن دارد و جایگزین بی‌قیدِ بازنمایی نیست؛ این مورد به بررسی موضوعی نیاز دارد."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        },
+        {
+          "source_quote": "بازنمایی",
+          "output_quote": "نمایندگی",
+          "interpretation": "تغییر اصطلاح مربوط به representation."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "2d3ee69a6d1d1ddf4ddc3444a5569b0c38f9c59ba16a7fba6f0ded439660d3bf",
+      "raw_response_sha256": "97e4457b018ecb06dda3630a425f45a26af436a31da727524a11e9c90421715d"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "45e7ce74bfeb99b3d9f172c710afb17aa011d6d2e79613f7a24ee6792c7ac8fa",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع بستگی به تایید نهایی دارد.",
+      "retrieved_ids": [
+        "PH-8fe90da9e318317da339"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-8fe90da9e318317da339",
+          "ai": "نتایج نهایی پس از تایید کمیته اعلام خواهد شد.",
+          "human": "نتایج نهایی بعد از تایید کمیته اعلام میشه.",
+          "cosine": 0.693418464585641
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "dbc4f7b5e5b99872dba927ef17a352b7cea88b579e01af50dac64faba55cbe5e",
+      "raw_response_sha256": "e47857be9afa69808763654fcfc8e0107a78b229924aefc7c6431a63193ca4a9"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "9216f149fbe867f882bd42607098dd2045db4777af36cf29dab619664fbb60c7",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم با همکاری کارشناسان گرفته شده است.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است."
+      ],
+      "cautions": [
+        {
+          "type": "expert_role_change",
+          "strength": "source_relation_not_exactly_preserved",
+          "note": "همکاری اعم از مشورت و ممکن است مشارکت در انجام کار باشد؛ ورودی مشخصاً مشاوره را ذکر می‌کند."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مشاوره",
+          "output_quote": "همکاری",
+          "interpretation": "رابطهٔ مشورت به همکاری عوض شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "b950b2c3ba00e68fa7a2d951a03570a01c4df102f3170865ad3f271720356962",
+      "raw_response_sha256": "e5a68f3213d3bce9579987ef8e696976a27aff08bd980eaff4cbfbfdc02f0d01"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "0007744b04b43e2e62d862e1d45419c0a617a8266054ddf0d71a38bd94d3a6ba",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل محتوای کمی نشان داد که تصویرسازی از زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [
+        "PH-7729eebe8c25dbb75150",
+        "PH-7f1a2c65ed29c0e59287",
+        "PH-1adadb8e7c7131430337",
+        "PH-a3979116b09bd49d9039"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-7729eebe8c25dbb75150",
+          "ai": "محدودیت اصلی این مطالعه حجم نمونه کوچک است.",
+          "human": "مشکل اصلی این تحقیق اینه که نمونه‌هاش کم بوده.",
+          "cosine": 0.4420131606962627
+        },
+        {
+          "stable_id": "PH-7f1a2c65ed29c0e59287",
+          "ai": "بارگزاری تصویر محدودیت حجمی دارد.",
+          "human": "تصویر آپلودی باید کوچیک باشه.",
+          "cosine": 0.4197183781294465
+        },
+        {
+          "stable_id": "PH-1adadb8e7c7131430337",
+          "ai": "کمتر کسی از این پشیمون شده.",
+          "human": "میزان رضایت کاربران از این محصول فوق‌العاده بالاست.",
+          "cosine": 0.41543732521030696
+        },
+        {
+          "stable_id": "PH-a3979116b09bd49d9039",
+          "ai": "این داستان کوتاه در مجله‌های معتبر ادبی چاپ شده است.",
+          "human": "این داستان کوتاه توی مجله‌های ادبی معتبر چاپ شده.",
+          "cosine": 0.41178581866254194
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است.",
+        "اصطلاح بازنمایی با تعبیر تصویر یا تصویرسازی جایگزین شده است؛ نزدیکی معنایی به موضوع و تعریف اصطلاح وابسته است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "15ca32fdfa69755a0d7e01c88c8bc50e580406079e161fed219195dbd2386c23",
+      "raw_response_sha256": "45ea252f75e0c87b3a1af3cbb3da858a575085a5ecddf22ad54f79aba09e906a"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "002879acbf6a78e6f76baefb3d734ee3618c367a7c2b4b148fc70d71d71ee69f",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "این پیام ارسال نشد.",
+      "output": "این پیام ارسال نشده است.",
+      "retrieved_ids": [
+        "PH-e4950a0cbbe8edd1226c"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-e4950a0cbbe8edd1226c",
+          "ai": "لطفاً از ارسال پیام‌های تکراری خودداری فرمایید.",
+          "human": "پیام تکراری نفرست.",
+          "cosine": 0.6153734426977804
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "ارسال نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "0ac19f4cca42fe5917dd1f792fbb067fcd527c881b6d36eabb8719c60198b485",
+      "raw_response_sha256": "62f1b4038da5b6301a5d947969959ba4404389c8d80769b41be789989e664232"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "d573d593bb5f71445cda87e00974f2f1fe17fe6d38c9a784541fa16e4591243a",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید هر سال یک بار بازرسی شوند.",
+      "retrieved_ids": [
+        "PH-065d14f59cf16b79581f"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-065d14f59cf16b79581f",
+          "ai": "بازرسی فنی این تجهیزات هر شش ماه یک‌بار انجام می‌شود.",
+          "human": "این تجهیزات هر شش ماه یه بار بازرسی فنی میشن.",
+          "cosine": 0.6618845585915232
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است.",
+        "عبارت یک‌بار در سال، یک تعبیر معمول از سالانه را صریح کرده است؛ برای شمار دقیق دفعات باید زمینه بررسی شود."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "هر سال",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "70e8e29f8fb344bea4a67e9a64877fbba1f7ec418c889684a28d01c5fb2da017",
+      "raw_response_sha256": "a2823d6100d30a6a53f444b911ab9980541b51a070362a0fc6689490dea504f8"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "76189fb954c5548b0d5a29652124349175712ba06b163a85ecd4faa028c2fba5",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند پس از امضا دیگر قابل فسخ نیست.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ ندارد",
+          "output_quote": "فسخ نیست",
+          "interpretation": "ساختار فعلی ساده‌تر شده و اصطلاح فسخ باقی است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "31f29ba33ccbd205a00d04f6f45b7cbc627aa91c5957b5238cea2428b4440a98",
+      "raw_response_sha256": "f4687c05ce9b45ee1bb15d27228d6bbb3afc716abfbd0dd54d95246d89932b67"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "2bfea7ce6092bbf4737fc3fb4a2b1f9695f4dadd2472592757b40ffee895f4f4",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم با کمک کارشناسان گرفته شده است.",
+      "retrieved_ids": [
+        "PH-095151f0399a51233043"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-095151f0399a51233043",
+          "ai": "این تصمیم پس از مشاوره با متخصصان اتخاذ گردیده است.",
+          "human": "این تصمیم رو با کمک متخصص‌های خوب گرفتیم تا بهترین نتیجه رو داشته باشیم.",
+          "cosine": 0.974090532891497
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است."
+      ],
+      "cautions": [
+        {
+          "type": "expert_role_change",
+          "strength": "source_specificity_reduced",
+          "note": "کمک نقش کلی‌تری از مشاوره دارد و نوع مشارکت مشخصِ ورودی را صریح نگه نمی‌دارد."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مشاوره",
+          "output_quote": "کمک",
+          "interpretation": "نوع مشخص مشارکت به تعبیر عمومی‌تر تبدیل شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "d0048922a5a3cb0cfab9a7b0f947d474208a8f47245d1cf45572b0411053fa16",
+      "raw_response_sha256": "6934114fcf7201269d268784627e2c94bd263b528ab543b0cd697f504b0f1b0d"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "2a4b9ec57fa66ceffa4703a9e972aa8a9846e0484c891d8b1d6f519ad9b090a1",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره به عنوان موضوعی فوری در دستور کار قرار گرفته است.",
+      "retrieved_ids": [
+        "PH-148293f0a1eb465a5ad6"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-148293f0a1eb465a5ad6",
+          "ai": "این موضوع در دستور کار جلسه بعدی قرار خواهد گرفت.",
+          "human": "این موضوع رو میذاریم برای جلسه بعد.",
+          "cosine": 0.7225418541811109
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "فوری",
+          "interpretation": "فوریت به‌صورت صریح نگه داشته شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "3a0b8038fe1619d42b0652954bf4ee457640cedc8b4180200cf6973954a52f34",
+      "raw_response_sha256": "b54d401645d308f7420a027955a7ba62e6b39809e5968d077c54d9998ef04156"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "673dfa5a671a0e1ad1bde06593bc13f09284c4f9f32efa6a4e2aa04c79c586b3",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید هر سال بازرسی بشن.",
+      "retrieved_ids": [
+        "PH-065d14f59cf16b79581f",
+        "PH-ca7763555e3549b030f9",
+        "PH-de718e49e2f648cb2874",
+        "PH-aa9e839f36e3d1e7c832"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-065d14f59cf16b79581f",
+          "ai": "بازرسی فنی این تجهیزات هر شش ماه یک‌بار انجام می‌شود.",
+          "human": "این تجهیزات هر شش ماه یه بار بازرسی فنی میشن.",
+          "cosine": 0.6618845585915232
+        },
+        {
+          "stable_id": "PH-ca7763555e3549b030f9",
+          "ai": "این داده‌های حسگر باید بلادرنگ پردازش شوند.",
+          "human": "داده‌های حسگر باید real-time پردازش بشن.",
+          "cosine": 0.5999761117653983
+        },
+        {
+          "stable_id": "PH-de718e49e2f648cb2874",
+          "ai": "این دستگاه تشخیصی دقت بالایی دارد.",
+          "human": "این دستگاه تشخیصی دقت بالایی داره.",
+          "cosine": 0.5617165003996027
+        },
+        {
+          "stable_id": "PH-aa9e839f36e3d1e7c832",
+          "ai": "بار پردازشی این ماژول باید در بازه‌های منظم بررسی و بهینه‌سازی شود.",
+          "human": "load این ماژول باید منظم monitor و optimize بشه.",
+          "cosine": 0.5613231976390618
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است."
+      ],
+      "cautions": [
+        {
+          "type": "register_shift",
+          "strength": "direct_surface_observation",
+          "note": "فعل «بشن» عامیانه است؛ ورودی صورت رسمی/معیار دارد."
+        }
+      ],
+      "register_observation": "فعل «بشن» عامیانه است؛ ورودی صورت رسمی/معیار دارد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "هر سال",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        },
+        {
+          "source_quote": "دارند",
+          "output_quote": "بشن",
+          "interpretation": "تغییر سطح رسمی‌بودن در حالی که تناوب سالانه حفظ شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "74b367641910aa57dff83ef368a41506422b8751011c7936ecd5d285ae15bc1f",
+      "raw_response_sha256": "c66a8638785112f1ec50488f227274ef93627340ccfb4dbe762aac83035ed411"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "faa9ea92abb7331ac68814cd3039efd796adcd617379aebffa3929ac0fc8084d",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "این پیام ارسال نشد.",
+      "output": "این پیام ارسال نشده است.",
+      "retrieved_ids": [
+        "PH-e4950a0cbbe8edd1226c",
+        "PH-ce7ace7365d1adf00e75",
+        "PH-4702f74315c582eabaa8",
+        "PH-a375b5a18d23e55af29d"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-e4950a0cbbe8edd1226c",
+          "ai": "لطفاً از ارسال پیام‌های تکراری خودداری فرمایید.",
+          "human": "پیام تکراری نفرست.",
+          "cosine": 0.6153734426977804
+        },
+        {
+          "stable_id": "PH-ce7ace7365d1adf00e75",
+          "ai": "دولت تاکنون واکنش رسمی نداشته است.",
+          "human": "دولت تا الان چیزی رسمی نگفته.",
+          "cosine": 0.5572572520215997
+        },
+        {
+          "stable_id": "PH-4702f74315c582eabaa8",
+          "ai": "متأسفانه امکان پذیرش درخواست مذکور در این مقطع زمانی وجود ندارد.",
+          "human": "ببخشید، الان نمی‌تونیم این درخواست رو قبول کنیم ولی بعداً حتماً بررسیش می‌کنیم.",
+          "cosine": 0.5295028770536476
+        },
+        {
+          "stable_id": "PH-a375b5a18d23e55af29d",
+          "ai": "این درخواست رد شده است.",
+          "human": "درخواست رد شد.",
+          "cosine": 0.5260141076735808
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "ارسال نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "e8b4d1842848070eea07ed9a3b34818d99053503d4cc87e076bc5e38b56cfbf5",
+      "raw_response_sha256": "57681ac5f5d593b7b91722237e7505c063547981d98702dd2edc582e1b58fe12"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "101929d9178d9ce1dd7e20e4c9d6495a980dcfc2c861d220b493d053cf77a035",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید به صورت سالانه بازرسی شوند.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "سالانه",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "3e0855c132eab4cc1e812badd80387d978c9dcc8cfb0b4ccd864f8cf0053f373",
+      "raw_response_sha256": "44a474872e41ca7a3710ccb381b1d5999f4c3d7d694e7e9b349ab246a23a5727"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "69a6d3170c3acaef5e8f277ed0f3577b6273d0261c6b3b258ded01c1f9fded9b",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند بعد از امضا قابلیت لغو شدن رو نداره.",
+      "retrieved_ids": [
+        "PH-824214785bd7415ab5e2",
+        "PH-adb5e805655049454e7b",
+        "PH-b4b96e55fdc919440105",
+        "PH-8ac8f9fcdc3a58cd0008"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-824214785bd7415ab5e2",
+          "ai": "این واکسن برای گروه‌های سنی خاص اجباری است.",
+          "human": "این واکسن برای بعضی گروه‌های سنی اجباریه.",
+          "cosine": 0.053092019769048225
+        },
+        {
+          "stable_id": "PH-adb5e805655049454e7b",
+          "ai": "این تست واحد پوشش کد بالایی دارد.",
+          "human": "این unit test code coverage بالایی داره.",
+          "cosine": 0.011872987814131352
+        },
+        {
+          "stable_id": "PH-b4b96e55fdc919440105",
+          "ai": "هر سفر طولانی با یه قدم شروع میشه.",
+          "human": "هر سفر بزرگ با یه قدم کوچیک شروع شده. همین امروز قدمتو بردار.",
+          "cosine": -0.11674076967718233
+        },
+        {
+          "stable_id": "PH-8ac8f9fcdc3a58cd0008",
+          "ai": "این فرصت رو از دست نده.",
+          "human": "این فرصت محدود است و شاید دیگر تکرار نشود.",
+          "cosine": 0.2057365304018437
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [
+        {
+          "type": "legal_term_shift",
+          "strength": "possible_requires_domain_adjudication",
+          "note": "فسخ و لغو در کاربرد حقوقی همیشه یک مفهوم ندارند. این یک احتیاط اصطلاحی نیازمند بررسی متخصص است، نه حکم قطعی حقوقی."
+        },
+        {
+          "type": "register_shift",
+          "strength": "direct_surface_observation",
+          "note": "صورت‌هایی مانند رو/نداره یا دیگه، متن حقوقیِ ورودی را عامیانه‌تر می‌کنند."
+        }
+      ],
+      "register_observation": "صورت‌هایی مانند رو/نداره یا دیگه، متن حقوقیِ ورودی را عامیانه‌تر می‌کنند.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ",
+          "output_quote": "لغو",
+          "interpretation": "اصطلاح مشخص حقوقی با واژهٔ دیگر جایگزین شده است."
+        },
+        {
+          "source_quote": "قابلیت فسخ ندارد",
+          "output_quote": "رو نداره",
+          "interpretation": "تغییر سطح رسمی‌بودن با حفظ بخش‌هایی از شرط و نفی."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "1379eb87b391410d8ce369fb637a99d5b22a5e2ef0af294e65fe4e85c6175eb2",
+      "raw_response_sha256": "beb11c562599011b0f66d2fb004b812390ca08a51408c9856315b73d25bf4f4d"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "a518a524655c2d40c8f8d2e8ad83e9ea8d1860167d4eb582dc297a405c29394f",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره به عنوان یک موضوع فوری در دستور کار قرار گرفته است.",
+      "retrieved_ids": [
+        "PH-1921e1bc40051159fdd6",
+        "PH-bd17795c2c66a96cd4df",
+        "PH-cd3564a553fa5c3502a1",
+        "PH-78abf441ceac77f27dd9"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-1921e1bc40051159fdd6",
+          "ai": "این برف اولین برف زمستان بود.",
+          "human": "این برف یه چیزی تو دلم بیدار کرد. یاد بچگی افتادم.",
+          "cosine": 0.011735400108255675
+        },
+        {
+          "stable_id": "PH-bd17795c2c66a96cd4df",
+          "ai": "ممنون که وقت گذاشتی.",
+          "human": "خیلی ممنون از وقتی که گذاشتی، برام ارزشمند بود!",
+          "cosine": 0.1899457382579326
+        },
+        {
+          "stable_id": "PH-cd3564a553fa5c3502a1",
+          "ai": "این خانه هوشمند با موبایل کنترل می‌شود.",
+          "human": "این خونه هوشمند با موبایل کنترل میشه.",
+          "cosine": 0.08868407978967449
+        },
+        {
+          "stable_id": "PH-78abf441ceac77f27dd9",
+          "ai": "تمامی حقوق این اثر متعلق به صاحب اثر بوده و هرگونه کپی‌برداری ممنوع است.",
+          "human": "همه حقوق این اثر مال صاحبشه و کپی کردنش ممنوعه.",
+          "cosine": -0.031875713507532065
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "دستور کار فوری",
+          "output_quote": "فوری",
+          "interpretation": "فوریت به‌صورت صریح نگه داشته شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "070cd7b00cad6ae9182b7c920f439070ef170bc85b469dede4f9b2c575e2ca1a",
+      "raw_response_sha256": "bd68604cc922bb43a2259bc5d531b05c886fd80c1423d97763a613cd16fb5539"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "8bc23d10c77691c0f0bcc21f44ea928ab4a64310064b9fda2d265e60e8bc2e8a",
+      "query_id": "PH-0ba65753f93d3382d459",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "این تجهیزات نیاز به بازرسی سالانه دارند.",
+      "output": "این تجهیزات باید هر سال بازرسی شوند.",
+      "retrieved_ids": [
+        "PH-26fa61658daab0ec46e4",
+        "PH-f0ae946b6c47e7fa023f",
+        "PH-370c08536edcd1fdaa2b",
+        "PH-70d235d704823b4a4e99"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-26fa61658daab0ec46e4",
+          "ai": "رزومه شما برای موقعیت‌های آینده در نظر گرفته خواهد شد.",
+          "human": "رزومه‌ات واقعاً خوبه! حتماً برای فرصت‌های بعدی نگهش می‌داریم.",
+          "cosine": 0.10523690845331721
+        },
+        {
+          "stable_id": "PH-f0ae946b6c47e7fa023f",
+          "ai": "این پدیده از سازوکارهای زیست‌شناختی خاصی پیروی می‌کند.",
+          "human": "این پدیده یه فرآیند بیولوژیک مشخص داره.",
+          "cosine": 0.11922955900665715
+        },
+        {
+          "stable_id": "PH-370c08536edcd1fdaa2b",
+          "ai": "مصرف زیاد نمک خطر بیماری کلیه را افزایش می‌دهد.",
+          "human": "نمک زیاد خوردن احتمال بیماری کلیه رو بالا می‌بره.",
+          "cosine": 0.04373343136770483
+        },
+        {
+          "stable_id": "PH-70d235d704823b4a4e99",
+          "ai": "این حکم قطعی اجرایی و غیرقابل تجدیدنظر است.",
+          "human": "این حکم قطعیه و نمیشه ازش تجدیدنظر خواست.",
+          "cosine": 0.1348318391320637
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "نیاز به بازرسی سالانه به دستور باید هر سال بازرسی شوند تبدیل شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "بازرسی سالانه",
+          "output_quote": "هر سال",
+          "interpretation": "دورهٔ سالانه با تعبیر زمانی روشن بیان شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "15fe6d8bbcba45264c42ae50762edea117d374174b0be4ac15e5a5d8e3b378d7",
+      "raw_response_sha256": "db065785472dc514f2a46d05b1119ae99f35e5e73862e7212703d2d4c84d1a0d"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "5f75e654949e8374fd40b5aef44d395a5437c2f281d5525541e2af659d67e2b6",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل محتوای کمی نشان داد که بازنمایی زنان در رسانه‌ها ضعیف است.",
+      "retrieved_ids": [
+        "PH-550c7edba9b0e628f6f7",
+        "PH-04600ef8d651bbfc0b82",
+        "PH-44a60bbcef775f9fe9d2",
+        "PH-cd3564a553fa5c3502a1"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-550c7edba9b0e628f6f7",
+          "ai": "این مصوبه با آراء اکثریت اعضا به تصویب رسید.",
+          "human": "این مصوبه با رأی اکثریت تصویب شد.",
+          "cosine": -0.012274404763399464
+        },
+        {
+          "stable_id": "PH-04600ef8d651bbfc0b82",
+          "ai": "این کار می‌تواند بهبود قابل توجهی ایجاد کند.",
+          "human": "این می‌تونه خیلی چیزها رو بهتر کنه.",
+          "cosine": -0.07356836286908466
+        },
+        {
+          "stable_id": "PH-44a60bbcef775f9fe9d2",
+          "ai": "حسابرسی مستقل هر سال یک‌بار انجام می‌شود.",
+          "human": "حسابرسی مستقل سالی یه بار انجام میشه.",
+          "cosine": -0.08074461553665488
+        },
+        {
+          "stable_id": "PH-cd3564a553fa5c3502a1",
+          "ai": "این خانه هوشمند با موبایل کنترل می‌شود.",
+          "human": "این خونه هوشمند با موبایل کنترل میشه.",
+          "cosine": -0.03781855458314411
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "5d7bb9e8169700178dc216bbdd97180e23f1e52c3fd49d8e67bbfdc98d1db1a6",
+      "raw_response_sha256": "03fcd33e51ee1b1dd52a36e9831943c810d49c21495c386d3fc867e2e11b353a"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "4996e2b3ea5f8c35933e4316a654bca7f5c5f914bef98f309d32704474a0df85",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "این پیام ارسال نشد.",
+      "output": "این پیام به دست مقصد نرسید.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "رویداد ارسال‌نشدن به نرسیدن به مقصد تبدیل شده است."
+      ],
+      "cautions": [
+        {
+          "type": "event_relation_change",
+          "strength": "clear_non_equivalence",
+          "note": "پیام می‌تواند ارسال شود ولی به مقصد نرسد. بنابراین، ارسال‌نشدن و نرسیدن به مقصد معادل کامل نیستند؛ نفی در هر دو بودن این تفاوت را رفع نمی‌کند."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "به دست مقصد نرسید",
+          "interpretation": "تغییر رویداد از ارسال به تحویل/رسیدن."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "c0c623b951db66a47370b89ce8c7aef630193d280d6cc310fb16be6db386d1d6",
+      "raw_response_sha256": "0637c0d083916bc56eedbe663bc20bd00f44460b319319878c2416388dd3b1f6"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "0a3d66c7dd4ab9754df3405e70d097b1b09a9f4871c5680acdc3701271749ca5",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم با کمک کارشناسان گرفته شده است.",
+      "retrieved_ids": [
+        "PH-095151f0399a51233043",
+        "PH-974dcac1aa230a7ac418",
+        "PH-a4aa2adc6a9ab7668b2e",
+        "PH-d3b723b1f044efa6763f"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-095151f0399a51233043",
+          "ai": "این تصمیم پس از مشاوره با متخصصان اتخاذ گردیده است.",
+          "human": "این تصمیم رو با کمک متخصص‌های خوب گرفتیم تا بهترین نتیجه رو داشته باشیم.",
+          "cosine": 0.974090532891497
+        },
+        {
+          "stable_id": "PH-974dcac1aa230a7ac418",
+          "ai": "با مشورت با متخصص تصمیم بهتری می‌گیری.",
+          "human": "قبل از تصمیم با متخصص مشورت کن.",
+          "cosine": 0.8000672329559411
+        },
+        {
+          "stable_id": "PH-a4aa2adc6a9ab7668b2e",
+          "ai": "این تصمیم نیازمند بررسی دقیق‌تری است.",
+          "human": "این تصمیم نیاز داره بیشتر بهش فکر کنیم.",
+          "cosine": 0.7384217622716259
+        },
+        {
+          "stable_id": "PH-d3b723b1f044efa6763f",
+          "ai": "در هر صورت، توصیه می‌شود پیش از تصمیم‌گیری با متخصص مشورت نمایید.",
+          "human": "قبل از تصمیم گرفتن، با یه متخصص مشورت کن.",
+          "cosine": 0.7159146258358644
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است."
+      ],
+      "cautions": [
+        {
+          "type": "expert_role_change",
+          "strength": "source_specificity_reduced",
+          "note": "کمک نقش کلی‌تری از مشاوره دارد و نوع مشارکت مشخصِ ورودی را صریح نگه نمی‌دارد."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مشاوره",
+          "output_quote": "کمک",
+          "interpretation": "نوع مشخص مشارکت به تعبیر عمومی‌تر تبدیل شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "6b81bd6a4476f290341ffa6b37c43820bb2e9b86b76341715ba15b854745b78e",
+      "raw_response_sha256": "e2cc3f3e6f3f5495f399948e58669c07d1f99c58ae587b1178b9503651308145"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "5defceff1f55046ff85ee2d1476dc2fe894f03ec88a5c3c48a86f664a7832da1",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع بستگی به تایید نهایی داره.",
+      "retrieved_ids": [
+        "PH-8fe90da9e318317da339",
+        "PH-f00e40d8e2f9e593626a",
+        "PH-333b34754579c84f16a4",
+        "PH-ca029f68909f476debd8"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-8fe90da9e318317da339",
+          "ai": "نتایج نهایی پس از تایید کمیته اعلام خواهد شد.",
+          "human": "نتایج نهایی بعد از تایید کمیته اعلام میشه.",
+          "cosine": 0.693418464585641
+        },
+        {
+          "stable_id": "PH-f00e40d8e2f9e593626a",
+          "ai": "این قرارداد پس از بررسی دقیق حقوقی نهایی خواهد شد.",
+          "human": "این قرارداد بعد از بررسی حقوقی دقیق نهایی میشه.",
+          "cosine": 0.6729551306366499
+        },
+        {
+          "stable_id": "PH-333b34754579c84f16a4",
+          "ai": "این اطلاعیه جهت اطلاع عموم منتشر می‌گردد.",
+          "human": "این اطلاعیه رو می‌ذاریم که همه بدونن.",
+          "cosine": 0.6485910111629335
+        },
+        {
+          "stable_id": "PH-ca029f68909f476debd8",
+          "ai": "این پیام برای اطلاع‌رسانی در خصوص آخرین تغییرات ارسال شده است.",
+          "human": "یه اطلاع‌رسانی کوتاه: آخرین تغییرات رو اینجا می‌بینی!",
+          "cosine": 0.5878534208472308
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [
+        {
+          "type": "register_shift",
+          "strength": "direct_surface_observation",
+          "note": "فعل «داره» از صورت رسمی جملهٔ ورودی عامیانه‌تر است."
+        }
+      ],
+      "register_observation": "فعل «داره» از صورت رسمی جملهٔ ورودی عامیانه‌تر است.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        },
+        {
+          "source_quote": "است",
+          "output_quote": "داره",
+          "interpretation": "تغییر صورت فعل به عامیانه."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "9808a9faeb4bf858ff95e09ae5797d8dea24f138579b1f861aa20e8287301360",
+      "raw_response_sha256": "a34fa5db3a8b568817a7c3192ae4aeb1dcf3ae2424bb25b0c5170fd8d3132511"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "a3d7ef62f7ec75db2fd57e32058245624eda19dcc809b39a82e4c85ae94bad6a",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر رو با هم مدیریت می‌کنیم.",
+      "retrieved_ids": [
+        "PH-81af51e25a6b92d2cdd5",
+        "PH-5d52ca646b979f890981",
+        "PH-2926fa70ea3a29ad149a",
+        "PH-3b25dccd8a064464d93c"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-81af51e25a6b92d2cdd5",
+          "ai": "این تغییر رو ایجاد کن.",
+          "human": "یه تغییر کوچیک امروز، یه تفاوت بزرگ فردا.",
+          "cosine": 0.7739955674027234
+        },
+        {
+          "stable_id": "PH-5d52ca646b979f890981",
+          "ai": "در راستای بهبود کیفیت خدمات، تغییراتی اعمال خواهد شد.",
+          "human": "تغییراتی داریم برای بهتر شدن خدمات.",
+          "cosine": 0.6324310425118408
+        },
+        {
+          "stable_id": "PH-2926fa70ea3a29ad149a",
+          "ai": "باید باهم بررسی کنیم.",
+          "human": "بیا با هم بررسیش کنیم، حتماً راه‌حلی پیدا می‌کنیم!",
+          "cosine": 0.6074144114894263
+        },
+        {
+          "stable_id": "PH-3b25dccd8a064464d93c",
+          "ai": "هر گونه تغییر در اطلاعات باید به ما اطلاع داده شود.",
+          "human": "هر تغییری تو اطلاعاتت رو بهمون بگو.",
+          "cosine": 0.6040192164541334
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد."
+      ],
+      "cautions": [
+        {
+          "type": "register_shift",
+          "strength": "direct_surface_observation",
+          "note": "صورت «رو» به لحن عامیانه‌تر میل می‌کند؛ ورودی صورت معیار «را» دارد."
+        }
+      ],
+      "register_observation": "صورت «رو» به لحن عامیانه‌تر میل می‌کند؛ ورودی صورت معیار «را» دارد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "را",
+          "output_quote": "رو",
+          "interpretation": "نشانهٔ روشن تبدیل صورت معیار به عامیانه."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "9b72a5ff525cc65447379f75aecef6d21d2d41db001b6fbfc49d33710d77efe4",
+      "raw_response_sha256": "cc1575a47805243200b80d52979016191a38687a7659c3749dec2b2f380b630f"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "98cf3a5948d8f66047ded93c70eddd55c6c5966124ed50ede9e919e5243ee102",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را با هم کنترل می‌کنیم.",
+      "retrieved_ids": [
+        "PH-70ae34e79a7b4fdb51c6",
+        "PH-75b79add254f03c6c238",
+        "PH-588d163f424ec9448eeb",
+        "PH-280a8ffa29b9bc14b4a1"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-70ae34e79a7b4fdb51c6",
+          "ai": "تو همینی که هستی کافی هستی.",
+          "human": "همین الان که هستی، کافی هستی. لازم نیست کس دیگه‌ای بشی.",
+          "cosine": 0.26465395184390955
+        },
+        {
+          "stable_id": "PH-75b79add254f03c6c238",
+          "ai": "هر بار که پیش میرم یه چیزی پام رو می‌گیره.",
+          "human": "می‌بینم که هر بار یه مانع جدید میاد. این خسته‌کننده‌ست. ولی هنوزم پیش رفتی.",
+          "cosine": 0.22787873213898402
+        },
+        {
+          "stable_id": "PH-588d163f424ec9448eeb",
+          "ai": "از اینکه بودی ممنونم.",
+          "human": "ممنون که اومدی. حضورت فرق کرد.",
+          "cosine": 0.24451718710207582
+        },
+        {
+          "stable_id": "PH-280a8ffa29b9bc14b4a1",
+          "ai": "این چایخانه فضای سنتی دارد.",
+          "human": "این چایخونه فضای سنتی داره.",
+          "cosine": 0.11897394184055325
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "مدیریت با کنترول جایگزین شده است."
+      ],
+      "cautions": [
+        {
+          "type": "predicate_nuance",
+          "strength": "possible_not_established_error",
+          "note": "کنترول و مدیریت دامنهٔ معنایی یکسان ندارند؛ این یک احتیاط معنایی است، نه خطای قطعیِ این جملهٔ بی‌زمینه."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت",
+          "output_quote": "کنترل",
+          "interpretation": "تغییر فعل/رابطهٔ اصلی."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "8d8327d8f58931db047076959c0784c30629cc7f21f8fa3922af86cc2b87c34a",
+      "raw_response_sha256": "3587f7a5c7115c3d6f3baac90683528d0439647d908cb1c54eb530131cca76e9"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "fbacb624246295ae2086d9f4829404ebfe6a9a19276ac5382d347e85a886bd5a",
+      "query_id": "PH-70f7edba57adffbb1749",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "جلسه هیئت مدیره در دستور کار فوری قرار دارد.",
+      "output": "جلسه هیئت مدیره در اولویت قرار دارد.",
+      "retrieved_ids": [
+        "PH-148293f0a1eb465a5ad6",
+        "PH-085551153102ac1b8554",
+        "PH-10c3ef9d2ffa07c7856a",
+        "PH-33b8e88e5199577491ec"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-148293f0a1eb465a5ad6",
+          "ai": "این موضوع در دستور کار جلسه بعدی قرار خواهد گرفت.",
+          "human": "این موضوع رو میذاریم برای جلسه بعد.",
+          "cosine": 0.7225418541811109
+        },
+        {
+          "stable_id": "PH-085551153102ac1b8554",
+          "ai": "برگزاری جلسه‌ی هیئت مدیره به تاریخ بعدی موکول گردید.",
+          "human": "جلسه‌ی هیئت مدیره به دفعه‌ی بعد موکول شد.",
+          "cosine": 0.6958673317334134
+        },
+        {
+          "stable_id": "PH-10c3ef9d2ffa07c7856a",
+          "ai": "این جلسه برای بررسی و تبادل نظر درباره موضوعات جاری برگزار شد.",
+          "human": "تو این جلسه درباره موضوعات جاری حرف زدیم و نظر دادیم.",
+          "cosine": 0.6624885123949067
+        },
+        {
+          "stable_id": "PH-33b8e88e5199577491ec",
+          "ai": "جلسه داریم.",
+          "human": "جلسه داریم. اگه این جلسه هم می‌تونست ایمیل باشه، بگو.",
+          "cosine": 0.6323220978269479
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان دربارهٔ جلسهٔ هیئت مدیره و ترتیب رسیدگی است."
+      ],
+      "cautions": [
+        {
+          "type": "explicit_qualifier_omission",
+          "strength": "direct_surface_observation_with_semantic_consequence",
+          "note": "قید صریح فوری حذف شده است. اولویت به‌تنهایی فوریت را تضمین نمی‌کند."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فوری",
+          "output_quote": "در اولویت قرار دارد",
+          "interpretation": "ارجحیت حفظ شده، ولی الزام زمانیِ صریح ورودی در خروجی نیست."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "bbe526a6ea9a5e54ee71980ed7a3954c858ab875b9e8e0920c6cc7d4113b4330",
+      "raw_response_sha256": "b7ed8e6e1712627a2ca1f1f936622b326baa06ace9179fe82c71ae1316cd78f3"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "75e0a3828b0b50835be215ffee62cf41c28a349021b0afbb229326111f269e9f",
+      "query_id": "PH-8430ee192d142acff80c",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "این پیام ارسال نشد.",
+      "output": "این پیام ارسال نشده.",
+      "retrieved_ids": [
+        "PH-e086f67f86ba5b2bccf8",
+        "PH-d26d4b46d1cb80f5428d",
+        "PH-4d084929764ad8222727",
+        "PH-dd13a51800347ea11b94"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-e086f67f86ba5b2bccf8",
+          "ai": "به این نکته توجه کنید که زمان محدود است.",
+          "human": "یادتون باشه وقت کمه.",
+          "cosine": 0.10612135703836295
+        },
+        {
+          "stable_id": "PH-d26d4b46d1cb80f5428d",
+          "ai": "حقوق این موقعیت بر اساس تجربه تعیین می‌شود.",
+          "human": "حقوق این موقعیت بر اساس تجربه‌ت تعیین میشه.",
+          "cosine": -0.1054533517337593
+        },
+        {
+          "stable_id": "PH-4d084929764ad8222727",
+          "ai": "این شراکت برای هر دو طرف سودمند است.",
+          "human": "این شراکت مثل دو رود هم‌جهته — وقتی به هم می‌رسن، قوی‌تر از قبل پیش میرن.",
+          "cosine": -0.10535844958869889
+        },
+        {
+          "stable_id": "PH-dd13a51800347ea11b94",
+          "ai": "کافه‌های این محله فضای کار خوبی دارند.",
+          "human": "کافه‌های این محله جای خوبی برای کار کردنن.",
+          "cosine": 0.010046190492317891
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "عدم ارسال پیام حفظ شده است؛ تفاوت‌ها در زمان فعل، واژهٔ فرستادن یا حذف اشارهٔ این است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "ارسال نشد",
+          "output_quote": "ارسال نشد",
+          "interpretation": "نفی همان رویداد ارسال در خروجی حاضر است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "d2225abccd68b182894a0b16d4fb15c77a712871b7d8447e09b9aa64c7d8b17d",
+      "raw_response_sha256": "f28c440d60cf9c32e23181c5d15dd1efdf0f98c71164cf42cec061cf117b0c99"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "580998d723ceccb42e8162b2af73ee3b8f3e5c76ccc575dbec1346a2e9fc526a",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را به صورت مشترک مدیریت خواهیم کرد.",
+      "retrieved_ids": [
+        "PH-81af51e25a6b92d2cdd5"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-81af51e25a6b92d2cdd5",
+          "ai": "این تغییر رو ایجاد کن.",
+          "human": "یه تغییر کوچیک امروز، یه تفاوت بزرگ فردا.",
+          "cosine": 0.7739955674027234
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "فعل به صورت صریح آینده درآمده است."
+      ],
+      "cautions": [
+        {
+          "type": "temporal_nuance",
+          "strength": "possible_not_established_error",
+          "note": "می‌کنیم می‌تواند حال یا برنامهٔ آینده باشد؛ خواهیم کرد تعبیر آینده را صریح می‌سازد. بدون زمینه نمی‌توان آن را خطای قطعی نامید."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت می‌کنیم",
+          "output_quote": "مدیریت خواهیم کرد",
+          "interpretation": "صریح‌شدن زمان آینده؛ نه اثبات تغییر واقعیت."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "2535ca5e1b4a71b1fa6d34d4442c8e7d74cced92e2de1c38be561e42e94e0849",
+      "raw_response_sha256": "4ae10cc068c5725c4d9305d5945042c5789fee622148d5a293dd64d64e6cfbdc"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "b15b4d52bc50f8b5913ecaef3d31c25b92ac439243e38af46cdcb7a2fb919d52",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند پس از امضا دیگر قابل لغو نیست.",
+      "retrieved_ids": [
+        "PH-3f6a6f095d73892cf879"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-3f6a6f095d73892cf879",
+          "ai": "مطابق آیین‌نامه داخلی، غیبت بدون اطلاع قبلی مجاز نمی‌باشد.",
+          "human": "طبق قوانین داخلی، اگه می‌خوای نباشی باید قبلاً خبر بدی.",
+          "cosine": 0.55472054943701
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [
+        {
+          "type": "legal_term_shift",
+          "strength": "possible_requires_domain_adjudication",
+          "note": "فسخ و لغو در کاربرد حقوقی همیشه یک مفهوم ندارند. این یک احتیاط اصطلاحی نیازمند بررسی متخصص است، نه حکم قطعی حقوقی."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ",
+          "output_quote": "لغو",
+          "interpretation": "اصطلاح مشخص حقوقی با واژهٔ دیگر جایگزین شده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "39f1f2f98770162a923ba0641c575b0ad8112d0d8e9a752ee09aef1bf67b1bac",
+      "raw_response_sha256": "772e063376f46dff79d6de932eda1521891e5c166c678f30f516ec99dbb8aa27"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "f31fa77adef2f3529157846a07bb4dbca6d7e3ddc5fdc2a8cff3b62449a9bf4e",
+      "query_id": "PH-766d358e592cdfe5767e",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "LLM0",
+      "source": "این تغییر را با هم مدیریت می‌کنیم.",
+      "output": "این تغییر را به صورت مشترک مدیریت خواهیم کرد.",
+      "retrieved_ids": [],
+      "retrieved_examples": [],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جمله همچنان به انجام مشترکِ کار مربوط به تغییر اشاره دارد.",
+        "فعل به صورت صریح آینده درآمده است."
+      ],
+      "cautions": [
+        {
+          "type": "temporal_nuance",
+          "strength": "possible_not_established_error",
+          "note": "می‌کنیم می‌تواند حال یا برنامهٔ آینده باشد؛ خواهیم کرد تعبیر آینده را صریح می‌سازد. بدون زمینه نمی‌توان آن را خطای قطعی نامید."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مدیریت می‌کنیم",
+          "output_quote": "مدیریت خواهیم کرد",
+          "interpretation": "صریح‌شدن زمان آینده؛ نه اثبات تغییر واقعیت."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "c90da26877b2a955a589a3c0ce27c20c8d52ca7ca5b9925cbe27d05f1f685a1b",
+      "raw_response_sha256": "83d5fdce3fda398725eef0c9b5f45b3ef67b26e015b9a24895e02c4d6b1e9319"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "d5951571fb8b58135459ecb6f821e31be3ac58d476359180d6038ee10c27e587",
+      "query_id": "PH-40bdae8e718bc5468db2",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic1",
+      "source": "تحلیل محتوای کمی نشان داد که بازنمایی زنان رسانه‌ای ضعیف است.",
+      "output": "تحلیل محتوای کمی نشان داد که تصویر زنان در رسانه‌ها به طور ضعیفی ارائه شده است.",
+      "retrieved_ids": [
+        "PH-7729eebe8c25dbb75150"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-7729eebe8c25dbb75150",
+          "ai": "محدودیت اصلی این مطالعه حجم نمونه کوچک است.",
+          "human": "مشکل اصلی این تحقیق اینه که نمونه‌هاش کم بوده.",
+          "cosine": 0.4420131606962627
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "جملهٔ مربوط به تحلیل کمی و بازنمایی زنان با افزودن یا جابه‌جایی تعبیر «در رسانه‌ها» بازنویسی شده است.",
+        "اصطلاح بازنمایی با تعبیر تصویر یا تصویرسازی جایگزین شده است؛ نزدیکی معنایی به موضوع و تعریف اصطلاح وابسته است."
+      ],
+      "cautions": [
+        {
+          "type": "source_ambiguity",
+          "strength": "undetermined_from_source_alone",
+          "note": "ترکیب «زنان رسانه‌ای» می‌تواند زنان شاغل در رسانه را نیز برساند؛ «زنان در رسانه‌ها» تعبیر بازنمایی زنان در رسانه است. ورودی به‌تنهایی برای قطعی‌گرفتن یکی از این دو کافی نیست."
+        }
+      ],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "زنان رسانه‌ای",
+          "output_quote": "زنان در رسانه‌ها",
+          "interpretation": "خروجی یکی از تعبیرهای عبارت مبهم را صریح می‌کند."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "99e162f69fe487eecf5a248a4585041cd99757ceca6177b45b037fcedf625703",
+      "raw_response_sha256": "34e8ce5de0249946a62a89d49c251f14b15dde1444bf65b3cb298fc576b443ff"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "ea17b828d6b88c0aac65c00ee617cbb3aee2cec295aec96c8dff3171ee9073aa",
+      "query_id": "PH-1684c05b6347a653321f",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "اعلام عمومی این موضوع منوط به تایید نهایی است.",
+      "output": "اعلام عمومی این موضوع به تایید نهایی بستگی دارد.",
+      "retrieved_ids": [
+        "PH-21c147c1db190c76b507",
+        "PH-d5939a90b15ed58db3e2",
+        "PH-3e4a569373ebba94ee3b",
+        "PH-268c26b335a37111233a"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-21c147c1db190c76b507",
+          "ai": "از ما که نه؛ از نتایجش بپرس.",
+          "human": "نتایج خودش حرف می‌زنه. از آدمایی که ازش استفاده کردن بپرس.",
+          "cosine": 0.3193303958243501
+        },
+        {
+          "stable_id": "PH-d5939a90b15ed58db3e2",
+          "ai": "فردا ببینیمش.",
+          "human": "فردا با هم بررسیش می‌کنیم، نظرت برام مهمه!",
+          "cosine": 0.15718916959072451
+        },
+        {
+          "stable_id": "PH-3e4a569373ebba94ee3b",
+          "ai": "چقدر خوشحالم که این قدم رو برداشتی.",
+          "human": "خیلی خوشحالم که این قدم رو برداشتی. افتخار می‌کنم.",
+          "cosine": 0.1810575581235197
+        },
+        {
+          "stable_id": "PH-268c26b335a37111233a",
+          "ai": "این محصول زندگی روزمره شما را متحول خواهد ساخت.",
+          "human": "این محصول زندگی روزمره‌ات رو متحول می‌کنه.",
+          "cosine": -0.0018295964610644706
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "وابستگی اعلام عمومی به تأیید نهایی با عبارت بستگی‌داشتن بازنویسی شده است."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "منوط به تایید نهایی",
+          "output_quote": "به تایید نهایی",
+          "interpretation": "شرط تأیید در خروجی حاضر است؛ ترتیب عبارت تغییر کرده است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "95ce7dcb5b831429c72f7abe2623551561b1d21b494f39e3c19a60bbdcbe8349",
+      "raw_response_sha256": "5491dcaf69156017cc91e1a3f1bc87b7489d91d43e79b5ee4e04272212c9a55f"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "69b2b52491b075177851ad9447da08403d1073dd1b7eff0ec919a29176b4a017",
+      "query_id": "PH-4de4b8271a4807aaaf51",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "semantic4",
+      "source": "این سند پس از امضا قابلیت فسخ ندارد.",
+      "output": "این سند بعد از امضا دیگه قابل فسخ نیست.",
+      "retrieved_ids": [
+        "PH-3f6a6f095d73892cf879",
+        "PH-a2c6ec86dbd78f749001",
+        "PH-4702f74315c582eabaa8",
+        "PH-5c4aba2a49731ced9d48"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-3f6a6f095d73892cf879",
+          "ai": "مطابق آیین‌نامه داخلی، غیبت بدون اطلاع قبلی مجاز نمی‌باشد.",
+          "human": "طبق قوانین داخلی، اگه می‌خوای نباشی باید قبلاً خبر بدی.",
+          "cosine": 0.55472054943701
+        },
+        {
+          "stable_id": "PH-a2c6ec86dbd78f749001",
+          "ai": "ثبت‌نام بدون پرداخت ودیعه امکان‌پذیر نیست.",
+          "human": "بدون پرداخت بیعانه نمیشه ثبت‌نام کرد.",
+          "cosine": 0.5183096337948474
+        },
+        {
+          "stable_id": "PH-4702f74315c582eabaa8",
+          "ai": "متأسفانه امکان پذیرش درخواست مذکور در این مقطع زمانی وجود ندارد.",
+          "human": "ببخشید، الان نمی‌تونیم این درخواست رو قبول کنیم ولی بعداً حتماً بررسیش می‌کنیم.",
+          "cosine": 0.5091735622361676
+        },
+        {
+          "stable_id": "PH-5c4aba2a49731ced9d48",
+          "ai": "این قرارداد شامل شرط فسخ یک‌طرفه نمی‌باشد.",
+          "human": "این قرارداد رو نمیشه یه طرفه فسخ کرد.",
+          "cosine": 0.49852747936472463
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "شرط پس از امضا و نفی قابلیت برهم‌زدن سند در خروجی باقی است."
+      ],
+      "cautions": [
+        {
+          "type": "register_shift",
+          "strength": "direct_surface_observation",
+          "note": "صورت‌هایی مانند رو/نداره یا دیگه، متن حقوقیِ ورودی را عامیانه‌تر می‌کنند."
+        }
+      ],
+      "register_observation": "صورت‌هایی مانند رو/نداره یا دیگه، متن حقوقیِ ورودی را عامیانه‌تر می‌کنند.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "فسخ ندارد",
+          "output_quote": "فسخ نیست",
+          "interpretation": "ساختار فعلی ساده‌تر شده و اصطلاح فسخ باقی است."
+        },
+        {
+          "source_quote": "قابلیت فسخ ندارد",
+          "output_quote": "دیگه",
+          "interpretation": "تغییر سطح رسمی‌بودن با حفظ بخش‌هایی از شرط و نفی."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "58df600ecaf963ca60def93258c4976e3a9160da680a0fbbbde73eb192891cfc",
+      "raw_response_sha256": "8fa20eb811871bea3a3c6b4a31bbfbe3b4fb1a056e27a01c531aaf7813b7f872"
+    },
+    {
+      "run": "api_study_secondary",
+      "job_id": "7b57aa19c4f82ef748048e7451c5e8b2fd8dabcd42a74f57014a2b1fce163104",
+      "query_id": "PH-f3b2b088dccaeabbc9a1",
+      "model": "gpt-4o-mini-2024-07-18",
+      "condition": "random4",
+      "source": "این تصمیم با مشاوره کارشناسان اتخاذ گردیده است.",
+      "output": "این تصمیم با نظر کارشناسان گرفته شده است.",
+      "retrieved_ids": [
+        "PH-04600ef8d651bbfc0b82",
+        "PH-a9df045d402f618d79c9",
+        "PH-02009508475d3799e340",
+        "PH-7b6e80e015d626ffaf44"
+      ],
+      "retrieved_examples": [
+        {
+          "stable_id": "PH-04600ef8d651bbfc0b82",
+          "ai": "این کار می‌تواند بهبود قابل توجهی ایجاد کند.",
+          "human": "این می‌تونه خیلی چیزها رو بهتر کنه.",
+          "cosine": 0.32753820163875097
+        },
+        {
+          "stable_id": "PH-a9df045d402f618d79c9",
+          "ai": "هرگونه بازخوردی را با آغوش باز می‌پذیریم.",
+          "human": "هر بازخوردی داری، خوشحال میشیم بشنویم!",
+          "cosine": 0.18229010770990964
+        },
+        {
+          "stable_id": "PH-02009508475d3799e340",
+          "ai": "شهرهای اسفنجی از طریق جذب آب باران سیل را کاهش می‌دهند.",
+          "human": "شهرهای اسفنجی با جذب آب باران سیل رو کم می‌کنن.",
+          "cosine": 0.05266345411497679
+        },
+        {
+          "stable_id": "PH-7b6e80e015d626ffaf44",
+          "ai": "حس می‌کنی همه ازت توقع دارن.",
+          "human": "حس کردن توقع از همه، خسته‌کننده‌ست. خودت چی می‌خوای؟",
+          "cosine": 0.15646524697948552
+        }
+      ],
+      "assessment_provenance": "assistant_model_assisted_qualitative_inspection",
+      "human_rating": null,
+      "observed_edits": [
+        "فعل اداری اتخاذشدن با گرفته‌شدن ساده شده است.",
+        "تعبیر «با نظر» به نقش مشورت نزدیک است، ولی شکل دقیق روند مشاوره را بیان نمی‌کند."
+      ],
+      "cautions": [],
+      "register_observation": "در این خوانش موردی، تغییر روشنِ لحن از واژه‌های خروجی مشخص نشد.",
+      "source_quoted_evidence": [
+        {
+          "source_quote": "مشاوره",
+          "output_quote": "نظر",
+          "interpretation": "تغییر بیان نقش کارشناسان؛ برابری دقیق به زمینه وابسته است."
+        }
+      ],
+      "source_reference_policy": "Judged against input; associated corpus rewrite not assumed gold",
+      "saved_response_sha256": "19b2cb60890aa53289545b2f7aeeb00269602a852d1f03528ecce7b34d43ac2a",
+      "raw_response_sha256": "bfd87672ce7a70673ad9f78956eab87800b6f7c9f8d0ea813d9a78248cb7d64a"
+    }
+  ]
+}

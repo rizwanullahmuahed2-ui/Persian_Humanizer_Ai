@@ -1,0 +1,41 @@
+{
+  "job_id": "3de0f57d03df0f9e3b66467d0044d4f830a85b97c875986577995527b9cb5422",
+  "query_id": "PH-40bdae8e718bc5468db2",
+  "group_id": "d4e4903bc1816e60c4047785ac281f7e4259226cf0d6e2468a012afe219bff3c",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "bbdc109ec585946d33277e248dd6118424944608dd9559bac63f2f03f2e8df7f",
+  "retrieved_ids": [
+    "PH-550c7edba9b0e628f6f7",
+    "PH-04600ef8d651bbfc0b82",
+    "PH-44a60bbcef775f9fe9d2",
+    "PH-cd3564a553fa5c3502a1"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_55c9b140dabe42888f9cea0feefb610a",
+  "wall_seconds": 0.6015500800003792,
+  "raw_sha256": "8850d6d6e5a4275e05753c54aa669ac36582195a1d5b9a793de3408dafdf9692",
+  "output": "تحلیل محتوای کمی نشان داد که بازنمایی زنان در رسانه‌ها ضعیف است.",
+  "usage": {
+    "prompt_tokens": 322,
+    "completion_tokens": 21,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GTmUCOx68qAe7Ik11Q3UN5hZU6",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001624"
+}

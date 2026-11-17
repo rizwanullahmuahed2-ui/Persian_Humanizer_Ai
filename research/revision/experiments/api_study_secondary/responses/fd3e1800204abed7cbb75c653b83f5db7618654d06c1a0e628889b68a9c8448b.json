@@ -1,0 +1,41 @@
+{
+  "job_id": "fd3e1800204abed7cbb75c653b83f5db7618654d06c1a0e628889b68a9c8448b",
+  "query_id": "PH-36fa8cbed2c3aab0988f",
+  "group_id": "4f599c5363ea3bb5cb34700072451706078405be6e475b4aae248e78e0ed5d63",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "7540123810776c255b9509bd787bc83c39365d5fa70f978c3fb95a52ee231abb",
+  "retrieved_ids": [
+    "PH-fae8e851e3e34b96119f",
+    "PH-fc773a17b0de2f307583",
+    "PH-99cd55a63496f209af26",
+    "PH-788816816a9899cbc9e1"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b51b9a5746634761986a034594827eee",
+  "wall_seconds": 0.7758911920000173,
+  "raw_sha256": "9b8dbde6992d84abae5ef738925d84763624df415008a4e40007737c2e266b6f",
+  "output": "گزارش کامل فردا ارسال می‌شود.",
+  "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 10,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IvELvzpsC67fMBxr2mffEJ2HWg",
+  "system_fingerprint": "fp_b4300b0f11",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005205"
+}

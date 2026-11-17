@@ -1,0 +1,41 @@
+{
+  "job_id": "f6795ddb905a22326b6bcd1c6a6e86b470b1fd84e07a9912f9b7e74b79013744",
+  "query_id": "PH-6b72ddb3444518e6dec5",
+  "group_id": "7cbc52ad0cafe235cd369203622c4c79d5b09cb9d6946f9272aa1b49968b17ee",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "5742c2cf335b979b7c9cedb1647926468751b347813b297b4d111be66a64e296",
+  "retrieved_ids": [
+    "PH-976114cf4131822414e5",
+    "PH-874b7e28f18d9fc48d57",
+    "PH-aa634a23fc1a51b11ba7",
+    "PH-94939e11af2854a7c825"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_769d9a2cf4234f6e80f72ffefcfaeb42",
+  "wall_seconds": 0.46335031400030857,
+  "raw_sha256": "b1bfe6f87e0caa3bca7558dc4087b6a7b42b0e6e1c655efe435f994f15dfc776",
+  "output": "این قرارداد از روز امضا لازم‌الاجرا خواهد بود.",
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 14,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Gcl99ELjOymklVwQ3CL6WANsfr",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001552"
+}

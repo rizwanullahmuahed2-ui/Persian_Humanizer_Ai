@@ -1,0 +1,41 @@
+{
+  "job_id": "344f7012f51a7a373dc937f781031ab1f9fa67d331144db2cbda15d90c975311",
+  "query_id": "PH-b0a0413c174d34dd4349",
+  "group_id": "5b929b15e5db8b37027798fca976bfce666fb41132593075592392d4278940ee",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "1c834e5643b30c8539ac6ef3694d2f8da5d75f895458eb862bf7cf9d2b8d54ef",
+  "retrieved_ids": [
+    "PH-a405f3d5a62183c624d3",
+    "PH-70ae34e79a7b4fdb51c6",
+    "PH-53d2a664d960283fd199",
+    "PH-b945dbd8aa86b0a06dfa"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c9650622d5ca47e9b539026975fe4d0d",
+  "wall_seconds": 0.6639693089991852,
+  "raw_sha256": "27193c02bdbd767f21a0876a35f0532d83c851cb791a7e634a54bdb4c6664741",
+  "output": "این آزمایش در مرحله نهایی‌ش قرار داره.",
+  "usage": {
+    "prompt_tokens": 318,
+    "completion_tokens": 12,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IXyf8goPBd8IFoQzBqxZOyuwJS",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000549"
+}

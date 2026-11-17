@@ -1,0 +1,41 @@
+{
+  "job_id": "4ecf0cce6e42cb7c60b94a46f0fd565e88911c92727f5bc59b8d3689174a5858",
+  "query_id": "PH-58736fb3ce62f742bb6b",
+  "group_id": "97dbe158953c3011b9399702d2e063c1ce15fea17ee624afc2441ece896dc783",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "d905d2ec4f055e6fb9b854933bd2d3119526e616e79070eab2efdd87a5a0faac",
+  "retrieved_ids": [
+    "PH-0f26f8bca039912d9462",
+    "PH-cb9e828d77c28bd2a4e5",
+    "PH-0ce4d10cb8734b82ab12",
+    "PH-aa2427fb41c2bcbf92d6"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a1920d7a9ce0456f95993a98a21dbe5e",
+  "wall_seconds": 0.8403821030005929,
+  "raw_sha256": "4ac56f36de494aa4fae64819970eefc06e9f287e021b3375691e2c47d663b7e3",
+  "output": "وقتی سخت‌ترین لحظات رو پشت سر می‌ذاری، قوی‌ترین می‌شی.",
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 22,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Iadnpws5XFc7MHCfQyAlbhNxCX",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006315"
+}

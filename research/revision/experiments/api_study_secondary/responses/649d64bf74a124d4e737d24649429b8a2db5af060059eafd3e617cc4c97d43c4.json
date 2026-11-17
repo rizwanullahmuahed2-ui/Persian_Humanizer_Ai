@@ -1,0 +1,38 @@
+{
+  "job_id": "649d64bf74a124d4e737d24649429b8a2db5af060059eafd3e617cc4c97d43c4",
+  "query_id": "PH-bbdc661727cf3623e306",
+  "group_id": "2a8a4ffcdfd9e9b1e6ec93d343317a3b0d7833f1243ee5c009a4c9c0f3650a51",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "86fd10064b7a2972f1dbf0986e790c64ba28a69b09b0883eff556a4dfaaca644",
+  "retrieved_ids": [
+    "PH-87034736d4665a81abd8"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_87ec9dad6bb249e486822d71e3b8ae5c",
+  "wall_seconds": 0.7718656179995378,
+  "raw_sha256": "cc15e71d13ecc2db42d53e3ed885bea4eb5876d90d12d61a2e874fbb7e823215",
+  "output": "کود شیمیایی قادر است آب‌های زیرزمینی را آلوده کند.",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 17,
+    "total_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IF3dGDHydLT57OiRlkUn54m6pG",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00004155"
+}

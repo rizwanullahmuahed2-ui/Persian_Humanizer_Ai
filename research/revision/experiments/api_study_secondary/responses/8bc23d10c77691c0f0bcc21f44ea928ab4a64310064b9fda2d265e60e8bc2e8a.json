@@ -1,0 +1,41 @@
+{
+  "job_id": "8bc23d10c77691c0f0bcc21f44ea928ab4a64310064b9fda2d265e60e8bc2e8a",
+  "query_id": "PH-0ba65753f93d3382d459",
+  "group_id": "3b57d39cfb7ad0c700e3cdb8f3ef5549f3703cec7ecbeb1a3ec94b4c46603127",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "42dc19dbfe1d3c0c40f1538043a4e719ddd25baa581fa177e0a4e0faee36fb26",
+  "retrieved_ids": [
+    "PH-26fa61658daab0ec46e4",
+    "PH-f0ae946b6c47e7fa023f",
+    "PH-370c08536edcd1fdaa2b",
+    "PH-70d235d704823b4a4e99"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fef9cd4aef8c40b1a4ef4463833fc7d3",
+  "wall_seconds": 0.6021742399998402,
+  "raw_sha256": "db065785472dc514f2a46d05b1119ae99f35e5e73862e7212703d2d4c84d1a0d",
+  "output": "این تجهیزات باید هر سال بازرسی شوند.",
+  "usage": {
+    "prompt_tokens": 349,
+    "completion_tokens": 10,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IJY6pXUJvnr25ityIfBMN9vErf",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005835"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "ceaeaf70787f85d53f62c0fd2c49b205af5f021af1d10a6e45ae46a584c5bee9",
+  "query_id": "PH-9ce52ff9e26fe1eb1c01",
+  "group_id": "8e4ed87e857babd955c27a22a526fe9d4c862f9a449d3da58b14bcb8042d9a96",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "713e04f466b62bafdfa3b55cd9ffeffc3669bcd22682088ba7a1d5cbe7248371",
+  "retrieved_ids": [
+    "PH-397276af47c6d511926e"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_2bea07f83c144ba8992479d1c09d7107",
+  "wall_seconds": 0.6130066920004538,
+  "raw_sha256": "9b4bc8c9ea97c1c0543716b8cb2144c647ab7139fc267bdc1f7988bb96b0c8be",
+  "output": "این کارت گرافیک برای آموزش مدل‌های هوش مصنوعی بهینه شده است.",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 18,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FpOea49uzNlvfaTVuTOjWGuazv",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000108"
+}

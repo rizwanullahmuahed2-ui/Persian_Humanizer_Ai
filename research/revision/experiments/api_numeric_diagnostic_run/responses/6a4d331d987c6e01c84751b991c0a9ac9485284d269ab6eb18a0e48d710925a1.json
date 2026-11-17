@@ -1,0 +1,36 @@
+{
+  "job_id": "6a4d331d987c6e01c84751b991c0a9ac9485284d269ab6eb18a0e48d710925a1",
+  "query_id": "PH-e1042e04b54f05ff32d7",
+  "group_id": "b4cf99a2e6c99a5ccdb0894612816f771a6facf4e3db3c7da37e4d10e32e1e30",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "b4235f005945e10561c1307a2e1384afc2cd5d4204e27bf0be972664c75a2c26",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ac013fd63a3342a496c1a42db06d8cf9",
+  "wall_seconds": 0.8295223289997011,
+  "raw_sha256": "ef357e67b894ae59b3a95a787ae68dac0c7e849fd0e7e08deea418e0b9d653ab",
+  "output": "این مطالعه طولانی‌مدت به مدت ۲۰ سال داده‌های زیست‌پزشکی را مورد بررسی قرار داد.",
+  "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 26,
+    "total_tokens": 194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L3R9CqVHF8uFNNomcyM78RVFQv",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001088"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "332ef68a3e1ebcf528bcfc672becf5cb9781ef97de5b9523c4d69ff654d31798",
+  "query_id": "PH-2818a162e40eb9aeda78",
+  "group_id": "116ec525cccfa4fc65fadd138900495ea72c41d4ad5fb5c2705053df817b6cd2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "cd9ac2b0e7a9af838cb478f4686d452d031744fa4ee11287b4a4b16c192ae981",
+  "retrieved_ids": [
+    "PH-05ff995fca1dc8b1be09"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_594aa111ca8148249f75e228ab481986",
+  "wall_seconds": 0.705399854999996,
+  "raw_sha256": "c1eb96c006bfbd4951a9cf4d875f9457daeebc5724b38538cbf1c448a585de12",
+  "output": "این محتوای ویروسی به سرعت در فضای مجازی منتشر شد.",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 16,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HmK09ovo15f3NEf7cCdLZshNF0",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000399"
+}

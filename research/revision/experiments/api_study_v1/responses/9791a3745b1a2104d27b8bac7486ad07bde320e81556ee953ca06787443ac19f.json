@@ -1,0 +1,36 @@
+{
+  "job_id": "9791a3745b1a2104d27b8bac7486ad07bde320e81556ee953ca06787443ac19f",
+  "query_id": "PH-9ce52ff9e26fe1eb1c01",
+  "group_id": "8e4ed87e857babd955c27a22a526fe9d4c862f9a449d3da58b14bcb8042d9a96",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "f1af8c41d76018325959133520a940cfa35185376b909b1f4fd0ced65f0378f0",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_59f7cba4ffaa466aa0cfcdecc96a5499",
+  "wall_seconds": 0.7064385229996333,
+  "raw_sha256": "11c1b61d48f2628f8013b33f62f5bbd7648c7b9e8522dbc722b5a99a23a1dc7e",
+  "output": "این پردازشگر گرافیکی به منظور آموزش مدل‌های هوش مصنوعی بهینه شده است.",
+  "usage": {
+    "prompt_tokens": 167,
+    "completion_tokens": 22,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GKQluxW7CvveDNDU81XvSgJbjE",
+  "system_fingerprint": "fp_72fe1d6947",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000102"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "381e35e4a0e9bb15653863b502c62d77070a8fa19d8104fcb159a72b34d287f5",
+  "query_id": "PH-785f31594f118a6dde14",
+  "group_id": "6d69bdb0899e1f12d89d07b37fae43b8ee0d7014dbc3712de3dc77e0110a4291",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "d9762ed77e766b8042780f5524ccb77f757ccaadf81ca6816c70988a9eb79778",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1fda7bc973364ecaa0397d16f9f3be4a",
+  "wall_seconds": 0.6052643570001237,
+  "raw_sha256": "dda9b112ccbab67d2594c01a20f78068987dd2d01a59dea8176b0fb338e2fd9a",
+  "output": "حرف‌هایت را درک کردم.",
+  "usage": {
+    "prompt_tokens": 158,
+    "completion_tokens": 9,
+    "total_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Iu1pqAoOM3ku7C2SeQow2MlJ9k",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000291"
+}

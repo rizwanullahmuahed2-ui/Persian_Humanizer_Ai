@@ -1,0 +1,41 @@
+{
+  "job_id": "18213ada8a1f1eebeeb1a6a3e61299ceec304a7b5be066bd41e944c19a8c9fd9",
+  "query_id": "PH-147a44493d66618b6871",
+  "group_id": "0f58fb6d2dc03443ecbcaeeac68755b30307fbc64c7e94b5f2273bf1fa977e69",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "00be684b2091f25ee5089ab57ee7f8ce5027e26ea6fd178958e7cf4c14b100fe",
+  "retrieved_ids": [
+    "PH-156bb8a2862c217d681a",
+    "PH-d5b17b29be2425d43bd3",
+    "PH-271c8af3aea12960f7e4",
+    "PH-aec9c9184c070c7af494"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c2a4d6fee8db4e009a8d2ba2c1163665",
+  "wall_seconds": 0.8317632819998835,
+  "raw_sha256": "70810e024914a77a5fc0222cc28df1a8f5f3f73acc713f07408fa69c285d3516",
+  "output": "تبریک! شما با موفقیت در این برنامه ثبت‌نام کردید.",
+  "usage": {
+    "prompt_tokens": 322,
+    "completion_tokens": 16,
+    "total_tokens": 338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HjUV2RtXKIjxHtQiMLnS7u9Z5g",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000579"
+}

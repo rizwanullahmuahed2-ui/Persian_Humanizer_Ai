@@ -1,0 +1,41 @@
+{
+  "job_id": "6e0a928eb9dae7f2d72ecd9e0b7675eb4b669da0fb192bdb19d8668803b336c4",
+  "query_id": "PH-39844acdc766fe533d3a",
+  "group_id": "d8eafdff0b509e057e47281d1180c4b2e162cf7d1aaf0d6c61ca4bb2cfd38411",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "64f00fcbb6bdc1409aa04eb90413012ad4ae0ed521fdf3c75ca7e0ac3b96ea48",
+  "retrieved_ids": [
+    "PH-38807f6ac2c754bca0c1",
+    "PH-566be26a7c5ea33ca641",
+    "PH-23d3d3fca18510f0e223",
+    "PH-a3444a7fcec2f06b2f25"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d4fcc20d898044d2a75fda750e97144b",
+  "wall_seconds": 0.42905267600053776,
+  "raw_sha256": "6474e5e3823d79f1d71d4fca92c24d7e457fd13c054c24b2bcad363487da910e",
+  "output": "این هدیه به نام شخص سفارش داده شده است.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 11,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GfQdL3VDX0Y6KfuEgJ0XFSJwnp",
+  "system_fingerprint": "fp_9c09c50726",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000144"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "c58035af070d48b87b88646440a6a93b6fefc90da80219739f70f62d873b1514",
+  "query_id": "PH-bbf12ba4801c0577e5d1",
+  "group_id": "f14cc691a26caccb5f2519e84c67908eafa676b61384894d4e0ecd7a19567b0a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "84b646f061816c0ed6dd0ff8762fe01938c704ded66c412b8dfe4711d239ea7a",
+  "retrieved_ids": [
+    "PH-c60aa4bb3803388f31ef",
+    "PH-f9c82e126770bfd57838",
+    "PH-897a5f546e3dab057c23",
+    "PH-8327003fdfeb93ca9d43"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_01665d45ea21461c9abf1ece5b76004f",
+  "wall_seconds": 0.5442281969999385,
+  "raw_sha256": "a948d3bd0c046d738e7c5659851ccc0420b8d8fe914cb9eadcf0c052b2dc740a",
+  "output": "صحبت دوستانه‌ای داشتیم که خیلی به درد خورد.",
+  "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 13,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FtBWAq98ZNybfLQSUsRenf0gsn",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001528"
+}

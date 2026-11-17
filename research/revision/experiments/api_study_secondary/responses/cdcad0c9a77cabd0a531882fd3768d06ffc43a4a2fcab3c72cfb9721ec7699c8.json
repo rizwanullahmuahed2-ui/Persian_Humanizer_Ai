@@ -1,0 +1,36 @@
+{
+  "job_id": "cdcad0c9a77cabd0a531882fd3768d06ffc43a4a2fcab3c72cfb9721ec7699c8",
+  "query_id": "PH-c4a94c121dbe2f128c91",
+  "group_id": "67ba3bcbab9a2811c229bca0cf0b0d6da94df47353a7a79224167269e402dc87",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "525472b0fdfeb201b12248528235339c9d65b11fd7613e0794293539e6b36489",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f5fc1368b85042eba3931b92bd30f54e",
+  "wall_seconds": 0.7872188419996746,
+  "raw_sha256": "3706e87f7442529431168e392e3036f0615ea9a10d89b3c69c5ddb56684167f9",
+  "output": "یک قدم امروز بهتر از صد برنامه برای فردا است.",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 12,
+    "total_tokens": 171,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IwCO3LfwQtwlq4NJUQP1v3059S",
+  "system_fingerprint": "fp_eb86cfd659",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003105"
+}

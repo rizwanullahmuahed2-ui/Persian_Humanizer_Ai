@@ -1,0 +1,41 @@
+{
+  "job_id": "1eed5bd785ae0d037e0d5004d698dc18d406cf6d7a91354a64cdb60c13eaeeb3",
+  "query_id": "PH-eb8c4922d464784f8131",
+  "group_id": "2ea03b15b1b2828645ad4a838195e12961f7c24047ebd6331574a3ad6b06e6f7",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "e29d644894ae32d2f2f00a7358480cb9908769d5444f1356188e636c4ecf53d1",
+  "retrieved_ids": [
+    "PH-111fd7425a33b92df32f",
+    "PH-b77e79b28b7dab5ae85d",
+    "PH-4f04c25659b54ef7faf9",
+    "PH-13a6c8302e0f4c41d939"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_666612e0887444feaec72d0d90171049",
+  "wall_seconds": 0.9331395159997555,
+  "raw_sha256": "167bcba781e155b8c288bdeed2240eaba36d9f608bf702d9affc3d56d130ad91",
+  "output": "برای اطمینان خاطر می‌گوییم که همه چیز در وضعیت مناسبی قرار دارد.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 20,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Isx3fuLoPhjEFhsxf5KFG9uz0F",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000594"
+}

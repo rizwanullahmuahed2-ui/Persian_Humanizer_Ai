@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "validated_responses": 800,
+  "planned_jobs_all_archives": 1200,
+  "scientific_http_attempts": 1200,
+  "recorded_error_count": 400,
+  "unexpected_error_count": 0,
+  "analysis_spec_sha256": "de031c05915effdade61309b25172428455ea2d0d1f2966ea4021404227481cc",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "analyzer_sha256": "7501ef319cd0b812bca52528193b512aeb7e8163099b903f0b828cfd325113f3",
+  "human_ratings_created": 0,
+  "secondary_plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "secondary_directory": "/workspace/persian_humanization_revision/experiments/api_study_secondary",
+  "availability_amendment_sha256": "d782eb4ef117d96ac883c92f409e31cf46759d38cfc613ffea07125a3950e09d",
+  "expected_unavailable_model_http404": 400,
+  "interpretation": "Descriptive automatic diagnostics for a separate OpenAI controlled experiment; not a replication of historical Llama results or a human naturalness assessment.",
+  "query_groups": 100,
+  "fresh_provider_response_ids": 800,
+  "distinct_output_strings": 574,
+  "normal_stop_responses": 800,
+  "prompt_tokens": 201252,
+  "completion_tokens": 11556,
+  "total_tokens": 212808,
+  "cached_prompt_tokens": 0,
+  "uncached_cost_usd_not_invoice": "0.06805390",
+  "warnings": [
+    "Associated references are not validated gold for within-register naturalization.",
+    "Number-token flags are not an error rate; number words and equivalent representations require inspection.",
+    "Two small models from one provider do not establish broad cross-model or cross-provider generalization.",
+    "No human naturalness ratings or factual-preservation accuracy are computed."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "c221881b5888f2e50936618952d9470159c2dc7e1cb2ba79aa3091a60755a3fc",
+  "query_id": "PH-ff1925098265da4b49b6",
+  "group_id": "0c782a8dd9c2647ab1d8689f6c8329f91e5d10c60df98b18a6409b10266b2be6",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "40e0bdd20201a7282d9453bb0506fec4df21f7da8d50481e59c6b9a328d70c66",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_cb738d2275a64c1bbbbaddbad04504a7",
+  "wall_seconds": 0.8429439380006443,
+  "raw_sha256": "356d84ca288b1c024f499b8e3617113f0fccaba5b39a9bb0dd88fc49264c1c1a",
+  "output": "این برنامه به کاربران اجازه می‌دهد تا آن را شخصی‌سازی کنند.",
+  "usage": {
+    "prompt_tokens": 161,
+    "completion_tokens": 16,
+    "total_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I5RY1dLYVw81L5So0pK73wOOyR",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003375"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "5956ad0536dae638757c9088f0e00c01c7c621e3f220876b897ba74bd76fa1a6",
+  "query_id": "PH-d41900155ad2594fd502",
+  "group_id": "e12536daa9ae9438ae29f60798444595046960d4c54f73dea4cd0216697c0a3e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "0f6f594519fbd9d8da7dfe7d39e79dc1a0377e6ea858c2ea6c98d1dab0e6a92f",
+  "retrieved_ids": [
+    "PH-bd0b82e071a036a88ecc",
+    "PH-891ec6939e2a05373563",
+    "PH-0cc369c3b3a403e1a0bf",
+    "PH-f7d9d7571192acbfd12e"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c061e719dc454c26b81ae046760922f0",
+  "wall_seconds": 0.85095213600016,
+  "raw_sha256": "6390fed36e682425c405217c0396a02e2d3373b46e0e54f6fb5183f2acdcbc3f",
+  "output": "اینجا مکانی است که افراد موفقیت را به طور جدی می‌گیرند.",
+  "usage": {
+    "prompt_tokens": 320,
+    "completion_tokens": 20,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I3t196jv0TTdKH54fxH4RAuk2P",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006"
+}

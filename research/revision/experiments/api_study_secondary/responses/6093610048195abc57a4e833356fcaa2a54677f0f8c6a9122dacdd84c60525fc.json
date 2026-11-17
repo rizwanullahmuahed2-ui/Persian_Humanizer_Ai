@@ -1,0 +1,41 @@
+{
+  "job_id": "6093610048195abc57a4e833356fcaa2a54677f0f8c6a9122dacdd84c60525fc",
+  "query_id": "PH-bbf12ba4801c0577e5d1",
+  "group_id": "f14cc691a26caccb5f2519e84c67908eafa676b61384894d4e0ecd7a19567b0a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "9d82b591d3caa8a2d222e9c1f83402e06c03f5b0f3fa15382bfcb047babfce80",
+  "retrieved_ids": [
+    "PH-f0606c25119624835663",
+    "PH-75183e93a3f3da8081cc",
+    "PH-91b8484c2ac15d5eb25f",
+    "PH-7872e1dd1321f05d7734"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_0090773e3b14469caa24175d3090e421",
+  "wall_seconds": 0.7962889520003955,
+  "raw_sha256": "ba9697e245116763d4203fb44528b8855a4c5a0fa71fd1dc959c25a3a54d38e8",
+  "output": "گفتگوی صمیمانه‌ای داشتیم که خیلی به ما کمک کرد.",
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 16,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ItEcKkeLrHYlsEz7qC8exm8Qr2",
+  "system_fingerprint": "fp_eb86cfd659",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005625"
+}

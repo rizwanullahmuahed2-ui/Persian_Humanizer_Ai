@@ -1,0 +1,36 @@
+{
+  "job_id": "9b05523311f3d67637752fd42bdc926f0053d2bec25e44b89837a5ca8cce8878",
+  "query_id": "PH-58736fb3ce62f742bb6b",
+  "group_id": "97dbe158953c3011b9399702d2e063c1ce15fea17ee624afc2441ece896dc783",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "cf2b1ca79a6a5ffc4526af87ce4a37d334259de51289dc4c6823b20e409459a8",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_76bbe53afe574604888577eacb062abf",
+  "wall_seconds": 0.9669305750003332,
+  "raw_sha256": "d47e6b64554c07f05135302e67f16b0f96ebc2f189cec8d705b687027c0522e0",
+  "output": "زمانی که دشوارترین لحظات را پشت سر می‌گذاری، قوی‌ترین نسخه از خودت را می‌سازی.",
+  "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 28,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IO0p2DD5Ga85X5c68kUjqExnsT",
+  "system_fingerprint": "fp_2bf6f3634d",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00004215"
+}

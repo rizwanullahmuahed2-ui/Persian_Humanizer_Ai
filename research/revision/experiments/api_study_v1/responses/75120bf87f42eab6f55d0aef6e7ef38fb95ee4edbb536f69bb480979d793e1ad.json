@@ -1,0 +1,41 @@
+{
+  "job_id": "75120bf87f42eab6f55d0aef6e7ef38fb95ee4edbb536f69bb480979d793e1ad",
+  "query_id": "PH-cebfa084d4caecdb5536",
+  "group_id": "0b877055aeef6e5e03f09fc928e4ff045eb14c41ecd14f50abe05a8731a3925b",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "9dfe7a3d44c57bbf9a96239b5504ae965c7b39d68ddb2ddcdd8e7592e9ba51a3",
+  "retrieved_ids": [
+    "PH-92f234509f93586a2b93",
+    "PH-df2115593f497a895117",
+    "PH-76827a9dc70a636c79fc",
+    "PH-5d52ca646b979f890981"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a7b1130f7169456980b0c4c428c97c80",
+  "wall_seconds": 0.6137066090004737,
+  "raw_sha256": "327f4b27096df14b34db95f5c692a5c1798e174ecffaa021679136c9b6551b66",
+  "output": "پروتکل ارتباطی بین دو سرویس باید دوباره پیکربندی بشود.",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 20,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G1GtIbmwOoLHG6wG7T38225dJJ",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001644"
+}

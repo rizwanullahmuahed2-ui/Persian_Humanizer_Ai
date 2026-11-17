@@ -1,0 +1,41 @@
+{
+  "job_id": "b12cff05d99d98a8e2795c5f3bf4b7d33dc70aee36eff62a8c0ce4b04199e7c2",
+  "query_id": "PH-b7d259fa4a30849b23f1",
+  "group_id": "e1d35bb6f3af6eb14913525bcc3b3e6e19802145c267dd080232090194efeebd",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "c7587b6299717d79810c4b5379a8f555701067d18effb0d43fb790b6eda0f9e2",
+  "retrieved_ids": [
+    "PH-3216ea3063c1d263af06",
+    "PH-26c502cc8f256f652f19",
+    "PH-7f5235002a647c7acb8f",
+    "PH-a9c15a0590b475d41eb0"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_0689fb876209493084bcfd5e0986f1cc",
+  "wall_seconds": 0.5018856910000977,
+  "raw_sha256": "7cd126891641b50aee32de9cc953853832db74db9b8c637fd8c8a435a1564dfc",
+  "output": "دیگران می‌گویند نمی‌شود چون خودشان تلاش نکرده‌اند.",
+  "usage": {
+    "prompt_tokens": 323,
+    "completion_tokens": 16,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GqTJ98LM3Q7ac8sHq6lolu0H5i",
+  "system_fingerprint": "fp_9c09c50726",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001548"
+}

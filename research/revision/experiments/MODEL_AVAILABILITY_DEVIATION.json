@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-11-17T07:52:49.625184+00:00",
+  "reason": "gpt-4.1-nano-2025-04-14 returned HTTP404 for generation despite metadataGET200; original400failedattempts retained",
+  "original_completion": {
+    "status": "completed_with_errors",
+    "planned_jobs": 800,
+    "complete_responses": 400,
+    "errors": 400,
+    "new_http_attempts_this_invocation": 800,
+    "http_attempts_total": 800,
+    "conservative_reserved_usd": "0.5208030",
+    "actual_success_cost_uncached_usd": "0.0494920",
+    "budget_ceiling_usd": "2.00",
+    "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+    "human_ratings_created": 0
+  },
+  "replacement": "gpt-4o-mini-2024-07-18",
+  "replacement_generation_preflight": "REPLACEMENT_MODEL_PREFLIGHT.json",
+  "selection_policy": "Same100frozenqueryIDs,groups,promptsand4conditions; onlysecondmodelchanges; selection is access-based, not output-quality based",
+  "original_archive_mutated": false,
+  "human_ratings_created": 0
+}

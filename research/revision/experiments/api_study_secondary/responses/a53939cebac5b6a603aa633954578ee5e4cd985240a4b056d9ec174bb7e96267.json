@@ -1,0 +1,41 @@
+{
+  "job_id": "a53939cebac5b6a603aa633954578ee5e4cd985240a4b056d9ec174bb7e96267",
+  "query_id": "PH-cebfa084d4caecdb5536",
+  "group_id": "0b877055aeef6e5e03f09fc928e4ff045eb14c41ecd14f50abe05a8731a3925b",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "50507249d1c43e6c05313ec2d1b6d7374a384dab961d3d1c3f3c9abccf280745",
+  "retrieved_ids": [
+    "PH-ece9a8010f03bcf5f1d5",
+    "PH-50c8341facd1d6ad92cb",
+    "PH-85ccff3f649576f4eec5",
+    "PH-baaf336ddb6b9c7524d4"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d8270beee580490eb9bd488c2be13f76",
+  "wall_seconds": 0.8581568139998126,
+  "raw_sha256": "7ef2cf28c258b787c079f2d29e5660a8f7088e0276a900cb6227a54eb90ace11",
+  "output": "پروتکل ارتباطی بین دو سرویس باید دوباره تنظیم شود.",
+  "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 16,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IHqRDfNHofiuY8G92OEXsc8Z0p",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000582"
+}

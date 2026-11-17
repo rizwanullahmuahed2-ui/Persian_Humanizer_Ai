@@ -1,0 +1,41 @@
+{
+  "job_id": "baa830551c95236b7490d0267b4cedd54f54f336cba6119ae3ff49605254407a",
+  "query_id": "PH-236252593d2e1d5a4f41",
+  "group_id": "3ee8a99ad8bc512010bfbc5a694abbed92496de7f9f3a325165b77ef5b9c1678",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "6bf054e5b38ec244e7368652b69d153bcfaad4c971ad01a25dd789dc8894c76a",
+  "retrieved_ids": [
+    "PH-ecb808fcb77a877b9e25",
+    "PH-c5525b4889d5dbec9ae4",
+    "PH-91e7eb2efb62d5de41d2",
+    "PH-b06a5a87a4f0df8f1e98"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e0fd748e57b74321860f11646f1c4819",
+  "wall_seconds": 0.826764472000832,
+  "raw_sha256": "f6881ca92abbfeeb20fdf8ec8870558ee7ba88537070665dfffcef7c79666735",
+  "output": "این استارتاپ مدل درآمدی سنتی صنعت را به چالش کشیده است.",
+  "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 18,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FvplHzr9pzvmzrkwOCyWAyBoDz",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001608"
+}

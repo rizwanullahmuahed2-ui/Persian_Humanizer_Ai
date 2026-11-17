@@ -1,0 +1,36 @@
+{
+  "job_id": "21f4a33479cb466aab9058e0fb4306ba164f4d6cd2d4aa9e9cf984cca0da4062",
+  "query_id": "PH-aef2351521c5b1ada55a",
+  "group_id": "49bd00ed49dfc10cf622d6a523b1792476b0ede9e7c895aaf775d9b5bbc575fc",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "88edeee7ad1db995cc2e39645bcca1b850fa05fbe1cd47cac503f13217c834e7",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c28e3f9fcb32477488677724e5323ebe",
+  "wall_seconds": 0.7009511650003333,
+  "raw_sha256": "de88ec4c497e2b94dc4b562b3ee9e8d7626415d252143d0d59a96698a260366d",
+  "output": "این API gateway وظیفه‌ی محدودسازی نرخ درخواست‌ها و احراز هویت مرکزی را بر عهده دارد.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 25,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G4iDAgU4cVs3y8rIBtKEy7euC4",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000104"
+}

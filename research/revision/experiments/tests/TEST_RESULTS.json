@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "tests_run": 13,
+  "command": "python -m unittest discover -s experiments/tests -v",
+  "network_calls": 0,
+  "credentials_read": false,
+  "synthetic_fixtures": "Unit-only, never part of experiment results",
+  "scope": "software and frozen-plan contracts; not semantic validation"
+}

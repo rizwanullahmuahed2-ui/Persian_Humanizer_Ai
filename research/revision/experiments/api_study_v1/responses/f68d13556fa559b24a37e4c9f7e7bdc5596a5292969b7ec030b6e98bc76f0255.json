@@ -1,0 +1,41 @@
+{
+  "job_id": "f68d13556fa559b24a37e4c9f7e7bdc5596a5292969b7ec030b6e98bc76f0255",
+  "query_id": "PH-0064a44978e4b319db5e",
+  "group_id": "203c99bcefdd6e1373461fb521689c7523baaa1cb87bf29412154491924908a6",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "7db6b041d1d808a2f9b0cb3f8667e5ed524808d7052102771a9ebe7feba86279",
+  "retrieved_ids": [
+    "PH-15618cc1579b6da4e0ae",
+    "PH-e6f7143cb7da013a0aca",
+    "PH-a22adf4ce1f9b7c58bf9",
+    "PH-65ed9f3c03aef767d426"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9cdfae623e69413dbf26dfe3dd370ff0",
+  "wall_seconds": 0.6554299589997754,
+  "raw_sha256": "93fbf44b31f38e9a398d08b2561116d3a42a7b82fe7fdcdff6c1719d60f821ee",
+  "output": "وام مسکن با شرایط راحت‌تری ارائه می‌شود.",
+  "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 12,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Fm6q80wp2SOkbQevSL84MInjBu",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001432"
+}

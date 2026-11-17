@@ -1,0 +1,36 @@
+{
+  "job_id": "bf95eb45d6721059416b5fa8aebf36b6dee243444c0f0ba36c85053a4be8b420",
+  "query_id": "PH-312ad359d00ca742eb46",
+  "group_id": "bc8f4e471bc29e5ab732855fb9d865027111e8be9f98ed3f175e01e1db5b3949",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "e5e227a7b9f5f300363d978d1dfd6c99f61fe24a3081ec3291e96253b511589f",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e74a0eb2d02e4e629bc36a4463f3b455",
+  "wall_seconds": 0.49715954800012696,
+  "raw_sha256": "0acdd4cce2dfff7e7a8e8740a4e563a695c45ea873cfe23f660f837acc672b01",
+  "output": "تیم توسعه ما در حال بررسی این اشکال است.",
+  "usage": {
+    "prompt_tokens": 161,
+    "completion_tokens": 13,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GnYW0ouEHrcYLaESkwzZ1XMFXr",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000852"
+}

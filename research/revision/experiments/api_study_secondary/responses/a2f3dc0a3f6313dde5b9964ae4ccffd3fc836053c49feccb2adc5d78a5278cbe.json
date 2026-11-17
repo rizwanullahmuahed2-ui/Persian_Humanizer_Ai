@@ -1,0 +1,41 @@
+{
+  "job_id": "a2f3dc0a3f6313dde5b9964ae4ccffd3fc836053c49feccb2adc5d78a5278cbe",
+  "query_id": "PH-819aeae53d450aa010f4",
+  "group_id": "5ce8cc2988ae2797822030ba0f83c7c40217533ece19c554e214e16b62828877",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "ebcb2641713d3838284b684c3254a120e7063228b79bbf9c2e7eeea15972b75f",
+  "retrieved_ids": [
+    "PH-bd17795c2c66a96cd4df",
+    "PH-588d163f424ec9448eeb",
+    "PH-6facda365a47a7888cbd",
+    "PH-7f8263d888f0f588cd78"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f83491604be9496394cadeb19c7b12f7",
+  "wall_seconds": 0.7771662329996616,
+  "raw_sha256": "841bf1052718756d98de1094e90eb5b7100e85db6c0196d0d2b882ef4b4dbb20",
+  "output": "خیلی ممنون که وقت گذاشتید و نظرتون رو بیان کردید.",
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 18,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Huw1jkW9W01hTqPlwoN15IehAj",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005715"
+}

@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "numpy": "2.3.5",
+  "cpu_quota": "200000 100000",
+  "memory_limit_bytes": 8589934592,
+  "inference_provider": "OpenAI API;internalproviderhardwareunknown",
+  "generation_client": "Python standard-library urllib;4concurrentrequests",
+  "embedding_versions": {
+    "torch": "2.15.0+cpu",
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.23.0",
+    "numpy": "2.3.5",
+    "huggingface-hub": "2.4.0"
+  }
+}

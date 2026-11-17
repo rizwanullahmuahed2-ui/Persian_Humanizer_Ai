@@ -1,0 +1,36 @@
+{
+  "job_id": "aae6522b12c040af562e05feb251c85bd80d505772bd6464599eb2243b759504",
+  "query_id": "PH-32110bcb1605f2b54fdc",
+  "group_id": "7dd6b3c5f4ca86a035c5efb107f645725b596b8bfc434ff6205502bc1026219a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "207834d0e82b0b06e5a2f59cd3c26872a56ff54e8d7111702969e25310b53d1a",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d5efdfd675c043d3bcd24768deea005e",
+  "wall_seconds": 0.7735049310003888,
+  "raw_sha256": "1e11a92e32d51b9b449498ea8d990b81b53ede493041e7847e1ad24b723f0675",
+  "output": "پایپ‌لاین آموزشی به صورت همزمان بر روی چند GPU اجرا می‌گردد.",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 20,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hk4f1sLbOZLW6DuRgsU6KEoR1t",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000363"
+}

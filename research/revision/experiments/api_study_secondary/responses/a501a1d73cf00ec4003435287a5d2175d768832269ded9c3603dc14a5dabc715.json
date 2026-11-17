@@ -1,0 +1,41 @@
+{
+  "job_id": "a501a1d73cf00ec4003435287a5d2175d768832269ded9c3603dc14a5dabc715",
+  "query_id": "PH-ce6fc54871c3d5967c72",
+  "group_id": "2483ac00a4cad671619c504fc504dd45adb344eb5b09f0975049e28b26cb3e0c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "6f837670d8850de3aafdb593725f9793dc74d979029d06fd44e500592357bd55",
+  "retrieved_ids": [
+    "PH-37d922d8fb692face0e5",
+    "PH-2e505a920a7c3729cccb",
+    "PH-35f9ed2c56a89f31b981",
+    "PH-bdafaab39a268eb8d114"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_daefca9a6ddc4d228ec41a5974633337",
+  "wall_seconds": 0.701385702999687,
+  "raw_sha256": "f22fd1a14e1d73d55fe0efe30d78971aa424648cc13bdfbe9726903bc9b00003",
+  "output": "این دوران سخت به من صبر یاد داد.",
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 10,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hp0wbWflHUF388FI59GT6lHhY8",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000531"
+}

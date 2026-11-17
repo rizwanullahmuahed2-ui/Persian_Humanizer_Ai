@@ -1,0 +1,38 @@
+{
+  "job_id": "f16ba93095f7e272667b5ef57f3e5f6f883ab9cf440e1dd1f9d7f7903e492f72",
+  "query_id": "PH-61f360b0d147fd71ba91",
+  "group_id": "5ed0d0b25328d62c3e7fb12b21b926aa6f3fac0c725058dfd40628d7afddab17",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "6d61734db649cff703b27f0dacd34bbff2913e1069ffe4d179deb71242e22150",
+  "retrieved_ids": [
+    "PH-10f77a4d6732ea1ca5f6"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1930426e4ba3444e9bed025e1495029c",
+  "wall_seconds": 0.5819997139997213,
+  "raw_sha256": "41254237cc9fc90144ca265c464a65e94067beb3d82a9e16697ab3b01e7d5e5e",
+  "output": "سرعت اینترنت در منزل ما پایین است.",
+  "usage": {
+    "prompt_tokens": 189,
+    "completion_tokens": 9,
+    "total_tokens": 198,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IenhgOhRT13AhJvPjh4FoZrQpf",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003375"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "904f3b4625e0c13889855bcf71c3389254371a51eef10b2dd750c90393dedfb3",
+  "query_id": "PH-6cf44987fa2e0c41c027",
+  "group_id": "073ac32595ca5784b0f74870bc00e42cad3b0769a8112f6afaaa70f8e505b4dd",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "3f3d0c05e492e2e86e56e7b5b0d54eb3f8d1606ef9ded5aa1b5bd1adbf087e35",
+  "retrieved_ids": [
+    "PH-5600d93edf4e12ff7888"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_008cf2a2fc894a1fb07f2aae3fa45d40",
+  "wall_seconds": 0.738475107999875,
+  "raw_sha256": "bd28e20d888a8c9d02b4725a11d51c660c53f56f64fe9f493eaa33a620069e2b",
+  "output": "این مجسمه از سنگ مرمر تراشیده شده.",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 13,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8INCTFiCWWRCc2DRBdtt7rhjqrE",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003855"
+}

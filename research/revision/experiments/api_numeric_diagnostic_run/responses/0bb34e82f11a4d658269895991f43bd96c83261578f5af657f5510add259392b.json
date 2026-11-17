@@ -1,0 +1,38 @@
+{
+  "job_id": "0bb34e82f11a4d658269895991f43bd96c83261578f5af657f5510add259392b",
+  "query_id": "PH-329dd035f17d984ba253",
+  "group_id": "4eeefc8788216b0a8c24e6348fbb8646425f91f0d15121a8c0c350f0ce83aa44",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "f21aad0d3b5b000d7b05d2297616b5c8d347d9c68e850be0fdb71c4625167770",
+  "retrieved_ids": [
+    "PH-7e50b51d615306c288f7"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_36ec69ad515f4bf1b20760d1ebab1717",
+  "wall_seconds": 0.8393887259999246,
+  "raw_sha256": "67e11a28e4202873bf69619ebff668a1bb663beed97c4d03ab25cab496c39054",
+  "output": "الان دارم پاورپوینت ۷۰ اسلایدی رو برای فردا آماده می‌کنم.",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 25,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L20L7Kg3yApRJr1HFhujpjMCm8",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001212"
+}

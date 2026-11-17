@@ -1,0 +1,41 @@
+{
+  "job_id": "5ba2ab116a4488fdcfde7b030a5ca646a1b3685b395115f58002420139911627",
+  "query_id": "PH-efd500b7d700c4edb2a1",
+  "group_id": "c95e5b60a7201ded883c20ef33cffe79588c4827ca4e9566f45e894d39fc1d5c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "00a307791f3dfd7ce40836b362fd3c5b81e6f5ca89088c0c6adcacf90f954cb0",
+  "retrieved_ids": [
+    "PH-229726b728a733197732",
+    "PH-118b6d6f20c953d3fe41",
+    "PH-ca7763555e3549b030f9",
+    "PH-b4f847ef184a31bcafd4"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_4b3f00a01ae84e299fa5bf8e2eccfb29",
+  "wall_seconds": 0.9903742200003762,
+  "raw_sha256": "bd0d77ffa1da1e90fbc687126a141b0c898cac8feb1fa379f64429405ae2ae82",
+  "output": "این ابزار تحلیل لاگ در زمان واقعی هشدارهای امنیتی ارائه می‌دهد.",
+  "usage": {
+    "prompt_tokens": 328,
+    "completion_tokens": 17,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hpsf7ohlFMSxLjwXlNhu5HJ676",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000594"
+}

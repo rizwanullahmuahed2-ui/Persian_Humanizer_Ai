@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "parent_spec": "ANALYSIS_SPEC.json",
+  "parent_spec_sha256": "de031c05915effdade61309b25172428455ea2d0d1f2966ea4021404227481cc",
+  "reason": "The planned nano snapshot returned HTTP 404 for all 400 generation requests despite an earlier successful model-metadata check. Root reported status counts only. The change is based on availability, not observed output quality.",
+  "registration": "Written before this analyst inspected any generated response content; metrics and query selection remain unchanged.",
+  "original_plan": "api_study_v1/plan.json",
+  "secondary_plan": "api_study_secondary/plan.json",
+  "combined_success_models": ["gpt-4.1-mini-2025-04-14", "gpt-4o-mini-2024-07-18"],
+  "retained_failed_model": "gpt-4.1-nano-2025-04-14",
+  "expected_original_jobs": 800,
+  "expected_secondary_jobs": 400,
+  "expected_combined_successes": 800,
+  "expected_distinct_queries": 100,
+  "expected_original_nano_http404": 400,
+  "prices_usd_per_million_tokens_uncached_extension": {"gpt-4o-mini-2024-07-18": {"input": "0.15", "output": "0.6"}},
+  "invariants": ["Same 100 distinct test groups and query IDs in both plans", "Same prompts, retrieval examples, temperature, generation seed and completion cap for matching conditions", "Original plan, successes, and nano error records are preserved", "No original error record is overwritten or relabeled as a success", "Secondary provider responses must have distinct IDs and their own frozen runner and plan seals"],
+  "reporting": "Report 1200 planned scientific HTTP jobs: 400 primary successes, 400 unavailable-model errors, and 400 separate secondary successes. Technical preflight calls are reported separately and excluded from sample statistics. An execution-ledger count will establish actual attempts rather than assuming job count equals attempts.",
+  "unchanged": "All normalization, metric definitions, paired bootstrap contrasts, seed and interpretation of ANALYSIS_SPEC.json remain unchanged.",
+  "human_ratings_created": 0
+}

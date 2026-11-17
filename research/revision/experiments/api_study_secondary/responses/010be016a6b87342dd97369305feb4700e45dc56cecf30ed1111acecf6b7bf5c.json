@@ -1,0 +1,36 @@
+{
+  "job_id": "010be016a6b87342dd97369305feb4700e45dc56cecf30ed1111acecf6b7bf5c",
+  "query_id": "PH-f09c3c92817b89f32ec6",
+  "group_id": "6e2e4a22e0a0823b7b5cc5392ca2a29701954abb834a6470d49c3e90ae232c99",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "d1a572d4536cab413c83e9ae59c423efe8cb835adee608dd6b95f982aaf90012",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_7b2f35fb306246b0884ea648bce37434",
+  "wall_seconds": 0.7655019559997527,
+  "raw_sha256": "e168c2d6b2c7b11adea5dd46076f9d18df189f296a19a860dc0296d765b3844e",
+  "output": "آن روزهایی که با دوچرخه تا انتهای شهر می‌رفتیم.",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 17,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IYOQXq5Z28kAY4ptJCgRHt1HaE",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003495"
+}

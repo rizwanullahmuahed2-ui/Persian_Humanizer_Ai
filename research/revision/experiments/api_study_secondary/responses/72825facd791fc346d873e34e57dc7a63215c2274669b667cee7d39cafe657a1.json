@@ -1,0 +1,36 @@
+{
+  "job_id": "72825facd791fc346d873e34e57dc7a63215c2274669b667cee7d39cafe657a1",
+  "query_id": "PH-829ebfea1bdd997cae6a",
+  "group_id": "e5de9e04a6ae3ec49d79bcb5463bdda64bc7cc1763c2c8a06f2a36aa26b42298",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "ffd537588c22df4624f8cb36dbe00ab1883410cca84388cb1e3256a99f2fc273",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8db2b983512b4977adfced832758c19f",
+  "wall_seconds": 0.7430208949999724,
+  "raw_sha256": "12900309c1a0359b24650af16c2209d894848afa578084c55f841d3005fd1d3e",
+  "output": "رمز عبور باید به گونه‌ای پیچیده‌تر انتخاب گردد.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 14,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IZXQYpuB2NxpOH9snDoJFZrcLb",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000324"
+}

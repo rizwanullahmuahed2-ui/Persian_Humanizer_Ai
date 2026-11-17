@@ -1,0 +1,36 @@
+{
+  "job_id": "929079d8490804cb6aea79a39e7e62c182b06cd5ac4b5e3c56a69cebee6025db",
+  "query_id": "PH-36fa8cbed2c3aab0988f",
+  "group_id": "4f599c5363ea3bb5cb34700072451706078405be6e475b4aae248e78e0ed5d63",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "d88043e85244e6d68d1a5c06503003abe940c93a63ee364e07dfd1190d698b4b",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b624bd4296dd4509be5477db01627586",
+  "wall_seconds": 0.6470895609991203,
+  "raw_sha256": "0470637b2d329d4a8cc62262284407ec17f28e9e41b036cceff5a05bf77c4094",
+  "output": "گزارش به طور کامل فردا ارسال می‌شود.",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 12,
+    "total_tokens": 171,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G9JjQM9pvdn1jfwg7FUsmXLkwA",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000828"
+}

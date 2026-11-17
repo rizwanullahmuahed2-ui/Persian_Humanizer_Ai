@@ -1,0 +1,41 @@
+{
+  "job_id": "faa9ea92abb7331ac68814cd3039efd796adcd617379aebffa3929ac0fc8084d",
+  "query_id": "PH-8430ee192d142acff80c",
+  "group_id": "64ff9137d15a050d315936dab219f6b4f0d51c52883912ad4316efe53c49b976",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "7d951d8867e8708ecbf4d8bd2fb531d0540a290c8bc6c60c3c506721a0504f4a",
+  "retrieved_ids": [
+    "PH-e4950a0cbbe8edd1226c",
+    "PH-ce7ace7365d1adf00e75",
+    "PH-4702f74315c582eabaa8",
+    "PH-a375b5a18d23e55af29d"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e74f50d10fe642018b980256ea2d50d3",
+  "wall_seconds": 0.5266024499997002,
+  "raw_sha256": "57681ac5f5d593b7b91722237e7505c063547981d98702dd2edc582e1b58fe12",
+  "output": "این پیام ارسال نشده است.",
+  "usage": {
+    "prompt_tokens": 300,
+    "completion_tokens": 6,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IAI8PkpbQV2v0fPTe8R48Inxk9",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000486"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "d2e2f32028469b83a1ae49f80a0c1ebbe1e22143ab9452355ca28ac72a543d6e",
+  "query_id": "PH-01b6afb098b91655b49a",
+  "group_id": "35bade525ea5777a1eeaa114b520ce3219140d0eebf32b1258abffd744eb20c5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "a0d73964a5db075192ab12fe2f0978f56b1d56a8b4179681a556f7a807c54d6f",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_6927bf22075f40f8bc4b3e950292c3e1",
+  "wall_seconds": 0.5382106860006388,
+  "raw_sha256": "99f0cb4fc5a5761f549a4e5beee127424b24af0607c37b1aac677ac5b3ec2b13",
+  "output": "این نشریه علمی، مقالاتی را که داوری شده‌اند، منتشر می‌کند.",
+  "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 20,
+    "total_tokens": 183,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GDbJ4SDdkp5mXmSYZQNu05sgqV",
+  "system_fingerprint": "fp_72fe1d6947",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000972"
+}

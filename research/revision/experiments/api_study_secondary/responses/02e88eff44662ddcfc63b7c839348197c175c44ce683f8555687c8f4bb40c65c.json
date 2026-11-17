@@ -1,0 +1,36 @@
+{
+  "job_id": "02e88eff44662ddcfc63b7c839348197c175c44ce683f8555687c8f4bb40c65c",
+  "query_id": "PH-c55b6d2a81b29052dff8",
+  "group_id": "8d30f4d21aee3f0cc9269f5aec19398b6a775d15cc8d04272e8120cf5292ecc8",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "f88eb95beaf4ca569c24bf4f54f03da115c32b9325c72237c6275ae148a708a7",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8bd2a08b136e4764a6f4522ba8967333",
+  "wall_seconds": 0.8841780769998877,
+  "raw_sha256": "45bafc785d8158cbafac9091d8a601e7854d2193bf7c06b1ca440cd2ddbc119f",
+  "output": "رویاهات به قدری بزرگ هستند که ترسناک به نظر می‌رسند، اما این خوب است.",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 24,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IOhdRWXRVuM9NizXuIgJGQQI2n",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003915"
+}

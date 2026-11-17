@@ -1,0 +1,38 @@
+{
+  "job_id": "e8ae9386e6a3b293fb55843954997e33d2254a37ebb7c68a0defa23449f3b4a9",
+  "query_id": "PH-0aaac87d8700c8ec3c66",
+  "group_id": "cdfc10372cc0743b9d7ea698990498568112adc1615ffe431a002a91619b4f6e",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "6b1a0c294b974fd1aedce7bbfba5b16c21aa0391068273f6b40475ee9e33213e",
+  "retrieved_ids": [
+    "PH-902765913a109e6dcf8c"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_538d2d708d184baf88cc55801ea53b72",
+  "wall_seconds": 0.559547680999458,
+  "raw_sha256": "0bf6e5f7ba21aeec3b62a47bfc8f493350e50801f09d3f511f5bbadc2f4e5879",
+  "output": "این موضوع رو به کسی نگو.",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 8,
+    "total_tokens": 205,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G8oVmRymwcRwSAqcEc4kwBTp9q",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000916"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "0d7e0001db924a493c35451521de94b584205d1957275a0b94066220186f129f",
+  "query_id": "PH-50d9b9afa88c26c7c3fd",
+  "group_id": "cd0dbb7543f85fc763dfa5422ead01f91c45ee3e427eb73b77a06f44dd8c3ad2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "6f8ee925399f6b44b5e3f8b3cec4160314e9ff59b7feffecd04d91cc12fc270c",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8305f406c04e476a81094b6bd039a11b",
+  "wall_seconds": 0.812654133000251,
+  "raw_sha256": "3e6e07cceb087e9bfd159d00b60e4089f98277377116a37f794a93e7e36bc2d6",
+  "output": "این سرویس باید در شرایط بار سنگین، قابلیت کاهش تدریجی عملکرد را داشته باشد.",
+  "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 20,
+    "total_tokens": 183,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I42fgNYjtZTpVjDnKLDvHFhErw",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003645"
+}

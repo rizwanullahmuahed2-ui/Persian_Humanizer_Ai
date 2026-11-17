@@ -1,0 +1,41 @@
+{
+  "job_id": "51ab7bddb362baa8a58809278c6b375bc2b41b56928298b320e4717701e77d31",
+  "query_id": "PH-73ae71bca5b95ad69a31",
+  "group_id": "a38720fb227a15f884e26e546139a1e28f6f9aabd866ac4725968ed2b0975b7e",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "ccfd307ab52926729836a4f529eaa945a1495e7596899a4e8fe0188ac6718ded",
+  "retrieved_ids": [
+    "PH-897a5f546e3dab057c23",
+    "PH-ad8e1603dcf757db3c02",
+    "PH-b81f460636e855071f84",
+    "PH-be4ee156f4e0ef21cdac"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b1d6f4644fa04debba677c9cc52eea73",
+  "wall_seconds": 0.5346849130000919,
+  "raw_sha256": "ab7677ea4973f6b7864d5e27c17219010ae2962083d6ddb82ca40285f0f16fb7",
+  "output": "این جلسه به خاطر کمبود وقت کوتاه‌تر شد.",
+  "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 12,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FsslMPpf2gUrPBwuPQQ0BsWPjg",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001488"
+}

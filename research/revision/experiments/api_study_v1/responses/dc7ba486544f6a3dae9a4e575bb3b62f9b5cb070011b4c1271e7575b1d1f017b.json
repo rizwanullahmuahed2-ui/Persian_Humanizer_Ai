@@ -1,0 +1,41 @@
+{
+  "job_id": "dc7ba486544f6a3dae9a4e575bb3b62f9b5cb070011b4c1271e7575b1d1f017b",
+  "query_id": "PH-9eba390422624e103f53",
+  "group_id": "4752a2515cc98b2aea73480a42eadfac08e7c6cefb7c66d9c6693d13e9670a7a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "18935bf121479c1b439feb864c157f1fb29b6ae257f463b180cea3c3d4fb7bfb",
+  "retrieved_ids": [
+    "PH-3783cc8f1c7491c6022d",
+    "PH-e0c10583800ba5f1581f",
+    "PH-523f43f1b2838bd7ca2d",
+    "PH-de6f919291e720e65c73"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_268a58460ab643098629df6cddf6663a",
+  "wall_seconds": 0.45413254300001427,
+  "raw_sha256": "ca9fef4850bca018bea27a1feb8a665ed413bb9c34ab8900ab25f937ba6b0f8f",
+  "output": "اون روزهای امتحان نهایی پر از استرس بود.",
+  "usage": {
+    "prompt_tokens": 339,
+    "completion_tokens": 13,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FvLWfQwaFZDiMrCOTqoWOVipcD",
+  "system_fingerprint": "fp_39a22f52c8",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001564"
+}

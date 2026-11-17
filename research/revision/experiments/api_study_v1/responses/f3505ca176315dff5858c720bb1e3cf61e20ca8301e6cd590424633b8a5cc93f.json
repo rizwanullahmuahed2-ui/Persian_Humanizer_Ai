@@ -1,0 +1,41 @@
+{
+  "job_id": "f3505ca176315dff5858c720bb1e3cf61e20ca8301e6cd590424633b8a5cc93f",
+  "query_id": "PH-e15f88c9e4d14cc8738c",
+  "group_id": "5baae8026dfc2347a5edd8924682d5baba05288af299f11ac937004144be9ce4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "6915d272923fabc0a96a0cf28fb4fba852a2445dcaf955bb812fe817d62acb24",
+  "retrieved_ids": [
+    "PH-63a4c6df7d348c4af303",
+    "PH-f7bfc7740758b147074f",
+    "PH-f0e22580773fdccc512c",
+    "PH-dde51fd41f16bd210b26"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c0c64a02a4714013873d11fc6fa97b1d",
+  "wall_seconds": 0.7259486419998211,
+  "raw_sha256": "cbc97da69bccbf4937740a939f65027069d2a66f1fd1a473fc6dd2c1a433d7f9",
+  "output": "این خدمات در بهتر شدن کیفیت زندگی تاثیرگذار است و رضایت‌بخش است.",
+  "usage": {
+    "prompt_tokens": 338,
+    "completion_tokens": 17,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FpTA6GbDF9HOn0XvKKW7vZK4Lb",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001624"
+}

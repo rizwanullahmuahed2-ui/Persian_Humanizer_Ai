@@ -1,0 +1,41 @@
+{
+  "job_id": "371a3b6e2c76e11da36ef8fee2328989957418472ae2403e512f021933a0d9ca",
+  "query_id": "PH-5817c643d6af1694b770",
+  "group_id": "f3931c65a5454bb7834ad5330029c6add2ddf6c08eed6fa7342632079ca52008",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "9fd136584bf36467e28a58e398a57f6eeed2d3f6aefe605162b97449a8fb204e",
+  "retrieved_ids": [
+    "PH-7370cc32702321cd7f35",
+    "PH-18c7956d67d08b672e55",
+    "PH-a484110f67f44c620600",
+    "PH-83ef64a14e2793495b53"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a44f2aeda721487da356d933d497c7aa",
+  "wall_seconds": 0.5378060660004849,
+  "raw_sha256": "0fba15c0773156d6125bc98d83799681f8d26b7d193d1004d924faaeae0b31d0",
+  "output": "این لباس از مواد بازیافتی ساخته شده است.",
+  "usage": {
+    "prompt_tokens": 320,
+    "completion_tokens": 11,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FstznrEQ9wqBsTzpDmXK1iDEap",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001456"
+}

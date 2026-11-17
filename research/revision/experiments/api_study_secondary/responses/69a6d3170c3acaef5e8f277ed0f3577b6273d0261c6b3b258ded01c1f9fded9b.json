@@ -1,0 +1,41 @@
+{
+  "job_id": "69a6d3170c3acaef5e8f277ed0f3577b6273d0261c6b3b258ded01c1f9fded9b",
+  "query_id": "PH-4de4b8271a4807aaaf51",
+  "group_id": "ae3fa4f4b214af40764f834ba7aece986e0b13d73f1aa4b80dbff753005f45fb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "ea33f3a9556b35a6dbadd87eda0fae12c4c7ec913e2508d7887400614457c8d5",
+  "retrieved_ids": [
+    "PH-824214785bd7415ab5e2",
+    "PH-adb5e805655049454e7b",
+    "PH-b4b96e55fdc919440105",
+    "PH-8ac8f9fcdc3a58cd0008"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fcde13dd823e4189b52cdc679eb4ddb5",
+  "wall_seconds": 0.6465222079996238,
+  "raw_sha256": "beb11c562599011b0f66d2fb004b812390ca08a51408c9856315b73d25bf4f4d",
+  "output": "این سند بعد از امضا قابلیت لغو شدن رو نداره.",
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 14,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IGS4DllCfTxRJsBe065FGyq7lQ",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005505"
+}

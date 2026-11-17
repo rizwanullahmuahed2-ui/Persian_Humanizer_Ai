@@ -1,0 +1,41 @@
+{
+  "job_id": "b058a46fe949115fdda331d1a1e9f96b6680be82545daeee1eb34aebe90e568e",
+  "query_id": "PH-9ce52ff9e26fe1eb1c01",
+  "group_id": "8e4ed87e857babd955c27a22a526fe9d4c862f9a449d3da58b14bcb8042d9a96",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "1842e30423c9aec206b44f89ab9766a5cdf44e04eceb3a6f759e5bc7e15bfa5a",
+  "retrieved_ids": [
+    "PH-397276af47c6d511926e",
+    "PH-12a12a2807d2be23a171",
+    "PH-df6786929035124a2df1",
+    "PH-23af4ed0a6ded2f58370"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fbfed9b38b1f416e9f4720e9b557de07",
+  "wall_seconds": 0.7479895650003527,
+  "raw_sha256": "4260bcc8a430f07318f514f450d284857b696de18b58a6e5c288c2384712a248",
+  "output": "این GPU برای آموزش مدل‌های AI بهینه شده.",
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 11,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IcRYsq1npRGQs1N3B3xmkvoSIx",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000564"
+}

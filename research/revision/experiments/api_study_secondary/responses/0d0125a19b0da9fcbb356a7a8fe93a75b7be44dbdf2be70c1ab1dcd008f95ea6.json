@@ -1,0 +1,41 @@
+{
+  "job_id": "0d0125a19b0da9fcbb356a7a8fe93a75b7be44dbdf2be70c1ab1dcd008f95ea6",
+  "query_id": "PH-4bfb186376f62051f110",
+  "group_id": "5c991a426899d8718a456a3b56c71efe4e52573210824da6c1913a369a41f32c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "0b9232610161a9ce170a21c3d4cb542438cf1cf948d23b53a00a64bd7bebc4a0",
+  "retrieved_ids": [
+    "PH-74659863ae0b3c41ca23",
+    "PH-356a3c43e0349855c3b2",
+    "PH-d78fd83781f6f944ab34",
+    "PH-cb0fbb569044c0154cac"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5b22ca7127dc472585e9fe8315420dfe",
+  "wall_seconds": 0.625342450000062,
+  "raw_sha256": "884ede5279d06f20244cb925dd63955c77f26fec5d2b889272674575051fbb0a",
+  "output": "این یافته باید در نمونه‌های بزرگ‌تر دوباره بررسی بشه.",
+  "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 14,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hzo6sbMeY0TdZCbT3hPjr4fGth",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000552"
+}

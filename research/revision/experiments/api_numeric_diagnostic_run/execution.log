@@ -1,0 +1,93 @@
+{"completed_this_invocation": 1, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 2, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 3, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 4, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 5, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 6, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 7, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 8, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 9, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 10, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 11, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 12, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 13, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 14, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 15, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 16, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 17, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 18, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 19, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 20, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 21, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 22, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 23, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 24, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 25, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 26, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 27, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 28, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 29, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 30, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 31, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 32, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 33, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 34, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 35, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 36, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 37, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 38, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 39, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 40, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 41, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 42, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 43, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 44, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 45, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 46, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 47, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 48, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 49, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 50, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 51, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 52, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 53, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 54, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 55, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 56, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 57, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 58, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 59, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 60, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 61, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 62, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 63, "planned": 80, "condition": "semantic1", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 64, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 65, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 66, "planned": 80, "condition": "semantic1", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 67, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 68, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 69, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 70, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 71, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 72, "planned": 80, "condition": "random4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 73, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 74, "planned": 80, "condition": "semantic4", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 75, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 76, "planned": 80, "condition": "semantic4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 77, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 78, "planned": 80, "condition": "LLM0", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{"completed_this_invocation": 79, "planned": 80, "condition": "LLM0", "model": "gpt-4.1-mini-2025-04-14", "status": "complete"}
+{"completed_this_invocation": 80, "planned": 80, "condition": "random4", "model": "gpt-4o-mini-2024-07-18", "status": "complete"}
+{
+  "status": "complete",
+  "planned_jobs": 80,
+  "complete_responses": 80,
+  "errors": 0,
+  "new_http_attempts_this_invocation": 80,
+  "http_attempts_total": 80,
+  "conservative_reserved_usd": "0.05763670",
+  "actual_success_cost_uncached_usd": "0.00741800",
+  "budget_ceiling_usd": "0.80",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "human_ratings_created": 0
+}

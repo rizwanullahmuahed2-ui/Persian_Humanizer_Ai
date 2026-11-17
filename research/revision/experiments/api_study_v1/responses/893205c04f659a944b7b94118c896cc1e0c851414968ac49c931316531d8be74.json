@@ -1,0 +1,38 @@
+{
+  "job_id": "893205c04f659a944b7b94118c896cc1e0c851414968ac49c931316531d8be74",
+  "query_id": "PH-c54b0d1f7d4f9b287d01",
+  "group_id": "fd6ba1370481e93280d0603f7c91397f5f51019a112f0dd94efa22483cb0e293",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "8b693d86b5fad6666bfbee61863bde22a02855e704aae55ed43b56abdcd1b59b",
+  "retrieved_ids": [
+    "PH-29a4a4267e319000f2a4"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e68d40ac92ba4349b2bd15dcf93d876b",
+  "wall_seconds": 0.6800219139995534,
+  "raw_sha256": "ec62d2305f7f48853b7466093911f628222b1a9f6a2bf2d46d46db4a3b7205c2",
+  "output": "ما خدماتی با بهترین کیفیت ارائه می‌کنیم.",
+  "usage": {
+    "prompt_tokens": 193,
+    "completion_tokens": 11,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G0gvsWyU1mJqz5vLT6mvDz3fnn",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000948"
+}

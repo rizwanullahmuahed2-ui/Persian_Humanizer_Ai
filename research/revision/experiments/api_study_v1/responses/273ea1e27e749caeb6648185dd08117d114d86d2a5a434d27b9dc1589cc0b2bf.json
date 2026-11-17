@@ -1,0 +1,36 @@
+{
+  "job_id": "273ea1e27e749caeb6648185dd08117d114d86d2a5a434d27b9dc1589cc0b2bf",
+  "query_id": "PH-eb8c4922d464784f8131",
+  "group_id": "2ea03b15b1b2828645ad4a838195e12961f7c24047ebd6331574a3ad6b06e6f7",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "e8c80c9280ca1d601ab737ef8ffc7afb93b66c3c309bf4bd678283c2b37d2594",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8d4b2898d02b43879e7e2416920500b2",
+  "wall_seconds": 0.5792035000004034,
+  "raw_sha256": "629aecc12ae6237cceb2f9b11f3c42bca3aac4047799852cbf03f7a261de02af",
+  "output": "برای اطمینان خاطر می‌گوییم که همه چیز منظم است.",
+  "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 17,
+    "total_tokens": 180,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GWgpsX3rFqjw7At5thh1RymazH",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000924"
+}

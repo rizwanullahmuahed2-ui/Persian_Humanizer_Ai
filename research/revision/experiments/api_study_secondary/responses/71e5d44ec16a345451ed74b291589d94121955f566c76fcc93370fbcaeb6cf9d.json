@@ -1,0 +1,36 @@
+{
+  "job_id": "71e5d44ec16a345451ed74b291589d94121955f566c76fcc93370fbcaeb6cf9d",
+  "query_id": "PH-84f712b79b19cc893f57",
+  "group_id": "6b47a612a45c361484d6b41e914f9f12cd7428668a2a248444b5e2239af7f59f",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "a75ea1b8f06dd38b5c3263f39ab159b582a1f0d571803572f7afd03b1a8f9221",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f7957eb7eeeb4810be96b5da1fc5d7ce",
+  "wall_seconds": 0.5651080529996761,
+  "raw_sha256": "5f277dc75102c0681e773b8c70fd7f835e8015f0ba9cc9be193a9548177671f5",
+  "output": "آیا همه توافق دارند؟",
+  "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 6,
+    "total_tokens": 161,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IsttzD7Ls2SptUb1yNqhhB7Jaf",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00002685"
+}

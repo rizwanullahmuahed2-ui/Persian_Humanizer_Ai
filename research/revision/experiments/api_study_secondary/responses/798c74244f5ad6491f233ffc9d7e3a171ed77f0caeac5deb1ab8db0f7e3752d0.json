@@ -1,0 +1,41 @@
+{
+  "job_id": "798c74244f5ad6491f233ffc9d7e3a171ed77f0caeac5deb1ab8db0f7e3752d0",
+  "query_id": "PH-72d0d0239b1f549e141c",
+  "group_id": "d88bbc0bd1d592723b15808d145db6df3b406d94cf4758fdf6d56f404cf0d615",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "a214a9fbed89e1f40fe51d18882f936d83eddaa80cec34b8c4d4f069c553a13d",
+  "retrieved_ids": [
+    "PH-04969f68c7f18995e764",
+    "PH-d710875d167875cb5818",
+    "PH-5c30fdb06b833f5b6a1a",
+    "PH-4fb691bf1326bdfd5b0f"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_281b484176504b2392bc61aa57d68d22",
+  "wall_seconds": 0.9551271359996463,
+  "raw_sha256": "de3fc2ff0535dacb8ed377e98b7398e12f286b2a18ab6bb7ae6ac877639c5357",
+  "output": "منابع آب شرب در کره زمین خیلی محدود هست.",
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 13,
+    "total_tokens": 338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IAsjcMeQMkiPFMkHIlInBosbSn",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005655"
+}

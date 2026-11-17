@@ -1,0 +1,36 @@
+{
+  "job_id": "8370a2b0d4b14a9ecebf5019cc93b819c44f60904bf486b96e25b1115ddb8382",
+  "query_id": "PH-ca09d497fc0cd223d4da",
+  "group_id": "eebd82c60fc81656a8ca60eacb77c85f7e64971bdb1f0ff2fe52298aae1a9527",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "57385ef38ee710d6959e901614a4789e0129651373371be59e0fc16d2d1c97ed",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_46bfcca1ac00400f91742c66e49cdbee",
+  "wall_seconds": 0.7468100850001065,
+  "raw_sha256": "2b8c5d22c1cf2528ca59268a0a5e4ecaed5a1624204037e4a648ed2c4120e3f4",
+  "output": "این باغ گیاه‌شناسی بیش از ۵۰۰۰ نوع گیاه را در خود جای داده است.",
+  "usage": {
+    "prompt_tokens": 166,
+    "completion_tokens": 23,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L1dLzCllEKwVGNGapdR3Ko0JwY",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000387"
+}

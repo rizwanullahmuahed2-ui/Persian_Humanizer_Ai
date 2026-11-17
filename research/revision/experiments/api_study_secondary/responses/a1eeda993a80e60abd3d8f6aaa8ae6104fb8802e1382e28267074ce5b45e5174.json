@@ -1,0 +1,38 @@
+{
+  "job_id": "a1eeda993a80e60abd3d8f6aaa8ae6104fb8802e1382e28267074ce5b45e5174",
+  "query_id": "PH-d200224a918903540d5e",
+  "group_id": "b9a9ab143ba2c8895d1c3908b14b24faaf6382822f0575d6dfbaf82fc177918e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "b5cc4be60f3c35928aa551ed50269919f0245da2e33a0e8bca869ecd06704fc5",
+  "retrieved_ids": [
+    "PH-68f85b67a86e144ce442"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_766ac858674a4644ac010b8e89f5bb13",
+  "wall_seconds": 0.6974595470001077,
+  "raw_sha256": "82d00b3400fc4aadf9546a2063c9916c33649344a48a6b837793d012102e7e4d",
+  "output": "برای جلوگیری از تراکم، نوبت‌دهی آنلاین ضروری شده است.",
+  "usage": {
+    "prompt_tokens": 192,
+    "completion_tokens": 16,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IgWJEBkPHdwqt4NEOiNR94egw1",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000384"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "4996e2b3ea5f8c35933e4316a654bca7f5c5f914bef98f309d32704474a0df85",
+  "query_id": "PH-8430ee192d142acff80c",
+  "group_id": "64ff9137d15a050d315936dab219f6b4f0d51c52883912ad4316efe53c49b976",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "72ee0a80b10d7f4ab2afdc9b6f95a00c7961b7da9148982a97ec1eb51b80c49a",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_dbb8a28435c2410088721e1743350114",
+  "wall_seconds": 0.6008811039991997,
+  "raw_sha256": "0637c0d083916bc56eedbe663bc20bd00f44460b319319878c2416388dd3b1f6",
+  "output": "این پیام به دست مقصد نرسید.",
+  "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 9,
+    "total_tokens": 164,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IMZBcSv7GVmvIJnXnxFbeCCNXi",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00002865"
+}

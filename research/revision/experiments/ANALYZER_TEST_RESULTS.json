@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "boundary_tests": 5,
+  "boundary_cases": [
+    "Persian identity/Unicode variants",
+    "negation can retain high overlap",
+    "ngram and LCS differences",
+    "number words require adjudication",
+    "paired bootstrap removes between-query variation"
+  ],
+  "portable_copy_test": "Re-executed both independent analyzers from a copied package with /workspace prefix relocation; all summaries and counts identical. No symlink shortcut or API calls.",
+  "network_calls": 0,
+  "human_ratings_created": 0,
+  "analyzer_sha256": "7501ef319cd0b812bca52528193b512aeb7e8163099b903f0b828cfd325113f3",
+  "numeric_analyzer_sha256": "48d09fbbed76cc3f7d548f7631ea4353015d6edcaac39d7aea5d31a76796a146"
+}

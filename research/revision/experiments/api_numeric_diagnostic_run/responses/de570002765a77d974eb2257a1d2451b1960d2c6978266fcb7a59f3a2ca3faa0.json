@@ -1,0 +1,41 @@
+{
+  "job_id": "de570002765a77d974eb2257a1d2451b1960d2c6978266fcb7a59f3a2ca3faa0",
+  "query_id": "PH-bb50cf4494ea830497e2",
+  "group_id": "d77ceeb0e43ffb074ff9e2b66753b1d19f1752c8d41da397a96f01008727532f",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "fcd4a5d6f27578a496e7179446207794ab051ce383b93346545533fd3d3a6c29",
+  "retrieved_ids": [
+    "PH-64abbff817fdc743f2b5",
+    "PH-08ec2fac40b1a4a6f01b",
+    "PH-3ea287e474a58969a036",
+    "PH-8aa72bcc6cf00be57bf2"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_71535bd1ff604fec853688b8c43f7db2",
+  "wall_seconds": 1.0019733969993467,
+  "raw_sha256": "e8f48f6e6e31fa598b71fe43709385d09bdac725bb87d1cdb64475db3d52b3fc",
+  "output": "این آبشار از ارتفاع ۲۰۰ متری می‌ریزه پایین و در منطقه‌ای فوق‌العاده قرار داره.",
+  "usage": {
+    "prompt_tokens": 321,
+    "completion_tokens": 27,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L8U4rGtuOySR5Si03kLO9aNbnB",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006435"
+}

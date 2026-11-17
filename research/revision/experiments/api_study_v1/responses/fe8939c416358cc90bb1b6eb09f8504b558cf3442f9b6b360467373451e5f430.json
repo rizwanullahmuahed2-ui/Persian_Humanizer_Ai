@@ -1,0 +1,41 @@
+{
+  "job_id": "fe8939c416358cc90bb1b6eb09f8504b558cf3442f9b6b360467373451e5f430",
+  "query_id": "PH-312ad359d00ca742eb46",
+  "group_id": "bc8f4e471bc29e5ab732855fb9d865027111e8be9f98ed3f175e01e1db5b3949",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "5a4a62097b54e8181bae3c04bdc3938b91259077cbea9ede5a81918e1b566110",
+  "retrieved_ids": [
+    "PH-c0123fd164ae3682f153",
+    "PH-24d0c7d6e2959c5020b4",
+    "PH-de5b52b6f4f9c0298d5c",
+    "PH-65eaaed6596c8c122039"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_6d7f94d350144189a68a1e491aad23ab",
+  "wall_seconds": 0.7510206939996351,
+  "raw_sha256": "cbdfd3cdeddc749a4e9f571d91aa477fd21748eb0e9cdde753c4e53b155b8b37",
+  "output": "تیم توسعه ما داره این باگ رو بررسی می‌کنه.",
+  "usage": {
+    "prompt_tokens": 299,
+    "completion_tokens": 15,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GB9joq7HZlIThqHt3Ar9zeV4fp",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001436"
+}

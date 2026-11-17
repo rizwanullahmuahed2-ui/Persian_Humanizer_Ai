@@ -1,0 +1,20 @@
+{
+  "title": "Retrieval-Guided Persian Rewriting: An Artifact Audit and a Two-Model Controlled Study",
+  "authors": [
+    "Rizwanullah Muahed"
+  ],
+  "affiliation": "Department of Computer Science, Kabul Polytechnic University, Kabul, Afghanistan",
+  "instructor_and_report_recipient": "Abdul Awal Quraishi",
+  "instructor_is_coauthor": false,
+  "authorship_basis": "Explicit correction supplied by the author",
+  "status": "unpublished revised manuscript",
+  "reference_count": 25,
+  "figure_count": 7,
+  "main_query_groups": 100,
+  "main_responses": 800,
+  "numeric_query_groups": 10,
+  "numeric_responses": 80,
+  "human_ratings_created": 0,
+  "publication_venue": null,
+  "doi": null
+}

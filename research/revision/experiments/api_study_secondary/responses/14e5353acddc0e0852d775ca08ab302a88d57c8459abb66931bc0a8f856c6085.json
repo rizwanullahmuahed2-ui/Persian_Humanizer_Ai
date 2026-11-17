@@ -1,0 +1,38 @@
+{
+  "job_id": "14e5353acddc0e0852d775ca08ab302a88d57c8459abb66931bc0a8f856c6085",
+  "query_id": "PH-35c3bec25fdaacd051b7",
+  "group_id": "33080566abea24d96925ba50d05348e716dadb6ebfa44d25121c0f7e90eb2f6a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "4e39c615af80e3efe6d91dc245a258c2e0e40a468c2835fbab39fc29af6af89d",
+  "retrieved_ids": [
+    "PH-8d03af16ed7a32b130f0"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_6dae84fc816944258e947c8fa98dedfe",
+  "wall_seconds": 0.9947776379995048,
+  "raw_sha256": "bb8ba8acd418cf2b0026ab197216b33aa6a0e3a8c0878f977c0c178e2cecefdb",
+  "output": "پدرم با خودروی قدیمی‌اش به محل کار می‌رفت.",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 17,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HjNEQqgaCsBI2m5ca5Bt8qu12m",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000042"
+}

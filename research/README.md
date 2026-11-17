@@ -1,30 +1,31 @@
-# Persian text humanization manuscript
+# Persian rewriting research
 
-[Read the paper (PDF)](Persian_Text_Humanization_Paper.pdf) · [BibTeX citation](CITATION.bib) · [File manifest](manifest.json)
+The current revision is **Retrieval-Guided Persian Rewriting: An Artifact Audit and a Two-Model Controlled Study**.
 
-**Design and Development of a Retrieval-Augmented Generation-Based Persian Text Humanization Chatbot Using Large Language Models**
+**Sole author:** Rizwanullah Muahed. **Instructor and report recipient:** Abdul Awal Quraishi; he is not a coauthor.
 
-**Authors, in printed order:** Rizwanullah Muahed; Abdul Awal Quraishi.
+- [Current article PDF](current/Article.pdf) / [Word](current/Article.docx)
+- [Complete Dari report to the instructor](current/Report_to_Supervisor_Dari.pdf)
+- [Complete evidence package](current/Research_Package.zip)
+- [Single-author citation](CITATION.bib) / [Current metadata](current/metadata.json)
+- [Experiment code and raw outputs](revision/experiments/) / [Corpus analysis and split](revision/corpus_analysis/)
+- [Detailed Dari delivery guide](current/README.md)
 
-**Affiliation:** Department of Computer Science, Kabul Polytechnic University, Kabul, Afghanistan.
+The current article contains 25 cited sources and seven figures. The completed cloud experiment has 800 main responses and a separate 80-response numeral diagnostic. The report distinguishes automatic diagnostics, model-assisted inspection, and uncollected human ratings.
 
-**Status:** Unpublished manuscript supplied by the project owner. University approval was previously reported by the owner; this upload does not include a separate approval certificate. No journal, publication date or DOI is assigned here.
+## Offline evidence verification
 
-The 21-page PDF is preserved exactly as supplied. Its original upload filename was `Persian Text Humanization Paper(1).pdf`; only the repository filename was simplified. The manifest records its SHA-256 fingerprint. Citation metadata comes from the first page, not the generic author field in the PDF properties.
+From the repository root:
 
-## What the paper describes
+```bash
+python -m pip install numpy==2.3.5
+python research/verify_research.py
+```
 
-The paper studies natural Persian/Dari rewriting that preserves meaning, facts and the input's register. It describes retrieval-guided prompting with a locally hosted Llama 3.1 8B model, multilingual embeddings, ChromaDB, LangGraph and FastAPI, without model fine-tuning.
+No API key or inference call is needed. The checker verifies saved response hashes, returned model snapshots, paired inputs, retrieval, recorded metrics, and current authorship.
 
-The manuscript identifies an LLM-only versus LLM+RAG comparison, retrieval-depth comparisons and held-out evaluation excluding self-retrieval as work still needed. The paper's reported metrics should be read with those limits.
+## Historical supplied manuscript
 
-## Relationship to the current code
+[The original 21-page PDF](Persian_Text_Humanization_Paper.pdf) is retained byte-for-byte. Its printed byline included Abdul Awal Quraishi. The author has explicitly corrected that attribution: the current manuscript has one author, Rizwanullah Muahed, and the instructor is the report recipient. The old printed byline is historical evidence, not the current citation record. [Historical fingerprint and correction](manifest.json).
 
-| Component | Supplied manuscript | Current repository |
-|---|---|---|
-| Corpus | 3,173 paired examples | 3,511 paired examples |
-| Retrieval | One embedding-similarity search; no reranker | Up to 20 candidates, optional cross-encoder reranking, up to four retrieved examples |
-| Style selection | Register is a property of the input, not a conversion target | One natural-rewriting workflow; no user-selectable styles or production style filter |
-| Generation | Local Llama 3.1 8B through Ollama | Ollama by default, with an optional OpenAI provider |
-
-The manuscript documents a related earlier system version. Current automated tests verify software behavior with controlled generation; they do not reproduce or independently confirm the paper's reported experiments. See the [project README](../README.md) for current setup and behavior.
+The application code remains a separate prototype; the research harness under revision/ documents the controlled API experiment. Original corpus and code provenance is pinned to commit feb0f282430b13277c43dd32ca93ceec13c837df in the article.

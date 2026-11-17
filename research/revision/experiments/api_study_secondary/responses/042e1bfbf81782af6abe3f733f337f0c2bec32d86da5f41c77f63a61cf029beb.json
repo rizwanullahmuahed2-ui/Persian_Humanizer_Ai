@@ -1,0 +1,41 @@
+{
+  "job_id": "042e1bfbf81782af6abe3f733f337f0c2bec32d86da5f41c77f63a61cf029beb",
+  "query_id": "PH-8853e2d82abc91dc4746",
+  "group_id": "2b28ace65e68d2198a277341975728c8989ce0c5d5e67a24f0c99bae63bcd24e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "0cff117ae6c2718bda8e0ac94110baf622f33d1e22beab4ad1527f7b4bb971a8",
+  "retrieved_ids": [
+    "PH-6a5fbf8ecb1a74190cdc",
+    "PH-1b56867b288c8a848e0b",
+    "PH-a254d4c1d8d6b4f4b356",
+    "PH-4a10387311350f2d427f"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_854e5a92a2124a549b4a3125ce29c56d",
+  "wall_seconds": 0.7184809999998834,
+  "raw_sha256": "612ef05d2381decc6258e405accaee61af27b2e3f98deddc6d6931554c37a7a5",
+  "output": "بوی بهار در فضا پیچیده است.",
+  "usage": {
+    "prompt_tokens": 339,
+    "completion_tokens": 11,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Ijv4HWtVgO3iA79uz187ZmNqZP",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005745"
+}

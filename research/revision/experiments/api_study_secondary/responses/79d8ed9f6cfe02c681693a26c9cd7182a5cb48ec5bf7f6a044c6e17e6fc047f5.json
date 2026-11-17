@@ -1,0 +1,38 @@
+{
+  "job_id": "79d8ed9f6cfe02c681693a26c9cd7182a5cb48ec5bf7f6a044c6e17e6fc047f5",
+  "query_id": "PH-1ba0ba9056897a38c3a8",
+  "group_id": "8536d0407555463bf38f019d02ccf3e7c3706c52701d987409bdf9b76586dbfb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "89d30b31737750bf5f0965f326ceed9394af7720ba825981a3c360ae16f164ba",
+  "retrieved_ids": [
+    "PH-9e6816010e4b40c40e93"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_242bdff8877f4a3d8d314930612f5a9b",
+  "wall_seconds": 0.7082392669999535,
+  "raw_sha256": "3fa60a4fbc25fb817bb7f3a4096574554997b7e6ba62c9feb44ec6093800ba2a",
+  "output": "این پادکست به مباحث علمی می‌پردازه.",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 14,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HsR8QsNV0xJhPgBsqrt3HGC36N",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000039"
+}

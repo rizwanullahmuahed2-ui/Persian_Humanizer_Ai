@@ -1,0 +1,36 @@
+{
+  "job_id": "990f01ffb2086e200161a12ac6809a73dfdd12ef8b7f705e5cf0c566e83c40ca",
+  "query_id": "PH-aef2351521c5b1ada55a",
+  "group_id": "49bd00ed49dfc10cf622d6a523b1792476b0ede9e7c895aaf775d9b5bbc575fc",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "add4b4caa470261a36eaac44b67dee0049490257e0d9017e317bf007ec5f8fe5",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ea9d06f156bd4feca4a1e1daf0f3d985",
+  "wall_seconds": 1.7954576129995985,
+  "raw_sha256": "0ff3825e53f85b7d2f3ba63f2475a4309885ee4fe0aefb0b945a38f32a6c4d01",
+  "output": "این API gateway وظیفه مدیریت محدودیت نرخ و احراز هویت مرکزی را بر عهده دارد.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 23,
+    "total_tokens": 183,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hn40FXWMfwFcAna3oSZqsw1wUU",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000378"
+}

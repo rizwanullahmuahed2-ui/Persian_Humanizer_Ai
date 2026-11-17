@@ -1,0 +1,36 @@
+{
+  "job_id": "faa59d6ac0fa6f1c1a206426547d0a3622bed62048159652d70f169ab0ebd43a",
+  "query_id": "PH-c85c3d7e013f424e9065",
+  "group_id": "f5febf80f09410e1a60550d5e8b98318abb31900668b1e919b96848d61cbcef9",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "a3302324cf1aa0a381b9d11abaf78d2b93bdfeac5cb0b075be44590f3abb1979",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1a9ce9b6bee94fd59a435296af6a61d1",
+  "wall_seconds": 0.7586223180005618,
+  "raw_sha256": "293f51f0d0f21dca0a5c3cdbeb707754b1d7e0af2effec11c65fd7a176ac02f4",
+  "output": "از همکاری شما در به پایان رساندن این پروژه قدردانی می‌کنیم.",
+  "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 17,
+    "total_tokens": 180,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I0FUT5tyAnDVLJQLT2wKpVlDNg",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003465"
+}

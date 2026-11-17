@@ -1,0 +1,16 @@
+{
+  "numeric_literals_unchanged": true,
+  "tables_unchanged": true,
+  "headings_unchanged": true,
+  "captions_unchanged": true,
+  "citation_sequence_unchanged": true,
+  "bibliography_unchanged_during_copyedit": true,
+  "inline_literals_unchanged": true,
+  "display_equations_unchanged": true,
+  "reference_count": 25,
+  "all_references_cited": true,
+  "figure_count": 7,
+  "research_files_unchanged": 2594,
+  "new_api_calls": 0,
+  "edited_prose_lines": 72
+}

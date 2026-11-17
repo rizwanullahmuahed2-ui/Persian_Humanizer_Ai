@@ -1,0 +1,36 @@
+{
+  "job_id": "e342e71cbdc5187a1f1466a80eda7197493f5b29d73c694225b973e7554d8124",
+  "query_id": "PH-5b4865076dd3799e58e6",
+  "group_id": "d2c400ad1260d74a3a0dae72e594bd34586bbd8bac4120ca9ace51baa507dda2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "c520e686c095f0862f172084db5c32bf18ad744fa61927a9b093918e02e9b8fc",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_2341fce16cd043b3a0128dbb217232b3",
+  "wall_seconds": 0.8148019970003588,
+  "raw_sha256": "4c6538025c6036eaeeeab11a6295aa286e2930be8b9a275a6499aff56261c6de",
+  "output": "پیشنهاد شما در دستور جلسه قرار گرفت.",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 10,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IvLZvupo0refBjzFIWYsTgwwl6",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00002985"
+}

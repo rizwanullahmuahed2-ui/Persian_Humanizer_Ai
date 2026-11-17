@@ -1,0 +1,41 @@
+{
+  "job_id": "19af1f0bee7241ec3af8b0c59f118d3c58d69350571c5406d8c716942592971c",
+  "query_id": "PH-b480d3712028934b343a",
+  "group_id": "0de50c194c9e03d82fb99cf0f1bdaa118a604320565f94320d3524de7b39f686",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "3f6284906bf4863a48a0e51557899e9fed6003a9ab46dfeb2dd0a43d4b5248b7",
+  "retrieved_ids": [
+    "PH-046c5c8be66faffa862d",
+    "PH-53ac4220d6373b27954d",
+    "PH-ea74b152f265e158d5c9",
+    "PH-c3b398639cb3782ec484"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f853f231957e432f8f23abd1ae7db58b",
+  "wall_seconds": 0.7679056039996794,
+  "raw_sha256": "4b2dfaa395ca48fd1eea2d96722cd50483f63f66c1ca1dedaa6055f0a5ff3002",
+  "output": "صادقانه بگویم، این نتیجه به بهترین شکل ممکن بود.",
+  "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 15,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HtXWwi4263lNvT2s36h8O0j4eb",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005325"
+}

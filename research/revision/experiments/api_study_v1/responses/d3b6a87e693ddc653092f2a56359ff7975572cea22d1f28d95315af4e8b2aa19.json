@@ -1,0 +1,36 @@
+{
+  "job_id": "d3b6a87e693ddc653092f2a56359ff7975572cea22d1f28d95315af4e8b2aa19",
+  "query_id": "PH-70f7edba57adffbb1749",
+  "group_id": "b8cf925cd582485c091f9750ac847177e48b0a5e932a7c7cac169dd90be43df7",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "4dfd60c5e0a073d5ca6da6ee332cb9daf7017c5c7d20f4d3650a0d264f8891e2",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8876651b2d9549319b384d8a9d4a6413",
+  "wall_seconds": 0.7008384459995796,
+  "raw_sha256": "d9b6e6615c3356a75465a57ec4b8b25366d7aabfa8d3c91f8ebf02919b663fb5",
+  "output": "جلسه هیئت مدیره در اولویت فوری قرار گرفته است.",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 14,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G0Dq91oNiln9CEHOdnPtqp49cN",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000872"
+}

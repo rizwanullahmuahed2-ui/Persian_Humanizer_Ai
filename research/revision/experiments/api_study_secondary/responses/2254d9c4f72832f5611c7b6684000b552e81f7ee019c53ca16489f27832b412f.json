@@ -1,0 +1,41 @@
+{
+  "job_id": "2254d9c4f72832f5611c7b6684000b552e81f7ee019c53ca16489f27832b412f",
+  "query_id": "PH-8853e2d82abc91dc4746",
+  "group_id": "2b28ace65e68d2198a277341975728c8989ce0c5d5e67a24f0c99bae63bcd24e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "54c8854c92e9176e6ecbd9d19629248c76329ed2a9b858eac0c75e7110c70d77",
+  "retrieved_ids": [
+    "PH-5b21adb1e3bb3194abc3",
+    "PH-388e51c925b205dd69e7",
+    "PH-ad9ed7a73d3fc1b84e96",
+    "PH-6482a451714870ff6fbf"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_df7e94d9a4504018b3a5041dc04edce8",
+  "wall_seconds": 0.6891503870001543,
+  "raw_sha256": "b8937b9c7b24ef493cbdaa3bbf5ab4ea3ddeba65edcfc8f1f286d4b27f617e5e",
+  "output": "بوی بهار تو هواست.",
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 8,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IoZ7NMIC6YlGp9HdfoZiO7u7G4",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005175"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "3f3733ba10bcdd306de8fa63ac92650563598c113e1ad07f2b7089f7cebd1fbd",
+  "query_id": "PH-eee565dc072465bff26b",
+  "group_id": "93010b46a65e4f285511e29a71f3c237e24eb1b247dfd2cb532723c860460076",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "7ee7fabd8c7d590af6590eba6b926cc612be20f27362c36ca4d3bf6c8a0a6ee5",
+  "retrieved_ids": [
+    "PH-33b8e88e5199577491ec",
+    "PH-edbf03332b43d56fc47e",
+    "PH-df2115593f497a895117",
+    "PH-70215a4cf60c2f40fffc"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5719d116bfaf4996a19e63a1047cf994",
+  "wall_seconds": 0.5520913179998388,
+  "raw_sha256": "45575365c997fe43ac0ebe47d9892131811ee83df22fe4999420a69a01d7c7f7",
+  "output": "این تحقیق میدانی داده‌های ارزشمندی جمع کرد.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 13,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G26lI8HjS8DC6isFUQFzyH5QkO",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001472"
+}

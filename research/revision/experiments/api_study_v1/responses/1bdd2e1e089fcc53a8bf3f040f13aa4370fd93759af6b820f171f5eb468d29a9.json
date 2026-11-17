@@ -1,0 +1,36 @@
+{
+  "job_id": "1bdd2e1e089fcc53a8bf3f040f13aa4370fd93759af6b820f171f5eb468d29a9",
+  "query_id": "PH-d200224a918903540d5e",
+  "group_id": "b9a9ab143ba2c8895d1c3908b14b24faaf6382822f0575d6dfbaf82fc177918e",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "35bac4ceaf9d44788e37d7e1f637e9ff11c6dbcb2f42a3ae212c58620fd4b17c",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_683260b93b584713ae360c430777d1a6",
+  "wall_seconds": 0.5939632600002369,
+  "raw_sha256": "b95d7c5a3bfb0610cb61170181605517ddc31572d6cb2cbf070215722764ae7c",
+  "output": "برای پیشگیری از ازدحام، نوبت‌دهی به صورت آنلاین ضروری است.",
+  "usage": {
+    "prompt_tokens": 167,
+    "completion_tokens": 19,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GOK9OC8x7yYdyWW3jFsAKGxpbR",
+  "system_fingerprint": "fp_39a22f52c8",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000972"
+}

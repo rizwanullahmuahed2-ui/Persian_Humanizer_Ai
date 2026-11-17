@@ -1,0 +1,36 @@
+{
+  "job_id": "d8d8685e6e06fde4ac9b7647120ec0dbe6f5358abdf5f0a47fcccf7ccd4a2814",
+  "query_id": "PH-4c90cca9b24ff43c853a",
+  "group_id": "249d953708f482c005ec28f9c6a4cd0ff4052c96d6073deffe9a5bb2731f2bb2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "0629bdced43c6a231c3a50f75614c876e3d0bb781afcde20b453ed073e94e9d9",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_27819fb2db014f05bcbb6b70c37fb111",
+  "wall_seconds": 0.8163584490002904,
+  "raw_sha256": "919e1fbcc0e26cf5b8cf8c3ca2a953b0ab7a88bc86b14049589e6cf5c6dc7e07",
+  "output": "باغ وحش این شهر دارای گونه‌های نادری است.",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 14,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HyCx9Sk0eXXSDQ9gGfrhqi8ZJw",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000327"
+}

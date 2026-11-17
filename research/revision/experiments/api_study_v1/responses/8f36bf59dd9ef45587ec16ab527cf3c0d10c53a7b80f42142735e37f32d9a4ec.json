@@ -1,0 +1,41 @@
+{
+  "job_id": "8f36bf59dd9ef45587ec16ab527cf3c0d10c53a7b80f42142735e37f32d9a4ec",
+  "query_id": "PH-46b1a651f00af22c9f79",
+  "group_id": "6208f1fe5614618270cfef65c7d28629b7d6671193bff8e7b6bb18100356a879",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "e77bf2db868065a0ef8a56b8b877ada29c98d0b614ea04e2488081a2945ed6bc",
+  "retrieved_ids": [
+    "PH-858182d82396326f3ea6",
+    "PH-19d2beb67ffcde70dde3",
+    "PH-1ad3b1a7d0ca950b4bf3",
+    "PH-dfcba6ab3611c93d6c5e"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_86ff1fa348324ce8b4933ae176666b6e",
+  "wall_seconds": 0.548657407999599,
+  "raw_sha256": "5226568c1df0f2722a686ba517cc50979ad761b31a3d997e039953f49b6b0819",
+  "output": "چرا هیچ‌کس حاضر نیست مسئولیت قبول کنه؟!",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 14,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GDHH9X5zG769J7Sg49LvM8Y0hw",
+  "system_fingerprint": "fp_9c09c50726",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001488"
+}

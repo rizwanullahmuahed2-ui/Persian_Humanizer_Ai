@@ -1,0 +1,38 @@
+{
+  "job_id": "d9e1d4fcd4c8b71a1ba086a69cd27ac7b3c01751a00321abb13f6359b155b070",
+  "query_id": "PH-50d9b9afa88c26c7c3fd",
+  "group_id": "cd0dbb7543f85fc763dfa5422ead01f91c45ee3e427eb73b77a06f44dd8c3ad2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "f97d614a2ce035e2efa3cf74c282ddb47595dcb51a084f1cc738285b66ce787a",
+  "retrieved_ids": [
+    "PH-2f563389bc04c568779c"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_3823e6eddfe64d289cd5feff20353c87",
+  "wall_seconds": 0.6928792389999217,
+  "raw_sha256": "623994af2576817e584b5b5010a0bfd87ce0ad9074cca3005aaf4654069749cc",
+  "output": "این سرویس باید تحت شرایط بار سنگین graceful degradation داشته باشه.",
+  "usage": {
+    "prompt_tokens": 191,
+    "completion_tokens": 15,
+    "total_tokens": 206,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ISzrdEIw9mihpgpfkKBDnEomcD",
+  "system_fingerprint": "fp_3a3c79652c",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003765"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "221cc5db7fcad59e31bf98b0a0dcad9b051069701fa1fc3b4b637a8325903d86",
+  "query_id": "PH-819aeae53d450aa010f4",
+  "group_id": "5ce8cc2988ae2797822030ba0f83c7c40217533ece19c554e214e16b62828877",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "f3f205d2dbfd32d9f6e8a5749fd4275f1f92e95672b031ce688f6a3f72149519",
+  "retrieved_ids": [
+    "PH-bd17795c2c66a96cd4df"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f1744ff6ec194b708c3ecd5877a916d3",
+  "wall_seconds": 0.842371615999582,
+  "raw_sha256": "c2b54228bce0fc65d8fc98910044839a00ee8260800c0949baf4b7ddbd2eda7f",
+  "output": "بسیار سپاسگزارم که وقت گذاشتید و نظرتان را بیان کردید.",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 22,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IjKOdiujV1c2pwKAzkDU78km2D",
+  "system_fingerprint": "fp_3a3c79652c",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000423"
+}

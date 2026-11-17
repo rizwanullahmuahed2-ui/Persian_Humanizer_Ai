@@ -1,0 +1,36 @@
+{
+  "job_id": "cf3e144f52502e80594dec56d038815f6a32fe01051e302c5c73febf148fbc24",
+  "query_id": "PH-4d79a74fc873081f68df",
+  "group_id": "3c7d73b819ab9ac454f7a70a553c7f5089ed6eb1f971a4331e06f23d6a533099",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "e284ce57ca7d100f882c8dd40d749cd32c660220d4320e44d4cfa9684569ba8a",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_267c3b9c85264e08874a9755454e395c",
+  "wall_seconds": 0.7889860249997582,
+  "raw_sha256": "6fe84a1a769742b7d9cde16461c424b23999f7bde769cc21cc3263b566c307f6",
+  "output": "سفارش شما با اندکی تأخیر تحویل داده خواهد شد.",
+  "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 16,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GfT8dADmJ2LTRyxDMahVyFO3WG",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000904"
+}

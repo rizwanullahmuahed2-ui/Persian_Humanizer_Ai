@@ -1,0 +1,38 @@
+{
+  "job_id": "0e7217cf81f56c399318d760b2953d5685ca0fe44abb800b316c9c5735fd5558",
+  "query_id": "PH-900a110506fef81486be",
+  "group_id": "030496cc94849cec702950124073a4e88f66485baa647b9936f9d37bdea57575",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "5ff8a502a9af89b19d3c4a6deddcca14cf1c2137a07ba50dfcf7fae8163f66cd",
+  "retrieved_ids": [
+    "PH-3c65b1a7c1f4f2073d2f"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f1da9e4c92e4499da83b2f595da065e4",
+  "wall_seconds": 0.9110138940004617,
+  "raw_sha256": "57a724cfa8d1e3a98c9edbadeeb4e4f8572dd3d6627bf7a20d1229583e713ffb",
+  "output": "این محصول بر اساس استانداردهای زیست‌محیطی تولید شده است.",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 17,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HlmVeTMQKmnObtjOxxSJOvpBYW",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000402"
+}

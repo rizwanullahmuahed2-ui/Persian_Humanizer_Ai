@@ -1,0 +1,36 @@
+{
+  "job_id": "431f7810fa96ea206474f674fb90a4de3f236c33fc7a20133d875558a3ddb93e",
+  "query_id": "PH-c85c3d7e013f424e9065",
+  "group_id": "f5febf80f09410e1a60550d5e8b98318abb31900668b1e919b96848d61cbcef9",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "40b92afcef797bcb7d3746d1dad5218b0e7260f275d7bfdc79a09c1c2b6fd09b",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_34069a83fc3f4163a73bb7fc6a7f1f15",
+  "wall_seconds": 0.6526779639998495,
+  "raw_sha256": "cf79b977f5ea88d1ed3a3edfd27f2de7a5f67b1bea8853fa7494a4dcf72e896b",
+  "output": "از همکاری شما در به پایان رساندن این پروژه قدردانی می‌کنیم.",
+  "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 17,
+    "total_tokens": 180,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FpBkKUK5eyzT5xeicrWn9Ro3cF",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000924"
+}

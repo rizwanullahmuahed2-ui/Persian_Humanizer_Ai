@@ -1,0 +1,36 @@
+{
+  "job_id": "4fb72205a25a752c6e49e31b7505a925c7730045d1c2e56fb5d6ce4116550230",
+  "query_id": "PH-af41ce58641f6a1d76d9",
+  "group_id": "cc662cb91ea396dfb9162caff1ced744039a566fdaeddd57c9eabd268ac8ccf5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "fad5ce94dedfb2582f44b34b416b8cc03f396afa27b68caf09a81f35e9d53a12",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_7861cda3baec4705a5f997499c015551",
+  "wall_seconds": 0.6743046229994434,
+  "raw_sha256": "6691be0a67d50080d4fd05d61b12341fab4f7bc006ff96285daa4457da237e3c",
+  "output": "فرصتی بی‌نظیر برای سرمایه‌گذاری در این پروژه فراهم شده است.",
+  "usage": {
+    "prompt_tokens": 166,
+    "completion_tokens": 19,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GWuQ8BFOHIAa3WGhSZgEjcfdHC",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000968"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "d945b0c96c832d65e378b8a9d84b4dc6e35491959f82465ff98cc8551ab89849",
+  "query_id": "PH-f09c3c92817b89f32ec6",
+  "group_id": "6e2e4a22e0a0823b7b5cc5392ca2a29701954abb834a6470d49c3e90ae232c99",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "fe212cdab4882e199b831bdf8c31350dff8d997b95c47827ece3c3b4571a855e",
+  "retrieved_ids": [
+    "PH-87f8221d042fd8417532",
+    "PH-8100d6bfdc8978c772de",
+    "PH-d7ee537c11c461e2ecec",
+    "PH-da2f74b45a9470535b2f"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9d740f8c64e641b4ba091f652e28489e",
+  "wall_seconds": 1.0257072029999108,
+  "raw_sha256": "2308d126dcba90befaf29dea5702945e1b7ed5c01b8dbd3816ebcf4ca76004d9",
+  "output": "اون روزهایی که با دوچرخه تا آخر شهر می‌رفتیم.",
+  "usage": {
+    "prompt_tokens": 361,
+    "completion_tokens": 16,
+    "total_tokens": 377,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hkf25vEFT0lGnOND5oPfWfTCgF",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006375"
+}

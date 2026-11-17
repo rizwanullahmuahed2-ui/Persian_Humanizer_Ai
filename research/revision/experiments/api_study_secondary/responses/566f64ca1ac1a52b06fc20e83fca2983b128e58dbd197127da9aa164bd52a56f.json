@@ -1,0 +1,41 @@
+{
+  "job_id": "566f64ca1ac1a52b06fc20e83fca2983b128e58dbd197127da9aa164bd52a56f",
+  "query_id": "PH-0aaac87d8700c8ec3c66",
+  "group_id": "cdfc10372cc0743b9d7ea698990498568112adc1615ffe431a002a91619b4f6e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "43971df6427ee65c9ad27b7f51deec6319b10899098f478cdafdb02df084a12b",
+  "retrieved_ids": [
+    "PH-70956b19c5c6d03f75c7",
+    "PH-f05876389c6260c72ab3",
+    "PH-e6475cdf021a74097f1b",
+    "PH-cd0c024205a3fdc8b2a5"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ac6a399c0d3842c382449b2a0d08be71",
+  "wall_seconds": 0.697594759999447,
+  "raw_sha256": "bb9cb2b6c3d3142fcf922962d7251bae31e9a1446e367b4c7b9fc292808b24a1",
+  "output": "این رو به بقیه نگو.",
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 9,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HqYKndRz6uf13FJztO3PdehMwQ",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000051"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "3fdd227396da99013b54e2b74c5012a106d403975d8a9d94fde0013bb166b75c",
+  "query_id": "PH-0cdea4eaa789b47bc0e0",
+  "group_id": "7641386702937062843a40cc4e6064906139c2ad94802bf0126fb469241d8d4c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "dbddf042cd7bdb8a813fd89bb91379ad27167a4411797f41d7d4f8e1ac42d6d0",
+  "retrieved_ids": [
+    "PH-92938c7ecc69916c070e"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ad8341c662bd4c5d83e6d98c31622fcc",
+  "wall_seconds": 0.6606265599994003,
+  "raw_sha256": "e0a10cb085983a66e7597658537c3d77f93c6d9901b32fdb0d8b267e75e5230d",
+  "output": "چرا همیشه باید من عذرخواهی کنم؟!",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 12,
+    "total_tokens": 220,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IL8V2ia9oaK3PEZflvcOGCehME",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000384"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "bfdc7cbafab97605b107048d665e526a179f9359bb7967a96fb3e2ce08fedd1b",
+  "query_id": "PH-1f0cd73873adf7aa3e67",
+  "group_id": "71a0bce6b2092e5b00a8bf0e23fde93dd7e5849bd5cdded01a4ac0866ec780ce",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "e515ce509a4cdccf431f0dc040416fe4884aca4e89bfaa47c48ca7c3e1e9a1da",
+  "retrieved_ids": [
+    "PH-523f43f1b2838bd7ca2d"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_af84b784229d4f7ba1c6afd4c16cb147",
+  "wall_seconds": 0.7542375970006105,
+  "raw_sha256": "7a2e49df6afcefe3912d57ff49ec5c4892dd2500218b100d762eec6e2e684046",
+  "output": "این علائم ممکن است نشان‌دهنده استرس مزمن باشند.",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 14,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IQr2gPzi3ezGjX6wsVoW6Qnfh7",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003885"
+}

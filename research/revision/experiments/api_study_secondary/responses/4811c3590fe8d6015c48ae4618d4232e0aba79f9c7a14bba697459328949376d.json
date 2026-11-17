@@ -1,0 +1,41 @@
+{
+  "job_id": "4811c3590fe8d6015c48ae4618d4232e0aba79f9c7a14bba697459328949376d",
+  "query_id": "PH-4402d685062f25c1b14d",
+  "group_id": "540a8e1f9f12e1c69d5cc42273e7dc918de277a56dced3b08b10e772443ab099",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "bb86d7d2d26446640d0c6e5137179c518873a7dea7270b80164cf98c590ba90b",
+  "retrieved_ids": [
+    "PH-b77e79b28b7dab5ae85d",
+    "PH-111fd7425a33b92df32f",
+    "PH-81f8e70467b1e05f3d96",
+    "PH-6f8524fd699d66d9f06d"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ad4c4673ec664edc87117f3adab36622",
+  "wall_seconds": 0.6344784709999658,
+  "raw_sha256": "53af79dd5e7d0e2918e7789dd3e24afc74f61b1b484a74ab6a8a54b381554122",
+  "output": "همه از این موضوع بهره‌مند می‌شوند.",
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 11,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IOW5ommZeL2vmXW3Ze3TuLGTFa",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005295"
+}

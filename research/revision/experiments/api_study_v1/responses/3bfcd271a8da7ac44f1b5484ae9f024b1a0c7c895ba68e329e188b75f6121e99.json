@@ -1,0 +1,36 @@
+{
+  "job_id": "3bfcd271a8da7ac44f1b5484ae9f024b1a0c7c895ba68e329e188b75f6121e99",
+  "query_id": "PH-203fe93509fe0b8468d9",
+  "group_id": "a3d187fccceaa75489ce0cbd0520be6378ce823d54d8187820a7f0f88f4b6603",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "9d6e3d346bb24a707d0e57f5e656aba37892c2f61dc2d83ae117d67e0d361742",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5ada9c0b9fb54dc6bf6ee638c64fc118",
+  "wall_seconds": 0.7378806750002695,
+  "raw_sha256": "1256a81df8ed6ea333414252809178279c6ec8f32e780d9cf629d648905398ee",
+  "output": "این دوره فقط چند روز دیگه در دسترس خواهد بود.",
+  "usage": {
+    "prompt_tokens": 161,
+    "completion_tokens": 13,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GG4YrJflGt09xuEyxunU5ltOI2",
+  "system_fingerprint": "fp_9c09c50726",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000852"
+}

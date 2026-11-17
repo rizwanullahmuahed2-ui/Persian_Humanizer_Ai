@@ -1,0 +1,41 @@
+{
+  "job_id": "9634773258c096db07c81d46442e6abf9c56a75b750d7f45b7ecebfa9c5f4a59",
+  "query_id": "PH-9688126202555222dc8f",
+  "group_id": "7582565f3e2cca99a804f93267589fb14a4b8cce09ddeec88a95dea69c928604",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "32458516f104af49cd9e6b0bfdbfa7bb6ca07f190b0f9424b755ce64acd162f8",
+  "retrieved_ids": [
+    "PH-eb52d994d4486cb155c1",
+    "PH-c8e7cbf94aede7197105",
+    "PH-cbc419668f8f456bde3b",
+    "PH-26cd198ab1299047a3eb"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9208f44194c04d539a74fe33e62bd332",
+  "wall_seconds": 0.7465085080002609,
+  "raw_sha256": "01c6eee041756d00b04fe3f0fd0b809282f06671f0538cb93c6add513527594c",
+  "output": "این جنگل هر سال کوچیک‌تر می‌شه.",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 12,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HnNxjuUp4ShWIWDIQedeLzdpel",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005685"
+}

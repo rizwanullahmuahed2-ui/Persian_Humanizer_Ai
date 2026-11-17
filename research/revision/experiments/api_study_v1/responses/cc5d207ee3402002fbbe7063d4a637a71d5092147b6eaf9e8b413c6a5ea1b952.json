@@ -1,0 +1,41 @@
+{
+  "job_id": "cc5d207ee3402002fbbe7063d4a637a71d5092147b6eaf9e8b413c6a5ea1b952",
+  "query_id": "PH-b0a0413c174d34dd4349",
+  "group_id": "5b929b15e5db8b37027798fca976bfce666fb41132593075592392d4278940ee",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "b5fce870f466f9fb8c4cdba080fa338e5cd6d770b9e6d3808a33e19b04862d20",
+  "retrieved_ids": [
+    "PH-a405f3d5a62183c624d3",
+    "PH-70ae34e79a7b4fdb51c6",
+    "PH-53d2a664d960283fd199",
+    "PH-b945dbd8aa86b0a06dfa"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8ddfdca020e0470e92a859acc29099b5",
+  "wall_seconds": 0.42942969700015965,
+  "raw_sha256": "e5324fa0d4b2ad4565df0531128f103bc178d0151f8f4d151094feeb8cdcecc9",
+  "output": "این آزمایش در آخرین مرحله خودش است.",
+  "usage": {
+    "prompt_tokens": 318,
+    "completion_tokens": 10,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GgIeqe7E72xXFmb2EXlOv6JGtU",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001432"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "0007744b04b43e2e62d862e1d45419c0a617a8266054ddf0d71a38bd94d3a6ba",
+  "query_id": "PH-40bdae8e718bc5468db2",
+  "group_id": "d4e4903bc1816e60c4047785ac281f7e4259226cf0d6e2468a012afe219bff3c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "86ef07c472d4fc42058c9a4a0ccd780b32a28c3f0d1be9b15090798621fc6271",
+  "retrieved_ids": [
+    "PH-7729eebe8c25dbb75150",
+    "PH-7f1a2c65ed29c0e59287",
+    "PH-1adadb8e7c7131430337",
+    "PH-a3979116b09bd49d9039"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ed552521e6c3476d8f553e6afbd9bd3c",
+  "wall_seconds": 0.8015527930001554,
+  "raw_sha256": "45ea252f75e0c87b3a1af3cbb3da858a575085a5ecddf22ad54f79aba09e906a",
+  "output": "تحلیل محتوای کمی نشان داد که تصویرسازی از زنان در رسانه‌ها ضعیف است.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 21,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HtZWUtER7i1mXzckFKNP1AVqYA",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006"
+}

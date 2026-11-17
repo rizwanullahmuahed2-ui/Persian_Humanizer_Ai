@@ -1,0 +1,17 @@
+﻿kind,group_size,csv_lines
+exact_input,2,546|826
+exact_input,2,548|1325
+exact_input,2,682|1195
+exact_input,2,732|1095
+exact_input,2,1235|2200
+exact_input,2,1678|2805
+normalized_input,2,546|826
+normalized_input,2,548|1325
+normalized_input,2,682|1195
+normalized_input,2,732|1095
+normalized_input,2,1235|2200
+normalized_input,2,1678|2805
+exact_output,2,75|307
+exact_output,2,1294|3472
+normalized_output,2,75|307
+normalized_output,2,1294|3472

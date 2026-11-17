@@ -1,0 +1,41 @@
+{
+  "job_id": "b366ec74fe45cbe5570bfb4fd63c91be700703c1e5e6779098e68767ae0a98bf",
+  "query_id": "PH-50d9b9afa88c26c7c3fd",
+  "group_id": "cd0dbb7543f85fc763dfa5422ead01f91c45ee3e427eb73b77a06f44dd8c3ad2",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "ed194287de0bb9023fa2658c9add7764992abc567aa07ec2768bcd31f988fad3",
+  "retrieved_ids": [
+    "PH-45180f9de3353a1e3b22",
+    "PH-1a25291634cae8c9140c",
+    "PH-57b61464b335537a57f0",
+    "PH-13b6957b3cb3786db0a2"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_cdcfed08c89b41c0824abfa13c98a525",
+  "wall_seconds": 0.5598002630003975,
+  "raw_sha256": "8ec08edea00511a261862bc830268a04fc34e3dd643cc9abe1b70465b2c0cadc",
+  "output": "این سرویس باید در شرایط بار سنگین به صورت تدریجی کاهش کیفیت داشته باشد.",
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 19,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FsXHUbkmehdbai8CsSoU1cBY0a",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001612"
+}

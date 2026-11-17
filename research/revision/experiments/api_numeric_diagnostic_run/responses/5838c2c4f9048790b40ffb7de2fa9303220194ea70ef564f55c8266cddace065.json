@@ -1,0 +1,38 @@
+{
+  "job_id": "5838c2c4f9048790b40ffb7de2fa9303220194ea70ef564f55c8266cddace065",
+  "query_id": "PH-3eb1ee5deab2a3761cb7",
+  "group_id": "9fa2243c5009979a07e7b02b71cb3d13d9d2e9f75f324e85984546e6c8c31251",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "f65dc47c62d94785cd36ae822519b068c46f1daf079f9e6e618fccee28a8972b",
+  "retrieved_ids": [
+    "PH-bfa4d9c8a1691bc01597"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_63489e58ae4c4885a7d9a77e47afea72",
+  "wall_seconds": 0.6285690700005944,
+  "raw_sha256": "a4730759de61477c0f84cc79cee0d103085bdfd159a164560b46a74d259d3bf1",
+  "output": "ماده ۵ قرارداد شرایط فسخ را تعیین می‌کند.",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 13,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L4mqKke1lD73nDPWPhv0LNU51q",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000402"
+}

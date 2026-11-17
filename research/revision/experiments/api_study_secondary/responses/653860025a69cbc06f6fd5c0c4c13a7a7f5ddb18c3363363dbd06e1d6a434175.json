@@ -1,0 +1,41 @@
+{
+  "job_id": "653860025a69cbc06f6fd5c0c4c13a7a7f5ddb18c3363363dbd06e1d6a434175",
+  "query_id": "PH-4d79a74fc873081f68df",
+  "group_id": "3c7d73b819ab9ac454f7a70a553c7f5089ed6eb1f971a4331e06f23d6a533099",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "d5afec89d0c8b2f5a19c5b71ef568aa01a8d4e7fd80f45ab418c0fba9dc2dfbb",
+  "retrieved_ids": [
+    "PH-f355f132ed62ced948ea",
+    "PH-de03bb045ed2967ab844",
+    "PH-e355742c6b9301d3afa8",
+    "PH-47df7a8c2fb24a69b5d1"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ed7ea4f9d046471284762b273b4ff722",
+  "wall_seconds": 0.7116495969994503,
+  "raw_sha256": "955b15a3e1cff02a1c996f32580b1efbbedaa7f4a987889a710ccf410e07256f",
+  "output": "تحویل سفارش شما ممکن است کمی با تأخیر انجام شود.",
+  "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 14,
+    "total_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HqFiZ8U9sWlBBBhKQU5QYBB3P0",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006105"
+}

@@ -1,0 +1,36 @@
+{
+  "job_id": "36ebc9f4611c66a070c854fd77f234bbe5615c9c4507b990bf6988a9484918e0",
+  "query_id": "PH-08fb36e4b9d8aff88b22",
+  "group_id": "c4760896bb4d493a089abb7b9da0ba5db51de186b3ae997411fc1cf9a4e98508",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "07231e4fa8800d41ed01a9cc1885ed9cd5d94716ac5b00c0bbc30eae9ea150e0",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f8b2418246fc475382f881c777c55b82",
+  "wall_seconds": 0.7370580120004888,
+  "raw_sha256": "97279b65b5fcbf6f19b8cf6d95a79c9172e66beb28eee6c7366297ee276b67f6",
+  "output": "اگر محصول دچار نقص فنی شود، تعویض آن صورت خواهد گرفت.",
+  "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 17,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I7BOXayBVMhm9rZ0zU5F35UPu5",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003555"
+}

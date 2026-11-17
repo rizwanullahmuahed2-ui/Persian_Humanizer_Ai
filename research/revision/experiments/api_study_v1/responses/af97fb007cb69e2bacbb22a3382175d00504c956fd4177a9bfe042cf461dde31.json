@@ -1,0 +1,36 @@
+{
+  "job_id": "af97fb007cb69e2bacbb22a3382175d00504c956fd4177a9bfe042cf461dde31",
+  "query_id": "PH-d5709f518908d72bb896",
+  "group_id": "6797d11d66324349f343c5beddc6a52bf765e07a6e357785d5002b1841274fcb",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "6d826b67070de433830b5753a2444469587f4eb152111c348668cf2f57bbddd9",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b79c856f7e5747f4b4bbb402f9c84fd5",
+  "wall_seconds": 0.6046561040002416,
+  "raw_sha256": "66aeeda88ec47580ed3ac58acdcf5cf7a9e449c36dfa720472d65bfad873e0ba",
+  "output": "این ویتامین برای رشد استخوان‌ها ضروری است.",
+  "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 12,
+    "total_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G7zJCuZMNGhkqhqcLqvYJMHBCu",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000832"
+}

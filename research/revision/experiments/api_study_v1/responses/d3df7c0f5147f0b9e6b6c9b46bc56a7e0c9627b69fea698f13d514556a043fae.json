@@ -1,0 +1,38 @@
+{
+  "job_id": "d3df7c0f5147f0b9e6b6c9b46bc56a7e0c9627b69fea698f13d514556a043fae",
+  "query_id": "PH-bbf12ba4801c0577e5d1",
+  "group_id": "f14cc691a26caccb5f2519e84c67908eafa676b61384894d4e0ecd7a19567b0a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "003091b332d0e3b01a293238927ec09760a27dc6e805b9e6d008b0c71bfea2fd",
+  "retrieved_ids": [
+    "PH-f0606c25119624835663"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_2b20256ab9604b4cba5fb9ef2f8b46a4",
+  "wall_seconds": 1.3233334059996196,
+  "raw_sha256": "d2082878926dfa19401750b8d2f841390c082383080f9b1a79020a4bd4475181",
+  "output": "یک گفتگوی صمیمانه داشتیم که خیلی به دردمان خورد.",
+  "usage": {
+    "prompt_tokens": 192,
+    "completion_tokens": 15,
+    "total_tokens": 207,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GPQxE9XuGoxeeQaiFm1RizTooq",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001008"
+}

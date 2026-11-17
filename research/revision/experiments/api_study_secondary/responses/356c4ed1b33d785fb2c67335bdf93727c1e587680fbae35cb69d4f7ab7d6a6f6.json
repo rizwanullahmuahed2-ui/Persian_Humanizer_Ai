@@ -1,0 +1,41 @@
+{
+  "job_id": "356c4ed1b33d785fb2c67335bdf93727c1e587680fbae35cb69d4f7ab7d6a6f6",
+  "query_id": "PH-a3c46472eaa27b57ddd5",
+  "group_id": "e7ed93d488e831a5d58fd672369d6bb8111ed99b6fb62ed5fddd76810efd8247",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "1a098f44dd0e0676c7ef05b841b2d2efa88a1853e0998a24716ea1b405f1e88a",
+  "retrieved_ids": [
+    "PH-6cfd2482a157f8b67428",
+    "PH-2926fa70ea3a29ad149a",
+    "PH-11871f62d2f31984347a",
+    "PH-dbb80ceac513a6c7afc1"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_49c31c9d12a343ec978ae9c8652b803d",
+  "wall_seconds": 0.7442337439997573,
+  "raw_sha256": "319c6d50c591391218a3772e639a15f0ffb4b99e4674f576a03fe9bd16603dde",
+  "output": "می‌تونیم با هم بهتر عمل کنیم.",
+  "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 10,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IxqUOCstXVm3rqTwxp15gIut3s",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000519"
+}

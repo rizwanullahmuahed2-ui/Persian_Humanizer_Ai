@@ -1,0 +1,38 @@
+{
+  "job_id": "4f8f0946586df94a5958a7426649cbbf263451a115da425944139ff9324677e0",
+  "query_id": "PH-70f7edba57adffbb1749",
+  "group_id": "b8cf925cd582485c091f9750ac847177e48b0a5e932a7c7cac169dd90be43df7",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "13b40f69a11b16009e5ddfc8af7299cf6b230b35375f478b744ae88bde7533b4",
+  "retrieved_ids": [
+    "PH-148293f0a1eb465a5ad6"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1c8bdb15b7c445fb88b745f9df0e860f",
+  "wall_seconds": 0.679286558000058,
+  "raw_sha256": "92252f659d09bdc4be341cebd85156aaece6aa3e1cbfcf231236b07a61c5903d",
+  "output": "جلسه هیئت مدیره به صورت فوری در دستور کار است.",
+  "usage": {
+    "prompt_tokens": 193,
+    "completion_tokens": 14,
+    "total_tokens": 207,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FtdwiI9DylbGor3J1lwwSMlGhB",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000996"
+}

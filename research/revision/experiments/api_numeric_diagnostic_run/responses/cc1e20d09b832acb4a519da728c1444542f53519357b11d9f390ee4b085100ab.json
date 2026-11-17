@@ -1,0 +1,41 @@
+{
+  "job_id": "cc1e20d09b832acb4a519da728c1444542f53519357b11d9f390ee4b085100ab",
+  "query_id": "PH-c77b21b3af14e7f13b04",
+  "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "54f56349f7a2d27bb07ce98389be638d2c9785f38aa5402afda9293909c02eb7",
+  "retrieved_ids": [
+    "PH-dda7b73c81fa853179d6",
+    "PH-66bd7cb64186fee3fef1",
+    "PH-45d9dd0ecc9b584781bd",
+    "PH-1ccd3128ed2829558bd0"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f9b17fde322a4a3291e0ea28ebda970a",
+  "wall_seconds": 0.7374162550004257,
+  "raw_sha256": "5b39e87e9180d231ea999f662cc292b5ded48c2937cf1fe63d9a4223475703d2",
+  "output": "ساعات کاری مرکز تغییر کرده و حالا از ۸ صبح تا ۵ عصر است.",
+  "usage": {
+    "prompt_tokens": 349,
+    "completion_tokens": 19,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L2EMoG6htypYu9JHznKUFhUF6b",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006375"
+}

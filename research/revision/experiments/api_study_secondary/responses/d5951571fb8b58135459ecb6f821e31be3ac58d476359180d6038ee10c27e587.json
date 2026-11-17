@@ -1,0 +1,38 @@
+{
+  "job_id": "d5951571fb8b58135459ecb6f821e31be3ac58d476359180d6038ee10c27e587",
+  "query_id": "PH-40bdae8e718bc5468db2",
+  "group_id": "d4e4903bc1816e60c4047785ac281f7e4259226cf0d6e2468a012afe219bff3c",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "afb5bc4297f44b198300f8628db87418f31646b4d24febd4ebc2d210b4c08e9b",
+  "retrieved_ids": [
+    "PH-7729eebe8c25dbb75150"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d910be5cd2444217b817b887c2771758",
+  "wall_seconds": 0.9004305569997086,
+  "raw_sha256": "34e8ce5de0249946a62a89d49c251f14b15dde1444bf65b3cb298fc576b443ff",
+  "output": "تحلیل محتوای کمی نشان داد که تصویر زنان در رسانه‌ها به طور ضعیفی ارائه شده است.",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 23,
+    "total_tokens": 224,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IinkZS7cGmQEsE6BfctkYIStXC",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00004395"
+}

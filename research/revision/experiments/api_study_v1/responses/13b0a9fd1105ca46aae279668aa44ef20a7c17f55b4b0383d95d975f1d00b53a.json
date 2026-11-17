@@ -1,0 +1,41 @@
+{
+  "job_id": "13b0a9fd1105ca46aae279668aa44ef20a7c17f55b4b0383d95d975f1d00b53a",
+  "query_id": "PH-1328830f9c5745f580f9",
+  "group_id": "4603d5d8eea561b9ec9896d2583632d605c6f7e4ca6e75abf28ff9ead5fda358",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "9e884ea3025355993f19491fcb6f035572ed95da1e4c5ebf535828056f17fdd7",
+  "retrieved_ids": [
+    "PH-de5b52b6f4f9c0298d5c",
+    "PH-f89e4635b327a6478ce0",
+    "PH-b83ff4f65161c4993af0",
+    "PH-05a1be318404279ddedd"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_b6906219f2264010b755d766a1e69058",
+  "wall_seconds": 0.5287821029996849,
+  "raw_sha256": "3d37f8eadb93cea06dfef0fb314d5a5439476f31d12aefea5ed860e6759d987c",
+  "output": "این پروژه باید دقیقاً امروز آغاز شود.",
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 9,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GAhoa68RMgKe5xuaRmytRhB9sr",
+  "system_fingerprint": "fp_2e6da7a440",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001356"
+}

@@ -1,0 +1,22 @@
+{
+  "job_id": "c6d0200d1eb6e30e375dc5c7656f586787334b89db10735e8e5488a5f077c852",
+  "query_id": "PH-5b4865076dd3799e58e6",
+  "group_id": "d2c400ad1260d74a3a0dae72e594bd34586bbd8bac4120ca9ace51baa507dda2",
+  "model": "gpt-4.1-nano-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "e63034dba6a0c33343500f8c14e9f4411684c624c6720a8cc8a84d731d07bdac",
+  "retrieved_ids": [
+    "PH-f68f428176f44c517ebb",
+    "PH-99f23d0eb244cdb5c252",
+    "PH-72370014a3c954e1550b",
+    "PH-89486e79c30cda2b7a8f"
+  ],
+  "status": "error",
+  "http_status": 404,
+  "request_id": "req_2fd961974352470d846ab9f088787aae",
+  "wall_seconds": 0.0767226979996849,
+  "error_type": "provider_http_error",
+  "retry_index": 0,
+  "raw_sha256": null
+}

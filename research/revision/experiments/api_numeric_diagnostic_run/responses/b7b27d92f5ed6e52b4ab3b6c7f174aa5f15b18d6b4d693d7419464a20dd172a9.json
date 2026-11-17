@@ -1,0 +1,41 @@
+{
+  "job_id": "b7b27d92f5ed6e52b4ab3b6c7f174aa5f15b18d6b4d693d7419464a20dd172a9",
+  "query_id": "PH-8a39a7b567980091d11e",
+  "group_id": "cd7bbe04d4e4613066305c9d72d5577fa56666484e294308a444e76b7d22cda1",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "a5dcb1f61b2a72ade1b528579a0df81bde038127dc5190611fe35cd6f8d48577",
+  "retrieved_ids": [
+    "PH-0516165adc34a3b00b33",
+    "PH-fcd36dc09c74c3df8103",
+    "PH-646826a3737fd267bc78",
+    "PH-1d0447f491f228926114"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_7a30bb0e4ee74973b27d08b98c44c700",
+  "wall_seconds": 0.4964972380003019,
+  "raw_sha256": "99dc86155297a71f84bcc4832e06c984a3e52050c41c738b8e96dc53f7b8f9d6",
+  "output": "یادتان باشد رمز عبور باید دست‌کم ۸ کاراکتر باشد.",
+  "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 18,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L7ELtGZokPEiUC6QETc3EwI9B2",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001516"
+}

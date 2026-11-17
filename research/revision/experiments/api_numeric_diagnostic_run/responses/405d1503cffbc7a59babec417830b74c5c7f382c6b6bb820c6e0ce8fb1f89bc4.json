@@ -1,0 +1,36 @@
+{
+  "job_id": "405d1503cffbc7a59babec417830b74c5c7f382c6b6bb820c6e0ce8fb1f89bc4",
+  "query_id": "PH-bb50cf4494ea830497e2",
+  "group_id": "d77ceeb0e43ffb074ff9e2b66753b1d19f1752c8d41da397a96f01008727532f",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "f3073b0514e5624e930448cba6a90dcc4076a325f63455c26249d5969a76f511",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e4a83711b73a46aa84a7f289f6a810bd",
+  "wall_seconds": 0.6663531809999768,
+  "raw_sha256": "e4b578beca90f5ae5c5eb05d9b24524462fa9e52a6b8df8ecf9f4998997a53b2",
+  "output": "این آبشار از ارتفاع ۲۰۰ متری به پایین می‌ریزد و در این منطقه بی‌نظیر است.",
+  "usage": {
+    "prompt_tokens": 174,
+    "completion_tokens": 27,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8KxjpColz9qL5z7QCnDeb06uU1o",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001128"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "37698e9c845f86625ee3e5b11ec6e08312cf738051383183aea0e8c68dfa1f4c",
+  "query_id": "PH-50d26605f173b7ca69c4",
+  "group_id": "4107b46f83eeb80ee12a559534bf6dd2740c437f14de2914bdbda97b2810c703",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "df20fac0507a0a8b341de76b3d7ccbfa16de52a2669ad6939a607887877d13f2",
+  "retrieved_ids": [
+    "PH-a4222def82af07dcc376",
+    "PH-94db4a0b6da3ab975a40",
+    "PH-3c8be571ad7cce880e98",
+    "PH-05a1be318404279ddedd"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_90331ec984214b5983a84ea45d97de36",
+  "wall_seconds": 0.65838148200055,
+  "raw_sha256": "0bf9e4be8208fc4e3c405a080a270346a53dc002e2fa7cbd6afadba3311ee3f0",
+  "output": "ارزیابی ریسک قبل از اجرای پروژه لازمه.",
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 12,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IhvkX3DJrWRs2LYbLIk1DO6LJy",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000528"
+}

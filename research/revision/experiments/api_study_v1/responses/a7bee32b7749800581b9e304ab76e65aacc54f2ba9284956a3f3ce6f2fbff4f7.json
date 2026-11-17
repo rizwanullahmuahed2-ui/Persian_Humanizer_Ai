@@ -1,0 +1,36 @@
+{
+  "job_id": "a7bee32b7749800581b9e304ab76e65aacc54f2ba9284956a3f3ce6f2fbff4f7",
+  "query_id": "PH-6b72ddb3444518e6dec5",
+  "group_id": "7cbc52ad0cafe235cd369203622c4c79d5b09cb9d6946f9272aa1b49968b17ee",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "7238d56a5dbbe7fbfe6b32817d9b8e545babda18440292ee7736d8fc5f79eb02",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_f9e40f7135c343f69a07e6f6d8450789",
+  "wall_seconds": 0.6664134330003435,
+  "raw_sha256": "e6a3b77c4859155b05971edc9b0e3a43cda7c987f827397d97caf97f3f806d1e",
+  "output": "این قرارداد از تاریخ امضا به اجرا درمی‌آید.",
+  "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 12,
+    "total_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GTTp0bQi30EjsPzO5JdBcgZ8Z0",
+  "system_fingerprint": "fp_2e6da7a440",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000844"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "e7a79d75e4a4db07e78b66dacf00208bd88603edd37e04ca9ce93e39ad38a8b2",
+  "query_id": "PH-32110bcb1605f2b54fdc",
+  "group_id": "7dd6b3c5f4ca86a035c5efb107f645725b596b8bfc434ff6205502bc1026219a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "b6ea2e398e9d105c0459ff60b071af35efa42b1393d12573e97305662bd53ec6",
+  "retrieved_ids": [
+    "PH-816f84a04017feeb8358",
+    "PH-aa9e839f36e3d1e7c832",
+    "PH-affba771239101d82802",
+    "PH-df6786929035124a2df1"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fa6ffc93ddb34421a22336d0f84fba57",
+  "wall_seconds": 0.6717625339997539,
+  "raw_sha256": "8f54f885747da06de3b16907465daedc336ae046aef081d5e80a9e49312a8bd0",
+  "output": "آموزش pipeline به صورت parallel روی چند GPU اجرا می‌شه.",
+  "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 16,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HlDPrKLhsjScW4eHhm2oBsyHZs",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000591"
+}

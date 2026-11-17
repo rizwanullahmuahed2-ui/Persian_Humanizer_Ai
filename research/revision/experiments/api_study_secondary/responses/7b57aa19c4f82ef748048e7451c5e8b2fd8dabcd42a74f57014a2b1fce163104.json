@@ -1,0 +1,41 @@
+{
+  "job_id": "7b57aa19c4f82ef748048e7451c5e8b2fd8dabcd42a74f57014a2b1fce163104",
+  "query_id": "PH-f3b2b088dccaeabbc9a1",
+  "group_id": "36d55a99c465c38510f0810b2dd59736e879a1fbbd257af9e94403e6ac833656",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "27dced3a67aa1a27b12236f187c68fbb53a62cb04f33d43e59a4ad12ba1cb5db",
+  "retrieved_ids": [
+    "PH-04600ef8d651bbfc0b82",
+    "PH-a9df045d402f618d79c9",
+    "PH-02009508475d3799e340",
+    "PH-7b6e80e015d626ffaf44"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8e21a5dec1334c65b8d06da6e2d4d473",
+  "wall_seconds": 0.6456346859995392,
+  "raw_sha256": "bfd87672ce7a70673ad9f78956eab87800b6f7c9f8d0ea813d9a78248cb7d64a",
+  "output": "این تصمیم با نظر کارشناسان گرفته شده است.",
+  "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 10,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Iq2sCPo1wyM8kvbhF1g5ip9Sbz",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005775"
+}

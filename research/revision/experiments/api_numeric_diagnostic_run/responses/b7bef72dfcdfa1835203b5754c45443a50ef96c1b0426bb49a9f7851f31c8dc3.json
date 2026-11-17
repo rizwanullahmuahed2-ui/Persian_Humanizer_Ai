@@ -1,0 +1,41 @@
+{
+  "job_id": "b7bef72dfcdfa1835203b5754c45443a50ef96c1b0426bb49a9f7851f31c8dc3",
+  "query_id": "PH-ca09d497fc0cd223d4da",
+  "group_id": "eebd82c60fc81656a8ca60eacb77c85f7e64971bdb1f0ff2fe52298aae1a9527",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "a6c1743d83af5f5cfece8dbf3d748a51a7e4dfe5139eb7c64dda23f8b3273f9a",
+  "retrieved_ids": [
+    "PH-687d966f81595bf54b13",
+    "PH-8a53d7ca3821b8c8e54c",
+    "PH-3828f3d9d5c5967532c1",
+    "PH-91b8484c2ac15d5eb25f"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_6f3876f0627744dd99d6325862efdccb",
+  "wall_seconds": 0.8292571720003252,
+  "raw_sha256": "fca6a1f5b9afbffe2b958fc62e42f8c64620d36ad8fe99ff3c773788d3a1153e",
+  "output": "این باغ بوتانیکال بیش از ۵۰۰۰ گونه گیاهی رو در خودش جای داده.",
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 21,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8L7LNjQu0gslRuujg1wB1RDn2rg",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001592"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "d53cdef024bfba7dbef8868894e8eb92fcd82265c1d4c298f8681a746d013d0c",
+  "query_id": "PH-55f828639128b7707d13",
+  "group_id": "d20834a76b301679f615bd06bc8d5c53d7c57c2470f80d814bc6b52aaf6e00f4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "bba28d5194aedad9238bd5dad046554d18ccfb4f768d707f6acffbe45aae651f",
+  "retrieved_ids": [
+    "PH-0d3aafe9a618752a4a6d",
+    "PH-3f0b0bcf271287953253",
+    "PH-13b06281615a2d88d09e",
+    "PH-d262aeb8de51290dd7dd"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9fe0dcc236fe47ae808c4ee9eaa0456d",
+  "wall_seconds": 0.5746832610002457,
+  "raw_sha256": "b881fb636fbfec899b05bb44d2775de46cc3ce1794b2bd7164b1e2fbc9caab72",
+  "output": "تأثیر متقابل دو متغیر معنی‌دار بود.",
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 16,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Gg4sPnjWW6edUf39Lr3kU7qa3L",
+  "system_fingerprint": "fp_8ae134a61e",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001564"
+}

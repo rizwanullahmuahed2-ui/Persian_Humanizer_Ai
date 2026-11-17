@@ -1,0 +1,38 @@
+{
+  "job_id": "aadf9efc93b7eefaee8eea6168269e3b7d651992268277e5d530f58e8747e293",
+  "query_id": "PH-ca83087a8d9a1f2f0eb2",
+  "group_id": "55a5295f74079b6766ef468b6c7b8176df383620b1fc31164fef42e1c587b3dc",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "c173253a02003bfd2f71fd096e241d8645f153ef53a9f40a013efabcf1480a2e",
+  "retrieved_ids": [
+    "PH-9c61b6eb5250cab165af"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_3df74ef07a9b4ba0a1e396ac65b2e3ce",
+  "wall_seconds": 0.987658349999947,
+  "raw_sha256": "709470ce3a743495f1cc5fb21a8d9a005809a604db3fa05a7fb4a3dbd44d4404",
+  "output": "این بلاک‌چین از اجماع اثبات سهام (proof-of-stake) بهره می‌برد.",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 24,
+    "total_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IByWLzTFYi6YZeWiQax9YiUyYS",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00004395"
+}

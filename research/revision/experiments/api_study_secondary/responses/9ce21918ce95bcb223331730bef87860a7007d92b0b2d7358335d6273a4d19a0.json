@@ -1,0 +1,41 @@
+{
+  "job_id": "9ce21918ce95bcb223331730bef87860a7007d92b0b2d7358335d6273a4d19a0",
+  "query_id": "PH-203fe93509fe0b8468d9",
+  "group_id": "a3d187fccceaa75489ce0cbd0520be6378ce823d54d8187820a7f0f88f4b6603",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "bf44682a2d946c04fb327432343db5f7d33d50e91d0d55353b872a32f5101b71",
+  "retrieved_ids": [
+    "PH-41bab80407a5b299db43",
+    "PH-534964ec1456fbc2b4de",
+    "PH-7f5235002a647c7acb8f",
+    "PH-5f0265f3acf9fda8de07"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c13da78f842c4c4d99e0de87089391ed",
+  "wall_seconds": 0.6076998170001389,
+  "raw_sha256": "75efa4b873fca6d0f16b10a7521709338035b5806c117983a68a4ad8641c7157",
+  "output": "این دوره فقط چند روز دیگه باز می‌مونه.",
+  "usage": {
+    "prompt_tokens": 330,
+    "completion_tokens": 13,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IvjhyeJvwWDUo0BM3Y0y749Yg8",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000573"
+}

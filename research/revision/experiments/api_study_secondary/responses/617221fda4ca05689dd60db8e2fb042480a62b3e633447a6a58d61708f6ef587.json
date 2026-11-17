@@ -1,0 +1,41 @@
+{
+  "job_id": "617221fda4ca05689dd60db8e2fb042480a62b3e633447a6a58d61708f6ef587",
+  "query_id": "PH-914c8c6906577793a2f9",
+  "group_id": "77ad1472733f3d193d3769b5648ccee4c59f36f52e70f02390d2f4b07b9bf2ba",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "5bdd11790d5c192f79846fd63b626e6a16b3e718f82adbc3f7c95a4e016d9687",
+  "retrieved_ids": [
+    "PH-5daff3b1e9707dbcf564",
+    "PH-ab9369baaf28affc20f4",
+    "PH-7ddec3b6987e73b2ed77",
+    "PH-28c45d9c8cf38904e84b"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_41499579aaa94e02bc602327b075350c",
+  "wall_seconds": 0.6346920579999278,
+  "raw_sha256": "30fadd35c22288816bde4c4f61424e6f9f394116123136b68ebe553d8ec1dcf6",
+  "output": "این کتاب آموزش گرامر ساده و کاربردی‌یه.",
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 13,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IIcK7TJkAwYXhntPtJK4dPqU8d",
+  "system_fingerprint": "fp_3b065d97a6",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005325"
+}

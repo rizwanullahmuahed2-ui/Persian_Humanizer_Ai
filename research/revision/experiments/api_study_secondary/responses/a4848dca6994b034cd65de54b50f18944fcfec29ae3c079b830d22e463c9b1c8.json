@@ -1,0 +1,41 @@
+{
+  "job_id": "a4848dca6994b034cd65de54b50f18944fcfec29ae3c079b830d22e463c9b1c8",
+  "query_id": "PH-eb8c4922d464784f8131",
+  "group_id": "2ea03b15b1b2828645ad4a838195e12961f7c24047ebd6331574a3ad6b06e6f7",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "5380d65a80fc2bfe240fdf68c1b248fd849a9fac0019c2fba45cf72f8c96a096",
+  "retrieved_ids": [
+    "PH-c2760b9f3f89afbc098b",
+    "PH-a7cb1b338638f5ff8203",
+    "PH-4b0f1ea0bfb2d1bdd343",
+    "PH-00db39c918df5c855bb3"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_3ad0259c21c04e29ba798a82bf7f97b4",
+  "wall_seconds": 0.8856834270000036,
+  "raw_sha256": "84e0591339602ac4fbcf4ba35f8be7115fe99f5c502041450590f2a2ce6a59b1",
+  "output": "برای اطمینان می‌گوییم که همه چیز در نظم و ترتیب است.",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 18,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HmopHKwzcajVNmSlTEmZbTNVak",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006045"
+}

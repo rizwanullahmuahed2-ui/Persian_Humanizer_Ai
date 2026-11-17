@@ -1,0 +1,167 @@
+{
+  "commit": "feb0f282430b13277c43dd32ca93ceec13c837df",
+  "full_rows": 3511,
+  "full_unique_pairs": 3511,
+  "full_unique_ai": 3505,
+  "train_rows": 3322,
+  "train_unique_pairs": 3322,
+  "train_unique_ai": 3312,
+  "train_rows_not_match_full_pairs": 130,
+  "full_rows_absent_from_train_pairs": 319,
+  "pair_set_intersection": 3192,
+  "full_styles": {
+    "casual": 1702,
+    "friendly": 174,
+    "concise": 63,
+    "technical": 181,
+    "medical": 18,
+    "environmental": 25,
+    "financial": 15,
+    "persuasive": 146,
+    "legal": 15,
+    "nostalgic": 142,
+    "poetic": 69,
+    "empathetic": 147,
+    "motivational": 135,
+    "journalistic": 64,
+    "simple": 357,
+    "calm": 115,
+    "sarcastic": 11,
+    "legal_simple": 15,
+    "financial_simple": 15,
+    "medical_simple": 15,
+    "humorous": 57,
+    "formal": 30
+  },
+  "full_transitions": {
+    "formal_to_casual": 1581,
+    "formal_to_friendly": 75,
+    "formal_to_concise": 63,
+    "formal_to_technical": 180,
+    "casual_to_casual": 6,
+    "semiformal_to_casual": 65,
+    "casual_to_friendly": 99,
+    "technical_to_casual": 25,
+    "casual_to_refined": 10,
+    "casual_to_semiformal": 20,
+    "casual_to_persuasive": 99,
+    "casual_to_nostalgic": 142,
+    "formal_to_persuasive": 47,
+    "formal_to_poetic": 50,
+    "formal_to_empathetic": 35,
+    "formal_to_motivational": 15,
+    "formal_to_journalistic": 59,
+    "academic_to_simple": 88,
+    "angry_to_calm": 85,
+    "casual_to_sarcastic": 11,
+    "legal_to_simple": 50,
+    "financial_to_simple": 55,
+    "medical_to_simple": 90,
+    "formal_to_nostalgic": 1,
+    "formal_to_environmental": 10,
+    "casual_to_empathetic": 112,
+    "casual_to_poetic": 19,
+    "casual_to_motivational": 120,
+    "poetic_to_simple": 30,
+    "casual_to_journalistic": 5,
+    "casual_to_environmental": 5,
+    "casual_to_medical": 5,
+    "casual_to_financial": 5,
+    "casual_to_legal": 5,
+    "casual_to_humorous": 57,
+    "environmental": 75,
+    "medical_to_casual": 10,
+    "legal_to_casual": 26,
+    "financial_to_casual": 10,
+    "casual_to_calm": 29,
+    "casual_to_simple": 4,
+    "casual_to_concise": 3,
+    "casual_to_formal": 30
+  },
+  "full_blank_ai": 0,
+  "full_blank_human": 0,
+  "full_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f",
+  "train_sha256": "5912bad86aafd30efe4a2c98e34111756299fdb6dd7e2478cbade73f3d07d6ca",
+  "sqlite_indices": [
+    {
+      "path": "data/chroma_db/chroma.sqlite3",
+      "sha256": "966fea1a504db8d5cf07c87e75bbe92f0ecf18de190fb6fbde924a9bcccb6dda",
+      "collections": [
+        [
+          "ba1c141e-2e4a-478c-9d56-f6994248f12c",
+          "langchain",
+          384,
+          "{}"
+        ]
+      ],
+      "collection_metadata": [],
+      "embedding_count": 383,
+      "metadata_rows": 383,
+      "unique_metadata_pairs": 383,
+      "metadata_pairs_absent_from_full": 0,
+      "metadata_rows_present_in_full": 383,
+      "document_equals_ai": 0,
+      "document_contains_both_ai_and_human": 383
+    },
+    {
+      "path": "data/chroma_db_v2/chroma.sqlite3",
+      "sha256": "992295900d1512b95631d82673f4dd613e103b545081d48d5d42b60ea3e0f7c2",
+      "collections": [
+        [
+          "fff1e449-2fc4-4b6b-9500-159f0fee2cfc",
+          "langchain",
+          384,
+          "{}"
+        ]
+      ],
+      "collection_metadata": [],
+      "embedding_count": 1265,
+      "metadata_rows": 1265,
+      "unique_metadata_pairs": 1265,
+      "metadata_pairs_absent_from_full": 113,
+      "metadata_rows_present_in_full": 1152,
+      "document_equals_ai": 1265,
+      "document_contains_both_ai_and_human": 1
+    }
+  ],
+  "git_history": [
+    {
+      "commit": "feb0f282430b13277c43dd32ca93ceec13c837df",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    },
+    {
+      "commit": "3d0212f24b103e6197429450575fd8eddcbf0b92",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    },
+    {
+      "commit": "4c12ae0cc3efb406a1162ab17e313c877d0d60c9",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    },
+    {
+      "commit": "37d73d135737de2c85adac8f7481a5e08940aedf",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    },
+    {
+      "commit": "9542faa797623b4f08df63c2f5bf6369217a7591",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    },
+    {
+      "commit": "ca8d46cad46028e23281e9397dc20ccdc2dad6fb",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    },
+    {
+      "commit": "0b11bf1d67470cb9dbe4556f30a20f47a651e9c7",
+      "corpus_rows": 3511,
+      "corpus_sha256": "44e9912ce119bf5014165087af10b5ad7ce675ef8e3c17e90cd9031cecf8d39f"
+    }
+  ],
+  "paper_pdf_sha256": "88e5a8f5ef5025d4452e297fd91f29a97382f1be1440d44efb9472c7106ae8c3",
+  "uploaded_pdf_sha256": "88e5a8f5ef5025d4452e297fd91f29a97382f1be1440d44efb9472c7106ae8c3",
+  "supplied_pdf_matches_repository": true
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "d936f233892480a5a7f66d8fabbd784eba5f348ccf75819e2409b848549ef84e",
+  "query_id": "PH-c77b21b3af14e7f13b04",
+  "group_id": "a709d5516a54db86c37c647f21f47f12d35a696e4a9149576478d1b22538f312",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "bcd824e96211b946a5c3bd4ec2356bf979173721a33f40fa7820f659d6bb31d9",
+  "retrieved_ids": [
+    "PH-809691e82a605b93f907",
+    "PH-b131f663a7ae3a148193",
+    "PH-817bf5083c06e7cf1b95",
+    "PH-0f2c935f8554a7f701ef"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fba38046e28d4bfe9dbb42fb0b3c4cda",
+  "wall_seconds": 0.877038124000137,
+  "raw_sha256": "7948e90355d82e0e910d5ad2e4e83e4ac494cea69d781532594687f862ec1cdd",
+  "output": "ساعات کاری مرکز به ۸ تا ۱۷ تغییر کرده است.",
+  "usage": {
+    "prompt_tokens": 336,
+    "completion_tokens": 15,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8KuoLPnWybXxD0NGTkW0LMTJfgL",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001584"
+}

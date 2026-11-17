@@ -1,0 +1,41 @@
+{
+  "job_id": "fda40c7bb6e1fc7c082bb627424f678706bfc7ab1f071c35330ae78c1c364348",
+  "query_id": "PH-c50f86cbb162df53f5b9",
+  "group_id": "e3f7a6acd45538d05f0dc6e5020ab9d420f93112c914ab570a0e375ad6f0c094",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "a70efd3f091e6d1fec0fd9b2d8c1852a6c97e994514c180f87a71689527eec04",
+  "retrieved_ids": [
+    "PH-3a75da570b4df2ea581e",
+    "PH-323837a59624a8e4de0e",
+    "PH-c527f817d06a2c819d8b",
+    "PH-df7d2d2deb2dba665ca2"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1b63e621df3b4a0cad515397cc6f73d9",
+  "wall_seconds": 0.8496254410001711,
+  "raw_sha256": "cca5a1c0aed9d9f4876416dcfd2e47c324504031a598495a7634350c5f0ffa45",
+  "output": "این سیستم از reinforcement learning با استفاده از بازخورد انسانی بهره می‌بره.",
+  "usage": {
+    "prompt_tokens": 318,
+    "completion_tokens": 18,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IDlmAMgdaEY60sMZKiRHMhxtSM",
+  "system_fingerprint": "fp_b4300b0f11",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000585"
+}

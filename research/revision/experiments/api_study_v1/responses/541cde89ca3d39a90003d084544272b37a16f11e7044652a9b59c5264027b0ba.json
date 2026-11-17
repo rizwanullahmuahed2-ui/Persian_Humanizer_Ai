@@ -1,0 +1,41 @@
+{
+  "job_id": "541cde89ca3d39a90003d084544272b37a16f11e7044652a9b59c5264027b0ba",
+  "query_id": "PH-8853e2d82abc91dc4746",
+  "group_id": "2b28ace65e68d2198a277341975728c8989ce0c5d5e67a24f0c99bae63bcd24e",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "bc0f0f07044b75f766b408aabf3c1aec7c45b024fe0ce45fe06030a33508eeb4",
+  "retrieved_ids": [
+    "PH-5b21adb1e3bb3194abc3",
+    "PH-388e51c925b205dd69e7",
+    "PH-ad9ed7a73d3fc1b84e96",
+    "PH-6482a451714870ff6fbf"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5666cf61ac514dd98ef363b648485a89",
+  "wall_seconds": 0.5463621359995159,
+  "raw_sha256": "7a9a87b36e9d1e7e71dcd6eb44e9deca17e6ab32f0576a873e131ea38e3aca5e",
+  "output": "هوا بوی بهار می‌دهد.",
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 9,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GEpGXZOWAdAZhCJI7IbNUq2OYf",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001396"
+}

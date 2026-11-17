@@ -1,18 +1,27 @@
 {
   "title": "Design and Development of a Retrieval-Augmented Generation-Based Persian Text Humanization Chatbot Using Large Language Models",
-  "authors": [
-    "Rizwanullah Muahed",
-    "Abdul Awal Quraishi"
-  ],
   "affiliation_as_printed": "Department of Computer Science, Kabul Polytechnic University, Kabul, Afghanistan",
   "file": "Persian_Text_Humanization_Paper.pdf",
   "original_upload_filename": "Persian Text Humanization Paper(1).pdf",
   "pages": 21,
   "sha256": "88e5a8f5ef5025d4452e297fd91f29a97382f1be1440d44efb9472c7106ae8c3",
-  "status": "unpublished manuscript, as reported by the project owner",
+  "status": "historical supplied PDF; superseded by research/current/Article.pdf",
   "manuscript_date": null,
   "publication_venue": null,
   "doi": null,
   "pdf_modified": false,
-  "notes": "Title, author order and affiliation transcribed from the first page. No date, DOI or venue inferred from PDF metadata or cited references."
+  "notes": "The old PDF bytes and printed byline are preserved as historical evidence. The author explicitly corrected current authorship: Rizwanullah Muahed alone. Abdul Awal Quraishi is the instructor and report recipient. Use current/Article.pdf and CITATION.bib for the current revision.",
+  "authors_as_printed_in_historical_pdf": [
+    "Rizwanullah Muahed",
+    "Abdul Awal Quraishi"
+  ],
+  "current_author": [
+    "Rizwanullah Muahed"
+  ],
+  "instructor_and_report_recipient": "Abdul Awal Quraishi",
+  "instructor_is_coauthor": false,
+  "current_revision_metadata": "current/metadata.json",
+  "authors": [
+    "Rizwanullah Muahed"
+  ]
 }

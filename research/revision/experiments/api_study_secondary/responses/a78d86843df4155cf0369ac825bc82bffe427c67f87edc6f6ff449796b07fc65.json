@@ -1,0 +1,36 @@
+{
+  "job_id": "a78d86843df4155cf0369ac825bc82bffe427c67f87edc6f6ff449796b07fc65",
+  "query_id": "PH-61f360b0d147fd71ba91",
+  "group_id": "5ed0d0b25328d62c3e7fb12b21b926aa6f3fac0c725058dfd40628d7afddab17",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "07012778bd660c88d6d581b78a0cdcbf46d23f6c09f1bfb8805aeaf131becd5a",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_104bcd2f3423453b8185482fb054fb96",
+  "wall_seconds": 0.6170159009998315,
+  "raw_sha256": "c1c09f2166baba14857d9d5fb817d6534427975a8fc8239698827e084d07468c",
+  "output": "اینترنت خانه‌مان ضعیف است.",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 10,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ISFkpcr1xUOl2hIGLB65DDteLa",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00002985"
+}

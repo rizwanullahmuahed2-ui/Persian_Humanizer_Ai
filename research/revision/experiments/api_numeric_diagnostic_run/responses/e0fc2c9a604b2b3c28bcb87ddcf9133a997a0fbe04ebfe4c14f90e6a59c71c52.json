@@ -1,0 +1,36 @@
+{
+  "job_id": "e0fc2c9a604b2b3c28bcb87ddcf9133a997a0fbe04ebfe4c14f90e6a59c71c52",
+  "query_id": "PH-064ac47c7104b622b230",
+  "group_id": "efc538971a436ca4be6de40d913548e75c9b5821333ffe95aead5b5daa381e7a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "ebb4b076562bdb0ab8a231989d23090b7dbc027b22051a5e4aadc0418f41044b",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_aee923f698db40598b9b26eb111a2d32",
+  "wall_seconds": 1.1612131149995548,
+  "raw_sha256": "87b4f4b8e133490480d874bd840a32d00ee45d8e4e03904fbb5d1de60c1ca465",
+  "output": "پشتیبانی ۲۴ ساعته ما همواره آماده پاسخگویی به شماست.",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 20,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Kv8vqFHtxAb3J2HgItXmQnUSt9",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003675"
+}

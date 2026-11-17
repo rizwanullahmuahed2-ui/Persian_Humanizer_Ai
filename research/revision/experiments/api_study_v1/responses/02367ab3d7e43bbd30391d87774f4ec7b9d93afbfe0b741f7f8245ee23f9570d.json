@@ -1,0 +1,41 @@
+{
+  "job_id": "02367ab3d7e43bbd30391d87774f4ec7b9d93afbfe0b741f7f8245ee23f9570d",
+  "query_id": "PH-bbdc661727cf3623e306",
+  "group_id": "2a8a4ffcdfd9e9b1e6ec93d343317a3b0d7833f1243ee5c009a4c9c0f3650a51",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "3b851f34e0fc51a4d24c9d426e7f8be2c5814d5d39fa029f789dd7cc0e271ca7",
+  "retrieved_ids": [
+    "PH-c59ce9dc5ffc5db1d792",
+    "PH-01d05a72dae3f7bb3e0a",
+    "PH-add80e7de236fc58bbe0",
+    "PH-cba78fffe6b8df87ff07"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_536f5135d3b94c718e52b304c2d31452",
+  "wall_seconds": 0.5673235579997709,
+  "raw_sha256": "99631b05a23130e7f7dea123891fc7c67f46ee29b578fd932c4f9033e54a5bf3",
+  "output": "کود شیمیایی ممکن است آب‌های زیرزمینی را آلوده کند.",
+  "usage": {
+    "prompt_tokens": 340,
+    "completion_tokens": 17,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G9NmkHmmzMfbmVYergOtuxLSUP",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001632"
+}

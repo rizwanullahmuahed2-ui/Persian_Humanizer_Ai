@@ -1,0 +1,36 @@
+{
+  "job_id": "72740cae29d625ac01b63152cd15297eeb45de6bcaf79f5caf9a121315194e5a",
+  "query_id": "PH-11654b71a63040e10ae6",
+  "group_id": "627b11f68890c4831e9019d12ea6cce6a49e597e6f434b09bf488a0cfeea75c9",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "49c2fa9db4fdfcbf0e5761bda6c33dcc9a72452036523cb1c1c34adf9616f665",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ce6d289db9bc4928b50cbf20135542ac",
+  "wall_seconds": 0.8321767440002077,
+  "raw_sha256": "5b379b0dd345b9d4705041ec6e4fda6cbb11ec9a9b16d127e8872e94e89b580e",
+  "output": "باد در میان شاخه‌های درختان نغمه سر می‌دهد.",
+  "usage": {
+    "prompt_tokens": 164,
+    "completion_tokens": 16,
+    "total_tokens": 180,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IdOhlrEhbhf4200gjAZTDB2DWE",
+  "system_fingerprint": "fp_48eea167bf",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000342"
+}

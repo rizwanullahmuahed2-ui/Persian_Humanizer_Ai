@@ -1,0 +1,36 @@
+{
+  "job_id": "a28acfb7bf08e4c5a479e66353ba65cbce884c9eedd4ce6c3d8d005f8042ffe1",
+  "query_id": "PH-bbf12ba4801c0577e5d1",
+  "group_id": "f14cc691a26caccb5f2519e84c67908eafa676b61384894d4e0ecd7a19567b0a",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "930f65eca6b424eb2ba924298abbb056b32f15d1bab6ca98509ad141d6acca72",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_3952f7f2100a4b5f8a57f2e40591e1f1",
+  "wall_seconds": 0.6842173119994186,
+  "raw_sha256": "e674897baf35e505ad78c9d70014e52ae57313b78fd5abe4bd9c8aaaf012443f",
+  "output": "گفتگویی دوستانه داشتیم که بسیار سودمند بود.",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 14,
+    "total_tokens": 179,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HmIrOfrAxiPeP2sbTWrmlVgCgx",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003315"
+}

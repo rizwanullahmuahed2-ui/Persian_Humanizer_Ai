@@ -1,0 +1,41 @@
+{
+  "job_id": "867ba6b99e0d8c6c10262a70eaf935992b93a0c2b7666730de4e9e5e03c8b370",
+  "query_id": "PH-ce6fc54871c3d5967c72",
+  "group_id": "2483ac00a4cad671619c504fc504dd45adb344eb5b09f0975049e28b26cb3e0c",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "749770dfb8f63868624380e0e864c23d7bf008360cd044316636bf9d43ba43bb",
+  "retrieved_ids": [
+    "PH-7b92ae42cb862860ed3a",
+    "PH-797092ec3215cea58603",
+    "PH-3460102188dc013d3002",
+    "PH-db2003276c95f7d9e808"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_e49b5f8f1ee04bf79e7973ed0c5b7876",
+  "wall_seconds": 0.5131656980001935,
+  "raw_sha256": "ce23af1fd8ee16062a7ff53c6be7cb78bae8dde4c7bbedca992b3715c912169d",
+  "output": "این روزهای سخت به من یاد داد که صبور باشم.",
+  "usage": {
+    "prompt_tokens": 347,
+    "completion_tokens": 14,
+    "total_tokens": 361,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GoSdrnua6YJrEQtVet9fUNgohu",
+  "system_fingerprint": "fp_6120065823",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001612"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "8959fdf7193aeb9d997f16859d0e357d3ecebf392245738d29b5767645777435",
+  "query_id": "PH-d9aba8e8e6314fd1cd32",
+  "group_id": "ab1244815f6b56d8aeb1ffdd616e096f262656bc95e9bb910b5809a10a7b9958",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "e1240bbb9b064e4170e8096a62ee9c5919ddde542720461b79c6ad374afaed3f",
+  "retrieved_ids": [
+    "PH-3216ea3063c1d263af06",
+    "PH-e40e9e41b8f8d0e23a79",
+    "PH-7f5235002a647c7acb8f",
+    "PH-630f199ee5ad604a6200"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_fc2947b9bcde41f6939ce5c3d2f0a117",
+  "wall_seconds": 1.0157002949999878,
+  "raw_sha256": "1cf93a8ed2c1b4b7a01a0b90eb8a74c6cb7debe450d3e808366df5d55e9238da",
+  "output": "کسی که به آرامی پیش می‌رود اما هرگز توقف نمی‌کند، پیروز است.",
+  "usage": {
+    "prompt_tokens": 338,
+    "completion_tokens": 21,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Ic7TvTxVwcNobLIgAjH4yyciBQ",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000633"
+}

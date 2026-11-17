@@ -1,0 +1,41 @@
+{
+  "job_id": "9e8d4190c6821d154defcf9c6dcf2c6f2616ebc0c27458f5aa39bb2e8efb7469",
+  "query_id": "PH-7e04cdf89607e8d78219",
+  "group_id": "ad0e675e655de8c75ec1930294b4b63d988e50276cc4d0926497fdea9965c9bb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "3de4c26a086095db22d4568173acb4a7bda13f2f91a58182fde720596637a94b",
+  "retrieved_ids": [
+    "PH-8670f1d5049efd26f54b",
+    "PH-c40e746e083936fad8ad",
+    "PH-c6a0a2572b9d0f587c43",
+    "PH-f52300e6fa0140cb2eec"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a62797c3f8c044ae974f25f455bce21f",
+  "wall_seconds": 0.7530954509993535,
+  "raw_sha256": "aa2be5273b32213dc67de27633e9c540c8805e6517d277b6cf0646f948dd0dba",
+  "output": "این آژانس مسافرتی تورهای خاصی ارائه می‌کنه.",
+  "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 17,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IKrUIgVBATW2VovNwz0EHNdXNV",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000561"
+}

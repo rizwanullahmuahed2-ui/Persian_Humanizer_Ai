@@ -1,0 +1,36 @@
+{
+  "job_id": "4549cc5685e52c755aa699351abe2713fc772506828a23142a842825b7ff07c0",
+  "query_id": "PH-6b3afdae576f83bc3b66",
+  "group_id": "f3435160e8364b9d669b83f1d8bd4624c02d6fe5b9872bb09a334bc65560f1c8",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "68f5698f84c2649b0f311417638544419b920959ea449038beda5847f6ec24ac",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a6e4cd39520a47469264c5bc437db3fe",
+  "wall_seconds": 0.5643894269996963,
+  "raw_sha256": "957dd04c68e98d2e2c9ef77e583daccad1568aa71bdb68b714c84c58649cd272",
+  "output": "امروز از دیروز بهتر باش.",
+  "usage": {
+    "prompt_tokens": 157,
+    "completion_tokens": 8,
+    "total_tokens": 165,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HrJHbvE1UKBCVi6B7wW1qzk4VG",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00002835"
+}

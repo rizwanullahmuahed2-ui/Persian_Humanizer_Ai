@@ -1,0 +1,38 @@
+{
+  "job_id": "d937bc4a95d54620bee1585b91aaa75e63dfe374896f3bf2d1a00c35930ccbb0",
+  "query_id": "PH-b7d259fa4a30849b23f1",
+  "group_id": "e1d35bb6f3af6eb14913525bcc3b3e6e19802145c267dd080232090194efeebd",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "054f829e8b5dfb0f31771076696f6f733a39cb1aff48a8ad7476dac5e4e9df06",
+  "retrieved_ids": [
+    "PH-3216ea3063c1d263af06"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_7ced01a516d64a2ea87f58c755b4085d",
+  "wall_seconds": 1.2439530000001469,
+  "raw_sha256": "2e992426ae9a5851b90518a127fe646a12cb4d0809f609ac60ab7e58a0f20ab7",
+  "output": "دیگران می‌گویند که نمی‌شود چون خودشان امتحان نکرده‌اند.",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 18,
+    "total_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HjLUtxnuxd8OfeQKE7FZQx942a",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00004095"
+}

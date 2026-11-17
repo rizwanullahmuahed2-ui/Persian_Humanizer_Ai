@@ -1,0 +1,41 @@
+{
+  "job_id": "ea525de44086ad7cef777d67ac94aef4bda7ccf2c4e6e36fbed8be726ee8ad9f",
+  "query_id": "PH-eb8c4922d464784f8131",
+  "group_id": "2ea03b15b1b2828645ad4a838195e12961f7c24047ebd6331574a3ad6b06e6f7",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "2726440866fda75a74c6ea68c98b7f800804688e83f3ef912c889d4dcf0ab3b8",
+  "retrieved_ids": [
+    "PH-c2760b9f3f89afbc098b",
+    "PH-a7cb1b338638f5ff8203",
+    "PH-4b0f1ea0bfb2d1bdd343",
+    "PH-00db39c918df5c855bb3"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_958ff602ee214c04bfc3c65a15517128",
+  "wall_seconds": 0.5386181449994183,
+  "raw_sha256": "fbfe1aa7cdf8e35f9e021af55d0f68f1f3564ed3d796c42d1bbb2259ddccea3b",
+  "output": "برای اطمینان می‌گوییم که همه چیز درست و منظم است.",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 18,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GDJaBfrgIJbtokF8ohwxbj23rc",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001612"
+}

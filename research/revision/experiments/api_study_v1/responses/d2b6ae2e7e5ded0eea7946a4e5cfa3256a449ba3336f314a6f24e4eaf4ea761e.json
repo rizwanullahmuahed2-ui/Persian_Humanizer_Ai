@@ -1,0 +1,36 @@
+{
+  "job_id": "d2b6ae2e7e5ded0eea7946a4e5cfa3256a449ba3336f314a6f24e4eaf4ea761e",
+  "query_id": "PH-8b3680674afbb2c814ff",
+  "group_id": "ae621cda8b6bff8fa7b05fbd417fcc4ef7b69588bb251be8b5b9ecfdf7cf5e65",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "LLM0",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "414a84868f94a3119cb36642ffda4334decfd06416be866f8c00902fc3f09a6d",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_09538fed97bd4c4abf2258ff6bd5440f",
+  "wall_seconds": 0.9287918459995126,
+  "raw_sha256": "a3e48836254c6181788c589d9fdc667a02a7267b77b98bb66fd947095eb5c6bf",
+  "output": "این تعاونی کشاورزی به کشاورزان خرد یاری می‌رساند.",
+  "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 19,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GiE55SN9D8bOb2lMoidAj2wyzT",
+  "system_fingerprint": "fp_99dbdd3eef",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0000964"
+}

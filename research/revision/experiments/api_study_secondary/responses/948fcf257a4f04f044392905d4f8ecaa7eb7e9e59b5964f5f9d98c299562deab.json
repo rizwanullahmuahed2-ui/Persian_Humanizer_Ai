@@ -1,0 +1,41 @@
+{
+  "job_id": "948fcf257a4f04f044392905d4f8ecaa7eb7e9e59b5964f5f9d98c299562deab",
+  "query_id": "PH-55f828639128b7707d13",
+  "group_id": "d20834a76b301679f615bd06bc8d5c53d7c57c2470f80d814bc6b52aaf6e00f4",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "f3df50a8d2ff866e851779fa6689c97cb64b8bf64f4d8b2b33cbc738b4e21ce1",
+  "retrieved_ids": [
+    "PH-ba50a6488f0d36587a2a",
+    "PH-5df4095215cfddfc964e",
+    "PH-c4a21d39d2e51d715635",
+    "PH-4bc2a7d6c4ba7b79fbb9"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_6c4660e30b4b45dcbeb13341812c2dc9",
+  "wall_seconds": 0.6152722769993488,
+  "raw_sha256": "d542774764f10c5f6f691a1b98881dbc86da407c30fe313b24e75b20d2ea5603",
+  "output": "اثر تعامل دو متغیر به‌طور معناداری مشاهده شد.",
+  "usage": {
+    "prompt_tokens": 360,
+    "completion_tokens": 15,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IXThIzAitHSVcPGeNibiOE2trC",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000063"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "223fcce09d42084f6d196695c8ecd5d46314dd01c8b1feeb906c4a884626fe83",
+  "query_id": "PH-c2a420ded770379f84c9",
+  "group_id": "c14bb6461ef5d37751b6c1c4a72a27aeebd1838b150874ccf5a518cbac42abdd",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "00df4b12790cd75f451a54f4010ec26319c45b24e587365ba6890a0767de928e",
+  "retrieved_ids": [
+    "PH-92d79dea52d4b5e73f33",
+    "PH-43596feb38c9717f3333",
+    "PH-7ddec3b6987e73b2ed77",
+    "PH-c039dc2b13bc3bee5ca2"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_bec5db2f3694426da701f14155248c98",
+  "wall_seconds": 0.6216454340001292,
+  "raw_sha256": "04cec2af623a94ae2b66aeee6aac08b05df0f0fbf5bec6d5b00c0e954b3e1af3",
+  "output": "دولت یک برنامه کامل برای کاهش فقر ارائه کرد.",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 12,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GDFJZVme4eNaxoHBYCCOV43nv0",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001516"
+}

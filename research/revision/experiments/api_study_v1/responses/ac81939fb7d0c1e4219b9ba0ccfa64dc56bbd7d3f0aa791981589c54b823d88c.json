@@ -1,0 +1,38 @@
+{
+  "job_id": "ac81939fb7d0c1e4219b9ba0ccfa64dc56bbd7d3f0aa791981589c54b823d88c",
+  "query_id": "PH-32110bcb1605f2b54fdc",
+  "group_id": "7dd6b3c5f4ca86a035c5efb107f645725b596b8bfc434ff6205502bc1026219a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "5d723b2bc0f47d082fad5f5363759c04a78168cb9e2a31ef4e028d55ca1ae205",
+  "retrieved_ids": [
+    "PH-816f84a04017feeb8358"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_0170404ca20a4d95b1e204e1cde90eb3",
+  "wall_seconds": 0.5140630559999408,
+  "raw_sha256": "bb678d0d875455fdbd275b3a5a30ecd007d242071fb2778d65ca3d19ef282a00",
+  "output": "pipeline آموزشی به صورت همزمان روی چند GPU اجرا می‌شود.",
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 13,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FwfIC5SMdkXq11pA3ItRWtyq2Y",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000096"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "0ac5d9a9676c808349078c63030548e51d49de5802575cce288380ff235813a8",
+  "query_id": "PH-914c8c6906577793a2f9",
+  "group_id": "77ad1472733f3d193d3769b5648ccee4c59f36f52e70f02390d2f4b07b9bf2ba",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "69efa3c0e7db4d7aa26973ba47e696cb2a804eb54a71474abde212d3bb0a0ae3",
+  "retrieved_ids": [
+    "PH-aa7e2a35ff85201a87b3"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_bcee35238abc4f97bdf7dcc03518d03c",
+  "wall_seconds": 0.7245788760001233,
+  "raw_sha256": "1405f7d71b146393bdd435aed053fb0a4711dec2ef3eb6b08f54820b7c608c51",
+  "output": "این کتاب یک آموزش گرامر ساده و کاربردی به شمار می‌رود.",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 17,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IYPTHIuHpKHATDPW7svyn81JHp",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00004005"
+}

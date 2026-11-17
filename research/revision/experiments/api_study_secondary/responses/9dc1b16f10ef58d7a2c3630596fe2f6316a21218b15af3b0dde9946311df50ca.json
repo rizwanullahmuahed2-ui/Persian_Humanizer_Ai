@@ -1,0 +1,41 @@
+{
+  "job_id": "9dc1b16f10ef58d7a2c3630596fe2f6316a21218b15af3b0dde9946311df50ca",
+  "query_id": "PH-5926ff114832f0acd792",
+  "group_id": "751331153bf6fa55e932eee12eeb429337323c9c9ca5d2cb2f6b7efa1a15ffd1",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "cb81cedd03371f85b47742b1d01db9c056bfe3496275e1e2766fa7f992765aaf",
+  "retrieved_ids": [
+    "PH-ee44893e680c491b3069",
+    "PH-aa2427fb41c2bcbf92d6",
+    "PH-f73d888d6ba0f11ca791",
+    "PH-a9547790d55d26d5c8ac"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_498d07c7fb5243428e1677a6e3e19736",
+  "wall_seconds": 0.567636298999787,
+  "raw_sha256": "5e3fe964a5a3739183200c638de8f678cb91cc962ce95a4d2f74eaad9fbabb5c",
+  "output": "این کار آسونه، نگران نباش.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 10,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I9PfBlICMzk98i5ofXxBZIANNk",
+  "system_fingerprint": "fp_9483e83037",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000534"
+}

@@ -1,0 +1,38 @@
+{
+  "job_id": "e8313df6b09d3bdeba57adc4177fce8d7925ab910dde084fc1db24ff988d2af4",
+  "query_id": "PH-df40ac6985092026107d",
+  "group_id": "a2bb4172d409b06b2811bc0fb8e1026e05a275ffad5724968ca37494d80890a7",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "bd4e9f4e7b4b09ca59dbea3c25f4adc752b416841928a1277d6e75c56cff6ece",
+  "retrieved_ids": [
+    "PH-dbf5a010039efec0b8a5"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_c77d3031ba7949b6965dbb524bd762af",
+  "wall_seconds": 0.7143974300006448,
+  "raw_sha256": "f73230b63a7f4aa4bf72484207b771321a7bf43cc7534f542df932f3dba6f8e5",
+  "output": "این پیشنهاد تحت محدودیت‌های خاصی قرار دارد.",
+  "usage": {
+    "prompt_tokens": 183,
+    "completion_tokens": 11,
+    "total_tokens": 194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I5xI06iKjApu3r5lgd6c43637Z",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003405"
+}

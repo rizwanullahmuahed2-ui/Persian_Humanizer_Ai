@@ -1,0 +1,41 @@
+{
+  "job_id": "a2ccdf241101a0d092e11c6c49a8ce95e80c5996c2061a7cf9827489188ca1bb",
+  "query_id": "PH-7467ccfaf2c69b93434d",
+  "group_id": "971b28a2108b4fd13d8b4033a7bccfef1d77d8b9e74eb22de992072550718cdd",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "1cd5ef19d7bb37f1a6adeed74be15b0d0d9fd9821ee1bd93d94d3280080846b6",
+  "retrieved_ids": [
+    "PH-81e9f3ec4243742f8375",
+    "PH-bdfb49a741f811fad5a3",
+    "PH-306019a2cf0b87f3494f",
+    "PH-4e3dcc5e5eeace86e847"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_edcc35074b2845a687c53b99ba1d4b18",
+  "wall_seconds": 0.6388542790000429,
+  "raw_sha256": "b746f80e9c70beb46d819f2e850301fb6edee1ff65931d710877533c66c594d7",
+  "output": "خیلی دوست داشتم که بتونم کمکت کنم.",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 13,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HsyC5S4k901KBx3MoLBAbRjp4Q",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005745"
+}

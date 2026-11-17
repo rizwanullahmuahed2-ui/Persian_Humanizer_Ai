@@ -1,0 +1,38 @@
+{
+  "job_id": "ebf918330ea35311d790d13edf005cf88ea424a591635df44ddbe1545afb923f",
+  "query_id": "PH-8b3680674afbb2c814ff",
+  "group_id": "ae621cda8b6bff8fa7b05fbd417fcc4ef7b69588bb251be8b5b9ecfdf7cf5e65",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "43471cba3a7bd362ce32d6ad71c81a5e4307afe69d333543fd6c91c5a2f3c89a",
+  "retrieved_ids": [
+    "PH-069c503acea3ea31b03d"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_35593aa46791432ca44f1499eea44ae6",
+  "wall_seconds": 0.7892518700000437,
+  "raw_sha256": "276153f296b06e6e2e5c07e747d7ccbf5c9d839f2903a506cf79d9be43386b7e",
+  "output": "این تعاونی کشاورزی به کشاورزان کوچک یاری می‌رساند.",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 19,
+    "total_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I9u1cuesP6nXavq1UGb904BYJC",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000417"
+}

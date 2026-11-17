@@ -1,0 +1,41 @@
+{
+  "job_id": "e20544144cd2d6886806ae171a3c95d0b4d728f79dd8f945a7f3ad655c73fdd2",
+  "query_id": "PH-0aaac87d8700c8ec3c66",
+  "group_id": "cdfc10372cc0743b9d7ea698990498568112adc1615ffe431a002a91619b4f6e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "c1d31d9c32caec0f2c5106af163b87d15e8a6e6c237e7f4369bca040d98b2390",
+  "retrieved_ids": [
+    "PH-902765913a109e6dcf8c",
+    "PH-6c5c593a24c4be51a303",
+    "PH-73cad21417bfafa4c2fa",
+    "PH-26c502cc8f256f652f19"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5611753dd3fb44288d8fef95de471c00",
+  "wall_seconds": 0.8270596510001269,
+  "raw_sha256": "013775d98ee9b8c3c3355ad362e2b7d131f3e76778558743a1ff094a7d2953ac",
+  "output": "این موضوع رو با دیگران در میون نذار.",
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 12,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IXSAHNwjFwqYN7AOm0E4I42N6m",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005355"
+}

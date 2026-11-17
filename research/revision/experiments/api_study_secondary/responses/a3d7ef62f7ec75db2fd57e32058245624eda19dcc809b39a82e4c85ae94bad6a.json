@@ -1,0 +1,41 @@
+{
+  "job_id": "a3d7ef62f7ec75db2fd57e32058245624eda19dcc809b39a82e4c85ae94bad6a",
+  "query_id": "PH-766d358e592cdfe5767e",
+  "group_id": "d5e8fbe993b2a2ae1bdf7ff44e084b109fc98d89964951687a27a9cae90c36c1",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "c532d6d4446eb4a170e596c20145ede20e3667d4b67dbc90d0298a53b572763b",
+  "retrieved_ids": [
+    "PH-81af51e25a6b92d2cdd5",
+    "PH-5d52ca646b979f890981",
+    "PH-2926fa70ea3a29ad149a",
+    "PH-3b25dccd8a064464d93c"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_0754b4e891904ed88a0473e44a4fdad9",
+  "wall_seconds": 0.634700874000373,
+  "raw_sha256": "cc1575a47805243200b80d52979016191a38687a7659c3749dec2b2f380b630f",
+  "output": "این تغییر رو با هم مدیریت می‌کنیم.",
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 10,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8ITSimKJb6pxJdCe4U2Kcln96Hn",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005115"
+}

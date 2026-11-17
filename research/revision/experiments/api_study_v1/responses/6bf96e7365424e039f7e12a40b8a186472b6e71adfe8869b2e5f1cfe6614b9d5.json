@@ -1,0 +1,41 @@
+{
+  "job_id": "6bf96e7365424e039f7e12a40b8a186472b6e71adfe8869b2e5f1cfe6614b9d5",
+  "query_id": "PH-5c498645125bf8401e44",
+  "group_id": "2e76547223d346061cab11290104fe531e936eb9c037c6f425852e58ee33c2ed",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "72ffb31fc643236f437236d908b0bcfc5a51a003134d44713a2d2f9aacf31264",
+  "retrieved_ids": [
+    "PH-d8a4ad8ea7dfe4a1142c",
+    "PH-89a448ab55fb942ff420",
+    "PH-68e05569c56474e79fb6",
+    "PH-2908268dde5cd595abdd"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_91154088821247dc8faa9c6d50ef9908",
+  "wall_seconds": 0.8958068360007019,
+  "raw_sha256": "3c119bfeff0fa2a0b5785effd90cf2564fba6f70ab59998fb063023f62940ec0",
+  "output": "اشک‌هایش از خوشحالی بود نه از ناراحتی.",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 15,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GNgaxQA15uJ9PkzgAyours8fzM",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001504"
+}

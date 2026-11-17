@@ -1,0 +1,41 @@
+{
+  "job_id": "b84765fe7c65899557e580227ba5f0f18a4b9609f746879815454fb3e91693fc",
+  "query_id": "PH-9342d2cf54efc4e22a1f",
+  "group_id": "4b8cac92b06e6afb7c1c0c5f1cbc204af14533d0e8dca32b1fbb7958fde8e9a5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "9ca15ea1b52fea80e419d35bb5bfa2a3d830605c1b8a8dba512670e912b44779",
+  "retrieved_ids": [
+    "PH-cb08b78a4199e7ebd55e",
+    "PH-483458cb87ce622f4742",
+    "PH-a0b2584fc7a1c0c53afd",
+    "PH-5bc053522a47fca80279"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9c32c96c38b0437f8de4985f1160a823",
+  "wall_seconds": 0.4950940240005366,
+  "raw_sha256": "442a1c07ca1b0e625732d50671954f9dfc7a114f5cc3c0b65f104778918052bf",
+  "output": "موجودی کالا کم است، هرچه زودتر سفارشتان را ثبت کنید.",
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 20,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Gj1HSvj4zlytGOj0gPXMSYhBYj",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.000158"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "42082f24425400eb889a06188f748d1eca4c7adf3f062dd472a6eddfc74143e4",
+  "query_id": "PH-b7d259fa4a30849b23f1",
+  "group_id": "e1d35bb6f3af6eb14913525bcc3b3e6e19802145c267dd080232090194efeebd",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "95b7f8887648a4dbffc8b270d25c4336c4643d0bc8ad683582fec3e37e70ac0b",
+  "retrieved_ids": [
+    "PH-2cd97d8a1487d93410c3",
+    "PH-2f1c672c3fa6f061811a",
+    "PH-fc5c37dc04405df789c8",
+    "PH-23a03d484955df9f0f92"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a64c959424424309aef066caf93e8878",
+  "wall_seconds": 0.5859879199997522,
+  "raw_sha256": "9044674039b744de82704c74b6c62a593d04924ae630e0dcc34fac539f7f5907",
+  "output": "دیگران میگن نمی‌شه چون خودشون امتحان نکردن.",
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 16,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GUO7fKQizLYbZ3KLvFp81rkhYs",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001584"
+}

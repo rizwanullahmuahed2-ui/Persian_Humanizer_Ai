@@ -1,0 +1,41 @@
+{
+  "job_id": "e256d67858264b41b13605979d07f7c42ac18ee70b72719a20dedb127e0995cd",
+  "query_id": "PH-d9aba8e8e6314fd1cd32",
+  "group_id": "ab1244815f6b56d8aeb1ffdd616e096f262656bc95e9bb910b5809a10a7b9958",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "632c94bdc780572f88aaca0fc9eced7152a7585c1149d228d6dc1f6c619e3ab0",
+  "retrieved_ids": [
+    "PH-d120cb6d6327c29284eb",
+    "PH-21ef23a54f3f3efbbf47",
+    "PH-b668023428a21afc94a0",
+    "PH-30795e5affd41f39e9a3"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9b3ab5693b0341dcbe650b1d77ca8bf9",
+  "wall_seconds": 0.782006974000069,
+  "raw_sha256": "a7a2cee5f2c1c794e6d5bdf3e5283583eff84144b6592f95810e440f40657d65",
+  "output": "اونی که آروم میره ولی هیچ وقت توقف نمی‌کنه، برنده‌ست.",
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 20,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I1BCBHM214V7vqsD7OkQG320Ad",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006075"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "806a4da84b1ccf575e5d673f4e7ce0b15cba73268bdbdbc24412e4980b5e7057",
+  "query_id": "PH-c55b6d2a81b29052dff8",
+  "group_id": "8d30f4d21aee3f0cc9269f5aec19398b6a775d15cc8d04272e8120cf5292ecc8",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "c44c6a7ca35247b9102f6f838aa8c1bcc42f665725bbb3648bc52c65378e4681",
+  "retrieved_ids": [
+    "PH-7e79d50672737a7c5b3a",
+    "PH-767d48bafccce8cf0c83",
+    "PH-392da7054cf42029c022",
+    "PH-b35750bd77ff3981533a"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_73b06145bc884e088f81d95c09e716b0",
+  "wall_seconds": 0.7104072319998522,
+  "raw_sha256": "31241b2b6e67549fc2e8577a1554a3ee6e54b8dff83376637f0fe5a5ea5dc6ed",
+  "output": "رویاهات انقدر بزرگن که ممکنه ترست کنن، این عالیه.",
+  "usage": {
+    "prompt_tokens": 360,
+    "completion_tokens": 19,
+    "total_tokens": 379,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Hkt2fRtP2RMQl1BmB9OTcuDEZ2",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000654"
+}

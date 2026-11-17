@@ -1,0 +1,41 @@
+{
+  "job_id": "da48a049efb38ee13b9da85431a7029c783489bd405b83f39643638180892ee6",
+  "query_id": "PH-50d9b9afa88c26c7c3fd",
+  "group_id": "cd0dbb7543f85fc763dfa5422ead01f91c45ee3e427eb73b77a06f44dd8c3ad2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "8779bfb107f3f3a241824e75f4f9c1bd853ee2f7b042ebe02805db3dc1bb2aba",
+  "retrieved_ids": [
+    "PH-45180f9de3353a1e3b22",
+    "PH-1a25291634cae8c9140c",
+    "PH-57b61464b335537a57f0",
+    "PH-13b6957b3cb3786db0a2"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_237a78fa11a7425090758a1ed3bb2b01",
+  "wall_seconds": 0.8263157139999748,
+  "raw_sha256": "e418e70d37752b28ba22fde966e9f785bec26313756f48a743cf67b25747f01c",
+  "output": "این سرویس باید در شرایط بار سنگین به خوبی عمل کند و دچار افت کیفیت نشود.",
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 21,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IIx1Fid5DXd8MyQ5D8pztjvzGg",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00006165"
+}

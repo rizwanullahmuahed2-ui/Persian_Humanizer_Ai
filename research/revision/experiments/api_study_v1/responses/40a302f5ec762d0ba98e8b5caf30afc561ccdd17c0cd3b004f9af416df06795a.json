@@ -1,0 +1,41 @@
+{
+  "job_id": "40a302f5ec762d0ba98e8b5caf30afc561ccdd17c0cd3b004f9af416df06795a",
+  "query_id": "PH-61f360b0d147fd71ba91",
+  "group_id": "5ed0d0b25328d62c3e7fb12b21b926aa6f3fac0c725058dfd40628d7afddab17",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "376641558c9e340b96e6bd5c31f11a1b0877ee0b4312f35732a4566cc14bf1b9",
+  "retrieved_ids": [
+    "PH-10f77a4d6732ea1ca5f6",
+    "PH-d62c828367e014d9ba19",
+    "PH-0ff6e4fe9e10cc395e4d",
+    "PH-e83fbe39f3f574a2a565"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_008144a4092a478f8491f6733a73683c",
+  "wall_seconds": 0.6010203149999143,
+  "raw_sha256": "a81dd09295e08593ae7650e9a000dc2f24cccf93b9757063d2eceb0fd45e6f50",
+  "output": "اینترنت خونه‌مون کیفیت خوبی نداره.",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 11,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GhObx5y1JTLJHM62fEDglBCByM",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001336"
+}

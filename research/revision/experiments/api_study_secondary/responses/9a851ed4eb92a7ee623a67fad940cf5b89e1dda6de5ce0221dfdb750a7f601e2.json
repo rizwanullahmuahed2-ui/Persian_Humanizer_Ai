@@ -1,0 +1,38 @@
+{
+  "job_id": "9a851ed4eb92a7ee623a67fad940cf5b89e1dda6de5ce0221dfdb750a7f601e2",
+  "query_id": "PH-312ad359d00ca742eb46",
+  "group_id": "bc8f4e471bc29e5ab732855fb9d865027111e8be9f98ed3f175e01e1db5b3949",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "75cae5784c33f0dc14cfdf04f251285f18e7688884f21266e47bae1c91fc312e",
+  "retrieved_ids": [
+    "PH-c0123fd164ae3682f153"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1641afe45585432b9dff7b015d42aae9",
+  "wall_seconds": 0.740997447999689,
+  "raw_sha256": "284805a1f607cf54379f128d8c6703ca6a5bfa71044d89c01a10780b3c73976e",
+  "output": "تیم توسعه ما در حال تحلیل این باگ است.",
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 12,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Ikvpsmc6SLNSRoaE6bg6HpAufK",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000354"
+}

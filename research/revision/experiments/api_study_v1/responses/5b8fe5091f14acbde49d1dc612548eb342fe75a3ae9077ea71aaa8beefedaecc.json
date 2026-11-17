@@ -1,0 +1,41 @@
+{
+  "job_id": "5b8fe5091f14acbde49d1dc612548eb342fe75a3ae9077ea71aaa8beefedaecc",
+  "query_id": "PH-35c3bec25fdaacd051b7",
+  "group_id": "33080566abea24d96925ba50d05348e716dadb6ebfa44d25121c0f7e90eb2f6a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "42718b1e0e30f4df81d0e399d9627e126770526e0edcd45b7f4bd19b80c4287b",
+  "retrieved_ids": [
+    "PH-8d03af16ed7a32b130f0",
+    "PH-29dafbaa766c751f6ce4",
+    "PH-06a1074d3f1a5b002219",
+    "PH-241d220a4e4729efbdac"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8444dc27571646bfb7e9dd87eb4904d0",
+  "wall_seconds": 1.771898637999584,
+  "raw_sha256": "45f8c8be08f3c2f729c583618183ffbed7ba5e82846349649fabc09a5b4d2e31",
+  "output": "پدرم با همون ماشین قدیمی‌ش می‌رفت سر کار.",
+  "usage": {
+    "prompt_tokens": 350,
+    "completion_tokens": 16,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FjbRnQ8Tr6i9FRDz0BluDiNX1K",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001656"
+}

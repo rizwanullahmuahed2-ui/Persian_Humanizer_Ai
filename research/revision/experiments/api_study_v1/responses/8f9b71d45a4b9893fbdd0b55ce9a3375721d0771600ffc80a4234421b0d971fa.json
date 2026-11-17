@@ -1,0 +1,41 @@
+{
+  "job_id": "8f9b71d45a4b9893fbdd0b55ce9a3375721d0771600ffc80a4234421b0d971fa",
+  "query_id": "PH-32110bcb1605f2b54fdc",
+  "group_id": "7dd6b3c5f4ca86a035c5efb107f645725b596b8bfc434ff6205502bc1026219a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "a3b0c2603e4b3b93fa6218fc1c975f182cdb7e8b70e572ee598a5df372b81ea2",
+  "retrieved_ids": [
+    "PH-dc5d76de37923542ac11",
+    "PH-beb39dffccd5432ec505",
+    "PH-d718d9c1545a4e7eda3f",
+    "PH-58b5dac233f3902a9291"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_536cd14a5b4e459c906cbf7c2814c4c9",
+  "wall_seconds": 0.599054411999532,
+  "raw_sha256": "c04caf3be900556b50cd5eafb94ed6f14d4805b4630e31a7f516ed7a536493f6",
+  "output": "خط لوله آموزشی به صورت همزمان روی چند GPU اجرا می‌شود.",
+  "usage": {
+    "prompt_tokens": 326,
+    "completion_tokens": 15,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8FsymyqhdidMX4vIdjQ7lUAGyfq",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001544"
+}

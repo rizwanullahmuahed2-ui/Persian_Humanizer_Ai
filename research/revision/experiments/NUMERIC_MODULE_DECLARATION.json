@@ -1,0 +1,7 @@
+{
+  "declared_at_utc": "2026-11-17T07:56:07.888093+00:00",
+  "reason": "Main100sourcequerieshavezeroeligible_digitexpressions;inspectall10source-digitrecordsintheheldouttestset",
+  "design": "10groupsx4conditionsx2pinnedmodels=80freshresponses",
+  "scope": "posthocdiagnosticmodule;notpooledwithrandom100;digit-tokenagreementdoesnotcertifysemanticpreservation",
+  "primary_selection_changed": false
+}

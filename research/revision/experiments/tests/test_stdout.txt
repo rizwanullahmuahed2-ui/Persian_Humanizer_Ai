@@ -1,0 +1,18 @@
+test_bad_raw_dataset_hash_is_rejected_before_api_work (test_api_contracts.FrozenStudyContracts.test_bad_raw_dataset_hash_is_rejected_before_api_work) ... ok
+test_cross_role_text_leakage_is_rejected (test_api_contracts.FrozenStudyContracts.test_cross_role_text_leakage_is_rejected) ... ok
+test_models_receive_identical_prompt_for_same_query_condition (test_api_contracts.FrozenStudyContracts.test_models_receive_identical_prompt_for_same_query_condition) ... ok
+test_plan_and_executing_scripts_match_frozen_hashes (test_api_contracts.FrozenStudyContracts.test_plan_and_executing_scripts_match_frozen_hashes) ... ok
+test_same_100_distinct_groups_and_queries_in_all_eight_cells (test_api_contracts.FrozenStudyContracts.test_same_100_distinct_groups_and_queries_in_all_eight_cells) ... ok
+test_selected_inputs_are_test_only_and_demonstrations_train_only (test_api_contracts.FrozenStudyContracts.test_selected_inputs_are_test_only_and_demonstrations_train_only) ... ok
+test_zero_shot_has_no_hidden_demonstration_and_exact_depths_are_visible (test_api_contracts.FrozenStudyContracts.test_zero_shot_has_no_hidden_demonstration_and_exact_depths_are_visible) ... ok
+test_accepts_valid_fixture_and_computes_declared_usage_cost (test_api_contracts.ProviderResponseContracts.test_accepts_valid_fixture_and_computes_declared_usage_cost) ... ok
+test_rejects_completion_exceeding_cap (test_api_contracts.ProviderResponseContracts.test_rejects_completion_exceeding_cap) ... ok
+test_rejects_empty_text (test_api_contracts.ProviderResponseContracts.test_rejects_empty_text) ... ok
+test_rejects_inconsistent_usage (test_api_contracts.ProviderResponseContracts.test_rejects_inconsistent_usage) ... ok
+test_rejects_other_model_even_with_good_text (test_api_contracts.ProviderResponseContracts.test_rejects_other_model_even_with_good_text) ... ok
+test_rejects_token_limited_completion (test_api_contracts.ProviderResponseContracts.test_rejects_token_limited_completion) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.035s
+
+OK

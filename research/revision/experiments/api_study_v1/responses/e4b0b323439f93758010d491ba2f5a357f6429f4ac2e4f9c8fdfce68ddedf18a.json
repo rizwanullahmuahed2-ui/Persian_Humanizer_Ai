@@ -1,0 +1,38 @@
+{
+  "job_id": "e4b0b323439f93758010d491ba2f5a357f6429f4ac2e4f9c8fdfce68ddedf18a",
+  "query_id": "PH-4d79a74fc873081f68df",
+  "group_id": "3c7d73b819ab9ac454f7a70a553c7f5089ed6eb1f971a4331e06f23d6a533099",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic1",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "b9ef975339629957a1d6c39fb8ca0efb33776ad0f9faa1e099935dd46fd6549c",
+  "retrieved_ids": [
+    "PH-f355f132ed62ced948ea"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d9ac593681da435f86c7ee84f016dfcc",
+  "wall_seconds": 0.6574881090000417,
+  "raw_sha256": "692ab10c608ea0788c41ffe0fb3ee679fd11535f56a1213269fcf48a6cc2dc6d",
+  "output": "سفارش شما کمی دیرتر تحویل داده خواهد شد.",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 13,
+    "total_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GpoOnMccd3ESkchCxJf7ea2odA",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001048"
+}

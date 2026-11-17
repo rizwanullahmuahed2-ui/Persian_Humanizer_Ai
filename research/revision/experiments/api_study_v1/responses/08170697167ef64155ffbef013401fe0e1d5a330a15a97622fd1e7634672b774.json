@@ -1,0 +1,41 @@
+{
+  "job_id": "08170697167ef64155ffbef013401fe0e1d5a330a15a97622fd1e7634672b774",
+  "query_id": "PH-11654b71a63040e10ae6",
+  "group_id": "627b11f68890c4831e9019d12ea6cce6a49e597e6f434b09bf488a0cfeea75c9",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "3cc58b6ccd1d52f36bb3cdaeab4f37beba82a2b82ed7478993ee34af7ae5a56f",
+  "retrieved_ids": [
+    "PH-306f85bfbb0807434117",
+    "PH-6a5fbf8ecb1a74190cdc",
+    "PH-c8e7cbf94aede7197105",
+    "PH-1ef2774878875f914752"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_8114b58cd49f4c97adc4347ed636053f",
+  "wall_seconds": 0.4853322290000506,
+  "raw_sha256": "ad3d07ef51dab8ad0db344df1a93dfdabed7d96b1a27fdd107b815901b001398",
+  "output": "باد میان شاخه‌های درختا آواز می‌خوند.",
+  "usage": {
+    "prompt_tokens": 319,
+    "completion_tokens": 14,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Fx5zVCKIUtqsnzUwLJo84qkgKo",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.00015"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "055cced56e7d1ea8d167bfe91bc4a60b5ea53ad4613148e2b193e8ec71085544",
+  "query_id": "PH-ca83087a8d9a1f2f0eb2",
+  "group_id": "55a5295f74079b6766ef468b6c7b8176df383620b1fc31164fef42e1c587b3dc",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "0299747dd63cdbac43f9d632af904a38082b65bd9f40008e02ea131e5a8d853c",
+  "retrieved_ids": [
+    "PH-9c61b6eb5250cab165af",
+    "PH-c54659ab93403246ebd1",
+    "PH-31e5adc51b4d16b48b40",
+    "PH-dfe9f32ff31709bc3a09"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_dfcbdf9950674a968ca114351b4f9ec7",
+  "wall_seconds": 0.707601226999941,
+  "raw_sha256": "927fa921c71293e0e9a1bfc4543c043a2f3b88a52dfd3632830005137c4a4b8c",
+  "output": "این بلوک چین از اجماع اثبات سهام استفاده می‌کند.",
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 15,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8HvJpe1o6SoHKQeOVpdWmgAsvGu",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005595"
+}

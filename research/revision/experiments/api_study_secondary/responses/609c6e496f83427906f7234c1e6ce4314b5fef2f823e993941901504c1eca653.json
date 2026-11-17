@@ -1,0 +1,41 @@
+{
+  "job_id": "609c6e496f83427906f7234c1e6ce4314b5fef2f823e993941901504c1eca653",
+  "query_id": "PH-73ae71bca5b95ad69a31",
+  "group_id": "a38720fb227a15f884e26e546139a1e28f6f9aabd866ac4725968ed2b0975b7e",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "random4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "cb28240d3a92de807d7fef0011674610dea6ba8f751451e4b5cb610b47f92328",
+  "retrieved_ids": [
+    "PH-897a5f546e3dab057c23",
+    "PH-ad8e1603dcf757db3c02",
+    "PH-b81f460636e855071f84",
+    "PH-be4ee156f4e0ef21cdac"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_203a36b6f5e741f4b2045468e3676d30",
+  "wall_seconds": 0.858513913999559,
+  "raw_sha256": "bb9afd71bc6005c6a265cccc1d18dd1ae9f8fa4587d9b82e1c166b4441d9f747",
+  "output": "این جلسه به خاطر کمبود وقت مختصر برگزار شد.",
+  "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 12,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IiwvsZ0c35Np88vUKeujcnixcC",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.0000558"
+}

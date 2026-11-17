@@ -1,0 +1,41 @@
+{
+  "job_id": "2eef5570281c6cc6f6c2f5e27d1b6bebb1c84ba54a86ea2e4bf447ef0a830283",
+  "query_id": "PH-7ad6ebd09a4a84e6e0e8",
+  "group_id": "d88bf8e58cf984807a2325ea05d1a0582019980b27b965ce163348885c32ec61",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "931454fb3c1a3e6d51fad33ac0c7d1da8cb56fe27b9189444383f263ae53afd7",
+  "retrieved_ids": [
+    "PH-7952e3e142d93921ff36",
+    "PH-add80e7de236fc58bbe0",
+    "PH-9c8ef9ef4b746816cf85",
+    "PH-6c6ccc1b651e0bc58978"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a2ec3cb8a3fb4e3caa92478a43b258ea",
+  "wall_seconds": 0.5866495669997676,
+  "raw_sha256": "2dba290579633d8b9ddc9855fc6940a1cad986c1ef3b8ea80ee2f2f58f81cff3",
+  "output": "این بخش در حال آزمایش است و احتمال دارد ناپایدار باشد.",
+  "usage": {
+    "prompt_tokens": 337,
+    "completion_tokens": 16,
+    "total_tokens": 353,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8G0zeTWkknLU05GzP3JTw6Kn2XS",
+  "system_fingerprint": "fp_9c09c50726",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001604"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "2d9ff3f814034b95aeb5fc6607c53118a75232db9ec5bfb6d92bf8ed342b7ac9",
+  "query_id": "PH-d200224a918903540d5e",
+  "group_id": "b9a9ab143ba2c8895d1c3908b14b24faaf6382822f0575d6dfbaf82fc177918e",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "f7125c60d602d37b3058d3acc762eb31704860e4e82dae39515aa234acfefd07",
+  "retrieved_ids": [
+    "PH-68f85b67a86e144ce442",
+    "PH-e14e4f08000348786637",
+    "PH-83ef64a14e2793495b53",
+    "PH-2d34c50c7fb2ea07adfa"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_d89dbd8d6f6944d2898dc5a8e61beaf7",
+  "wall_seconds": 0.6229877109999507,
+  "raw_sha256": "9f1478938ab68dcc6dd0a73b9398910f2c699618e62ac94e73530d23c8aab5e0",
+  "output": "برای جلوگیری از شلوغی، نوبت‌دهی آنلاین اجباری شده است.",
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 20,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Gnk6jtUxAbVfPQnWjggquSElcX",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001512"
+}

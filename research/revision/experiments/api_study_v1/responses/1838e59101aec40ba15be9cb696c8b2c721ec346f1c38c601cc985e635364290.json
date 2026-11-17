@@ -1,0 +1,41 @@
+{
+  "job_id": "1838e59101aec40ba15be9cb696c8b2c721ec346f1c38c601cc985e635364290",
+  "query_id": "PH-914c8c6906577793a2f9",
+  "group_id": "77ad1472733f3d193d3769b5648ccee4c59f36f52e70f02390d2f4b07b9bf2ba",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "random4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "ceacfd43951d47598a4931b738a7b4bb33d3c91c3ae7c02e9146e875e758a9bc",
+  "retrieved_ids": [
+    "PH-5daff3b1e9707dbcf564",
+    "PH-ab9369baaf28affc20f4",
+    "PH-7ddec3b6987e73b2ed77",
+    "PH-28c45d9c8cf38904e84b"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_ab481cf4df8047c68ce94fe4e41bff3d",
+  "wall_seconds": 0.4859970500001509,
+  "raw_sha256": "530b2011b8c31516eb3fcddc9e60e876ed9ef76b359a099e602495bc3815582b",
+  "output": "این کتاب آموزش گرامری ساده و کاربردیه.",
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 11,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Fq4SmfsBGlELni4VU5uDOVnLhJ",
+  "system_fingerprint": "fp_b3aece15ca",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001388"
+}

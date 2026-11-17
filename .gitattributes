@@ -1,0 +1,12 @@
+# Preserve the bytes covered by the research evidence manifests.
+research/current/** -text
+research/revision/** -text
+research/evidence/** -text
+research/PUBLICATION_MANIFEST.json -text
+README.md text eol=lf
+research/README.md text eol=lf
+research/CITATION.bib text eol=lf
+research/manifest.json text eol=lf
+research/verify_research.py text eol=lf
+.github/workflows/research-evidence.yml text eol=lf
+.gitattributes text eol=lf

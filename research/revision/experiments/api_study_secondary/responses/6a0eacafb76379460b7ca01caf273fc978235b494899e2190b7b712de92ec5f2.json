@@ -1,0 +1,36 @@
+{
+  "job_id": "6a0eacafb76379460b7ca01caf273fc978235b494899e2190b7b712de92ec5f2",
+  "query_id": "PH-914c8c6906577793a2f9",
+  "group_id": "77ad1472733f3d193d3769b5648ccee4c59f36f52e70f02390d2f4b07b9bf2ba",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "a93d1d3345b2c1e9aae0718d6597fc789b57ef98c066f1a4711c3e803a5c1a81",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_a845d697458e4b9f95214651c9b63d2a",
+  "wall_seconds": 0.767097412000112,
+  "raw_sha256": "e4d22af20a314d9b42efd67f0824d84c303f0cd970b6256b02437907b2b012cb",
+  "output": "این کتاب، راهنمایی ساده و عملی برای یادگیری گرامر است.",
+  "usage": {
+    "prompt_tokens": 161,
+    "completion_tokens": 17,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8InlA5GM1YeYrQlwc6HpdWGXLcE",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003435"
+}

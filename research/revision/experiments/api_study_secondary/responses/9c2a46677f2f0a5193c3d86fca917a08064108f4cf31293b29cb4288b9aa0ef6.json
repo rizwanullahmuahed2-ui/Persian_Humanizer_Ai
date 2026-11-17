@@ -1,0 +1,38 @@
+{
+  "job_id": "9c2a46677f2f0a5193c3d86fca917a08064108f4cf31293b29cb4288b9aa0ef6",
+  "query_id": "PH-c4a94c121dbe2f128c91",
+  "group_id": "67ba3bcbab9a2811c229bca0cf0b0d6da94df47353a7a79224167269e402dc87",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic1",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "2a6608eb89ad6b87de9e20d0bc5bd84d4572aeac6bdd661b86ecf7dbfbf1564d",
+  "retrieved_ids": [
+    "PH-8fc13319e40acd731914"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_1f695e6a5648468fb4f10d39e67dc4a0",
+  "wall_seconds": 0.8999253199999657,
+  "raw_sha256": "43e977bd21eaf4f63017070fb4a538d47674c9f6996cd1c2d94116e3c4c5c29f",
+  "output": "یک قدم امروز ارزشش بیشتر از صد برنامه برای فرداست.",
+  "usage": {
+    "prompt_tokens": 188,
+    "completion_tokens": 13,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IpTXbbThvO6dBXW9GBkXt6s5Ey",
+  "system_fingerprint": "fp_20eb127183",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.000036"
+}

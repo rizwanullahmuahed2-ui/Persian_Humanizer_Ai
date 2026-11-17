@@ -1,0 +1,36 @@
+{
+  "job_id": "9129e2c17983a069bc9f305f3c5528a6ecb5c173f3375097a502961fd30c28a8",
+  "query_id": "PH-50d26605f173b7ca69c4",
+  "group_id": "4107b46f83eeb80ee12a559534bf6dd2740c437f14de2914bdbda97b2810c703",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "LLM0",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "d1119e92a35981e6790b6d0b5febd2cb0feaa8abed90c6b6183e19f5ea8b4f5b",
+  "retrieved_ids": [],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_5b176d1ea1514c26a313370f844db0c0",
+  "wall_seconds": 0.6535072019996733,
+  "raw_sha256": "b40f7ae2c6f044fe12e3e537e6947dfe90e409f50715d42e4c9d1ad5ab8aa3a7",
+  "output": "ارزیابی ریسک قبل از آغاز پروژه امری ضروری است.",
+  "usage": {
+    "prompt_tokens": 161,
+    "completion_tokens": 14,
+    "total_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8IV1D3uIiO08qbjqyMh0hibWXd5",
+  "system_fingerprint": "fp_fc3bf93e48",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00003255"
+}

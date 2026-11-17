@@ -1,0 +1,41 @@
+{
+  "job_id": "e7a81c59078278d4c9e17dfaa6ea73e26d4b8d1e3a99f988771916be3a65645e",
+  "query_id": "PH-4de4b8271a4807aaaf51",
+  "group_id": "ae3fa4f4b214af40764f834ba7aece986e0b13d73f1aa4b80dbff753005f45fb",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "5f90480cc23a9fad5cb909046c04ad40a12f0098baf7dfd0d69eacfb6716f5ba",
+  "payload_sha256": "20a4aa4b8b6528ba8da799b0dcba18e737f28e44882b50f9ea7ecd3f5ff344fc",
+  "retrieved_ids": [
+    "PH-3f6a6f095d73892cf879",
+    "PH-a2c6ec86dbd78f749001",
+    "PH-4702f74315c582eabaa8",
+    "PH-5c4aba2a49731ced9d48"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_102fd6b8c378419399269b45eebb3c9f",
+  "wall_seconds": 0.4626411930003087,
+  "raw_sha256": "2b8828d06d141265fc07488848aa8e822b21b5c328448b0efd6f3d0e91cad318",
+  "output": "بعد از امضا، این سند قابل فسخ نیست.",
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 12,
+    "total_tokens": 360,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8GnfLW2JF4WQGqDpFBkwlEKMDro",
+  "system_fingerprint": "fp_527d3f619e",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001584"
+}

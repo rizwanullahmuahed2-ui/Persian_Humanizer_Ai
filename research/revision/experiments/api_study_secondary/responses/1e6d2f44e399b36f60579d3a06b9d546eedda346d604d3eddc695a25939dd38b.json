@@ -1,0 +1,41 @@
+{
+  "job_id": "1e6d2f44e399b36f60579d3a06b9d546eedda346d604d3eddc695a25939dd38b",
+  "query_id": "PH-aef2351521c5b1ada55a",
+  "group_id": "49bd00ed49dfc10cf622d6a523b1792476b0ede9e7c895aaf775d9b5bbc575fc",
+  "model": "gpt-4o-mini-2024-07-18",
+  "condition": "semantic4",
+  "plan_sha256": "8cbd7b6b14e2a6197f2b06a0165d380db229f59f62362af296e840f6a286ec4e",
+  "payload_sha256": "654310d9b72ce82e2a7445adf2c96fd80c12112f70f79981d74b381471dcd64a",
+  "retrieved_ids": [
+    "PH-8708d7cf6e293b83214b",
+    "PH-f8f4bb3d18a098345aa4",
+    "PH-69524d8033b4a69c055f",
+    "PH-4f7a71d863210ee98019"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_9fc412b3993149d5884ed1fd5cbaf01c",
+  "wall_seconds": 0.7243681439995271,
+  "raw_sha256": "f114f7106849582262a149f5fb533984dd8a0a7c58a4b91ab64048a34ac3169e",
+  "output": "این API gateway مسئول rate limiting و احراز هویت مرکزیه.",
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 14,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8I9AGnCDCf3nFwgAfJBKrFiGUOf",
+  "system_fingerprint": "fp_dbcd9f3637",
+  "returned_model": "gpt-4o-mini-2024-07-18",
+  "uncached_cost_usd": "0.00005535"
+}

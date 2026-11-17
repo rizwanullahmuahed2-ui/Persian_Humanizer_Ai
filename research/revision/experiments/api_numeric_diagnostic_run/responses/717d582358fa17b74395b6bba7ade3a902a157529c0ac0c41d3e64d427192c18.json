@@ -1,0 +1,41 @@
+{
+  "job_id": "717d582358fa17b74395b6bba7ade3a902a157529c0ac0c41d3e64d427192c18",
+  "query_id": "PH-0e83dfc88bb1047b592d",
+  "group_id": "e63e6aa0eeaf0eff9fb819c239b2ea02ccda4b5fb0d346f843cdb50f977965f1",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "condition": "semantic4",
+  "plan_sha256": "c51054c382141e51c45125474d8ac8bbd5c171a623073b1ce1178cdcff0e6152",
+  "payload_sha256": "a358e52c315f783b839f8f55f4942e9fe5b4190dde9687ee8ed67362654fb2cc",
+  "retrieved_ids": [
+    "PH-6fe924a412831a62dd8e",
+    "PH-ba046ca84d66360965ea",
+    "PH-191416324defea344fc3",
+    "PH-addcb1c7f981a30e7c92"
+  ],
+  "status": "complete",
+  "http_status": 200,
+  "request_id": "req_579ee77f28334234966c37d7184ed6aa",
+  "wall_seconds": 0.5864063279996117,
+  "raw_sha256": "cb354140c70379f2b7cde2680fae1d64553c3d11449f5f5b67c7576024b148d2",
+  "output": "این دارو با جلوگیری از فعالیت آنزیم COX-2 باعث کاهش التهاب می‌شود.",
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 20,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_id": "chatcmpl-El8Kzuu5h2Uc8lu3dOXGvObBNSNez",
+  "system_fingerprint": "fp_20042ce2fb",
+  "returned_model": "gpt-4.1-mini-2025-04-14",
+  "uncached_cost_usd": "0.0001648"
+}

@@ -8,6 +8,17 @@ I built this around a simple question: can examples of better wording help a sma
 
 ![Humanizer interface](docs/interface.png)
 
+## مقاله و گزارش تحقیقی جاری
+
+**نویسندهٔ مقاله: رضوان‌الله موحد.** استاد عبدالاول قریشی صاحب، دریافت‌کنندهٔ گزارش و استاد نویسنده‌اند؛ ایشان نویسندهٔ مقاله معرفی نشده‌اند.
+
+- [مقالهٔ اصلاح‌شده PDF](research/current/Article.pdf) · [Word](research/current/Article.docx)
+- [گزارش کامل دری خطاب به استاد](research/current/Report_to_Supervisor_Dari.pdf)
+- [بستهٔ کامل کد، دیتا و شواهد](research/current/Research_Package.zip)
+- [راهنمای فایل‌ها و بررسی مستقل](research/current/README.md) · [کد و پاسخ‌های خام](research/revision/experiments/)
+
+نسخهٔ جاری ۲۵ منبع و هفت شکل دارد. آزمایش اصلی ۸۰۰ پاسخ و ماژول عددیِ جدا ۸۰ پاسخ واقعی دارند. برای بررسی شواهد، از ریشهٔ ریپو `python research/verify_research.py` را اجرا کنید؛ NumPy لازم است و درخواست API تازه‌ای فرستاده نمی‌شود.
+
 ## Run locally
 
 You need Python 3.13+, [uv](https://docs.astral.sh/uv/), and [Ollama](https://ollama.com/).
@@ -46,7 +57,7 @@ These checks use controlled model responses. They cover the API, CSV loading, pr
 
 ## Research and limits
 
-The [unpublished manuscript](research/README.md) includes its authors, citation and version notes. The [development guide](docs/DEVELOPMENT.md) covers the dataset, evaluation scripts, endpoints and repository layout.
+The [current research documents](research/README.md) include the single-author manuscript, instructor report, raw evidence and citation. The original supplied PDF is retained as explicitly superseded historical evidence. The [development guide](docs/DEVELOPMENT.md) covers the dataset, evaluation scripts, endpoints and repository layout.
 
 Read each rewrite before using it: a model can change a fact or number. Automatic lexical scores are diagnostics, not a reliable quality rating. OpenAI requests send the input and selected examples to that provider and incur usage charges. Keep private material out of requests you do not want to share.
 
