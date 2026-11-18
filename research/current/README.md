@@ -1,10 +1,10 @@
 # مقاله و گزارش جاری
 
 **نویسنده:** رضوان‌الله موحد (Rizwanullah Muahed).  
-**استاد و دریافت‌کنندهٔ گزارش:** عبدالاول قریشی صاحب (Abdul Awal Quraishi). ایشان نویسندهٔ مقاله نیستند.
+**استاد و دریافت‌کنندهٔ گزارش:** عبدالاول قریشی (Abdul Awal Quraishi). ایشان نویسندهٔ مقاله نیستند.
 
 - [مقالهٔ اصلاح‌شده PDF](Article.pdf) · [Word](Article.docx)
-- [گزارش کامل دری خطاب به استاد PDF](Report_to_Supervisor_Dari.pdf) · [Word](Report_to_Supervisor_Dari.docx)
+- [گزارش کامل برای استاد PDF](Report_to_Supervisor_Dari.pdf) · [Word](Report_to_Supervisor_Dari.docx)
 - [بستهٔ کامل مقاله، کد و شواهد](Research_Package.zip)
 - [فایل استناد تک‌نویسنده](../CITATION.bib) · [معلومات نویسندگی و نسخه](metadata.json)
 - [کد آزمایش و پاسخ‌های خام](../revision/experiments/) · [دیتا و تقسیم مستقل](../revision/corpus_analysis/)

@@ -10,10 +10,10 @@ I built this around a simple question: can examples of better wording help a sma
 
 ## مقاله و گزارش تحقیقی جاری
 
-**نویسندهٔ مقاله: رضوان‌الله موحد.** استاد عبدالاول قریشی صاحب، دریافت‌کنندهٔ گزارش و استاد نویسنده‌اند؛ ایشان نویسندهٔ مقاله معرفی نشده‌اند.
+**نویسندهٔ مقاله: رضوان‌الله موحد.** استاد عبدالاول قریشی، دریافت‌کنندهٔ گزارش و استاد نویسنده‌اند؛ ایشان نویسندهٔ مقاله معرفی نشده‌اند.
 
 - [مقالهٔ اصلاح‌شده PDF](research/current/Article.pdf) · [Word](research/current/Article.docx)
-- [گزارش کامل دری خطاب به استاد](research/current/Report_to_Supervisor_Dari.pdf)
+- [گزارش کامل برای استاد](research/current/Report_to_Supervisor_Dari.pdf)
 - [بستهٔ کامل کد، دیتا و شواهد](research/current/Research_Package.zip)
 - [راهنمای فایل‌ها و بررسی مستقل](research/current/README.md) · [کد و پاسخ‌های خام](research/revision/experiments/)
 
